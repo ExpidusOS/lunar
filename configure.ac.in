@@ -23,7 +23,7 @@ dnl ***************************
 dnl *** Version information ***
 dnl ***************************
 m4_define([lunarx_verinfo], [0:0:0])
-m4_define([lunarx_version_api], [1])
+m4_define([lunarx_version_api], [3])
 m4_define([lunar_version_major], [1])
 m4_define([lunar_version_minor], [0])
 m4_define([lunar_version_micro], [0])
@@ -155,7 +155,7 @@ XDT_CHECK_PACKAGE([GDK_PIXBUF], [gdk-pixbuf-2.0], [2.14.0])
 XDT_CHECK_PACKAGE([LIBEXPIDUS1UTIL], [libexpidus1util-1.0], [1.0.0])
 XDT_CHECK_PACKAGE([LIBEXPIDUS1UI], [libexpidus1ui-2], [1.0.0])
 XDT_CHECK_PACKAGE([LIBEXPIDUS1KBD_PRIVATE], [libexpidus1kbd-private-3], [1.0.0])
-XDT_CHECK_PACKAGE([ESCONF], [libesconf-0], [4.12.0])
+XDT_CHECK_PACKAGE([ESCONF], [libesconf-0], [1.0.0])
 XDT_CHECK_PACKAGE([PANGO], [pango], [1.38.0])
 
 AC_DEFINE(GLIB_VERSION_MIN_REQUIRED, GLIB_VERSION_2_50, [Ignore post 2.50 deprecations])
