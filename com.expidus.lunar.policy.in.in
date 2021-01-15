@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+<policyconfig>
+
+  <!--
+ Policy definitions for Lunar.
+ Copyright (c) 2014 Benedikt Meurer <benny@expidus.org>
+                    Jannis Pohlmann <jannis@expidus.org>
+                    Jeffs Franks    <jcfranks@expidus.org>
+                    Nick Schermer   <nick@expidus.org>
+ -->
+
+ <vendor>Lunar</vendor>
+ <vendor_url>https://expidus.org/</vendor_url>
+ <icon_name>com.expidus.lunar</icon_name>
+
+
+ <action id="com.expidus.lunar">
+ <!-- SECURITY:
+ - A normal active user can run lunar without elevated rights. They
+   may wish to modify files they normally do not have read/write access
+   to. This isn't a good idea, but is common on single user systems.
+ -->
+ <_description>Run Lunar as root</_description>
+ <_message>Authentication is required to run Lunar as root.</_message>
+ <defaults>
+ <allow_any>no</allow_any>
+ <allow_inactive>auth_admin</allow_inactive>
+ <allow_active>auth_admin</allow_active>
+ </defaults>
+ <annotate key="org.freedesktop.policykit.exec.path">@bindir@/lunar</annotate>
+ <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+ </action>
+
+</policyconfig>

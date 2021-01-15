@@ -1,0 +1,243 @@
+<INCLUDE>lunarx/lunarx.h</INCLUDE>
+
+<SECTION>
+<FILE>lunarx-file-info</FILE>
+<TITLE>LunarxFileInfo</TITLE>
+LunarxFileInfoIface
+LunarxFileInfo
+lunarx_file_info_get_name
+lunarx_file_info_get_uri
+lunarx_file_info_get_parent_uri
+lunarx_file_info_get_uri_scheme
+lunarx_file_info_get_mime_type
+lunarx_file_info_has_mime_type
+lunarx_file_info_is_directory
+lunarx_file_info_get_file_info
+lunarx_file_info_get_filesystem_info
+lunarx_file_info_get_location
+lunarx_file_info_changed
+lunarx_file_info_renamed
+LUNARX_TYPE_FILE_INFO_LIST
+lunarx_file_info_list_copy
+lunarx_file_info_list_free
+<SUBSECTION Standard>
+LUNARX_TYPE_FILE_INFO
+LUNARX_FILE_INFO
+LUNARX_IS_FILE_INFO
+LUNARX_FILE_INFO_GET_IFACE
+<SUBSECTION Private>
+lunarx_file_info_get_type
+lunarx_file_info_list_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-menu</FILE>
+<TITLE>LunarxMenu</TITLE>
+LunarxMenu
+lunarx_menu_new
+lunarx_menu_append_item
+lunarx_menu_prepend_item
+lunarx_menu_get_items
+<SUBSECTION Standard>
+LunarxMenuClass
+LUNARX_TYPE_MENU
+LUNARX_MENU
+LUNARX_MENU_CLASS
+LUNARX_IS_MENU
+LUNARX_IS_MENU_CLASS
+LUNARX_MENU_GET_CLASS
+<SUBSECTION Private>
+LunarxMenuPrivate
+lunarx_menu_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-menu-item</FILE>
+<TITLE>LunarxMenuItem</TITLE>
+LunarxMenuItem
+lunarx_menu_item_new
+lunarx_menu_item_activate
+lunarx_menu_item_get_sensitive
+lunarx_menu_item_set_sensitive
+lunarx_menu_item_set_menu
+lunarx_menu_item_list_free
+<SUBSECTION Standard>
+LunarxMenuItemClass
+LUNARX_TYPE_MENU_ITEM
+LUNARX_MENU_ITEM
+LUNARX_MENU_ITEM_CLASS
+LUNARX_IS_MENU_ITEM
+LUNARX_IS_MENU_ITEM_CLASS
+LUNARX_MENU_ITEM_GET_CLASS
+<SUBSECTION Private>
+LunarxMenuItemPrivate
+lunarx_menu_item_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-menu-provider</FILE>
+<TITLE>LunarxMenuProvider</TITLE>
+LunarxMenuProviderIface
+LunarxMenuProvider
+lunarx_menu_provider_get_file_menu_items
+lunarx_menu_provider_get_folder_menu_items
+lunarx_menu_provider_get_dnd_menu_items
+<SUBSECTION Standard>
+LUNARX_TYPE_MENU_PROVIDER
+LUNARX_MENU_PROVIDER
+LUNARX_IS_MENU_PROVIDER
+LUNARX_MENU_PROVIDER_GET_IFACE
+<SUBSECTION Private>
+lunarx_menu_provider_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-preferences-provider</FILE>
+<TITLE>LunarxPreferencesProvider</TITLE>
+LunarxPreferencesProviderIface
+LunarxPreferencesProvider
+lunarx_preferences_provider_get_menu_items
+<SUBSECTION Standard>
+LUNARX_TYPE_PREFERENCES_PROVIDER
+LUNARX_PREFERENCES_PROVIDER
+LUNARX_IS_PREFERENCES_PROVIDER
+LUNARX_PREFERENCES_PROVIDER_GET_IFACE
+<SUBSECTION Private>
+lunarx_preferences_provider_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-property-page</FILE>
+<TITLE>LunarxPropertyPage</TITLE>
+LunarxPropertyPage
+lunarx_property_page_new
+lunarx_property_page_new_with_label_widget
+lunarx_property_page_get_label
+lunarx_property_page_set_label
+lunarx_property_page_get_label_widget
+lunarx_property_page_set_label_widget
+<SUBSECTION Standard>
+LunarxPropertyPageClass
+LUNARX_TYPE_PROPERTY_PAGE
+LUNARX_PROPERTY_PAGE
+LUNARX_PROPERTY_PAGE_CLASS
+LUNARX_IS_PROPERTY_PAGE
+LUNARX_IS_PROPERTY_PAGE_CLASS
+LUNARX_PROPERTY_PAGE_GET_CLASS
+<SUBSECTION Private>
+LunarxPropertyPagePrivate
+lunarx_property_page_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-property-page-provider</FILE>
+<TITLE>LunarxPropertyPageProvider</TITLE>
+LunarxPropertyPageProvider
+LunarxPropertyPageProviderIface
+lunarx_property_page_provider_get_pages
+<SUBSECTION Standard>
+LUNARX_TYPE_PROPERTY_PAGE_PROVIDER
+LUNARX_PROPERTY_PAGE_PROVIDER
+LUNARX_IS_PROPERTY_PAGE_PROVIDER
+LUNARX_PROPERTY_PAGE_PROVIDER_GET_IFACE
+<SUBSECTION Private>
+lunarx_property_page_provider_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-provider-factory</FILE>
+<TITLE>LunarxProviderFactory</TITLE>
+LunarxProviderFactory
+lunarx_provider_factory_get_default
+lunarx_provider_factory_list_providers
+<SUBSECTION Standard>
+LunarxProviderFactoryClass
+LUNARX_TYPE_PROVIDER_FACTORY
+LUNARX_PROVIDER_FACTORY
+LUNARX_PROVIDER_FACTORY_CLASS
+LUNARX_IS_PROVIDER_FACTORY
+LUNARX_IS_PROVIDER_FACTORY_CLASS
+LUNARX_PROVIDER_FACTORY_GET_CLASS
+<SUBSECTION Private>
+lunarx_provider_factory_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-provider-plugin</FILE>
+<TITLE>LunarxProviderPlugin</TITLE>
+LunarxProviderPlugin
+LunarxProviderPluginIface
+lunarx_provider_plugin_get_resident
+lunarx_provider_plugin_set_resident
+lunarx_provider_plugin_register_type
+lunarx_provider_plugin_add_interface
+lunarx_provider_plugin_register_enum
+lunarx_provider_plugin_register_flags
+LUNARX_DEFINE_TYPE
+LUNARX_DEFINE_TYPE_WITH_CODE
+LUNARX_DEFINE_ABSTRACT_TYPE
+LUNARX_DEFINE_ABSTRACT_TYPE_WITH_CODE
+LUNARX_DEFINE_TYPE_EXTENDED
+LUNARX_IMPLEMENT_INTERFACE
+<SUBSECTION Standard>
+LUNARX_TYPE_PROVIDER_PLUGIN
+LUNARX_PROVIDER_PLUGIN
+LUNARX_IS_PROVIDER_PLUGIN
+LUNARX_PROVIDER_PLUGIN_GET_IFACE
+<SUBSECTION Private>
+lunarx_provider_plugin_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-renamer</FILE>
+<TITLE>LunarxRenamer</TITLE>
+LunarxRenamer
+LunarxRenamerClass
+lunarx_renamer_get_help_url
+lunarx_renamer_set_help_url
+lunarx_renamer_get_name
+lunarx_renamer_set_name
+lunarx_renamer_process
+lunarx_renamer_load
+lunarx_renamer_save
+lunarx_renamer_get_menu_items
+lunarx_renamer_changed
+<SUBSECTION Standard>
+LUNARX_TYPE_RENAMER
+LUNARX_RENAMER
+LUNARX_RENAMER_CLASS
+LUNARX_IS_RENAMER
+LUNARX_IS_RENAMER_CLASS
+LUNARX_RENAMER_GET_CLASS
+<SUBSECTION Private>
+lunarx_renamer_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-renamer-provider</FILE>
+<TITLE>LunarxRenamerProvider</TITLE>
+LunarxRenamerProvider
+LunarxRenamerProviderIface
+lunarx_renamer_provider_get_renamers
+<SUBSECTION Standard>
+LUNARX_TYPE_RENAMER_PROVIDER
+LUNARX_RENAMER_PROVIDER
+LUNARX_IS_RENAMER_PROVIDER
+LUNARX_RENAMER_PROVIDER_GET_IFACE
+<SUBSECTION Private>
+lunarx_renamer_provider_get_type
+</SECTION>
+
+<SECTION>
+<FILE>lunarx-version-information</FILE>
+<TITLE>Variables and functions to check the library version</TITLE>
+lunarx_major_version
+lunarx_minor_version
+lunarx_micro_version
+lunarx_check_version
+LUNARX_MAJOR_VERSION
+LUNARX_MINOR_VERSION
+LUNARX_MICRO_VERSION
+LUNARX_CHECK_VERSION
+</SECTION>
+

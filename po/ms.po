@@ -6,12 +6,12 @@
 # abuyop <abuyop@gmail.com>, 2013-2015,2017-2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Thunar\n"
+"Project-Id-Version: Lunar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-22 12:45+0200\n"
 "PO-Revision-Date: 2020-08-22 10:45+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Malay (http://www.transifex.com/xfce/thunar/language/ms/)\n"
+"Last-Translator: Expidus Bot <transifex@expidus.org>\n"
+"Language-Team: Malay (http://www.transifex.com/expidus/lunar/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,181 +19,181 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. setup application name
-#: ../thunar/main.c:57
-msgid "Thunar"
-msgstr "Thunar"
+#: ../lunar/main.c:57
+msgid "Lunar"
+msgstr "Lunar"
 
-#: ../thunar/thunar-abstract-icon-view.c:118
+#: ../lunar/lunar-abstract-icon-view.c:118
 msgid "Arran_ge Items"
 msgstr "S_usun Item"
 
-#: ../thunar/thunar-abstract-icon-view.c:119
+#: ../lunar/lunar-abstract-icon-view.c:119
 msgid "By _Name"
 msgstr ""
 
-#: ../thunar/thunar-abstract-icon-view.c:119
+#: ../lunar/lunar-abstract-icon-view.c:119
 msgid "Keep items sorted by their name"
 msgstr "Kekalkan item terisih mengikut nama mereka"
 
-#: ../thunar/thunar-abstract-icon-view.c:120
+#: ../lunar/lunar-abstract-icon-view.c:120
 msgid "By _Size"
 msgstr ""
 
-#: ../thunar/thunar-abstract-icon-view.c:120
+#: ../lunar/lunar-abstract-icon-view.c:120
 msgid "Keep items sorted by their size"
 msgstr "Kekalkan item terisih mengikut saiz mereka"
 
-#: ../thunar/thunar-abstract-icon-view.c:121
+#: ../lunar/lunar-abstract-icon-view.c:121
 msgid "By _Type"
 msgstr ""
 
-#: ../thunar/thunar-abstract-icon-view.c:121
+#: ../lunar/lunar-abstract-icon-view.c:121
 msgid "Keep items sorted by their type"
 msgstr "Kekalkan item terisih mengikut jenis mereka"
 
-#: ../thunar/thunar-abstract-icon-view.c:122
+#: ../lunar/lunar-abstract-icon-view.c:122
 msgid "By Modification _Date"
 msgstr ""
 
-#: ../thunar/thunar-abstract-icon-view.c:122
+#: ../lunar/lunar-abstract-icon-view.c:122
 msgid "Keep items sorted by their modification date"
 msgstr "Kekalkan item terisih mengikut tarikh pengubahsuaian mereka"
 
-#: ../thunar/thunar-abstract-icon-view.c:123
+#: ../lunar/lunar-abstract-icon-view.c:123
 msgid "_Ascending"
 msgstr "Men_anik"
 
-#: ../thunar/thunar-abstract-icon-view.c:123
+#: ../lunar/lunar-abstract-icon-view.c:123
 msgid "Sort items in ascending order"
 msgstr "Isih item dalam tertib menaik"
 
-#: ../thunar/thunar-abstract-icon-view.c:124
+#: ../lunar/lunar-abstract-icon-view.c:124
 msgid "_Descending"
 msgstr "Menu_run"
 
-#: ../thunar/thunar-abstract-icon-view.c:124
+#: ../lunar/lunar-abstract-icon-view.c:124
 msgid "Sort items in descending order"
 msgstr "Isih item mengikut tertib menurun"
 
-#: ../thunar/thunar-application.c:78
+#: ../lunar/lunar-application.c:78
 msgid "Open the bulk rename dialog"
 msgstr "Buka dialog nama semula pukal"
 
-#: ../thunar/thunar-application.c:79
+#: ../lunar/lunar-application.c:79
 msgid "Run in daemon mode"
 msgstr "Jalan dalam mod daemon"
 
-#: ../thunar/thunar-application.c:81
-msgid "Quit a running Thunar instance"
-msgstr "Keluar dari kejadian Thunar yang berjalan"
+#: ../lunar/lunar-application.c:81
+msgid "Quit a running Lunar instance"
+msgstr "Keluar dari kejadian Lunar yang berjalan"
 
-#: ../thunar/thunar-application.c:82
+#: ../lunar/lunar-application.c:82
 msgid "Print version information and exit"
 msgstr "Papar maklumat versi dan keluar"
 
-#: ../thunar/thunar-application.c:295
+#: ../lunar/lunar-application.c:295
 #, c-format
 msgid "Acquired the session message bus '%s'\n"
 msgstr "Peroleh bas mesej sesi '%s'\n"
 
-#: ../thunar/thunar-application.c:305
+#: ../lunar/lunar-application.c:305
 #, c-format
 msgid "Acquired the name '%s' on the session message bus\n"
 msgstr "Peroleh nama '%s' pada bas mesej sesi\n"
 
-#: ../thunar/thunar-application.c:315
+#: ../lunar/lunar-application.c:315
 #, c-format
 msgid "Name '%s' lost on the message dbus."
 msgstr "Nama '%s' hilang dalam dbus mesej."
 
-#: ../thunar/thunar-application.c:475
-msgid "The Thunar development team. All rights reserved."
-msgstr "Pasukan pembangunan Thunar. Semua hak cipta terpelihara."
+#: ../lunar/lunar-application.c:475
+msgid "The Lunar development team. All rights reserved."
+msgstr "Pasukan pembangunan Lunar. Semua hak cipta terpelihara."
 
-#: ../thunar/thunar-application.c:476
-msgid "Written by Benedikt Meurer <benny@xfce.org>."
-msgstr "Ditulis oleh Benedikt Meurer <benny@xfce.org>"
+#: ../lunar/lunar-application.c:476
+msgid "Written by Benedikt Meurer <benny@expidus.org>."
+msgstr "Ditulis oleh Benedikt Meurer <benny@expidus.org>"
 
-#: ../thunar/thunar-application.c:477
+#: ../lunar/lunar-application.c:477
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Sila laporkan pepijat ke <%s>."
 
 #. display an error message to the user
-#: ../thunar/thunar-application.c:751
+#: ../lunar/lunar-application.c:751
 msgid "Failed to launch operation"
 msgstr "Gagal lancarkan operasi"
 
 #. tell the user that we were unable to launch the file specified
-#: ../thunar/thunar-application.c:1505 ../thunar/thunar-application.c:1637
-#: ../thunar/thunar-location-entry.c:366 ../thunar/thunar-location-entry.c:394
-#: ../thunar/thunar-shortcuts-view.c:1703
-#: ../thunar/thunar-shortcuts-view.c:1731 ../thunar/thunar-window.c:2363
+#: ../lunar/lunar-application.c:1505 ../lunar/lunar-application.c:1637
+#: ../lunar/lunar-location-entry.c:366 ../lunar/lunar-location-entry.c:394
+#: ../lunar/lunar-shortcuts-view.c:1703
+#: ../lunar/lunar-shortcuts-view.c:1731 ../lunar/lunar-window.c:2363
 #, c-format
 msgid "Failed to open \"%s\""
 msgstr "Gagal membuka \"%s\""
 
-#: ../thunar/thunar-application.c:1641
+#: ../lunar/lunar-application.c:1641
 #, c-format
 msgid "Failed to open \"%s\": %s"
 msgstr "Gagal membuka \"%s\": %s"
 
 #. display an error message
-#: ../thunar/thunar-application.c:1696 ../thunar/thunar-launcher.c:2096
-#: ../thunar/thunar-properties-dialog.c:739
+#: ../lunar/lunar-application.c:1696 ../lunar/lunar-launcher.c:2096
+#: ../lunar/lunar-properties-dialog.c:739
 #, c-format
 msgid "Failed to rename \"%s\""
 msgstr "Gagal namakan semula \"%s\""
 
-#: ../thunar/thunar-application.c:1798 ../thunar/thunar-launcher.c:2250
+#: ../lunar/lunar-application.c:1798 ../lunar/lunar-launcher.c:2250
 msgid "New Folder"
 msgstr "Folder Baharu"
 
-#: ../thunar/thunar-application.c:1799 ../thunar/thunar-launcher.c:2251
+#: ../lunar/lunar-application.c:1799 ../lunar/lunar-launcher.c:2251
 msgid "Create New Folder"
 msgstr "Cipta Folder Baharu"
 
-#: ../thunar/thunar-application.c:1803
+#: ../lunar/lunar-application.c:1803
 msgid "New File"
 msgstr "Fail Baharu"
 
-#: ../thunar/thunar-application.c:1804
+#: ../lunar/lunar-application.c:1804
 msgid "Create New File"
 msgstr "Cipta Fail Baharu"
 
 #. generate a title for the create dialog
-#: ../thunar/thunar-application.c:1861 ../thunar/thunar-launcher.c:2296
+#: ../lunar/lunar-application.c:1861 ../lunar/lunar-launcher.c:2296
 #, c-format
 msgid "Create Document from template \"%s\""
 msgstr "Cipta Dokumen dari templat \"%s\""
 
-#: ../thunar/thunar-application.c:1925
+#: ../lunar/lunar-application.c:1925
 msgid "Copying files..."
 msgstr "Menyalin fail..."
 
-#: ../thunar/thunar-application.c:1961
+#: ../lunar/lunar-application.c:1961
 #, c-format
 msgid "Copying files to \"%s\"..."
 msgstr "Menyalin fail ke \"%s\"..."
 
-#: ../thunar/thunar-application.c:2008
+#: ../lunar/lunar-application.c:2008
 #, c-format
 msgid "Creating symbolic links in \"%s\"..."
 msgstr "Mencipta pautan simbolik dalam \"%s\"..."
 
-#: ../thunar/thunar-application.c:2062
+#: ../lunar/lunar-application.c:2062
 #, c-format
 msgid "Moving files into \"%s\"..."
 msgstr "Mengalih fail ke dalam \"%s\"..."
 
-#: ../thunar/thunar-application.c:2145
+#: ../lunar/lunar-application.c:2145
 #, c-format
 msgid ""
 "Are you sure that you want to\n"
 "permanently delete \"%s\"?"
 msgstr "Anda pasti ingin memadam\n\"%s\" secara kekal?"
 
-#: ../thunar/thunar-application.c:2150
+#: ../lunar/lunar-application.c:2150
 #, c-format
 msgid ""
 "Are you sure that you want to permanently\n"
@@ -207,192 +207,192 @@ msgstr[0] "Anda pasti mahu memadam %u fail\nterpilih secara kekal?"
 #. append the cancel item
 #. add the Cancel/Close buttons
 #. configure the dialog properties
-#: ../thunar/thunar-application.c:2165 ../thunar/thunar-application.c:2344
-#: ../thunar/thunar-chooser-dialog.c:288 ../thunar/thunar-chooser-dialog.c:705
-#: ../thunar/thunar-chooser-dialog.c:753 ../thunar/thunar-dialogs.c:98
-#: ../thunar/thunar-dialogs.c:233 ../thunar/thunar-dialogs.c:649
-#: ../thunar/thunar-dialogs.c:762 ../thunar/thunar-dialogs.c:1034
-#: ../thunar/thunar-dnd.c:169 ../thunar/thunar-launcher.c:878
-#: ../thunar/thunar-permissions-chooser.c:535
-#: ../thunar/thunar-permissions-chooser.c:1143
-#: ../thunar/thunar-properties-dialog.c:827
-#: ../thunar/thunar-renamer-dialog.c:357
-#: ../thunar/thunar-renamer-dialog.c:1063
-#: ../thunar/thunar-renamer-progress.c:198
-#: ../thunar/thunar-renamer-progress.c:208
-#: ../thunar/thunar-standard-view.c:2089
-#: ../plugins/thunar-sendto-email/main.c:219
-#: ../plugins/thunar-sendto-email/main.c:238
-#: ../plugins/thunar-sendto-email/main.c:293
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:371
-#: ../plugins/thunar-uca/thunar-uca-editor.c:141
-#: ../plugins/thunar-uca/thunar-uca-editor.c:176
-#: ../plugins/thunar-uca/thunar-uca-editor.c:434
+#: ../lunar/lunar-application.c:2165 ../lunar/lunar-application.c:2344
+#: ../lunar/lunar-chooser-dialog.c:288 ../lunar/lunar-chooser-dialog.c:705
+#: ../lunar/lunar-chooser-dialog.c:753 ../lunar/lunar-dialogs.c:98
+#: ../lunar/lunar-dialogs.c:233 ../lunar/lunar-dialogs.c:649
+#: ../lunar/lunar-dialogs.c:762 ../lunar/lunar-dialogs.c:1034
+#: ../lunar/lunar-dnd.c:169 ../lunar/lunar-launcher.c:878
+#: ../lunar/lunar-permissions-chooser.c:535
+#: ../lunar/lunar-permissions-chooser.c:1143
+#: ../lunar/lunar-properties-dialog.c:827
+#: ../lunar/lunar-renamer-dialog.c:357
+#: ../lunar/lunar-renamer-dialog.c:1063
+#: ../lunar/lunar-renamer-progress.c:198
+#: ../lunar/lunar-renamer-progress.c:208
+#: ../lunar/lunar-standard-view.c:2089
+#: ../plugins/lunar-sendto-email/main.c:219
+#: ../plugins/lunar-sendto-email/main.c:238
+#: ../plugins/lunar-sendto-email/main.c:293
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:371
+#: ../plugins/lunar-uca/lunar-uca-editor.c:141
+#: ../plugins/lunar-uca/lunar-uca-editor.c:176
+#: ../plugins/lunar-uca/lunar-uca-editor.c:434
 msgid "_Cancel"
 msgstr "_Batal"
 
-#: ../thunar/thunar-application.c:2166 ../thunar/thunar-launcher.c:260
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:372
+#: ../lunar/lunar-application.c:2166 ../lunar/lunar-launcher.c:260
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:372
 msgid "_Delete"
 msgstr "Pa_dam"
 
-#: ../thunar/thunar-application.c:2170
+#: ../lunar/lunar-application.c:2170
 msgid "If you delete a file, it is permanently lost."
 msgstr "Jika anda padam satu fail, ia akan hilang secara kekal."
 
-#: ../thunar/thunar-application.c:2180
+#: ../lunar/lunar-application.c:2180
 msgid "Deleting files..."
 msgstr "Memadam fail..."
 
-#: ../thunar/thunar-application.c:2215
+#: ../lunar/lunar-application.c:2215
 msgid "Moving files into the trash..."
 msgstr "Mengalih fail ke dalam tong sampah..."
 
-#: ../thunar/thunar-application.c:2261
+#: ../lunar/lunar-application.c:2261
 msgid "Creating files..."
 msgstr "Mencipta fail..."
 
-#: ../thunar/thunar-application.c:2300
+#: ../lunar/lunar-application.c:2300
 msgid "Creating directories..."
 msgstr "Mencipta direktori..."
 
-#: ../thunar/thunar-application.c:2339
+#: ../lunar/lunar-application.c:2339
 msgid "Remove all files and folders from the Trash?"
 msgstr "Alih semua fail dan folder dari Tong Sampah?"
 
 #. append the "Empty Trash" menu action
 #. prepare the menu item
-#: ../thunar/thunar-application.c:2345 ../thunar/thunar-launcher.c:254
-#: ../thunar/thunar-shortcuts-view.c:1226
-#: ../plugins/thunar-tpa/thunar-tpa.c:175
+#: ../lunar/lunar-application.c:2345 ../lunar/lunar-launcher.c:254
+#: ../lunar/lunar-shortcuts-view.c:1226
+#: ../plugins/lunar-tpa/lunar-tpa.c:175
 msgid "_Empty Trash"
 msgstr "_Kosongkan Tong Sampah"
 
-#: ../thunar/thunar-application.c:2349
+#: ../lunar/lunar-application.c:2349
 msgid ""
 "If you choose to empty the Trash, all items in it will be permanently lost. "
 "Please note that you can also delete them separately."
 msgstr "Jika anda pilih untuk mengosongkan Tong Sampah, semua item di dalamnya akan kekal hilang. Perhatian anda juga boleh memadamnya secara berasingan."
 
-#: ../thunar/thunar-application.c:2366
+#: ../lunar/lunar-application.c:2366
 msgid "Emptying the Trash..."
 msgstr "Mengosongkan Tong Sampah..."
 
-#: ../thunar/thunar-application.c:2412
+#: ../lunar/lunar-application.c:2412
 #, c-format
 msgid "Failed to determine the original path for \"%s\""
 msgstr "Gagal tentukan laluan asal untuk \"%s\""
 
 #. display an error dialog
-#: ../thunar/thunar-application.c:2429
+#: ../lunar/lunar-application.c:2429
 #, c-format
 msgid "Could not restore \"%s\""
 msgstr "Tidak dapat pulihkan \"%s\""
 
-#: ../thunar/thunar-application.c:2437
+#: ../lunar/lunar-application.c:2437
 msgid "Restoring files..."
 msgstr "Memulihkan fail..."
 
-#: ../thunar/thunar-chooser-button.c:309 ../thunar/thunar-chooser-dialog.c:456
+#: ../lunar/lunar-chooser-button.c:309 ../lunar/lunar-chooser-dialog.c:456
 #, c-format
 msgid "Failed to set default application for \"%s\""
 msgstr "Gagal tetapkan aplikasi lalai untuk \"%s\""
 
-#: ../thunar/thunar-chooser-button.c:440
+#: ../lunar/lunar-chooser-button.c:440
 #, c-format
 msgid ""
 "The selected application is used to open this and other files of type "
 "\"%s\"."
 msgstr "Aplikasi terpilih digunakan untuk membuka ini dan lain-lain jenis fail \"%s\"."
 
-#: ../thunar/thunar-chooser-button.c:495
+#: ../lunar/lunar-chooser-button.c:495
 msgid "No application selected"
 msgstr "Tiada aplikasi dipilih"
 
-#: ../thunar/thunar-chooser-button.c:508
+#: ../lunar/lunar-chooser-button.c:508
 msgid "Other Application..."
 msgstr "Aplikasi Lain..."
 
-#: ../thunar/thunar-chooser-dialog.c:186 ../thunar/thunar-launcher.c:2842
+#: ../lunar/lunar-chooser-dialog.c:186 ../lunar/lunar-launcher.c:2842
 msgid "Open With"
 msgstr "Buka Dengan"
 
 #. create the "Custom command" expand
-#: ../thunar/thunar-chooser-dialog.c:255
+#: ../lunar/lunar-chooser-dialog.c:255
 msgid "Use a _custom command:"
 msgstr "Guna perintah _suai:"
 
-#: ../thunar/thunar-chooser-dialog.c:256
+#: ../lunar/lunar-chooser-dialog.c:256
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "Guna perintah suai untuk aplikasi yang tidak tersedia dari senarai aplikasi di atas."
 
 #. create the "Custom command" button
-#: ../thunar/thunar-chooser-dialog.c:275
+#: ../lunar/lunar-chooser-dialog.c:275
 msgid "_Browse..."
 msgstr "_Layar..."
 
 #. create the "Use as default for this kind of file" button
-#: ../thunar/thunar-chooser-dialog.c:281
+#: ../lunar/lunar-chooser-dialog.c:281
 msgid "Use as _default for this kind of file"
 msgstr "Guna sebagai _lalai untuk jenis fail ini"
 
 #. add the "Ok"/"Open" button
-#: ../thunar/thunar-chooser-dialog.c:291
-#: ../thunar/thunar-chooser-dialog.c:1155
-#: ../thunar/thunar-properties-dialog.c:828 ../thunar/thunar-window.c:3088
-#: ../plugins/thunar-uca/thunar-uca-editor.c:142
-#: ../plugins/thunar-uca/thunar-uca-editor.c:435
+#: ../lunar/lunar-chooser-dialog.c:291
+#: ../lunar/lunar-chooser-dialog.c:1155
+#: ../lunar/lunar-properties-dialog.c:828 ../lunar/lunar-window.c:3088
+#: ../plugins/lunar-uca/lunar-uca-editor.c:142
+#: ../plugins/lunar-uca/lunar-uca-editor.c:435
 msgid "_OK"
 msgstr "_OK"
 
 #. display an error to the user
-#: ../thunar/thunar-chooser-dialog.c:429
+#: ../lunar/lunar-chooser-dialog.c:429
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "Gagal menambah aplikasi baharu \"%s\""
 
-#: ../thunar/thunar-chooser-dialog.c:494
+#: ../lunar/lunar-chooser-dialog.c:494
 #, c-format
 msgid "Failed to execute application \"%s\""
 msgstr "Gagal melakukan aplikasi \"%s\""
 
 #. append the "Remove Launcher" item
-#: ../thunar/thunar-chooser-dialog.c:563
+#: ../lunar/lunar-chooser-dialog.c:563
 msgid "_Remove Launcher"
 msgstr "_Buang Pelancar"
 
 #. update the header label
-#: ../thunar/thunar-chooser-dialog.c:643
+#: ../lunar/lunar-chooser-dialog.c:643
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "Buka <i>%s</i> dan lain-lain fail jenis \"%s\" dengan:"
 
-#: ../thunar/thunar-chooser-dialog.c:651
+#: ../lunar/lunar-chooser-dialog.c:651
 #, c-format
 msgid ""
 "Browse the file system to select an application to open files of type "
 "\"%s\"."
 msgstr "Layar sistem fail untuk pilih aplikasi bagi membuka fail jenis \"%s\"."
 
-#: ../thunar/thunar-chooser-dialog.c:657
+#: ../lunar/lunar-chooser-dialog.c:657
 #, c-format
 msgid ""
 "Change the default application for files of type \"%s\" to the selected "
 "application."
 msgstr "Ubah aplikasi lalai untuk jenis \"%s\" bagi aplikasi terpilih."
 
-#: ../thunar/thunar-chooser-dialog.c:703
+#: ../lunar/lunar-chooser-dialog.c:703
 #, c-format
 msgid "Are you sure that you want to remove \"%s\"?"
 msgstr "Anda pasti ingin membuang \"%s\"?"
 
-#: ../thunar/thunar-chooser-dialog.c:706
+#: ../lunar/lunar-chooser-dialog.c:706
 msgid "_Remove"
 msgstr "_Buang"
 
-#: ../thunar/thunar-chooser-dialog.c:709
+#: ../lunar/lunar-chooser-dialog.c:709
 msgid ""
 "This will remove the application launcher that appears in the file context menu, but will not uninstall the application itself.\n"
 "\n"
@@ -400,144 +400,144 @@ msgid ""
 msgstr "Ini akan membuang pelancar aplikasi yang muncul di dalam menu konteks fail, tetapi tidak akan menyahpasang aplikasi tersebut.\n\nAnda hanya boleh membuang pelancar aplikasi yang telah dicipta menggunakan kotak perintah suai di dalam dialog pengurus fail \"Buka Dengan\"."
 
 #. display an error to the user
-#: ../thunar/thunar-chooser-dialog.c:724
+#: ../lunar/lunar-chooser-dialog.c:724
 #, c-format
 msgid "Failed to remove \"%s\""
 msgstr "Gagal membuang \"%s\""
 
-#: ../thunar/thunar-chooser-dialog.c:750
-#: ../plugins/thunar-uca/thunar-uca-editor.c:173
+#: ../lunar/lunar-chooser-dialog.c:750
+#: ../plugins/lunar-uca/lunar-uca-editor.c:173
 msgid "Select an Application"
 msgstr "Pilih satu Aplikasi"
 
 #. change the accept button label text
 #. aka "activate"
-#: ../thunar/thunar-chooser-dialog.c:754
-#: ../thunar/thunar-chooser-dialog.c:1155 ../thunar/thunar-launcher.c:1308
-#: ../thunar/thunar-renamer-dialog.c:1064
-#: ../thunar/thunar-shortcuts-view.c:1118
-#: ../plugins/thunar-uca/thunar-uca-editor.c:177
+#: ../lunar/lunar-chooser-dialog.c:754
+#: ../lunar/lunar-chooser-dialog.c:1155 ../lunar/lunar-launcher.c:1308
+#: ../lunar/lunar-renamer-dialog.c:1064
+#: ../lunar/lunar-shortcuts-view.c:1118
+#: ../plugins/lunar-uca/lunar-uca-editor.c:177
 msgid "_Open"
 msgstr "_Buka"
 
-#: ../thunar/thunar-chooser-dialog.c:760
-#: ../thunar/thunar-renamer-dialog.c:1071
-#: ../plugins/thunar-uca/thunar-uca-editor.c:184
+#: ../lunar/lunar-chooser-dialog.c:760
+#: ../lunar/lunar-renamer-dialog.c:1071
+#: ../plugins/lunar-uca/lunar-uca-editor.c:184
 msgid "All Files"
 msgstr "Semua Fail"
 
-#: ../thunar/thunar-chooser-dialog.c:765
-#: ../plugins/thunar-uca/thunar-uca-editor.c:189
+#: ../lunar/lunar-chooser-dialog.c:765
+#: ../plugins/lunar-uca/lunar-uca-editor.c:189
 msgid "Executable Files"
 msgstr "Fail Boleh Laku"
 
-#: ../thunar/thunar-chooser-dialog.c:780
-#: ../plugins/thunar-uca/thunar-uca-editor.c:204
+#: ../lunar/lunar-chooser-dialog.c:780
+#: ../plugins/lunar-uca/lunar-uca-editor.c:204
 msgid "Perl Scripts"
 msgstr "Skrip Perl"
 
-#: ../thunar/thunar-chooser-dialog.c:786
-#: ../plugins/thunar-uca/thunar-uca-editor.c:210
+#: ../lunar/lunar-chooser-dialog.c:786
+#: ../plugins/lunar-uca/lunar-uca-editor.c:210
 msgid "Python Scripts"
 msgstr "Skrip Python"
 
-#: ../thunar/thunar-chooser-dialog.c:792
-#: ../plugins/thunar-uca/thunar-uca-editor.c:216
+#: ../lunar/lunar-chooser-dialog.c:792
+#: ../plugins/lunar-uca/lunar-uca-editor.c:216
 msgid "Ruby Scripts"
 msgstr "Skrip Ruby"
 
-#: ../thunar/thunar-chooser-dialog.c:798
-#: ../plugins/thunar-uca/thunar-uca-editor.c:222
+#: ../lunar/lunar-chooser-dialog.c:798
+#: ../plugins/lunar-uca/lunar-uca-editor.c:222
 msgid "Shell Scripts"
 msgstr "Skrip Shell"
 
-#: ../thunar/thunar-chooser-model.c:251
+#: ../lunar/lunar-chooser-model.c:251
 msgid "None available"
 msgstr "Tiada lagi tersedia"
 
-#: ../thunar/thunar-chooser-model.c:298
+#: ../lunar/lunar-chooser-model.c:298
 msgid "Recommended Applications"
 msgstr "Aplikasi Disaran"
 
-#: ../thunar/thunar-chooser-model.c:316
+#: ../lunar/lunar-chooser-model.c:316
 msgid "Other Applications"
 msgstr "Aplikasi Lain"
 
-#: ../thunar/thunar-chooser-model.c:406
+#: ../lunar/lunar-chooser-model.c:406
 #, c-format
 msgid "Failed to remove \"%s\"."
 msgstr "Gagal membuang \"%s\"."
 
 #. tell the user that we cannot paste
-#: ../thunar/thunar-clipboard-manager.c:354
+#: ../lunar/lunar-clipboard-manager.c:354
 msgid "There is nothing on the clipboard to paste"
 msgstr "Tiada apa lagi dalam papan keratan untuk ditampalkan"
 
 #. setup the dialog
 #. add the "Close" button
 #. add a regular close button, the header bar already provides one
-#: ../thunar/thunar-column-editor.c:120 ../thunar/thunar-dialogs.c:979
-#: ../thunar/thunar-preferences-dialog.c:292
-#: ../thunar/thunar-properties-dialog.c:255
-#: ../thunar/thunar-renamer-dialog.c:358
-#: ../thunar/thunar-renamer-progress.c:215
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:131
+#: ../lunar/lunar-column-editor.c:120 ../lunar/lunar-dialogs.c:979
+#: ../lunar/lunar-preferences-dialog.c:292
+#: ../lunar/lunar-properties-dialog.c:255
+#: ../lunar/lunar-renamer-dialog.c:358
+#: ../lunar/lunar-renamer-progress.c:215
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:131
 msgid "_Close"
 msgstr "_Tutup"
 
-#: ../thunar/thunar-column-editor.c:123
+#: ../lunar/lunar-column-editor.c:123
 msgid "Configure Columns in the Detailed List View"
 msgstr "Konfigur Lajur dalam Paparan Senarai Terperinci"
 
 #. add the "Help" button
-#: ../thunar/thunar-column-editor.c:126
-#: ../thunar/thunar-preferences-dialog.c:303
-#: ../thunar/thunar-properties-dialog.c:254 ../thunar/thunar-window.c:406
+#: ../lunar/lunar-column-editor.c:126
+#: ../lunar/lunar-preferences-dialog.c:303
+#: ../lunar/lunar-properties-dialog.c:254 ../lunar/lunar-window.c:406
 msgid "_Help"
 msgstr "_Bantuan"
 
-#: ../thunar/thunar-column-editor.c:141
+#: ../lunar/lunar-column-editor.c:141
 msgid "Visible Columns"
 msgstr "Lajur Tampak"
 
 #. create the top label for the column editor dialog
-#: ../thunar/thunar-column-editor.c:154
+#: ../lunar/lunar-column-editor.c:154
 msgid ""
 "Choose the order of information to appear in the\n"
 "detailed list view."
 msgstr "Pilih tertib maklumat yang muncul di dalam paparan\nsenarai terperinci."
 
 #. create the "Move Up" button
-#: ../thunar/thunar-column-editor.c:198
+#: ../lunar/lunar-column-editor.c:198
 msgid "Move _Up"
 msgstr "Alih ke _Atas"
 
 #. create the "Move Down" button
-#: ../thunar/thunar-column-editor.c:209
+#: ../lunar/lunar-column-editor.c:209
 msgid "Move Dow_n"
 msgstr "Alih ke _Bawah"
 
 #. create the "Show" button
-#: ../thunar/thunar-column-editor.c:220
+#: ../lunar/lunar-column-editor.c:220
 msgid "_Show"
 msgstr "_Tunjuk"
 
 #. create the "Hide" button
-#: ../thunar/thunar-column-editor.c:226
+#: ../lunar/lunar-column-editor.c:226
 msgid "Hi_de"
 msgstr "Se_mbunyi"
 
 #. create the "Use Default" button
-#: ../thunar/thunar-column-editor.c:237
+#: ../lunar/lunar-column-editor.c:237
 msgid "Use De_fault"
 msgstr "Guna Lala_i"
 
-#: ../thunar/thunar-column-editor.c:246
+#: ../lunar/lunar-column-editor.c:246
 msgid "Column Sizing"
 msgstr "Saizkan Lajur"
 
 #. create the label that explains the column sizing option
-#: ../thunar/thunar-column-editor.c:259
+#: ../lunar/lunar-column-editor.c:259
 msgid ""
 "By default columns will be automatically expanded if\n"
 "needed to ensure the text is fully visible. If you dis-\n"
@@ -546,474 +546,474 @@ msgid ""
 msgstr "Secara lalai lajur akan dikembangkan secara automatik\njika diperlukan untuk memastikan teks sepenuhnya\ntampak. Jika anda lumpuhkan kelakuan ini dibawah\npengurus fail akan sentiasa guna lebar lajur yang di\ntakrif oleh pengguna."
 
 #. create the "Automatically expand columns as needed" button
-#: ../thunar/thunar-column-editor.c:268
+#: ../lunar/lunar-column-editor.c:268
 msgid "Automatically _expand columns as needed"
 msgstr "K_embangkan lajur secara automatik jika diperlukan"
 
 #. the file_time is invalid
 #. reset page title
 #. tell the user that we're unable to determine the file info
-#: ../thunar/thunar-column-model.c:877 ../thunar/thunar-list-model.c:734
-#: ../thunar/thunar-list-model.c:770
-#: ../thunar/thunar-permissions-chooser.c:232 ../thunar/thunar-util.c:491
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:513
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:293
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:294
-#: ../plugins/thunar-uca/thunar-uca-editor.c:429
+#: ../lunar/lunar-column-model.c:877 ../lunar/lunar-list-model.c:734
+#: ../lunar/lunar-list-model.c:770
+#: ../lunar/lunar-permissions-chooser.c:232 ../lunar/lunar-util.c:491
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:513
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:293
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:294
+#: ../plugins/lunar-uca/lunar-uca-editor.c:429
 msgid "Unknown"
 msgstr "Tidak diketahui"
 
-#: ../thunar/thunar-compact-view.c:108
+#: ../lunar/lunar-compact-view.c:108
 msgid "Compact directory listing"
 msgstr "Penyenaraian direktori padat"
 
-#: ../thunar/thunar-compact-view.c:109
+#: ../lunar/lunar-compact-view.c:109
 msgid "Compact view"
 msgstr "Paparan padat"
 
-#: ../thunar/thunar-dbus-service.c:527
+#: ../lunar/lunar-dbus-service.c:527
 #, c-format
 msgid "Invalid filename \"%s\""
 msgstr "Nama fail \"%s\" tidak sah"
 
 #. LaunchFiles() invoked without a valid working directory
-#: ../thunar/thunar-dbus-service.c:976
+#: ../lunar/lunar-dbus-service.c:976
 #, c-format
 msgid "The working directory must be an absolute path"
 msgstr "Direktori kerja mestilah laluan mutlak"
 
 #. LaunchFiles() invoked with an empty filename list
-#: ../thunar/thunar-dbus-service.c:984 ../thunar/thunar-dbus-service.c:1419
+#: ../lunar/lunar-dbus-service.c:984 ../lunar/lunar-dbus-service.c:1419
 #, c-format
 msgid "At least one filename must be specified"
 msgstr "Sekurang-kurangnya satu nama fail mesti dinyatakan"
 
-#: ../thunar/thunar-dbus-service.c:1159
+#: ../lunar/lunar-dbus-service.c:1159
 #, c-format
 msgid "At least one source filename must be specified"
 msgstr "Sekurang-kurangnya satu nama fail sumber mesti dinyatakan"
 
-#: ../thunar/thunar-dbus-service.c:1169
+#: ../lunar/lunar-dbus-service.c:1169
 #, c-format
 msgid "The number of source and target filenames must be the same"
 msgstr "Bilangan nama fail sumber dan sasaran mestilah sama"
 
-#: ../thunar/thunar-dbus-service.c:1178
+#: ../lunar/lunar-dbus-service.c:1178
 #, c-format
 msgid "A destination directory must be specified"
 msgstr "Satu direktori destinasi mesti dinyatakan"
 
-#: ../thunar/thunar-details-view.c:145
+#: ../lunar/lunar-details-view.c:145
 msgid "Configure _Columns..."
 msgstr "Konfigur _Lajur..."
 
-#: ../thunar/thunar-details-view.c:145
+#: ../lunar/lunar-details-view.c:145
 msgid "Configure the columns in the detailed list view"
 msgstr "Konfigur lajur di dalam paparan senarai terperinci"
 
-#: ../thunar/thunar-details-view.c:411
+#: ../lunar/lunar-details-view.c:411
 msgid "Detailed directory listing"
 msgstr "Penyenaraian direktori terperinci"
 
-#: ../thunar/thunar-details-view.c:412
+#: ../lunar/lunar-details-view.c:412
 msgid "Details view"
 msgstr "Paparan terperinci"
 
-#: ../thunar/thunar-dialogs.c:99
+#: ../lunar/lunar-dialogs.c:99
 msgid "C_reate"
 msgstr "C_ipta"
 
-#: ../thunar/thunar-dialogs.c:127
+#: ../lunar/lunar-dialogs.c:127
 msgid "Enter the name:"
 msgstr "Masukkan nama:"
 
 #. display an error message
-#: ../thunar/thunar-dialogs.c:167
+#: ../lunar/lunar-dialogs.c:167
 #, c-format
 msgid "Cannot convert filename \"%s\" to the local encoding"
 msgstr "Tidak dapat tukar nama fail \"%s\" ke pengekodan setempat"
 
 #. create a new dialog window
-#: ../thunar/thunar-dialogs.c:228
+#: ../lunar/lunar-dialogs.c:228
 #, c-format
 msgid "Rename \"%s\""
 msgstr "Nama semula \"%s\""
 
-#: ../thunar/thunar-dialogs.c:234
+#: ../lunar/lunar-dialogs.c:234
 msgid "_Rename"
 msgstr "_Nama semula"
 
-#: ../thunar/thunar-dialogs.c:264
+#: ../lunar/lunar-dialogs.c:264
 msgid "Enter the new name:"
 msgstr "Masukkan nama baharu:"
 
-#: ../thunar/thunar-dialogs.c:408
+#: ../lunar/lunar-dialogs.c:408
 msgid "translator-credits"
 msgstr "Abuyop <abuyop@gmail.com>"
 
-#: ../thunar/thunar-dialogs.c:582 ../thunar/thunar-permissions-chooser.c:537
+#: ../lunar/lunar-dialogs.c:582 ../lunar/lunar-permissions-chooser.c:537
 msgid "_Yes"
 msgstr "_Ya"
 
-#: ../thunar/thunar-dialogs.c:586
+#: ../lunar/lunar-dialogs.c:586
 msgid "Yes to _all"
 msgstr "Ya untuk se_mua"
 
-#: ../thunar/thunar-dialogs.c:590 ../thunar/thunar-dialogs.c:766
+#: ../lunar/lunar-dialogs.c:590 ../lunar/lunar-dialogs.c:766
 msgid "_Replace"
 msgstr "_Ganti"
 
-#: ../thunar/thunar-dialogs.c:594 ../thunar/thunar-dialogs.c:765
+#: ../lunar/lunar-dialogs.c:594 ../lunar/lunar-dialogs.c:765
 msgid "Replace _All"
 msgstr "Ganti Se_mua"
 
-#: ../thunar/thunar-dialogs.c:598 ../thunar/thunar-dialogs.c:764
+#: ../lunar/lunar-dialogs.c:598 ../lunar/lunar-dialogs.c:764
 msgid "_Skip"
 msgstr "Lan_gkau"
 
-#: ../thunar/thunar-dialogs.c:602 ../thunar/thunar-dialogs.c:763
+#: ../lunar/lunar-dialogs.c:602 ../lunar/lunar-dialogs.c:763
 msgid "S_kip All"
 msgstr "Lan_gkau Semua"
 
-#: ../thunar/thunar-dialogs.c:606 ../thunar/thunar-dialogs.c:768
+#: ../lunar/lunar-dialogs.c:606 ../lunar/lunar-dialogs.c:768
 msgid "Re_name"
 msgstr ""
 
-#: ../thunar/thunar-dialogs.c:610 ../thunar/thunar-dialogs.c:767
+#: ../lunar/lunar-dialogs.c:610 ../lunar/lunar-dialogs.c:767
 msgid "Rena_me All"
 msgstr ""
 
-#: ../thunar/thunar-dialogs.c:614 ../thunar/thunar-permissions-chooser.c:536
+#: ../lunar/lunar-dialogs.c:614 ../lunar/lunar-permissions-chooser.c:536
 msgid "_No"
 msgstr "_Tidak"
 
-#: ../thunar/thunar-dialogs.c:618
+#: ../lunar/lunar-dialogs.c:618
 msgid "N_o to all"
 msgstr "T_idak untuk semua"
 
-#: ../thunar/thunar-dialogs.c:622
+#: ../lunar/lunar-dialogs.c:622
 msgid "_Retry"
 msgstr "_Cuba lagi"
 
-#: ../thunar/thunar-dialogs.c:626
+#: ../lunar/lunar-dialogs.c:626
 msgid "Copy _Anyway"
 msgstr "Salin _Jua"
 
-#: ../thunar/thunar-dialogs.c:741
+#: ../lunar/lunar-dialogs.c:741
 msgid "Confirm to replace files"
 msgstr "Sahkan penggantian fail"
 
-#: ../thunar/thunar-dialogs.c:811
+#: ../lunar/lunar-dialogs.c:811
 #, c-format
 msgid "This folder already contains a symbolic link \"%s\"."
 msgstr "Folder ini sudah mengandungi pautan simbolik \"%s\"."
 
-#: ../thunar/thunar-dialogs.c:816
+#: ../lunar/lunar-dialogs.c:816
 #, c-format
 msgid "This folder already contains a folder \"%s\"."
 msgstr "Folder ini sudah mengandungi folder \"%s\"."
 
-#: ../thunar/thunar-dialogs.c:821
+#: ../lunar/lunar-dialogs.c:821
 #, c-format
 msgid "This folder already contains a file \"%s\"."
 msgstr "Folder ini sudah mengandungi fail \"%s\"."
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:836
+#: ../lunar/lunar-dialogs.c:836
 #, c-format
 msgid "Do you want to replace the link"
 msgstr ""
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:839
+#: ../lunar/lunar-dialogs.c:839
 #, c-format
 msgid "Do you want to replace the existing folder"
 msgstr ""
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:842
+#: ../lunar/lunar-dialogs.c:842
 #, c-format
 msgid "Do you want to replace the existing file"
 msgstr ""
 
 #. Fourth box (size, volume, free space)
-#: ../thunar/thunar-dialogs.c:863 ../thunar/thunar-dialogs.c:902
-#: ../thunar/thunar-properties-dialog.c:498
+#: ../lunar/lunar-dialogs.c:863 ../lunar/lunar-dialogs.c:902
+#: ../lunar/lunar-properties-dialog.c:498
 msgid "Size:"
 msgstr "Saiz:"
 
-#: ../thunar/thunar-dialogs.c:863 ../thunar/thunar-dialogs.c:902
-#: ../thunar/thunar-properties-dialog.c:457
+#: ../lunar/lunar-dialogs.c:863 ../lunar/lunar-dialogs.c:902
+#: ../lunar/lunar-properties-dialog.c:457
 msgid "Modified:"
 msgstr "Diubahsuai:"
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:875
+#: ../lunar/lunar-dialogs.c:875
 #, c-format
 msgid "with the following link?"
 msgstr ""
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:878
+#: ../lunar/lunar-dialogs.c:878
 #, c-format
 msgid "with the following folder?"
 msgstr ""
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:881
+#: ../lunar/lunar-dialogs.c:881
 #, c-format
 msgid "with the following file?"
 msgstr ""
 
-#: ../thunar/thunar-dialogs.c:1014
+#: ../lunar/lunar-dialogs.c:1014
 #, c-format
 msgid ""
 "The desktop file \"%s\" is in an insecure location and not marked as "
 "executable. If you do not trust this program, click Cancel."
 msgstr "Fail desktop \"%s\" berada di dalam lokasi tidak selamat dan tidak ditanda sebagai boleh laku. Jika anda tidak percayai program ini, klik Batal."
 
-#: ../thunar/thunar-dialogs.c:1031
+#: ../lunar/lunar-dialogs.c:1031
 msgid "_Launch Anyway"
 msgstr "_Lancar Jua"
 
-#: ../thunar/thunar-dialogs.c:1033
+#: ../lunar/lunar-dialogs.c:1033
 msgid "Mark _Executable"
 msgstr "Tanda sebagai _Boleh Laku"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Copy here"
 msgstr "Sa_lin di sini"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Move here"
 msgstr "_Alih di sini"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Link here"
 msgstr "_Paut di sini"
 
 #. display an error to the user
 #. display an error message to the user
-#: ../thunar/thunar-dnd.c:250 ../thunar/thunar-launcher.c:694
+#: ../lunar/lunar-dnd.c:250 ../lunar/lunar-launcher.c:694
 #, c-format
 msgid "Failed to execute file \"%s\""
 msgstr "Gagal lakukan fail \"%s\""
 
-#: ../thunar/thunar-enum-types.c:49
+#: ../lunar/lunar-enum-types.c:49
 msgid "Name only"
 msgstr "Nama sahaja"
 
-#: ../thunar/thunar-enum-types.c:50
+#: ../lunar/lunar-enum-types.c:50
 msgid "Suffix only"
 msgstr "Akhiran sahaja"
 
-#: ../thunar/thunar-enum-types.c:51
+#: ../lunar/lunar-enum-types.c:51
 msgid "Name and Suffix"
 msgstr "Nama dan Akhiran"
 
-#: ../thunar/thunar-enum-types.c:101
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:137
+#: ../lunar/lunar-enum-types.c:101
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:137
 msgid "Date Accessed"
 msgstr "Tarikh Dicapai"
 
-#: ../thunar/thunar-enum-types.c:102
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:138
+#: ../lunar/lunar-enum-types.c:102
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:138
 msgid "Date Modified"
 msgstr "Tarikh Diubahsuai"
 
-#: ../thunar/thunar-enum-types.c:103
+#: ../lunar/lunar-enum-types.c:103
 msgid "Group"
 msgstr "Kumpulan"
 
-#: ../thunar/thunar-enum-types.c:104
+#: ../lunar/lunar-enum-types.c:104
 msgid "MIME Type"
 msgstr "Jenis MIME"
 
-#: ../thunar/thunar-enum-types.c:105 ../thunar/thunar-renamer-dialog.c:416
-#: ../thunarx/thunarx-renamer.c:164
+#: ../lunar/lunar-enum-types.c:105 ../lunar/lunar-renamer-dialog.c:416
+#: ../lunarx/lunarx-renamer.c:164
 msgid "Name"
 msgstr "Nama"
 
-#: ../thunar/thunar-enum-types.c:106
+#: ../lunar/lunar-enum-types.c:106
 msgid "Owner"
 msgstr "Pemilik"
 
 #. Permissions chooser
-#: ../thunar/thunar-enum-types.c:107 ../thunar/thunar-properties-dialog.c:582
+#: ../lunar/lunar-enum-types.c:107 ../lunar/lunar-properties-dialog.c:582
 msgid "Permissions"
 msgstr "Keizinan"
 
-#: ../thunar/thunar-enum-types.c:108
+#: ../lunar/lunar-enum-types.c:108
 msgid "Size"
 msgstr "Saiz"
 
-#: ../thunar/thunar-enum-types.c:109
+#: ../lunar/lunar-enum-types.c:109
 msgid "Size in Bytes"
 msgstr "Saiz dalam Bait"
 
-#: ../thunar/thunar-enum-types.c:110
+#: ../lunar/lunar-enum-types.c:110
 msgid "Type"
 msgstr "Jenis"
 
-#: ../thunar/thunar-enum-types.c:111
+#: ../lunar/lunar-enum-types.c:111
 msgid "File"
 msgstr "Fail"
 
-#: ../thunar/thunar-enum-types.c:112
+#: ../lunar/lunar-enum-types.c:112
 msgid "File Name"
 msgstr "Nama Fail"
 
-#: ../thunar/thunar-file.c:1082 ../thunar/thunar-gio-extensions.c:289
-#: ../thunar/thunar-shortcuts-model.c:1112 ../thunar.desktop.in.in.h:7
+#: ../lunar/lunar-file.c:1082 ../lunar/lunar-gio-extensions.c:289
+#: ../lunar/lunar-shortcuts-model.c:1112 ../lunar.desktop.in.in.h:7
 msgid "Trash"
 msgstr "Tong Sampah"
 
-#: ../thunar/thunar-file.c:1089 ../thunar/thunar-gio-extensions.c:287
-#: ../thunar/thunar-shortcuts-model.c:994 ../thunar/thunar-window.c:394
+#: ../lunar/lunar-file.c:1089 ../lunar/lunar-gio-extensions.c:287
+#: ../lunar/lunar-shortcuts-model.c:994 ../lunar/lunar-window.c:394
 msgid "File System"
 msgstr "Sistem Fail"
 
-#: ../thunar/thunar-file.c:1529
+#: ../lunar/lunar-file.c:1529
 #, c-format
 msgid "The root folder has no parent"
 msgstr "Folder root tidak mempunyai induk"
 
-#: ../thunar/thunar-file.c:1623 ../thunar/thunar-file.c:1925
+#: ../lunar/lunar-file.c:1623 ../lunar/lunar-file.c:1925
 #, c-format
 msgid "Failed to parse the desktop file: %s"
 msgstr "Gagal menghurai fail desktop: %s"
 
 #. if the .desktop file is not secure, ask user what to do
-#: ../thunar/thunar-file.c:1635
+#: ../lunar/lunar-file.c:1635
 msgid "Untrusted application launcher"
 msgstr "Pelancar aplikasi tidak dipercayai"
 
-#: ../thunar/thunar-file.c:1663
+#: ../lunar/lunar-file.c:1663
 #, c-format
 msgid "No Exec field specified"
 msgstr "Tiada medan Exec dinyatakan"
 
 #. if the .desktop file is not secure, ask user what to do
-#: ../thunar/thunar-file.c:1672
+#: ../lunar/lunar-file.c:1672
 msgid "Untrusted link launcher"
 msgstr "Pelancar pautan tidak dipercayai"
 
-#: ../thunar/thunar-file.c:1688
+#: ../lunar/lunar-file.c:1688
 #, c-format
 msgid "No URL field specified"
 msgstr "Tiada medan URL dinyatakan"
 
-#: ../thunar/thunar-file.c:1693
+#: ../lunar/lunar-file.c:1693
 msgid "Invalid desktop file"
 msgstr "Fail dekstop tidak sah"
 
 #. TRANSLATORS: this will result in "<path> on <hostname>"
-#: ../thunar/thunar-gio-extensions.c:369
+#: ../lunar/lunar-gio-extensions.c:369
 #, c-format
 msgid "%s on %s"
 msgstr "%s pada %s"
 
 #. free disk space string
-#: ../thunar/thunar-gio-extensions.c:480
+#: ../lunar/lunar-gio-extensions.c:480
 #, c-format
 msgid "%s of %s free (%d%% used)"
 msgstr "%s dari %s bebas (%d%% digunakan)"
 
-#: ../thunar/thunar-history.c:296
+#: ../lunar/lunar-history.c:296
 msgid "The item will be removed from the history"
 msgstr "Item akan dibuang dari sejarah"
 
-#: ../thunar/thunar-history.c:308
+#: ../lunar/lunar-history.c:308
 #, c-format
 msgid "Could not find \"%s\""
 msgstr "Tidak dapat cari \"%s\""
 
-#: ../thunar/thunar-icon-view.c:164
+#: ../lunar/lunar-icon-view.c:164
 msgid "Icon based directory listing"
 msgstr "Ikon berasaskan penyenaraian direktori"
 
-#: ../thunar/thunar-icon-view.c:165
+#: ../lunar/lunar-icon-view.c:165
 msgid "Icon view"
 msgstr "Paparan ikon"
 
-#: ../thunar/thunar-io-jobs.c:111
+#: ../lunar/lunar-io-jobs.c:111
 #, c-format
 msgid "Error removing file: %s"
 msgstr ""
 
-#: ../thunar/thunar-io-jobs.c:214 ../thunar/thunar-io-jobs.c:369
+#: ../lunar/lunar-io-jobs.c:214 ../lunar/lunar-io-jobs.c:369
 #, c-format
 msgid "The file \"%s\" already exists"
 msgstr "Fail \"%s\" sudah wujud"
 
-#: ../thunar/thunar-io-jobs.c:237
+#: ../lunar/lunar-io-jobs.c:237
 #, c-format
 msgid "Failed to create empty file \"%s\": %s"
 msgstr "Gagal mencipta fail kosong \"%s\": %s"
 
-#: ../thunar/thunar-io-jobs.c:392
+#: ../lunar/lunar-io-jobs.c:392
 #, c-format
 msgid "Failed to create directory \"%s\": %s"
 msgstr "Gagal mencipta direktori \"%s\": %s"
 
 #. tell the user that we're preparing to unlink the files
-#: ../thunar/thunar-io-jobs.c:459
+#: ../lunar/lunar-io-jobs.c:459
 msgid "Preparing..."
 msgstr "Menyediakan..."
 
-#: ../thunar/thunar-io-jobs.c:537
+#: ../lunar/lunar-io-jobs.c:537
 #, c-format
 msgid "Could not delete file \"%s\": %s"
 msgstr "Tidak dapat padam fail \"%s\": %s"
 
-#: ../thunar/thunar-io-jobs.c:640
+#: ../lunar/lunar-io-jobs.c:640
 #, c-format
 msgid "Could not create symbolic link to \"%s\" because it is not a local file"
 msgstr "Tidak dapat cipta pautan simbolik ke \"%s\" kerana ia bukanlah fail setempat"
 
 #. generate a useful error message
-#: ../thunar/thunar-io-jobs.c:1015
+#: ../lunar/lunar-io-jobs.c:1015
 #, c-format
 msgid "Failed to change the owner of \"%s\": %s"
 msgstr "Gagal menukar pemilik \"%s\": %s"
 
-#: ../thunar/thunar-io-jobs.c:1016
+#: ../lunar/lunar-io-jobs.c:1016
 #, c-format
 msgid "Failed to change the group of \"%s\": %s"
 msgstr "Gagal menukar kumpulan \"%s\": %s"
 
-#: ../thunar/thunar-io-jobs.c:1171
+#: ../lunar/lunar-io-jobs.c:1171
 #, c-format
 msgid "Failed to change the permissions of \"%s\": %s"
 msgstr "Gagal menukar keizinan \"%s\": %s"
 
 #. I18N: put " (copy #)" between basename and extension
-#: ../thunar/thunar-io-jobs-util.c:106 ../thunar/thunar-io-jobs-util.c:212
+#: ../lunar/lunar-io-jobs-util.c:106 ../lunar/lunar-io-jobs-util.c:212
 #, c-format
 msgid "%s (copy %u)%s"
 msgstr "%s (salinan %u)%s"
 
 #. I18N: put " (copy #)" after filename (for files without extension)
-#: ../thunar/thunar-io-jobs-util.c:112 ../thunar/thunar-io-jobs-util.c:218
+#: ../lunar/lunar-io-jobs-util.c:112 ../lunar/lunar-io-jobs-util.c:218
 #, c-format
 msgid "%s (copy %u)"
 msgstr "%s (salinan %u)"
 
 #. I18N: name for first link to basename
-#: ../thunar/thunar-io-jobs-util.c:121 ../thunar/thunar-list-model.c:792
-#: ../thunar/thunar-list-model.c:1633 ../thunar/thunar-list-model.c:1644
-#: ../thunar/thunar-properties-dialog.c:1010
+#: ../lunar/lunar-io-jobs-util.c:121 ../lunar/lunar-list-model.c:792
+#: ../lunar/lunar-list-model.c:1633 ../lunar/lunar-list-model.c:1644
+#: ../lunar/lunar-properties-dialog.c:1010
 #, c-format
 msgid "link to %s"
 msgstr "paut ke %s"
 
 #. I18N: name for nth link to basename
-#: ../thunar/thunar-io-jobs-util.c:126
+#: ../lunar/lunar-io-jobs-util.c:126
 #, c-format
 msgid "link %u to %s"
 msgstr "paut %u ke %s"
 
-#: ../thunar/thunar-job.c:304
+#: ../lunar/lunar-job.c:304
 #, c-format
 msgid ""
 "The file \"%s\" already exists. Would you like to replace it?\n"
@@ -1021,33 +1021,33 @@ msgid ""
 "If you replace an existing file, its contents will be overwritten."
 msgstr "Fail \"%s\" sudah wujud. Anda mahu gantikannya?\n\nJika anda ganti fail sedia ada, kandungannya akan ditulis-ganti."
 
-#: ../thunar/thunar-job.c:386
+#: ../lunar/lunar-job.c:386
 msgid "Do you want to overwrite it?"
 msgstr "Anda mahu menuliganti ia?"
 
-#: ../thunar/thunar-job.c:443
+#: ../lunar/lunar-job.c:443
 msgid "Do you want to permanently delete it?"
 msgstr "Anda mahu memadamnya secara kekal?"
 
-#: ../thunar/thunar-job.c:497
+#: ../lunar/lunar-job.c:497
 msgid "Do you want to create it?"
 msgstr "Anda mahu cipta ia?"
 
-#: ../thunar/thunar-job.c:605
+#: ../lunar/lunar-job.c:605
 msgid "Do you want to skip it?"
 msgstr "Anda mahu langkau ia?"
 
-#: ../thunar/thunar-job.c:654
+#: ../lunar/lunar-job.c:654
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
 msgstr "Ruang dalam destinasi tidak mencukupi. Cuba buang fail untuk dapatkan lagi ruang."
 
-#: ../thunar/thunar-launcher.c:243
+#: ../lunar/lunar-launcher.c:243
 msgid "Open With Other _Application..."
 msgstr "Buka Dengan _Aplikasi Lain..."
 
-#: ../thunar/thunar-launcher.c:243 ../thunar/thunar-launcher.c:2843
+#: ../lunar/lunar-launcher.c:243 ../lunar/lunar-launcher.c:2843
 msgid "Choose another application with which to open the selected file"
 msgstr "Pilih aplikasi lain yang akan membuka fail terpilih"
 
@@ -1055,335 +1055,335 @@ msgstr "Pilih aplikasi lain yang akan membuka fail terpilih"
 #. possible to automatically migrate to new accel paths.
 #. Waiting for https://gitlab.gnome.org/GNOME/gtk/issues/2375 to be able to
 #. fix that
-#: ../thunar/thunar-launcher.c:247
+#: ../lunar/lunar-launcher.c:247
 msgid "_Send To"
 msgstr "_Hantar Ke"
 
-#: ../thunar/thunar-launcher.c:250
+#: ../lunar/lunar-launcher.c:250
 msgid "_Properties..."
 msgstr "Si_fat..."
 
-#: ../thunar/thunar-launcher.c:250
+#: ../lunar/lunar-launcher.c:250
 msgid "View the properties of the selected file"
 msgstr "Lihat sifat bagi fail terpilih"
 
-#: ../thunar/thunar-launcher.c:251 ../thunar/thunar-launcher.c:1354
+#: ../lunar/lunar-launcher.c:251 ../lunar/lunar-launcher.c:1354
 msgid "Ma_ke Link"
 msgid_plural "Ma_ke Links"
 msgstr[0] "_Jadikan Pautan"
 
-#: ../thunar/thunar-launcher.c:252
+#: ../lunar/lunar-launcher.c:252
 msgid "Du_plicate"
 msgstr "Gan_da Duakan"
 
-#: ../thunar/thunar-launcher.c:253
+#: ../lunar/lunar-launcher.c:253
 msgid "_Rename..."
 msgstr "_Nama Semula..."
 
-#: ../thunar/thunar-launcher.c:254
+#: ../lunar/lunar-launcher.c:254
 msgid "Delete all files and folders in the Trash"
 msgstr "Padam semua fail dan folder dalam Tong Sampah"
 
-#: ../thunar/thunar-launcher.c:255
+#: ../lunar/lunar-launcher.c:255
 msgid "Create _Folder..."
 msgstr "Cipta _Folder..."
 
-#: ../thunar/thunar-launcher.c:255
+#: ../lunar/lunar-launcher.c:255
 msgid "Create an empty folder within the current folder"
 msgstr "Cipta folder kosong di dalam folder semasa"
 
-#: ../thunar/thunar-launcher.c:256
+#: ../lunar/lunar-launcher.c:256
 msgid "Create _Document"
 msgstr "Cipta _Dokumen"
 
-#: ../thunar/thunar-launcher.c:256
+#: ../lunar/lunar-launcher.c:256
 msgid "Create a new document from a template"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:258
+#: ../lunar/lunar-launcher.c:258
 msgid "_Restore"
 msgstr "P_ulih"
 
-#: ../thunar/thunar-launcher.c:259
+#: ../lunar/lunar-launcher.c:259
 msgid "Mo_ve to Trash"
 msgstr "A_lih ke Tong Sampah"
 
-#: ../thunar/thunar-launcher.c:265
+#: ../lunar/lunar-launcher.c:265
 msgid "_Paste"
 msgstr "_Tampal"
 
-#: ../thunar/thunar-launcher.c:265
+#: ../lunar/lunar-launcher.c:265
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr "Alih atau salin fail dipilih terdahulu dengan perintah Potong atau Salin"
 
-#: ../thunar/thunar-launcher.c:266
+#: ../lunar/lunar-launcher.c:266
 msgid "_Paste Into Folder"
 msgstr "_Tampal Ke Dalam Folder"
 
-#: ../thunar/thunar-launcher.c:266
+#: ../lunar/lunar-launcher.c:266
 msgid ""
 "Move or copy files previously selected by a Cut or Copy command into the "
 "selected folder"
 msgstr "Alih atau salin fail dipilih terdahulu dengan perintah Potong atau Salin ke dalam folder terpilih"
 
-#: ../thunar/thunar-launcher.c:267
+#: ../lunar/lunar-launcher.c:267
 msgid "_Copy"
 msgstr "_Salin"
 
-#: ../thunar/thunar-launcher.c:267
+#: ../lunar/lunar-launcher.c:267
 msgid "Prepare the selected files to be copied with a Paste command"
 msgstr "Sediakan fail terpilih untuk disalin dengan perintah Tampal"
 
-#: ../thunar/thunar-launcher.c:268
+#: ../lunar/lunar-launcher.c:268
 msgid "Cu_t"
 msgstr "Po_tong"
 
-#: ../thunar/thunar-launcher.c:268
+#: ../lunar/lunar-launcher.c:268
 msgid "Prepare the selected files to be moved with a Paste command"
 msgstr "Sediakan fail terpilih untuk dialih dengan perintah Tampal"
 
 #. append the "Mount" item
-#: ../thunar/thunar-launcher.c:270 ../thunar/thunar-shortcuts-view.c:1158
+#: ../lunar/lunar-launcher.c:270 ../lunar/lunar-shortcuts-view.c:1158
 msgid "_Mount"
 msgstr "L_ekap"
 
-#: ../thunar/thunar-launcher.c:270
+#: ../lunar/lunar-launcher.c:270
 msgid "Mount the selected device"
 msgstr ""
 
 #. append the "Unmount" item
-#: ../thunar/thunar-launcher.c:271 ../thunar/thunar-shortcuts-view.c:1164
-#: ../thunar/thunar-shortcuts-view.c:1212
+#: ../lunar/lunar-launcher.c:271 ../lunar/lunar-shortcuts-view.c:1164
+#: ../lunar/lunar-shortcuts-view.c:1212
 msgid "_Unmount"
 msgstr "_Nyahlekap"
 
-#: ../thunar/thunar-launcher.c:271
+#: ../lunar/lunar-launcher.c:271
 msgid "Unmount the selected device"
 msgstr ""
 
 #. append the "Eject" (safely remove drive) item
-#: ../thunar/thunar-launcher.c:272 ../thunar/thunar-shortcuts-view.c:1170
+#: ../lunar/lunar-launcher.c:272 ../lunar/lunar-shortcuts-view.c:1170
 msgid "_Eject"
 msgstr "_Lenting"
 
-#: ../thunar/thunar-launcher.c:272
+#: ../lunar/lunar-launcher.c:272
 msgid "Eject the selected device"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:827
+#: ../lunar/lunar-launcher.c:827
 #, c-format
 msgid "Failed to open file \"%s\""
 msgstr "Gagal membuka fail \"%s\""
 
 #. we can just tell that n files failed to open
-#: ../thunar/thunar-launcher.c:833
+#: ../lunar/lunar-launcher.c:833
 #, c-format
 msgid "Failed to open %d file"
 msgid_plural "Failed to open %d files"
 msgstr[0] "Gagal membuka %d fail"
 
-#: ../thunar/thunar-launcher.c:872
+#: ../lunar/lunar-launcher.c:872
 msgid "Are you sure you want to open all folders?"
 msgstr "Anda pasti mahu membuk semua folder?"
 
-#: ../thunar/thunar-launcher.c:874
+#: ../lunar/lunar-launcher.c:874
 #, c-format
 msgid "This will open %d separate file manager window."
 msgid_plural "This will open %d separate file manager windows."
 msgstr[0] "Ini akan membuka %d tetingkap pengurus fail secara berasingan."
 
-#: ../thunar/thunar-launcher.c:877
+#: ../lunar/lunar-launcher.c:877
 #, c-format
 msgid "Open %d New Window"
 msgid_plural "Open %d New Windows"
 msgstr[0] "Buka %d Tetingkap Baharu"
 
-#: ../thunar/thunar-launcher.c:948 ../thunar/thunar-launcher.c:1653
-#: ../thunar/thunar-shortcuts-view.c:1767
-#: ../thunar/thunar-shortcuts-view.c:2009
+#: ../lunar/lunar-launcher.c:948 ../lunar/lunar-launcher.c:1653
+#: ../lunar/lunar-shortcuts-view.c:1767
+#: ../lunar/lunar-shortcuts-view.c:2009
 #, c-format
 msgid "Failed to mount \"%s\""
 msgstr "Gagal melekap \"%s\""
 
-#: ../thunar/thunar-launcher.c:1308
+#: ../lunar/lunar-launcher.c:1308
 msgid "Open the selected file"
 msgid_plural "Open the selected files"
 msgstr[0] "Buka fail terpilih"
 
-#: ../thunar/thunar-launcher.c:1312
+#: ../lunar/lunar-launcher.c:1312
 msgid "_Execute"
 msgstr "_Lakukan"
 
-#: ../thunar/thunar-launcher.c:1312
+#: ../lunar/lunar-launcher.c:1312
 msgid "Execute the selected file"
 msgid_plural "Execute the selected files"
 msgstr[0] "Lakukan fail terpilih"
 
-#: ../thunar/thunar-launcher.c:1317
+#: ../lunar/lunar-launcher.c:1317
 #, c-format
 msgid "Open in New _Tab"
 msgid_plural "Open in %d New _Tabs"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1318
+#: ../lunar/lunar-launcher.c:1318
 #, c-format
 msgid "Open the selected directory in new tab"
 msgid_plural "Open the selected directories in %d new tabs"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1327
+#: ../lunar/lunar-launcher.c:1327
 #, c-format
 msgid "Open in New _Window"
 msgid_plural "Open in %d New _Windows"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1328
+#: ../lunar/lunar-launcher.c:1328
 #, c-format
 msgid "Open the selected directory in new window"
 msgid_plural "Open the selected directories in %d new windows"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1355
+#: ../lunar/lunar-launcher.c:1355
 msgid "Create a symbolic link for the selected file"
 msgid_plural "Create a symbolic link for each selected file"
 msgstr[0] "Cipta pautan simbolik bagi setiap fail terpilih"
 
-#: ../thunar/thunar-launcher.c:1379
+#: ../lunar/lunar-launcher.c:1379
 msgid "Rename the selected file"
 msgid_plural "Rename the selected files"
 msgstr[0] "Nama semula fail terpilih"
 
-#: ../thunar/thunar-launcher.c:1389
+#: ../lunar/lunar-launcher.c:1389
 msgid "Restore the selected file to its original location"
 msgid_plural "Restore the selected files to its original location"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1406
+#: ../lunar/lunar-launcher.c:1406
 msgid "Move the selected file to the Trash"
 msgid_plural "Move the selected files to the Trash"
 msgstr[0] "Alih fail terpilih ke dalam Tong Sampah"
 
-#: ../thunar/thunar-launcher.c:1423
+#: ../lunar/lunar-launcher.c:1423
 msgid "Permanently delete the selected file"
 msgid_plural "Permanently delete the selected files"
 msgstr[0] "Padan fail terpilih secara kekal"
 
-#: ../thunar/thunar-launcher.c:1473
+#: ../lunar/lunar-launcher.c:1473
 msgid "Cut the selection"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:1483
+#: ../lunar/lunar-launcher.c:1483
 msgid "Prepare the selected file to be moved with a Paste command"
 msgid_plural "Prepare the selected files to be moved with a Paste command"
 msgstr[0] "Sediakan fail terpilih untuk dialih dengan perintah Tampal"
 
-#: ../thunar/thunar-launcher.c:1497
+#: ../lunar/lunar-launcher.c:1497
 msgid "Copy the selection"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:1507
+#: ../lunar/lunar-launcher.c:1507
 msgid "Prepare the selected file to be copied with a Paste command"
 msgid_plural "Prepare the selected files to be copied with a Paste command"
 msgstr[0] "Sediakan fail terpilih untuk disalin dengan perintah Tampal"
 
-#: ../thunar/thunar-launcher.c:1530
+#: ../lunar/lunar-launcher.c:1530
 msgid "Paste the clipboard"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:1759
+#: ../lunar/lunar-launcher.c:1759
 msgid "Side Pane (Create Shortcut)"
 msgid_plural "Side Pane (Create Shortcuts)"
 msgstr[0] "Anak Tetingkap Sisi (Cipta Pintasan)"
 
-#: ../thunar/thunar-launcher.c:1760
+#: ../lunar/lunar-launcher.c:1760
 msgid "Add the selected folder to the shortcuts side pane"
 msgid_plural "Add the selected folders to the shortcuts side pane"
 msgstr[0] "Tambah folder terpilih ke anak tetingkap sisi pintasan"
 
-#: ../thunar/thunar-launcher.c:1779
+#: ../lunar/lunar-launcher.c:1779
 msgid "Desktop (Create Link)"
 msgid_plural "Desktop (Create Links)"
 msgstr[0] "Desktop (Cipta Pautan)"
 
-#: ../thunar/thunar-launcher.c:1780
+#: ../lunar/lunar-launcher.c:1780
 msgid "Create a link to the selected file on the desktop"
 msgid_plural "Create links to the selected files on the desktop"
 msgstr[0] "Cipta pautan ke fail terpilih diatas desktop"
 
-#: ../thunar/thunar-launcher.c:1801 ../thunar/thunar-launcher.c:1839
+#: ../lunar/lunar-launcher.c:1801 ../lunar/lunar-launcher.c:1839
 #, c-format
 msgid "Send the selected file to \"%s\""
 msgid_plural "Send the selected files to \"%s\""
 msgstr[0] "Hantar fail terpilih ke \"%s\""
 
-#: ../thunar/thunar-launcher.c:2312
+#: ../lunar/lunar-launcher.c:2312
 msgid "New Empty File"
 msgstr "Fail Kosong Baharu"
 
-#: ../thunar/thunar-launcher.c:2313
+#: ../lunar/lunar-launcher.c:2313
 msgid "New Empty File..."
 msgstr "Fail Kosong Baharu..."
 
-#: ../thunar/thunar-launcher.c:2512
+#: ../lunar/lunar-launcher.c:2512
 #, c-format
 msgid "No templates installed in \"%s\""
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:2525
+#: ../lunar/lunar-launcher.c:2525
 msgid "_Empty File"
 msgstr "Fail _Kosong"
 
-#: ../thunar/thunar-launcher.c:2631 ../thunar/thunar-shortcuts-view.c:1933
+#: ../lunar/lunar-launcher.c:2631 ../lunar/lunar-shortcuts-view.c:1933
 #, c-format
 msgid "Failed to eject \"%s\""
 msgstr "Gagal melenting \"%s\""
 
-#: ../thunar/thunar-launcher.c:2687 ../thunar/thunar-shortcuts-view.c:2078
+#: ../lunar/lunar-launcher.c:2687 ../lunar/lunar-shortcuts-view.c:2078
 #, c-format
 msgid "Failed to unmount \"%s\""
 msgstr "Gagal menyahlekap \"%s\""
 
-#: ../thunar/thunar-launcher.c:2745
+#: ../lunar/lunar-launcher.c:2745
 #, c-format
 msgid "Open With \"%s\""
 msgstr "Buka Dengan \"%s\""
 
-#: ../thunar/thunar-launcher.c:2746 ../thunar/thunar-launcher.c:2813
+#: ../lunar/lunar-launcher.c:2746 ../lunar/lunar-launcher.c:2813
 #, c-format
 msgid "Use \"%s\" to open the selected file"
 msgid_plural "Use \"%s\" to open the selected files"
 msgstr[0] "Guna \"%s\" untuk buka fail terpilih"
 
-#: ../thunar/thunar-launcher.c:2812
+#: ../lunar/lunar-launcher.c:2812
 #, c-format
 msgid "_Open With \"%s\""
 msgstr "_Buka Dengan \"%s\""
 
 #. we can only show a generic "Open" action
-#: ../thunar/thunar-launcher.c:2832
+#: ../lunar/lunar-launcher.c:2832
 #, c-format
 msgid "_Open With Default Applications"
 msgstr "_Buka Dengan Aplikasi Lalai"
 
-#: ../thunar/thunar-launcher.c:2833
+#: ../lunar/lunar-launcher.c:2833
 #, c-format
 msgid "Open the selected file with the default application"
 msgid_plural "Open the selected files with the default applications"
 msgstr[0] "Buka fail terpilih dengan aplikasi lalai"
 
-#: ../thunar/thunar-list-model.c:2360
+#: ../lunar/lunar-list-model.c:2360
 #, c-format
 msgid "%d file: %s"
 msgid_plural "%d files: %s"
 msgstr[0] "%d fail: %s"
 
-#: ../thunar/thunar-list-model.c:2368
+#: ../lunar/lunar-list-model.c:2368
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
 msgstr[0] "%d folder"
 
-#: ../thunar/thunar-list-model.c:2374
+#: ../lunar/lunar-list-model.c:2374
 #, c-format
 msgid "0 items"
 msgstr "0 item"
@@ -1393,45 +1393,45 @@ msgstr "0 item"
 #. * is between the message about the number of folders
 #. * and the number of items in the selection
 #. TRANSLATORS: string moved from line 2573 to here
-#: ../thunar/thunar-list-model.c:2386
+#: ../lunar/lunar-list-model.c:2386
 #, c-format
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../thunar/thunar-list-model.c:2465
+#: ../lunar/lunar-list-model.c:2465
 #, c-format
 msgid "%s, Free space: %s"
 msgstr "%s, Ruang bebas: %s"
 
-#: ../thunar/thunar-list-model.c:2490
+#: ../lunar/lunar-list-model.c:2490
 #, c-format
 msgid "\"%s\": broken link"
 msgstr "Pautan rosak: \"%s\""
 
-#: ../thunar/thunar-list-model.c:2495
+#: ../lunar/lunar-list-model.c:2495
 #, c-format
 msgid "\"%s\": %s link to %s"
 msgstr "\"%s\": %s dipaut ke %s"
 
-#: ../thunar/thunar-list-model.c:2501
+#: ../lunar/lunar-list-model.c:2501
 #, c-format
 msgid "\"%s\": shortcut"
 msgstr "Pintasan: \"%s\""
 
-#: ../thunar/thunar-list-model.c:2505
+#: ../lunar/lunar-list-model.c:2505
 #, c-format
 msgid "\"%s\": mountable"
 msgstr "Boleh lekap: \"%s\""
 
 #. I18N, first %s is the display name of the file, 2nd the file size, 3rd the
 #. content type
-#: ../thunar/thunar-list-model.c:2512
+#: ../lunar/lunar-list-model.c:2512
 #, c-format
 msgid "\"%s\": %s %s"
 msgstr "\"%s\": %s %s"
 
 #. I18N, first %s is the display name of the file, second the content type
-#: ../thunar/thunar-list-model.c:2521
+#: ../lunar/lunar-list-model.c:2521
 #, c-format
 msgid "\"%s\": %s"
 msgstr "\"%s\": %s"
@@ -1441,334 +1441,334 @@ msgstr "\"%s\": %s"
 #. * where the trashed file/folder was located before it was moved to the
 #. trash), otherwise the
 #. * properties dialog width will be messed up.
-#: ../thunar/thunar-list-model.c:2531 ../thunar/thunar-properties-dialog.c:401
+#: ../lunar/lunar-list-model.c:2531 ../lunar/lunar-properties-dialog.c:401
 msgid "Original Path:"
 msgstr "Laluan Asal:"
 
 #. append the image dimensions to the statusbar text
-#: ../thunar/thunar-list-model.c:2554
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:153
+#: ../lunar/lunar-list-model.c:2554
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:153
 msgid "Image Size:"
 msgstr "Saiz Imej:"
 
-#: ../thunar/thunar-list-model.c:2572
+#: ../lunar/lunar-list-model.c:2572
 #, c-format
 msgid "Selection: %s"
 msgstr "Pemilihan: %s"
 
-#: ../thunar/thunar-location-entry.c:200 ../thunar/thunar-window.c:373
+#: ../lunar/lunar-location-entry.c:200 ../lunar/lunar-window.c:373
 msgid "Reload the current folder"
 msgstr "Muat semula folder semasa"
 
-#: ../thunar/thunar-location-entry.c:359
+#: ../lunar/lunar-location-entry.c:359
 #, c-format
 msgid "File does not exist"
 msgstr "Fail tidak wujud"
 
-#: ../thunar/thunar-notify.c:168
+#: ../lunar/lunar-notify.c:168
 msgid "Unmounting device"
 msgstr "Menyahlekap peranti"
 
-#: ../thunar/thunar-notify.c:169
+#: ../lunar/lunar-notify.c:169
 #, c-format
 msgid ""
 "The device \"%s\" is being unmounted by the system. Please do not remove the"
 " media or disconnect the drive"
 msgstr "Peranti \"%s\" sedang dinyahlekap oleh sistem. Sila jangan keluarkan media atau tanggalkan pemacu"
 
-#: ../thunar/thunar-notify.c:175 ../thunar/thunar-notify.c:214
+#: ../lunar/lunar-notify.c:175 ../lunar/lunar-notify.c:214
 msgid "Writing data to device"
 msgstr "Menulis data ke peranti"
 
-#: ../thunar/thunar-notify.c:176 ../thunar/thunar-notify.c:215
+#: ../lunar/lunar-notify.c:176 ../lunar/lunar-notify.c:215
 #, c-format
 msgid ""
 "There is data that needs to be written to the device \"%s\" before it can be"
 " removed. Please do not remove the media or disconnect the drive"
 msgstr "Terdapat data yang perlu ditulis ke peranti \"%s\" sebelum ia boleh dikeluarkan. Sila jangan keluarkan media atau tanggalkan pemacu"
 
-#: ../thunar/thunar-notify.c:208
+#: ../lunar/lunar-notify.c:208
 msgid "Ejecting device"
 msgstr "Melenting peranti"
 
-#: ../thunar/thunar-notify.c:209
+#: ../lunar/lunar-notify.c:209
 #, c-format
 msgid "The device \"%s\" is being ejected. This may take some time"
 msgstr "Peranti \"%s\" sedang dilenting. Ia mengambil sedikit masa"
 
-#: ../thunar/thunar-path-entry.c:205
+#: ../lunar/lunar-path-entry.c:205
 msgid "Icon size"
 msgstr "Saiz ikon"
 
-#: ../thunar/thunar-path-entry.c:206
+#: ../lunar/lunar-path-entry.c:206
 msgid "The icon size for the path entry"
 msgstr "Saiz ikon bagi masukan laluan"
 
-#: ../thunar/thunar-permissions-chooser.c:221
+#: ../lunar/lunar-permissions-chooser.c:221
 msgid "Owner:"
 msgstr "Pemilik:"
 
-#: ../thunar/thunar-permissions-chooser.c:240
+#: ../lunar/lunar-permissions-chooser.c:240
 msgid "_Access:"
 msgstr "_Capaian:"
 
-#: ../thunar/thunar-permissions-chooser.c:266
+#: ../lunar/lunar-permissions-chooser.c:266
 msgid "Gro_up:"
 msgstr "Ku_mpulan:"
 
-#: ../thunar/thunar-permissions-chooser.c:286
+#: ../lunar/lunar-permissions-chooser.c:286
 msgid "Acc_ess:"
 msgstr "Ca_pai:"
 
-#: ../thunar/thunar-permissions-chooser.c:312
+#: ../lunar/lunar-permissions-chooser.c:312
 msgid "Others"
 msgstr "Lain-lain"
 
-#: ../thunar/thunar-permissions-chooser.c:320
+#: ../lunar/lunar-permissions-chooser.c:320
 msgid "Acce_ss:"
 msgstr "Ca_paian:"
 
-#: ../thunar/thunar-permissions-chooser.c:346
+#: ../lunar/lunar-permissions-chooser.c:346
 msgid "Program:"
 msgstr "Program:"
 
-#: ../thunar/thunar-permissions-chooser.c:352
+#: ../lunar/lunar-permissions-chooser.c:352
 msgid "Allow this file to _run as a program"
 msgstr "Benarkan fail ini di_jalankan sebagai program"
 
-#: ../thunar/thunar-permissions-chooser.c:372
+#: ../lunar/lunar-permissions-chooser.c:372
 msgid ""
 "Allowing untrusted programs to run presents a security risk to your system."
 msgstr "Membenarkan program yang tidak dipercayai dijalankan boleh mengundang risiko keselamatan kepada sistem anda."
 
-#: ../thunar/thunar-permissions-chooser.c:388
+#: ../lunar/lunar-permissions-chooser.c:388
 msgid ""
 "The folder permissions are inconsistent, you may not be able to work with "
 "files in this folder."
 msgstr "Keizinan folder adalah tidak konsisten, anda tidak boleh mengurus fail di dalam folder ini."
 
-#: ../thunar/thunar-permissions-chooser.c:402
+#: ../lunar/lunar-permissions-chooser.c:402
 msgid "Correct _folder permissions..."
 msgstr "Betulkan keizinan _folder..."
 
-#: ../thunar/thunar-permissions-chooser.c:403
+#: ../lunar/lunar-permissions-chooser.c:403
 msgid "Click here to automatically fix the folder permissions."
 msgstr "Klik di sini untuk baiki keizinan folder secara automatik."
 
-#: ../thunar/thunar-permissions-chooser.c:414
+#: ../lunar/lunar-permissions-chooser.c:414
 msgid "Please wait..."
 msgstr "Tunggu sebentar..."
 
-#: ../thunar/thunar-permissions-chooser.c:419
+#: ../lunar/lunar-permissions-chooser.c:419
 msgid "Stop applying permissions recursively."
 msgstr "Henti melaksanakan keizinan secara rekursif."
 
 #. allocate the question dialog
-#: ../thunar/thunar-permissions-chooser.c:532
+#: ../lunar/lunar-permissions-chooser.c:532
 msgid "Question"
 msgstr "Soalan"
 
-#: ../thunar/thunar-permissions-chooser.c:556
+#: ../lunar/lunar-permissions-chooser.c:556
 msgid "Apply recursively?"
 msgstr "Laksana secara rekursif?"
 
-#: ../thunar/thunar-permissions-chooser.c:562
+#: ../lunar/lunar-permissions-chooser.c:562
 msgid ""
 "Do you want to apply your changes recursively to\n"
 "all files and subfolders below the selected folder?"
 msgstr "Anda mahu laksana perubahan yang anda buat\nsecara rekursif ke semua fail dan folder dibawah\nfolder terpilih?"
 
-#: ../thunar/thunar-permissions-chooser.c:567
+#: ../lunar/lunar-permissions-chooser.c:567
 msgid "Do _not ask me again"
 msgstr "_Jangan tanya saya lagi"
 
-#: ../thunar/thunar-permissions-chooser.c:568
+#: ../lunar/lunar-permissions-chooser.c:568
 msgid ""
 "If you select this option your choice will be remembered and you won't be "
 "asked again. You can use the preferences dialog to alter your choice "
 "afterwards."
 msgstr "Jika anda pilih pilihan ini pilihan anda akan diingati dan anda tidak akan ditanya lagi. Anda boleh guna dialog keutamaan untuk mengubah pilihan anda selepas ini."
 
-#: ../thunar/thunar-permissions-chooser.c:930
+#: ../lunar/lunar-permissions-chooser.c:930
 msgid "Mixed file owners"
 msgstr "Pemilik fail bercampur"
 
-#: ../thunar/thunar-permissions-chooser.c:930
+#: ../lunar/lunar-permissions-chooser.c:930
 msgid "Unknown file owner"
 msgstr "Pemilik fail tidak diketahui"
 
-#: ../thunar/thunar-permissions-chooser.c:1010
-#: ../plugins/thunar-uca/thunar-uca-editor.c:411
-#: ../plugins/thunar-uca/thunar-uca-editor.c:617
+#: ../lunar/lunar-permissions-chooser.c:1010
+#: ../plugins/lunar-uca/lunar-uca-editor.c:411
+#: ../plugins/lunar-uca/lunar-uca-editor.c:617
 msgid "None"
 msgstr "Tiada"
 
 #. 0000
-#: ../thunar/thunar-permissions-chooser.c:1011
+#: ../lunar/lunar-permissions-chooser.c:1011
 msgid "Write only"
 msgstr "Tulis sahaja"
 
 #. 0002
-#: ../thunar/thunar-permissions-chooser.c:1012
+#: ../lunar/lunar-permissions-chooser.c:1012
 msgid "Read only"
 msgstr "Baca sahaja"
 
 #. 0004
-#: ../thunar/thunar-permissions-chooser.c:1013
+#: ../lunar/lunar-permissions-chooser.c:1013
 msgid "Read & Write"
 msgstr "Baca & Tulis"
 
-#: ../thunar/thunar-permissions-chooser.c:1015
+#: ../lunar/lunar-permissions-chooser.c:1015
 msgid "Varying (no change)"
 msgstr "Berbeza-beza (tiada perubahan)"
 
-#: ../thunar/thunar-permissions-chooser.c:1142
+#: ../lunar/lunar-permissions-chooser.c:1142
 msgid "Correct folder permissions automatically?"
 msgstr "Betulkan keizinan folder secara automatik?"
 
-#: ../thunar/thunar-permissions-chooser.c:1144
+#: ../lunar/lunar-permissions-chooser.c:1144
 msgid "Correct _folder permissions"
 msgstr "Betulkan keizinan _folder"
 
-#: ../thunar/thunar-permissions-chooser.c:1146
+#: ../lunar/lunar-permissions-chooser.c:1146
 msgid ""
 "The folder permissions will be reset to a consistent state. Only users "
 "allowed to read the contents of this folder will be allowed to enter the "
 "folder afterwards."
 msgstr "Keizinan folder akan ditetap semula ke keadaan konsisten. Hanya pengguna dibenarkan baca kandungan folder ini akan dibenarkan memasuki folder selepas itu."
 
-#: ../thunar/thunar-preferences-dialog.c:285
+#: ../lunar/lunar-preferences-dialog.c:285
 msgid "File Manager Preferences"
 msgstr "Keutamaan Pengurus Fail"
 
 #. Display
-#: ../thunar/thunar-preferences-dialog.c:322
+#: ../lunar/lunar-preferences-dialog.c:322
 msgid "Display"
 msgstr "Papar"
 
-#: ../thunar/thunar-preferences-dialog.c:332
+#: ../lunar/lunar-preferences-dialog.c:332
 msgid "View Settings"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:345
+#: ../lunar/lunar-preferences-dialog.c:345
 msgid "View _new folders using:"
 msgstr "Lihat folder _baharu menggunakan:"
 
-#: ../thunar/thunar-preferences-dialog.c:351
-#: ../thunar/thunar-preferences-dialog.c:419
+#: ../lunar/lunar-preferences-dialog.c:351
+#: ../lunar/lunar-preferences-dialog.c:419
 msgid "Icon View"
 msgstr "Paparan Ikon"
 
-#: ../thunar/thunar-preferences-dialog.c:352
+#: ../lunar/lunar-preferences-dialog.c:352
 msgid "List View"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:353
+#: ../lunar/lunar-preferences-dialog.c:353
 msgid "Compact View"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:354
+#: ../lunar/lunar-preferences-dialog.c:354
 msgid "Last Active View"
 msgstr "Paparan Aktif Terakhir"
 
-#: ../thunar/thunar-preferences-dialog.c:363
+#: ../lunar/lunar-preferences-dialog.c:363
 msgid "Show thumbnails:"
 msgstr "Tunjuk lakaran kenit:"
 
-#: ../thunar/thunar-preferences-dialog.c:369
-#: ../thunar/thunar-preferences-dialog.c:785
+#: ../lunar/lunar-preferences-dialog.c:369
+#: ../lunar/lunar-preferences-dialog.c:785
 msgid "Never"
 msgstr "Tidak Sesekali"
 
-#: ../thunar/thunar-preferences-dialog.c:370
-#: ../thunar/thunar-preferences-dialog.c:783
+#: ../lunar/lunar-preferences-dialog.c:370
+#: ../lunar/lunar-preferences-dialog.c:783
 msgid "Local Files Only"
 msgstr "Fail Setempat Sahaja"
 
-#: ../thunar/thunar-preferences-dialog.c:371
-#: ../thunar/thunar-preferences-dialog.c:782
+#: ../lunar/lunar-preferences-dialog.c:371
+#: ../lunar/lunar-preferences-dialog.c:782
 msgid "Always"
 msgstr "Sentiasa"
 
-#: ../thunar/thunar-preferences-dialog.c:380
+#: ../lunar/lunar-preferences-dialog.c:380
 msgid "_Remember view settings for each folder"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:383
+#: ../lunar/lunar-preferences-dialog.c:383
 msgid ""
 "Select this option to remember view type, sort column, and sort order "
 "individually for each folder"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:391
+#: ../lunar/lunar-preferences-dialog.c:391
 msgid "gvfs metadata support is required"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:394
+#: ../lunar/lunar-preferences-dialog.c:394
 msgid "Draw frames around thumbnails"
 msgstr "Lukis bingkai disekeliling lakaran kenit"
 
-#: ../thunar/thunar-preferences-dialog.c:396
+#: ../lunar/lunar-preferences-dialog.c:396
 msgid "Select this option to draw black frames around thumbnails."
 msgstr "Pilih pilihan ini untuk melukis bingkai hitam disekeliling lakaran kenit."
 
-#: ../thunar/thunar-preferences-dialog.c:401
+#: ../lunar/lunar-preferences-dialog.c:401
 msgid "Sort _folders before files"
 msgstr "Isih _folder sebelum fail"
 
-#: ../thunar/thunar-preferences-dialog.c:403
+#: ../lunar/lunar-preferences-dialog.c:403
 msgid ""
 "Select this option to list folders before files when you sort a folder."
 msgstr "Pilih pilihan ini untuk senaraikan folder sebelum fail bila anda mengisih folder."
 
-#: ../thunar/thunar-preferences-dialog.c:408
+#: ../lunar/lunar-preferences-dialog.c:408
 msgid "Show file size in binary format"
 msgstr "Tunjuk saiz fail dalam format binari"
 
-#: ../thunar/thunar-preferences-dialog.c:410
+#: ../lunar/lunar-preferences-dialog.c:410
 msgid ""
 "Select this option to show file size in binary format instead of decimal."
 msgstr "Pilih pilihan ini untuk tunjuk saiz fail dalam format binari selain dari desimal."
 
-#: ../thunar/thunar-preferences-dialog.c:432
+#: ../lunar/lunar-preferences-dialog.c:432
 msgid "_Text beside icons"
 msgstr "_Teks disebelah ikon"
 
-#: ../thunar/thunar-preferences-dialog.c:434
+#: ../lunar/lunar-preferences-dialog.c:434
 msgid ""
 "Select this option to place the icon captions for items beside the icon "
 "rather than below the icon."
 msgstr "Pilih pilihan ini untuk ganti kapsyen ikon untuk item disebelah ikon berbanding dibawah ikon."
 
-#: ../thunar/thunar-preferences-dialog.c:444
+#: ../lunar/lunar-preferences-dialog.c:444
 msgid "Window icon"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:457
+#: ../lunar/lunar-preferences-dialog.c:457
 msgid "Use current folder icon"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:459
+#: ../lunar/lunar-preferences-dialog.c:459
 msgid "Select this option to use the current folder icon as window icon"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:468
+#: ../lunar/lunar-preferences-dialog.c:468
 msgid "Date"
 msgstr "Tarikh"
 
-#: ../thunar/thunar-preferences-dialog.c:481
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:214
+#: ../lunar/lunar-preferences-dialog.c:481
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:214
 msgid "_Format:"
 msgstr "_Format:"
 
 #. TRANSLATORS: custom date format
-#: ../thunar/thunar-preferences-dialog.c:494
+#: ../lunar/lunar-preferences-dialog.c:494
 msgid "Custom"
 msgstr "Suai"
 
 #. TRANSLATORS: Please do not translate the first column (specifiers),
 #. 'strftime' and of course '\n'
-#: ../thunar/thunar-preferences-dialog.c:504
+#: ../lunar/lunar-preferences-dialog.c:504
 msgid ""
 "Custom date format to apply.\n"
 "\n"
@@ -1784,117 +1784,117 @@ msgid ""
 msgstr "Format tarikh suai untuk digunakan.\n\nPenerang paling umum adalah:\nHari %d sebulan\n%m month\n%Y tahun termasuklah abad\n%H jam\n%M minit\n%S saat\n\nUntuk melihat senarai lengkap, sila rujuk man pages bagi 'strftime'"
 
 #. Side Pane
-#: ../thunar/thunar-preferences-dialog.c:522
+#: ../lunar/lunar-preferences-dialog.c:522
 msgid "Side Pane"
 msgstr "Anak Tetingkap Sisi"
 
-#: ../thunar/thunar-preferences-dialog.c:532
+#: ../lunar/lunar-preferences-dialog.c:532
 msgid "Shortcuts Pane"
 msgstr "Anak Tetingkap Pintasan"
 
-#: ../thunar/thunar-preferences-dialog.c:545
+#: ../lunar/lunar-preferences-dialog.c:545
 msgid "_Icon Size:"
 msgstr "Saiz _Ikon:"
 
-#: ../thunar/thunar-preferences-dialog.c:550
-#: ../thunar/thunar-preferences-dialog.c:598
+#: ../lunar/lunar-preferences-dialog.c:550
+#: ../lunar/lunar-preferences-dialog.c:598
 msgid "16px"
 msgstr "16px"
 
-#: ../thunar/thunar-preferences-dialog.c:551
-#: ../thunar/thunar-preferences-dialog.c:599
+#: ../lunar/lunar-preferences-dialog.c:551
+#: ../lunar/lunar-preferences-dialog.c:599
 msgid "24px"
 msgstr "24px"
 
-#: ../thunar/thunar-preferences-dialog.c:552
-#: ../thunar/thunar-preferences-dialog.c:600
+#: ../lunar/lunar-preferences-dialog.c:552
+#: ../lunar/lunar-preferences-dialog.c:600
 msgid "32px"
 msgstr "32px"
 
-#: ../thunar/thunar-preferences-dialog.c:553
-#: ../thunar/thunar-preferences-dialog.c:601
+#: ../lunar/lunar-preferences-dialog.c:553
+#: ../lunar/lunar-preferences-dialog.c:601
 msgid "48px"
 msgstr "48px"
 
-#: ../thunar/thunar-preferences-dialog.c:554
-#: ../thunar/thunar-preferences-dialog.c:602
+#: ../lunar/lunar-preferences-dialog.c:554
+#: ../lunar/lunar-preferences-dialog.c:602
 msgid "64px"
 msgstr "64px"
 
-#: ../thunar/thunar-preferences-dialog.c:555
-#: ../thunar/thunar-preferences-dialog.c:603
+#: ../lunar/lunar-preferences-dialog.c:555
+#: ../lunar/lunar-preferences-dialog.c:603
 msgid "96px"
 msgstr "96px"
 
-#: ../thunar/thunar-preferences-dialog.c:556
-#: ../thunar/thunar-preferences-dialog.c:604
+#: ../lunar/lunar-preferences-dialog.c:556
+#: ../lunar/lunar-preferences-dialog.c:604
 msgid "128px"
 msgstr "128px"
 
-#: ../thunar/thunar-preferences-dialog.c:557
-#: ../thunar/thunar-preferences-dialog.c:605
+#: ../lunar/lunar-preferences-dialog.c:557
+#: ../lunar/lunar-preferences-dialog.c:605
 msgid "160px"
 msgstr "160px"
 
-#: ../thunar/thunar-preferences-dialog.c:558
-#: ../thunar/thunar-preferences-dialog.c:606
+#: ../lunar/lunar-preferences-dialog.c:558
+#: ../lunar/lunar-preferences-dialog.c:606
 msgid "192px"
 msgstr "192px"
 
-#: ../thunar/thunar-preferences-dialog.c:559
-#: ../thunar/thunar-preferences-dialog.c:607
+#: ../lunar/lunar-preferences-dialog.c:559
+#: ../lunar/lunar-preferences-dialog.c:607
 msgid "256px"
 msgstr "256px"
 
-#: ../thunar/thunar-preferences-dialog.c:568
+#: ../lunar/lunar-preferences-dialog.c:568
 msgid "Show Icon _Emblems"
 msgstr "Tunjuk _Lambang Ikon"
 
-#: ../thunar/thunar-preferences-dialog.c:570
+#: ../lunar/lunar-preferences-dialog.c:570
 msgid ""
 "Select this option to display icon emblems in the shortcuts pane for all "
 "folders for which emblems have been defined in the folders properties "
 "dialog."
 msgstr "Pilih pilihan ini untuk papar lambang ikon di dalam anak tetingkap pintasan untuk semua folder yang mana lambang telah ditakrif dalam dialog sifat folder."
 
-#: ../thunar/thunar-preferences-dialog.c:580
+#: ../lunar/lunar-preferences-dialog.c:580
 msgid "Tree Pane"
 msgstr "Anak Tetingkap Pepohon"
 
-#: ../thunar/thunar-preferences-dialog.c:593
+#: ../lunar/lunar-preferences-dialog.c:593
 msgid "Icon _Size:"
 msgstr "_Saiz Ikon:"
 
-#: ../thunar/thunar-preferences-dialog.c:616
+#: ../lunar/lunar-preferences-dialog.c:616
 msgid "Show Icon E_mblems"
 msgstr "Tunjuk _Lambang Ikon"
 
-#: ../thunar/thunar-preferences-dialog.c:618
+#: ../lunar/lunar-preferences-dialog.c:618
 msgid ""
 "Select this option to display icon emblems in the tree pane for all folders "
 "for which emblems have been defined in the folders properties dialog."
 msgstr "Pilih pilihan ini untuk papar lambang ikon dalam anak tetingkap pepohon untuk semua folder yang mana lambang telah ditakrif dalam dialog sifat folder."
 
 #. Behavior
-#: ../thunar/thunar-preferences-dialog.c:628
+#: ../lunar/lunar-preferences-dialog.c:628
 msgid "Behavior"
 msgstr "Kelakuan"
 
-#: ../thunar/thunar-preferences-dialog.c:638
+#: ../lunar/lunar-preferences-dialog.c:638
 msgid "Navigation"
 msgstr "Navigasi"
 
-#: ../thunar/thunar-preferences-dialog.c:651
+#: ../lunar/lunar-preferences-dialog.c:651
 msgid "_Single click to activate items"
 msgstr "Klik _sekali untuk aktifkan item"
 
-#: ../thunar/thunar-preferences-dialog.c:667
+#: ../lunar/lunar-preferences-dialog.c:667
 msgid ""
 "Specify the d_elay before an item gets selected\n"
 "when the mouse pointer is paused over it:"
 msgstr "Nyatakan l_engahan sebelum satu item dipilih\nbila penuding tetikus terjeda diatasnya:"
 
-#: ../thunar/thunar-preferences-dialog.c:680
+#: ../lunar/lunar-preferences-dialog.c:680
 msgid ""
 "When single-click activation is enabled, pausing the mouse pointer over an "
 "item will automatically select that item after the chosen delay. You can "
@@ -1903,54 +1903,54 @@ msgid ""
 "to select the item without activating it."
 msgstr "Bila pengaktifan sekali-klik dibenarkan, menjedakan penuding tetikus diatas satu item akan pilih secara automatik item tersebut selepas lengahan dipilih. Anda boleh lumpuhkan kelakuan ini dengan mengalih pelungsur ke kedudukan paling-kiri. Kelakuan ini mungkin berguna bil sekali klik aktifkan item, dan anda hanya mahu pilih item tanpa mengaktifkannya."
 
-#: ../thunar/thunar-preferences-dialog.c:699
+#: ../lunar/lunar-preferences-dialog.c:699
 msgid "Disabled"
 msgstr "Dilumpuhkan"
 
-#: ../thunar/thunar-preferences-dialog.c:705
+#: ../lunar/lunar-preferences-dialog.c:705
 msgid "Medium"
 msgstr "Sederhana"
 
-#: ../thunar/thunar-preferences-dialog.c:710
+#: ../lunar/lunar-preferences-dialog.c:710
 msgid "Long"
 msgstr "Panjang"
 
-#: ../thunar/thunar-preferences-dialog.c:716
+#: ../lunar/lunar-preferences-dialog.c:716
 msgid "_Double click to activate items"
 msgstr "_Dwi klik untuk aktifkan item"
 
-#: ../thunar/thunar-preferences-dialog.c:727
+#: ../lunar/lunar-preferences-dialog.c:727
 msgid "Tabs instead of new Windows"
 msgstr "Tab selain dari Tetingkap baharu"
 
-#: ../thunar/thunar-preferences-dialog.c:740
+#: ../lunar/lunar-preferences-dialog.c:740
 msgid "Open folders in new tabs on middle click"
 msgstr "Buka folder dalam tab baharu jika mengklik tengah tetikus"
 
-#: ../thunar/thunar-preferences-dialog.c:742
+#: ../lunar/lunar-preferences-dialog.c:742
 msgid ""
 "Select this option to open a new tab on middle click instead of a new window"
 msgstr "Pilih pilihan ini untuk membuka tab baharu jika mengklik tengah selain dari membuka tetingkap baharu"
 
-#: ../thunar/thunar-preferences-dialog.c:746
-msgid "Open new thunar instances as tabs"
-msgstr "Buka kejadian thunar baharu sebagai tab"
+#: ../lunar/lunar-preferences-dialog.c:746
+msgid "Open new lunar instances as tabs"
+msgstr "Buka kejadian lunar baharu sebagai tab"
 
-#: ../thunar/thunar-preferences-dialog.c:748
+#: ../lunar/lunar-preferences-dialog.c:748
 msgid ""
-"Select this option to open new thunar instances as tabs in an existing "
-"thunar window"
-msgstr "Pilih pilihan ini untuk membuka kejadian thunar baharu selain sebagai tab dalam tetingkap thunar sedia ada"
+"Select this option to open new lunar instances as tabs in an existing "
+"lunar window"
+msgstr "Pilih pilihan ini untuk membuka kejadian lunar baharu selain sebagai tab dalam tetingkap lunar sedia ada"
 
-#: ../thunar/thunar-preferences-dialog.c:757
+#: ../lunar/lunar-preferences-dialog.c:757
 msgid "File transfer"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:769
+#: ../lunar/lunar-preferences-dialog.c:769
 msgid "Transfer files in parallel:"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:771
+#: ../lunar/lunar-preferences-dialog.c:771
 msgid ""
 "Indicates the behavior during multiple copies:\n"
 "- Always: all copies are done simultaneously\n"
@@ -1959,457 +1959,457 @@ msgid ""
 "- Never: all copies are done sequentially"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:784
+#: ../lunar/lunar-preferences-dialog.c:784
 msgid "Local Files On Same Devices Only"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:800
+#: ../lunar/lunar-preferences-dialog.c:800
 msgid "Context Menu"
 msgstr "Menu Konteks"
 
-#: ../thunar/thunar-preferences-dialog.c:812
+#: ../lunar/lunar-preferences-dialog.c:812
 msgid "Show action to permanently delete files and folders"
 msgstr "Tunjuk tindakan memadam fail dan folder secara kekal"
 
-#: ../thunar/thunar-preferences-dialog.c:814
+#: ../lunar/lunar-preferences-dialog.c:814
 msgid "Select this option to show the 'Delete' action in the context menu"
 msgstr "Pilih pilihan ini untuk menunjukkan tindakan 'Padam' dalam menu konteks"
 
 #. Advanced
-#: ../thunar/thunar-preferences-dialog.c:823
+#: ../lunar/lunar-preferences-dialog.c:823
 msgid "Advanced"
 msgstr "Lanjutan"
 
-#: ../thunar/thunar-preferences-dialog.c:833
+#: ../lunar/lunar-preferences-dialog.c:833
 msgid "Folder Permissions"
 msgstr "Keizinan Folder"
 
-#: ../thunar/thunar-preferences-dialog.c:846
+#: ../lunar/lunar-preferences-dialog.c:846
 msgid ""
 "When changing the permissions of a folder, you\n"
 "can also apply the changes to the contents of the\n"
 "folder. Select the default behavior below:"
 msgstr "Bila menukar keizinan folder, anda juga boleh\nlaksanakan perubahan pada kandungan folder.\nPilih kelakuan lalai dibawah:"
 
-#: ../thunar/thunar-preferences-dialog.c:855
+#: ../lunar/lunar-preferences-dialog.c:855
 msgid "Ask every time"
 msgstr "Tanya setiap kali"
 
-#: ../thunar/thunar-preferences-dialog.c:856
+#: ../lunar/lunar-preferences-dialog.c:856
 msgid "Apply to Folder Only"
 msgstr "Laksana pada Folder Sahaja"
 
-#: ../thunar/thunar-preferences-dialog.c:857
+#: ../lunar/lunar-preferences-dialog.c:857
 msgid "Apply to Folder and Contents"
 msgstr "Laksana pada Folder dan Kandungan"
 
-#: ../thunar/thunar-preferences-dialog.c:868
+#: ../lunar/lunar-preferences-dialog.c:868
 msgid "Volume Management"
 msgstr "Pengurusan Volum"
 
 #. add check button to enable/disable auto mounting
-#: ../thunar/thunar-preferences-dialog.c:885
+#: ../lunar/lunar-preferences-dialog.c:885
 msgid "Enable _Volume Management"
 msgstr "Benarkan Pengurusan _Volum"
 
-#: ../thunar/thunar-preferences-dialog.c:895
+#: ../lunar/lunar-preferences-dialog.c:895
 msgid ""
 "<a href=\"volman-config:\">Configure</a> the management of removable drives,\n"
 "devices and media."
 msgstr "<a href=\"volman-config:\">Konfigur</a> pengurusan pemacu mudah alih, peranti\ndan media."
 
-#: ../thunar/thunar-preferences-dialog.c:910
+#: ../lunar/lunar-preferences-dialog.c:910
 msgid "Missing dependencies"
 msgstr "Dependensi hilang"
 
-#: ../thunar/thunar-preferences-dialog.c:918
+#: ../lunar/lunar-preferences-dialog.c:918
 msgid ""
 "It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\n"
 "Important features including trash support,\n"
 "removable media and remote location browsing\n"
-"will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
-msgstr "Kelihatan <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> tidak tersedia.\nFitur penting termasuklah sokongan tong sampah,\nmedia boleh tanggal dan pelayaran lokasi jauh\ntidak akan berfungsi. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Baca lagi]</a>"
+"will not work. <a href=\"https://docs.expidus.com/expidus/lunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
+msgstr "Kelihatan <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> tidak tersedia.\nFitur penting termasuklah sokongan tong sampah,\nmedia boleh tanggal dan pelayaran lokasi jauh\ntidak akan berfungsi. <a href=\"https://docs.expidus.com/expidus/lunar/unix-filesystem#gnome_virtual_file_system\">[Baca lagi]</a>"
 
-#. tell the user that we failed to come up with the thunar-volman
+#. tell the user that we failed to come up with the lunar-volman
 #. configuration dialog
-#: ../thunar/thunar-preferences-dialog.c:992
+#: ../lunar/lunar-preferences-dialog.c:992
 msgid "Failed to display the volume management settings"
 msgstr "Gagal papar tetapan pengurusan volum"
 
-#: ../thunar/thunar-progress-dialog.c:96
+#: ../lunar/lunar-progress-dialog.c:96
 msgid "File Operation Progress"
 msgstr "Kemajuan Operasi Fail"
 
 #. build the tooltip text
-#: ../thunar/thunar-progress-dialog.c:310
+#: ../lunar/lunar-progress-dialog.c:310
 #, c-format
 msgid "%d file operation running"
 msgid_plural "%d file operations running"
 msgstr[0] "%d operasi fail berjalan"
 
-#: ../thunar/thunar-progress-view.c:239
+#: ../lunar/lunar-progress-view.c:239
 msgid "Pause"
 msgstr ""
 
-#: ../thunar/thunar-progress-view.c:246
+#: ../lunar/lunar-progress-view.c:246
 msgid "Resume"
 msgstr ""
 
-#: ../thunar/thunar-progress-view.c:253
+#: ../lunar/lunar-progress-view.c:253
 msgid "Cancel"
 msgstr "Batal"
 
-#: ../thunar/thunar-progress-view.c:369
+#: ../lunar/lunar-progress-view.c:369
 msgid "Paused"
 msgstr ""
 
-#: ../thunar/thunar-progress-view.c:390
+#: ../lunar/lunar-progress-view.c:390
 msgid "Resuming..."
 msgstr ""
 
 #. update the status text
-#: ../thunar/thunar-progress-view.c:422
+#: ../lunar/lunar-progress-view.c:422
 msgid "Cancelling..."
 msgstr "Dibatalkan..."
 
-#: ../thunar/thunar-progress-view.c:574
+#: ../lunar/lunar-progress-view.c:574
 msgid "Frozen by another job on same device"
 msgstr ""
 
-#: ../thunar/thunar-progress-view.c:593
+#: ../lunar/lunar-progress-view.c:593
 msgid "Unfreezing..."
 msgstr ""
 
-#: ../thunar/thunar-properties-dialog.c:265
+#: ../lunar/lunar-properties-dialog.c:265
 msgid "General"
 msgstr "Am"
 
-#: ../thunar/thunar-properties-dialog.c:289
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:2
+#: ../lunar/lunar-properties-dialog.c:289
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:2
 msgid "_Name:"
 msgstr "_Nama:"
 
-#: ../thunar/thunar-properties-dialog.c:324
+#: ../lunar/lunar-properties-dialog.c:324
 msgid "Names:"
 msgstr "Nama:"
 
 #. Second box (kind, open with, link target)
-#: ../thunar/thunar-properties-dialog.c:345
+#: ../lunar/lunar-properties-dialog.c:345
 msgid "Kind:"
 msgstr "Jenis:"
 
-#: ../thunar/thunar-properties-dialog.c:367
+#: ../lunar/lunar-properties-dialog.c:367
 msgid "_Open With:"
 msgstr "_Buka Dengan:"
 
-#: ../thunar/thunar-properties-dialog.c:382
+#: ../lunar/lunar-properties-dialog.c:382
 msgid "Link Target:"
 msgstr "Sasaran Pautan:"
 
-#: ../thunar/thunar-properties-dialog.c:416
+#: ../lunar/lunar-properties-dialog.c:416
 msgid "Location:"
 msgstr "Lokasi:"
 
 #. Third box (deleted, modified, accessed)
-#: ../thunar/thunar-properties-dialog.c:442
+#: ../lunar/lunar-properties-dialog.c:442
 msgid "Deleted:"
 msgstr "Dipadam:"
 
-#: ../thunar/thunar-properties-dialog.c:472
+#: ../lunar/lunar-properties-dialog.c:472
 msgid "Accessed:"
 msgstr "Dicapai:"
 
-#: ../thunar/thunar-properties-dialog.c:512
+#: ../lunar/lunar-properties-dialog.c:512
 msgid "Volume:"
 msgstr "Volum:"
 
-#: ../thunar/thunar-properties-dialog.c:537
+#: ../lunar/lunar-properties-dialog.c:537
 msgid "Usage:"
 msgstr "Penggunaan:"
 
 #. Emblem chooser
-#: ../thunar/thunar-properties-dialog.c:572
+#: ../lunar/lunar-properties-dialog.c:572
 msgid "Emblems"
 msgstr "Lambang"
 
 #. allocate the icon chooser
 #. allocate the chooser dialog
-#: ../thunar/thunar-properties-dialog.c:825
-#: ../plugins/thunar-uca/thunar-uca-editor.c:432
+#: ../lunar/lunar-properties-dialog.c:825
+#: ../plugins/lunar-uca/lunar-uca-editor.c:432
 #, c-format
 msgid "Select an Icon for \"%s\""
 msgstr "Pilih satu Ikon untuk \"%s\""
 
-#: ../thunar/thunar-properties-dialog.c:850
+#: ../lunar/lunar-properties-dialog.c:850
 #, c-format
 msgid "Failed to change icon of \"%s\""
 msgstr "Gagal menukar ikon \"%s\""
 
 #. update the properties dialog title
-#: ../thunar/thunar-properties-dialog.c:956
+#: ../lunar/lunar-properties-dialog.c:956
 #, c-format
 msgid "%s - Properties"
 msgstr "%s - Sifat"
 
-#: ../thunar/thunar-properties-dialog.c:1008
+#: ../lunar/lunar-properties-dialog.c:1008
 msgid "broken link"
 msgstr "pautan rosak"
 
-#: ../thunar/thunar-properties-dialog.c:1019
+#: ../lunar/lunar-properties-dialog.c:1019
 msgid "unknown"
 msgstr "tidak diketahui"
 
 #. update the properties dialog title
-#: ../thunar/thunar-properties-dialog.c:1194
+#: ../lunar/lunar-properties-dialog.c:1194
 msgid "Properties"
 msgstr "Sifat"
 
-#: ../thunar/thunar-properties-dialog.c:1294
+#: ../lunar/lunar-properties-dialog.c:1294
 msgid "mixed"
 msgstr "bercampur"
 
-#: ../thunar/thunar-renamer-dialog.c:192
+#: ../lunar/lunar-renamer-dialog.c:192
 msgid "_Add Files..."
 msgstr "T_ambah Fail..."
 
-#: ../thunar/thunar-renamer-dialog.c:192
+#: ../lunar/lunar-renamer-dialog.c:192
 msgid "Include additional files in the list of files to be renamed"
 msgstr "Sertakan fail tambahan dalam senarai fail yang dinamakan semula"
 
-#: ../thunar/thunar-renamer-dialog.c:194
+#: ../lunar/lunar-renamer-dialog.c:194
 msgid "Clear"
 msgstr "Kosongkan"
 
-#: ../thunar/thunar-renamer-dialog.c:194
+#: ../lunar/lunar-renamer-dialog.c:194
 msgid "Clear the file list below"
 msgstr "Kosongkan senarai fail dibawah"
 
-#: ../thunar/thunar-renamer-dialog.c:195 ../thunar/thunar-window.c:408
+#: ../lunar/lunar-renamer-dialog.c:195 ../lunar/lunar-window.c:408
 msgid "_About"
 msgstr "Perih_al"
 
-#: ../thunar/thunar-renamer-dialog.c:195
-msgid "Display information about Thunar Bulk Rename"
-msgstr "Papar maklumat mengenai Nama Semula Kelompok Thunar"
+#: ../lunar/lunar-renamer-dialog.c:195
+msgid "Display information about Lunar Bulk Rename"
+msgstr "Papar maklumat mengenai Nama Semula Kelompok Lunar"
 
-#: ../thunar/thunar-renamer-dialog.c:354
-#: ../thunar/thunar-renamer-dialog.c:1785
-#: ../thunar-bulk-rename.desktop.in.in.h:2
+#: ../lunar/lunar-renamer-dialog.c:354
+#: ../lunar/lunar-renamer-dialog.c:1785
+#: ../lunar-bulk-rename.desktop.in.in.h:2
 msgid "Rename Multiple Files"
 msgstr "Nama Semula Fail Berbilang"
 
 #. add the "Rename Files" button
-#: ../thunar/thunar-renamer-dialog.c:362
+#: ../lunar/lunar-renamer-dialog.c:362
 msgid "_Rename Files"
 msgstr "_Nama Semula Fail"
 
-#: ../thunar/thunar-renamer-dialog.c:365
+#: ../lunar/lunar-renamer-dialog.c:365
 msgid ""
 "Click here to actually rename the files listed above to their new names."
 msgstr "Klik di sini untuk benar-benar namakan semula fail tersenarai diatas nama baharu mereka:"
 
-#: ../thunar/thunar-renamer-dialog.c:434
+#: ../lunar/lunar-renamer-dialog.c:434
 msgid "New Name"
 msgstr "Nama Baharu"
 
-#: ../thunar/thunar-renamer-dialog.c:497
+#: ../lunar/lunar-renamer-dialog.c:497
 msgid ""
 "Click here to view the documentation for the selected rename operation."
 msgstr "Klik di sini untuk melihat dokumentasi bagi operasi nama semula yang dipilih."
 
-#. TRANSLATORS: You can test this string by temporarily removing thunar-sbr.*
-#. from $libdir/thunarx-2/,
+#. TRANSLATORS: You can test this string by temporarily removing lunar-sbr.*
+#. from $libdir/lunarx-2/,
 #. *              and opening the multi rename dialog by selecting multiple
 #. files and pressing F2.
-#: ../thunar/thunar-renamer-dialog.c:607
+#: ../lunar/lunar-renamer-dialog.c:607
 msgid ""
 "No renamer modules were found on your system. Please check your\n"
-"installation or contact your system administrator. If you install Thunar\n"
+"installation or contact your system administrator. If you install Lunar\n"
 "from source, be sure to enable the \"Simple Builtin Renamers\" plugin."
-msgstr "Tiada modul penama semula ditemui dalam sistem anda. Sila semak\npemasangan anda atau hubungi pentadbir sistem anda. Jika anda\nmemasang Thunar dari sumber, benarkan pemalam \"Simple Builtin\nRenamers\"."
+msgstr "Tiada modul penama semula ditemui dalam sistem anda. Sila semak\npemasangan anda atau hubungi pentadbir sistem anda. Jika anda\nmemasang Lunar dari sumber, benarkan pemalam \"Simple Builtin\nRenamers\"."
 
-#: ../thunar/thunar-renamer-dialog.c:857
+#: ../lunar/lunar-renamer-dialog.c:857
 msgid "Remove File"
 msgid_plural "Remove Files"
 msgstr[0] "Buang Fail"
 
-#: ../thunar/thunar-renamer-dialog.c:858
+#: ../lunar/lunar-renamer-dialog.c:858
 msgid "Remove the selected file from the list of files to be renamed"
 msgid_plural "Remove the selected files from the list of files to be renamed"
 msgstr[0] "Buang fail terpilih dari senarai fail yang dinamakan semula"
 
 #. tell the user that we failed
-#: ../thunar/thunar-renamer-dialog.c:959
+#: ../lunar/lunar-renamer-dialog.c:959
 msgid "Failed to open the documentation browser"
 msgstr "Gagal membuka pelayar dokumentasi"
 
 #. allocate the file chooser
-#: ../thunar/thunar-renamer-dialog.c:1060
+#: ../lunar/lunar-renamer-dialog.c:1060
 msgid "Select files to rename"
 msgstr "Pilih fail untuk dinamakan semula"
 
-#: ../thunar/thunar-renamer-dialog.c:1076
+#: ../lunar/lunar-renamer-dialog.c:1076
 msgid "Audio Files"
 msgstr "Fail Audio"
 
-#: ../thunar/thunar-renamer-dialog.c:1081
+#: ../lunar/lunar-renamer-dialog.c:1081
 msgid "Image Files"
 msgstr "Fail Imej"
 
-#: ../thunar/thunar-renamer-dialog.c:1086
+#: ../lunar/lunar-renamer-dialog.c:1086
 msgid "Video Files"
 msgstr "Fail Video"
 
 #. just popup the about dialog
-#: ../thunar/thunar-renamer-dialog.c:1213
-#: ../thunar-bulk-rename.desktop.in.in.h:1
+#: ../lunar/lunar-renamer-dialog.c:1213
+#: ../lunar-bulk-rename.desktop.in.in.h:1
 msgid "Bulk Rename"
 msgstr "Nama Semula Kelompok"
 
-#: ../thunar/thunar-renamer-dialog.c:1214
+#: ../lunar/lunar-renamer-dialog.c:1214
 msgid ""
-"Thunar Bulk Rename is a powerful and extensible\n"
+"Lunar Bulk Rename is a powerful and extensible\n"
 "tool to rename multiple files at once."
-msgstr "Nama Semula Kelompok Thunar adalah alat yang\nhebat untuk menamakan semula fail berbilang\nsecara serentak."
+msgstr "Nama Semula Kelompok Lunar adalah alat yang\nhebat untuk menamakan semula fail berbilang\nsecara serentak."
 
 #. change title to reflect the standalone status
-#: ../thunar/thunar-renamer-dialog.c:1785
+#: ../lunar/lunar-renamer-dialog.c:1785
 msgid "Bulk Rename - Rename Multiple Files"
 msgstr "Nama Semula Kelompok - Nama Semula Fail Berbilang"
 
-#: ../thunar/thunar-renamer-progress.c:187
+#: ../lunar/lunar-renamer-progress.c:187
 #, c-format
 msgid "Failed to rename \"%s\" to \"%s\"."
 msgstr "Gagal namakan semula \"%s\" ke \"%s\"."
 
-#: ../thunar/thunar-renamer-progress.c:194
+#: ../lunar/lunar-renamer-progress.c:194
 msgid ""
 "You can either choose to skip this file and continue to rename the remaining"
 " files, or revert the previously renamed files to their previous names, or "
 "cancel the operation without reverting previous changes."
 msgstr "Anda boleh sama ada pilih untuk langkau fail ini dan terus namakan semula fail berbaki, atau kembali ke fail bernama terdahulu ke nama mereka sebelum ini, atau batalkan operasi tanpa kembali ke perubahan terdahulu."
 
-#: ../thunar/thunar-renamer-progress.c:199
+#: ../lunar/lunar-renamer-progress.c:199
 msgid "_Revert Changes"
 msgstr "_Kembalikan Perubahan"
 
-#: ../thunar/thunar-renamer-progress.c:200
-#: ../thunar/thunar-renamer-progress.c:209
+#: ../lunar/lunar-renamer-progress.c:200
+#: ../lunar/lunar-renamer-progress.c:209
 msgid "_Skip This File"
 msgstr "_Langkau Fail Ini"
 
-#: ../thunar/thunar-renamer-progress.c:206
+#: ../lunar/lunar-renamer-progress.c:206
 msgid ""
 "Do you want to skip this file and continue to rename the remaining files?"
 msgstr "Anda mahu langkau fail ini dan terus namakan semula fail berbaki?"
 
-#: ../thunar/thunar-shortcuts-model.c:631
-#: ../thunar/thunar-shortcuts-model.c:995 ../thunar/thunar-window.c:394
+#: ../lunar/lunar-shortcuts-model.c:631
+#: ../lunar/lunar-shortcuts-model.c:995 ../lunar/lunar-window.c:394
 msgid "Browse the file system"
 msgstr "Layar sistem fail"
 
-#: ../thunar/thunar-shortcuts-model.c:665
+#: ../lunar/lunar-shortcuts-model.c:665
 #, c-format
 msgid "Mount and open %s (%s)"
 msgstr ""
 
-#: ../thunar/thunar-shortcuts-model.c:678
-#: ../plugins/thunar-tpa/thunar-tpa.c:284
+#: ../lunar/lunar-shortcuts-model.c:678
+#: ../plugins/lunar-tpa/lunar-tpa.c:284
 msgid "Trash is empty"
 msgstr "Tong sampah adalah kosong"
 
-#: ../thunar/thunar-shortcuts-model.c:682
+#: ../lunar/lunar-shortcuts-model.c:682
 #, c-format
 msgid "Trash contains %d file"
 msgid_plural "Trash contains %d files"
 msgstr[0] "Tong sampah mengandungi %d fail"
 
-#: ../thunar/thunar-shortcuts-model.c:988
+#: ../lunar/lunar-shortcuts-model.c:988
 msgid "Devices"
 msgstr "Peranti"
 
-#: ../thunar/thunar-shortcuts-model.c:1031
+#: ../lunar/lunar-shortcuts-model.c:1031
 msgid "Network"
 msgstr "Rangkaian"
 
-#: ../thunar/thunar-shortcuts-model.c:1039
+#: ../lunar/lunar-shortcuts-model.c:1039
 msgid "Browse Network"
 msgstr "Layar Rangkaian"
 
-#: ../thunar/thunar-shortcuts-model.c:1040 ../thunar/thunar-window.c:404
+#: ../lunar/lunar-shortcuts-model.c:1040 ../lunar/lunar-window.c:404
 msgid "Browse local network connections"
 msgstr "Layar sambungan rangkaian setempat"
 
-#: ../thunar/thunar-shortcuts-model.c:1062
+#: ../lunar/lunar-shortcuts-model.c:1062
 msgid "Places"
 msgstr ""
 
-#: ../thunar/thunar-shortcuts-model.c:1074
+#: ../lunar/lunar-shortcuts-model.c:1074
 msgid "Open the home folder"
 msgstr ""
 
-#: ../thunar/thunar-shortcuts-model.c:1091
+#: ../lunar/lunar-shortcuts-model.c:1091
 msgid "Open the desktop folder"
 msgstr ""
 
-#: ../thunar/thunar-shortcuts-model.c:1138 ../thunar/thunar-window.c:395
-#: ../thunar/thunar-window.c:398 ../thunar.desktop.in.in.h:6
+#: ../lunar/lunar-shortcuts-model.c:1138 ../lunar/lunar-window.c:395
+#: ../lunar/lunar-window.c:398 ../lunar.desktop.in.in.h:6
 msgid "Computer"
 msgstr "Komputer"
 
-#: ../thunar/thunar-shortcuts-model.c:1139
+#: ../lunar/lunar-shortcuts-model.c:1139
 msgid "Browse the computer"
 msgstr ""
 
 #. append the "Open in New Tab" menu action
-#: ../thunar/thunar-shortcuts-view.c:1131
+#: ../lunar/lunar-shortcuts-view.c:1131
 msgid "Open in New Tab"
 msgstr "Buka dalam Tab Baharu"
 
 #. append the "Open in New Window" menu action
-#: ../thunar/thunar-shortcuts-view.c:1137
+#: ../lunar/lunar-shortcuts-view.c:1137
 msgid "Open in New Window"
 msgstr "Buka dalam Tetingkap Baharu"
 
-#: ../thunar/thunar-shortcuts-view.c:1188
+#: ../lunar/lunar-shortcuts-view.c:1188
 msgid "Create _Shortcut"
 msgstr "Cipta _Pintasan"
 
-#: ../thunar/thunar-shortcuts-view.c:1282
+#: ../lunar/lunar-shortcuts-view.c:1282
 msgid "_Remove Shortcut"
 msgstr "_Buang Pintasan"
 
 #. append the rename menu item
-#: ../thunar/thunar-shortcuts-view.c:1299
+#: ../lunar/lunar-shortcuts-view.c:1299
 msgid "Re_name Shortcut"
 msgstr "_Nama Semula Pintasan"
 
-#: ../thunar/thunar-shortcuts-view.c:1629
+#: ../lunar/lunar-shortcuts-view.c:1629
 #, c-format
 msgid "The path \"%s\" does not refer to a directory"
 msgstr "Laluan \"%s\" tidak merujuk ke direktori"
 
 #. display an error message to the user
-#: ../thunar/thunar-shortcuts-view.c:1649
+#: ../lunar/lunar-shortcuts-view.c:1649
 msgid "Failed to add new shortcut"
 msgstr "Gagal menambah pintasan baharu"
 
-#: ../thunar/thunar-size-label.c:165
+#: ../lunar/lunar-size-label.c:165
 msgid "Click here to stop calculating the total size of the folder."
 msgstr "Klik di sini untuk henti mengira jumlah saiz folder."
 
 #. add the label widget
 #. tell the user that we started calculation
-#: ../thunar/thunar-size-label.c:175 ../thunar/thunar-size-label.c:328
+#: ../lunar/lunar-size-label.c:175 ../lunar/lunar-size-label.c:328
 msgid "Calculating..."
 msgstr "Mengira..."
 
 #. tell the user that the operation was canceled
-#: ../thunar/thunar-size-label.c:287
+#: ../lunar/lunar-size-label.c:287
 msgid "Calculation aborted"
 msgstr "Pengiraan dihenti paksa"
 
-#: ../thunar/thunar-size-label.c:412
+#: ../lunar/lunar-size-label.c:412
 #, c-format
 msgid "%u item, totalling %s"
 msgid_plural "%u items, totalling %s"
@@ -2417,82 +2417,82 @@ msgstr[0] "%u item, berjumlah %s"
 
 #. TRANSLATORS: this is shows if during the deep count size
 #. * directories were not accessible
-#: ../thunar/thunar-size-label.c:419
+#: ../lunar/lunar-size-label.c:419
 msgid "(some contents unreadable)"
 msgstr "(sesetengah kandungan tidak boleh dibaca)"
 
 #. nothing was readable, so permission was denied
-#: ../thunar/thunar-size-label.c:430
+#: ../lunar/lunar-size-label.c:430
 msgid "Permission denied"
 msgstr "Keizinan dinafikan"
 
-#: ../thunar/thunar-standard-view.c:347
+#: ../lunar/lunar-standard-view.c:347
 msgid "Select _all Files"
 msgstr "Pilih semu_a Fail"
 
-#: ../thunar/thunar-standard-view.c:347
+#: ../lunar/lunar-standard-view.c:347
 msgid "Select all files in this window"
 msgstr "Pilih semua fail di dalam tetingkap ini"
 
-#: ../thunar/thunar-standard-view.c:348
+#: ../lunar/lunar-standard-view.c:348
 msgid "Select _by Pattern..."
 msgstr "Pilih _mengikut Corak..."
 
-#: ../thunar/thunar-standard-view.c:348
+#: ../lunar/lunar-standard-view.c:348
 msgid "Select all files that match a certain pattern"
 msgstr "Pilih semua fail yang sepadan dengan corak tertentu"
 
-#: ../thunar/thunar-standard-view.c:349
+#: ../lunar/lunar-standard-view.c:349
 msgid "_Invert Selection"
 msgstr "_Songsangkan Pemilihan"
 
-#: ../thunar/thunar-standard-view.c:349
+#: ../lunar/lunar-standard-view.c:349
 msgid "Select all files but not those currently selected"
 msgstr "Pilih semua fail tetapi bukan yang semasa terpilih"
 
-#: ../thunar/thunar-standard-view.c:1487
+#: ../lunar/lunar-standard-view.c:1487
 msgid "Loading folder contents..."
 msgstr "Memuatkan kandungan folder..."
 
 #. display an error to the user
-#: ../thunar/thunar-standard-view.c:2014 ../thunar/thunar-window.c:2910
+#: ../lunar/lunar-standard-view.c:2014 ../lunar/lunar-window.c:2910
 msgid "Failed to open the home folder"
 msgstr "Gagal membuka folder rumah"
 
-#: ../thunar/thunar-standard-view.c:2085
+#: ../lunar/lunar-standard-view.c:2085
 msgid "Select by Pattern"
 msgstr "Pilih mengikut Corak"
 
-#: ../thunar/thunar-standard-view.c:2090
+#: ../lunar/lunar-standard-view.c:2090
 msgid "_Select"
 msgstr "P_ilih"
 
-#: ../thunar/thunar-standard-view.c:2103
+#: ../lunar/lunar-standard-view.c:2103
 msgid "_Pattern:"
 msgstr "_Corak:"
 
-#: ../thunar/thunar-standard-view.c:2119
+#: ../lunar/lunar-standard-view.c:2119
 msgid "Examples:"
 msgstr ""
 
 #. tell the user that the file name provided by the X Direct Save source is
 #. invalid
-#: ../thunar/thunar-standard-view.c:2471
+#: ../lunar/lunar-standard-view.c:2471
 msgid "Invalid filename provided by XDS drag site"
 msgstr "Nama fail tidak sah disedia oleh laman seret XDS"
 
 #. display an error dialog to the user
-#: ../thunar/thunar-standard-view.c:2661
+#: ../lunar/lunar-standard-view.c:2661
 #, c-format
 msgid "Failed to create a link for the URL \"%s\""
 msgstr "Gagal mencipta pautan untuk URL \"%s\""
 
-#: ../thunar/thunar-standard-view.c:3111 ../thunar/thunar-window.c:3004
+#: ../lunar/lunar-standard-view.c:3111 ../lunar/lunar-window.c:3004
 #, c-format
 msgid "Failed to open directory \"%s\""
 msgstr "Gagal membuka direktori \"%s\""
 
-#: ../thunar/thunar-transfer-job.c:917
+#: ../lunar/lunar-transfer-job.c:917
 #, c-format
 msgid ""
 "Error while copying to \"%s\": %s more space is required to copy to the "
@@ -2500,679 +2500,679 @@ msgid ""
 msgstr "Ralat ketika menyalin ke \"%s\": %s lebih ruang diperlukan untuk disalin ke destinasi"
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:951
+#: ../lunar/lunar-transfer-job.c:951
 #, c-format
 msgid "Trying to restore \"%s\""
 msgstr "Cuba memulihkan \"%s\""
 
-#: ../thunar/thunar-transfer-job.c:980
+#: ../lunar/lunar-transfer-job.c:980
 #, c-format
 msgid ""
 "The folder \"%s\" does not exist anymore but is required to restore the file"
 " \"%s\" from the trash"
 msgstr "Folder \"%s\" tidak lagi wujud tetapi diperlukan untuk memulihkan fail \"%s\" dari tong sampah"
 
-#: ../thunar/thunar-transfer-job.c:1007
+#: ../lunar/lunar-transfer-job.c:1007
 #, c-format
 msgid "Failed to restore the folder \"%s\""
 msgstr "Gagal memulihkan folder \"%s\""
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:1082
+#: ../lunar/lunar-transfer-job.c:1082
 #, c-format
 msgid "Trying to move \"%s\""
 msgstr "Cuba mengalih \"%s\""
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:1158
+#: ../lunar/lunar-transfer-job.c:1158
 #, c-format
 msgid "Could not move \"%s\" directly. Collecting files for copying..."
 msgstr "Tidak dapat alih \"%s\" secara terus. Mengutip fail untuk disalin..."
 
-#: ../thunar/thunar-transfer-job.c:1500
+#: ../lunar/lunar-transfer-job.c:1500
 msgid "Collecting files..."
 msgstr "Mengutip fail..."
 
-#: ../thunar/thunar-transfer-job.c:1701
+#: ../lunar/lunar-transfer-job.c:1701
 #, c-format
 msgid "%s of %s"
 msgstr "%s dari %s"
 
-#: ../thunar/thunar-transfer-job.c:1721
+#: ../lunar/lunar-transfer-job.c:1721
 #, c-format
 msgid "%lu hour remaining (%s/sec)"
 msgid_plural "%lu hours remaining (%s/sec)"
 msgstr[0] "%lu jam berbaki (%s/saat)"
 
-#: ../thunar/thunar-transfer-job.c:1729
+#: ../lunar/lunar-transfer-job.c:1729
 #, c-format
 msgid "%lu minute remaining (%s/sec)"
 msgid_plural "%lu minutes remaining (%s/sec)"
 msgstr[0] "%lu minit berbaki (%s/saat)"
 
-#: ../thunar/thunar-transfer-job.c:1736
+#: ../lunar/lunar-transfer-job.c:1736
 #, c-format
 msgid "%lu second remaining (%s/sec)"
 msgid_plural "%lu seconds remaining (%s/sec)"
 msgstr[0] "%lu saat berbaki (%s/saat)"
 
-#: ../thunar/thunar-tree-model.c:631
+#: ../lunar/lunar-tree-model.c:631
 msgid "Loading..."
 msgstr "Memuatkan..."
 
-#: ../thunar/thunar-util.c:281
+#: ../lunar/lunar-util.c:281
 #, c-format
 msgid "Invalid path"
 msgstr "Laluan tidak sah"
 
-#: ../thunar/thunar-util.c:315
+#: ../lunar/lunar-util.c:315
 #, c-format
 msgid "Unknown user \"%s\""
 msgstr "Pengguna \"%s\" tidak diketahui"
 
 #. TRANSLATORS: file was modified less than one day ago
-#: ../thunar/thunar-util.c:425
+#: ../lunar/lunar-util.c:425
 msgid "Today"
 msgstr "Hari Ini"
 
 #. TRANSLATORS: file was modified less than one day ago
-#: ../thunar/thunar-util.c:430
+#: ../lunar/lunar-util.c:430
 #, c-format
 msgid "Today at %X"
 msgstr "Hari ini pada %X"
 
 #. TRANSLATORS: file was modified less than two days ago
-#: ../thunar/thunar-util.c:438
+#: ../lunar/lunar-util.c:438
 msgid "Yesterday"
 msgstr "Semalam"
 
 #. TRANSLATORS: file was modified less than two days ago
-#: ../thunar/thunar-util.c:443
+#: ../lunar/lunar-util.c:443
 #, c-format
 msgid "Yesterday at %X"
 msgstr "Semalam pada %X"
 
 #. Days from last week
-#: ../thunar/thunar-util.c:451
+#: ../lunar/lunar-util.c:451
 #, c-format
 msgid "%A at %X"
 msgstr "%A pada %X"
 
 #. Any other date
-#: ../thunar/thunar-util.c:456
+#: ../lunar/lunar-util.c:456
 #, c-format
 msgid "%x at %X"
 msgstr "%x pada %X"
 
-#: ../thunar/thunar-window.c:361
+#: ../lunar/lunar-window.c:361
 msgid "_File"
 msgstr "_Fail"
 
-#: ../thunar/thunar-window.c:362
+#: ../lunar/lunar-window.c:362
 msgid "New _Tab"
 msgstr "_Tab Baharu"
 
-#: ../thunar/thunar-window.c:362
+#: ../lunar/lunar-window.c:362
 msgid "Open a new tab for the displayed location"
 msgstr "Buka tab baharu untuk lokasi yang dipaparkan"
 
-#: ../thunar/thunar-window.c:363
+#: ../lunar/lunar-window.c:363
 msgid "New _Window"
 msgstr "T_etingkap Baharu"
 
-#: ../thunar/thunar-window.c:363
-msgid "Open a new Thunar window for the displayed location"
-msgstr "Buka satu tetingkap Thunar baharu untuk lokasi yang dipaparkan"
+#: ../lunar/lunar-window.c:363
+msgid "Open a new Lunar window for the displayed location"
+msgstr "Buka satu tetingkap Lunar baharu untuk lokasi yang dipaparkan"
 
-#: ../thunar/thunar-window.c:364
+#: ../lunar/lunar-window.c:364
 msgid "Detac_h Tab"
 msgstr "Tan_ggalkan Tab"
 
-#: ../thunar/thunar-window.c:364
+#: ../lunar/lunar-window.c:364
 msgid "Open current folder in a new window"
 msgstr "Buka folder semasa dalam tetingkap baharu"
 
-#: ../thunar/thunar-window.c:365
+#: ../lunar/lunar-window.c:365
 msgid "C_lose Tab"
 msgstr "T_utup Tab"
 
-#: ../thunar/thunar-window.c:365
+#: ../lunar/lunar-window.c:365
 msgid "Close this folder"
 msgstr "Tutup folder ini"
 
-#: ../thunar/thunar-window.c:366
+#: ../lunar/lunar-window.c:366
 msgid "_Close Window"
 msgstr "_Tutup Tetingkap"
 
-#: ../thunar/thunar-window.c:366
+#: ../lunar/lunar-window.c:366
 msgid "Close this window"
 msgstr "Tutup tetingkap ini"
 
-#: ../thunar/thunar-window.c:367
+#: ../lunar/lunar-window.c:367
 msgid "Close _All Windows"
 msgstr "Tutup Semu_a Tetingkap"
 
-#: ../thunar/thunar-window.c:367
-msgid "Close all Thunar windows"
-msgstr "Tutup semua tetingkap Thunar"
+#: ../lunar/lunar-window.c:367
+msgid "Close all Lunar windows"
+msgstr "Tutup semua tetingkap Lunar"
 
-#: ../thunar/thunar-window.c:369
+#: ../lunar/lunar-window.c:369
 msgid "_Edit"
 msgstr "S_unting"
 
-#: ../thunar/thunar-window.c:370
+#: ../lunar/lunar-window.c:370
 msgid "Pr_eferences..."
 msgstr "K_eutamaan..."
 
-#: ../thunar/thunar-window.c:370
-msgid "Edit Thunars Preferences"
-msgstr "Sunting Keutamaan Thunar"
+#: ../lunar/lunar-window.c:370
+msgid "Edit Lunars Preferences"
+msgstr "Sunting Keutamaan Lunar"
 
-#: ../thunar/thunar-window.c:372
+#: ../lunar/lunar-window.c:372
 msgid "_View"
 msgstr "_Lihat"
 
-#: ../thunar/thunar-window.c:373
+#: ../lunar/lunar-window.c:373
 msgid "_Reload"
 msgstr "_Muat Semula"
 
-#: ../thunar/thunar-window.c:375
+#: ../lunar/lunar-window.c:375
 msgid "_Location Selector"
 msgstr "Pemilih L_okasi"
 
-#: ../thunar/thunar-window.c:376
+#: ../lunar/lunar-window.c:376
 msgid "_Pathbar Style"
 msgstr "Ga_ya Palang Laluan"
 
-#: ../thunar/thunar-window.c:376
+#: ../lunar/lunar-window.c:376
 msgid "Modern approach with buttons that correspond to folders"
 msgstr "Pendekatan modern dengan butang yang berkaitan dengan folder"
 
-#: ../thunar/thunar-window.c:377
+#: ../lunar/lunar-window.c:377
 msgid "_Toolbar Style"
 msgstr "Gaya Palang Ala_t"
 
-#: ../thunar/thunar-window.c:377
+#: ../lunar/lunar-window.c:377
 msgid "Traditional approach with location bar and navigation buttons"
 msgstr "Pendekatan tradisional dengan palang lokasi dan butang navigasi"
 
-#: ../thunar/thunar-window.c:378
+#: ../lunar/lunar-window.c:378
 msgid "_Side Pane"
 msgstr "Anak Tetingkap _Sisi"
 
-#: ../thunar/thunar-window.c:379
+#: ../lunar/lunar-window.c:379
 msgid "_Shortcuts"
 msgstr "P_intasan"
 
-#: ../thunar/thunar-window.c:379
+#: ../lunar/lunar-window.c:379
 msgid "Toggles the visibility of the shortcuts pane"
 msgstr "Togol ketampakan anak tetingkap pintasan"
 
-#: ../thunar/thunar-window.c:380
+#: ../lunar/lunar-window.c:380
 msgid "_Tree"
 msgstr "P_epohon"
 
-#: ../thunar/thunar-window.c:380
+#: ../lunar/lunar-window.c:380
 msgid "Toggles the visibility of the tree pane"
 msgstr "Togol ketampakan anak tetingkap pepohon"
 
-#: ../thunar/thunar-window.c:382
+#: ../lunar/lunar-window.c:382
 msgid "St_atusbar"
 msgstr "Palang St_atus"
 
-#: ../thunar/thunar-window.c:382
+#: ../lunar/lunar-window.c:382
 msgid "Change the visibility of this window's statusbar"
 msgstr "Ubah ketampakan palang status tetingkap"
 
-#: ../thunar/thunar-window.c:383
+#: ../lunar/lunar-window.c:383
 msgid "_Menubar"
 msgstr "Palang _Menu"
 
-#: ../thunar/thunar-window.c:383
+#: ../lunar/lunar-window.c:383
 msgid "Change the visibility of this window's menubar"
 msgstr "Ubah ketampakan palang menu tetingkap"
 
-#: ../thunar/thunar-window.c:384
+#: ../lunar/lunar-window.c:384
 msgid "Show _Hidden Files"
 msgstr "Tunjuk Fail Ter_sembunyi"
 
-#: ../thunar/thunar-window.c:384
+#: ../lunar/lunar-window.c:384
 msgid "Toggles the display of hidden files in the current window"
 msgstr "Togol papar fail tersembunyi dalam tetingkap semasa"
 
-#: ../thunar/thunar-window.c:385
+#: ../lunar/lunar-window.c:385
 msgid "Zoom I_n"
 msgstr "Zum _Masuk"
 
-#: ../thunar/thunar-window.c:385
+#: ../lunar/lunar-window.c:385
 msgid "Show the contents in more detail"
 msgstr "Tunjuk kandungan dengan lebih terperinci"
 
-#: ../thunar/thunar-window.c:386
+#: ../lunar/lunar-window.c:386
 msgid "Zoom _Out"
 msgstr "Zum _Keluar"
 
-#: ../thunar/thunar-window.c:386
+#: ../lunar/lunar-window.c:386
 msgid "Show the contents in less detail"
 msgstr "Tunjuk kandungan dengan kurang perincian"
 
-#: ../thunar/thunar-window.c:387
+#: ../lunar/lunar-window.c:387
 msgid "Normal Si_ze"
 msgstr "Sai_z Biasa"
 
-#: ../thunar/thunar-window.c:387
+#: ../lunar/lunar-window.c:387
 msgid "Show the contents at the normal size"
 msgstr "Tunjuk kandungan pada saiz biasa"
 
-#: ../thunar/thunar-window.c:388
+#: ../lunar/lunar-window.c:388
 msgid "Clear Saved _Folder View Settings"
 msgstr ""
 
-#: ../thunar/thunar-window.c:388
+#: ../lunar/lunar-window.c:388
 msgid "Delete saved view settings for this folder"
 msgstr ""
 
-#: ../thunar/thunar-window.c:389
+#: ../lunar/lunar-window.c:389
 msgid "_Icon View"
 msgstr ""
 
-#: ../thunar/thunar-window.c:389
+#: ../lunar/lunar-window.c:389
 msgid "Display folder content in an icon view"
 msgstr "Papar kandungan folder dalam paparan ikon"
 
-#: ../thunar/thunar-window.c:390
+#: ../lunar/lunar-window.c:390
 msgid "_List View"
 msgstr ""
 
-#: ../thunar/thunar-window.c:390
+#: ../lunar/lunar-window.c:390
 msgid "Display folder content in a detailed list view"
 msgstr "Papar kandungan folder dalam paparan senarai terperinci"
 
-#: ../thunar/thunar-window.c:391
+#: ../lunar/lunar-window.c:391
 msgid "_Compact View"
 msgstr ""
 
-#: ../thunar/thunar-window.c:391
+#: ../lunar/lunar-window.c:391
 msgid "Display folder content in a compact list view"
 msgstr "Papar kandungan folder dalam paparan senarai padat"
 
-#: ../thunar/thunar-window.c:393
+#: ../lunar/lunar-window.c:393
 msgid "_Go"
 msgstr "Per_gi"
 
-#: ../thunar/thunar-window.c:395
+#: ../lunar/lunar-window.c:395
 msgid "Go to the computer folder"
 msgstr ""
 
-#: ../thunar/thunar-window.c:396
+#: ../lunar/lunar-window.c:396
 msgid "_Home"
 msgstr "_Rumah"
 
-#: ../thunar/thunar-window.c:396
+#: ../lunar/lunar-window.c:396
 msgid "Go to the home folder"
 msgstr "Pergi ke folder rumah"
 
-#: ../thunar/thunar-window.c:397
+#: ../lunar/lunar-window.c:397
 msgid "Desktop"
 msgstr "Desktop"
 
-#: ../thunar/thunar-window.c:397
+#: ../lunar/lunar-window.c:397
 msgid "Go to the desktop folder"
 msgstr "Pergi ke folder desktop"
 
-#: ../thunar/thunar-window.c:398
+#: ../lunar/lunar-window.c:398
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
 msgstr ""
 
-#: ../thunar/thunar-window.c:399
+#: ../lunar/lunar-window.c:399
 msgid "T_rash"
 msgstr "T_ong Sampah"
 
-#: ../thunar/thunar-window.c:399
+#: ../lunar/lunar-window.c:399
 msgid "Display the contents of the trash can"
 msgstr "Papar kandungan tong sampah"
 
-#: ../thunar/thunar-window.c:400
+#: ../lunar/lunar-window.c:400
 msgid "Open _Parent"
 msgstr "Buka _Induk"
 
-#: ../thunar/thunar-window.c:400
+#: ../lunar/lunar-window.c:400
 msgid "Open the parent folder"
 msgstr "Buka folder induk"
 
-#: ../thunar/thunar-window.c:401
+#: ../lunar/lunar-window.c:401
 msgid "_Open Location..."
 msgstr "_Buka Lokasi..."
 
-#: ../thunar/thunar-window.c:401
+#: ../lunar/lunar-window.c:401
 msgid "Specify a location to open"
 msgstr "Tentukan lokasi untuk dibuka"
 
-#: ../thunar/thunar-window.c:403
+#: ../lunar/lunar-window.c:403
 msgid "T_emplates"
 msgstr "T_emplat"
 
-#: ../thunar/thunar-window.c:403
+#: ../lunar/lunar-window.c:403
 msgid "Go to the templates folder"
 msgstr "Pergi ke folder templat"
 
-#: ../thunar/thunar-window.c:404
+#: ../lunar/lunar-window.c:404
 msgid "B_rowse Network"
 msgstr "La_yar Rangkaian"
 
-#: ../thunar/thunar-window.c:407
+#: ../lunar/lunar-window.c:407
 msgid "_Contents"
 msgstr "_Kandungan"
 
-#: ../thunar/thunar-window.c:407
-msgid "Display Thunar user manual"
-msgstr "Papar panduan pengguna Thunar"
+#: ../lunar/lunar-window.c:407
+msgid "Display Lunar user manual"
+msgstr "Papar panduan pengguna Lunar"
 
-#: ../thunar/thunar-window.c:408
-msgid "Display information about Thunar"
-msgstr "Papar maklumat mengenai Thunar"
+#: ../lunar/lunar-window.c:408
+msgid "Display information about Lunar"
+msgstr "Papar maklumat mengenai Lunar"
 
-#: ../thunar/thunar-window.c:409
+#: ../lunar/lunar-window.c:409
 msgid "Back"
 msgstr "Undur"
 
-#: ../thunar/thunar-window.c:409
+#: ../lunar/lunar-window.c:409
 msgid "Go to the previous visited folder"
 msgstr "Pergi ke folder dilawati terdahulu"
 
-#: ../thunar/thunar-window.c:411
+#: ../lunar/lunar-window.c:411
 msgid "Forward"
 msgstr "Maju"
 
-#: ../thunar/thunar-window.c:411
+#: ../lunar/lunar-window.c:411
 msgid "Go to the next visited folder"
 msgstr "Pergi ke folder dilawati berikutnya"
 
-#: ../thunar/thunar-window.c:412
+#: ../lunar/lunar-window.c:412
 msgid "_Previous Tab"
 msgstr "Tab _Terdahulu"
 
-#: ../thunar/thunar-window.c:412
+#: ../lunar/lunar-window.c:412
 msgid "Switch to Previous Tab"
 msgstr "Beralih ke Tab Terdahulu"
 
-#: ../thunar/thunar-window.c:413
+#: ../lunar/lunar-window.c:413
 msgid "_Next Tab"
 msgstr "Tab _Berikutnya"
 
-#: ../thunar/thunar-window.c:413
+#: ../lunar/lunar-window.c:413
 msgid "Switch to Next Tab"
 msgstr "Beralih ke Tab Berikutnya"
 
 #. add the label with the root warning
-#: ../thunar/thunar-window.c:719
+#: ../lunar/lunar-window.c:719
 msgid "Warning: you are using the root account. You may harm your system."
 msgstr ""
 
-#: ../thunar/thunar-window.c:1953
+#: ../lunar/lunar-window.c:1953
 msgid "Close tab"
 msgstr "Tutup tab"
 
-#: ../thunar/thunar-window.c:2192
+#: ../lunar/lunar-window.c:2192
 #, c-format
 msgid "Open the location \"%s\""
 msgstr "Buka lokasi \"%s\""
 
-#: ../thunar/thunar-window.c:2337
+#: ../lunar/lunar-window.c:2337
 #, c-format
 msgid "Failed to launch \"%s\""
 msgstr "Gagal lancarkan \"%s\""
 
-#: ../thunar/thunar-window.c:2860
+#: ../lunar/lunar-window.c:2860
 msgid "Failed to open parent folder"
 msgstr "Gagal buka folder induk"
 
-#: ../thunar/thunar-window.c:2979
+#: ../lunar/lunar-window.c:2979
 #, c-format
 msgid "The directory \"%s\" does not exist. Do you want to create it?"
 msgstr "Direktori \"%s\" tidak wujud. Anda mahu cipta ia?"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3046
+#: ../lunar/lunar-window.c:3046
 msgid "Failed to browse the computer"
 msgstr ""
 
 #. display the "About Templates" dialog
-#: ../thunar/thunar-window.c:3086
+#: ../lunar/lunar-window.c:3086
 msgid "About Templates"
 msgstr "Perihal Templat"
 
-#: ../thunar/thunar-window.c:3108
+#: ../lunar/lunar-window.c:3108
 msgid "All files in this folder will appear in the \"Create Document\" menu."
 msgstr "Semua fail dalam folder ini akan muncul dalam menu \"Cipta Dokumen\"."
 
-#: ../thunar/thunar-window.c:3115
+#: ../lunar/lunar-window.c:3115
 msgid ""
-"If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Thunar will add an entry for this document in the \"Create Document\" menu.\n"
+"If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Lunar will add an entry for this document in the \"Create Document\" menu.\n"
 "\n"
 "You can then select the entry from the \"Create Document\" menu and a copy of the document will be created in the directory you are viewing."
-msgstr "Jika anda kerap mencipta beberapa jenis dokumen, buat satu salinan dan letak ia di dalam folder ini. Thunar akan menambah satu masukan untuk dokumen ini di dalam menu \"Cipta Dokumen\".\n\nKemudian, anda boleh memilih masukan dari menu \"Cipta Dokumen\" dan salinan dokumen akan dicipta di dalam direktori yang sedang dibuka."
+msgstr "Jika anda kerap mencipta beberapa jenis dokumen, buat satu salinan dan letak ia di dalam folder ini. Lunar akan menambah satu masukan untuk dokumen ini di dalam menu \"Cipta Dokumen\".\n\nKemudian, anda boleh memilih masukan dari menu \"Cipta Dokumen\" dan salinan dokumen akan dicipta di dalam direktori yang sedang dibuka."
 
-#: ../thunar/thunar-window.c:3127
+#: ../lunar/lunar-window.c:3127
 msgid "Do _not display this message again"
 msgstr "_Jangan papar mesej ini lagi"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3158
+#: ../lunar/lunar-window.c:3158
 msgid "Failed to open the file system root folder"
 msgstr "Gagal membuka folder root sistem fail"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3191
+#: ../lunar/lunar-window.c:3191
 msgid "Failed to display the contents of the trash can"
 msgstr "Gagal memapar kandungan tong sampah"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3224
+#: ../lunar/lunar-window.c:3224
 msgid "Failed to browse the network"
 msgstr "Gagal melayar rangkaian"
 
-#: ../thunar/thunar-window.c:3328
+#: ../lunar/lunar-window.c:3328
 msgid ""
-"Thunar is a fast and easy to use file manager\n"
-"for the Xfce Desktop Environment."
-msgstr "Thunar merupakan pengurus fail yang pantas\ndan mudah diguna untuk Persekitaran\nDesktop Xfce."
+"Lunar is a fast and easy to use file manager\n"
+"for the Expidus Desktop Environment."
+msgstr "Lunar merupakan pengurus fail yang pantas\ndan mudah diguna untuk Persekitaran\nDesktop Expidus."
 
-#: ../thunarx/thunarx-property-page.c:111
+#: ../lunarx/lunarx-property-page.c:111
 msgid "Label"
 msgstr "Label"
 
-#: ../thunarx/thunarx-property-page.c:112
+#: ../lunarx/lunarx-property-page.c:112
 msgid "Text of the page's label"
 msgstr "Teks bagi label halaman"
 
-#: ../thunarx/thunarx-property-page.c:124
+#: ../lunarx/lunarx-property-page.c:124
 msgid "Label widget"
 msgstr "Widjet label"
 
-#: ../thunarx/thunarx-property-page.c:125
+#: ../lunarx/lunarx-property-page.c:125
 msgid "A widget to display in place of the usual page label"
 msgstr "Widjet yang dipapar pada tempat label halaman"
 
-#: ../thunarx/thunarx-provider-plugin.c:81
+#: ../lunarx/lunarx-provider-plugin.c:81
 msgid "Resident"
 msgstr "Residen"
 
-#: ../thunarx/thunarx-provider-plugin.c:82
+#: ../lunarx/lunarx-provider-plugin.c:82
 msgid "Don't unload the plugin from memory"
 msgstr "Jangan nyahmuat pemalam dari ingatan"
 
-#: ../thunarx/thunarx-renamer.c:149
+#: ../lunarx/lunarx-renamer.c:149
 msgid "Help URL"
 msgstr "URL Bantuan"
 
-#: ../thunarx/thunarx-renamer.c:150
+#: ../lunarx/lunarx-renamer.c:150
 msgid "The URL to the documentation of the renamer"
 msgstr "URL ke dokumentasi penama semula"
 
-#: ../thunarx/thunarx-renamer.c:165
+#: ../lunarx/lunarx-renamer.c:165
 msgid "The user visible name of the renamer"
 msgstr "Nama tampak pengguna bagi penama semula"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:153
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:59
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:153
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:59
 msgid "Description:"
 msgstr "Keterangan:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:160
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:160
 msgid ""
 "The generic name of the entry, for example \"Web Browser\" in case of "
 "Firefox."
 msgstr "Nama generik masukan, contohnya \"Pelayar Sesawang\" bagi kes Firefox."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:177
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:177
 msgid "Command:"
 msgstr "Perintah:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:184
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:184
 msgid "The program to execute, possibly with arguments."
 msgstr "Program yang dilakukan, berkemungkinan berserta argumen."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:200
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:200
 msgid "Working Directory:"
 msgstr "Direktori Kerja:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:207
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:207
 msgid "The working directory for the program."
 msgstr "Direktori kerja bagi program."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:223
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:223
 msgid "URL:"
 msgstr "URL:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:230
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:230
 msgid "The URL to access."
 msgstr "URL untuk dicapai."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:246
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:60
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:246
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:60
 msgid "Comment:"
 msgstr "Ulasan:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:253
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:253
 msgid ""
 "Tooltip for the entry, for example \"View sites on the Internet\" in case of"
 " Firefox. Should not be redundant with the name or the description."
 msgstr "Tip alat untuk masukan, contohnya \"Lihat laman di Internet\" bagi kes FIrefox. Seharusnya tidak sama dengan nama atau keterangan."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:276
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:276
 msgid "Options:"
 msgstr "Pilihan:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:282
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:282
 msgid "Use _startup notification"
 msgstr "Guna pemberitahuan pe_rmulaan"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:283
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:283
 msgid ""
 "Select this option to enable startup notification when the command is run "
 "from the file manager or the menu. Not every application supports startup "
 "notification."
 msgstr "Pilih pilihan ini untuk benarkan pemberitahuan permulaan bila perintah dijalankan dari pengurus fail atau menu. Tidak semua aplikasi menyokong pemberitahuan permulaan."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:291
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:291
 msgid "Run in _terminal"
 msgstr "Jalan dalam _terminal"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:292
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:292
 msgid "Select this option to run the command in a terminal window."
 msgstr "Pilih pilihan ini untuk jalankan perintah dalam tetingkap terminal."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:366
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:366
 msgid "Launcher"
 msgstr "Pelancar"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:368
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:368
 msgid "Link"
 msgstr "Pautan"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:610
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:610
 #, c-format
 msgid "Failed to save \"%s\"."
 msgstr "Gagal menyimpan \"%s\"."
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:47
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:47
 msgid "Date Taken:"
 msgstr "Tarikh Diambil:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:48
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:48
 msgid "Camera Brand:"
 msgstr "Jenama Kamera:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:49
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:49
 msgid "Camera Model:"
 msgstr "Model Kamera:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:50
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:50
 msgid "Exposure Time:"
 msgstr "Masa Dedahan:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:51
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:51
 msgid "Exposure Program:"
 msgstr "Program Dedahan:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:52
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:52
 msgid "Aperture Value:"
 msgstr "Nilai Bukaan:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:53
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:53
 msgid "Metering Mode:"
 msgstr "Mod Pemeteran:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:54
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:54
 msgid "Flash Fired:"
 msgstr "Denyar Ditembak:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:55
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:55
 msgid "Focal Length:"
 msgstr "Panjang Fokus:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:56
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:56
 msgid "Shutter Speed:"
 msgstr "Kelajuan Pengatup:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:57
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:57
 msgid "ISO Speed Ratings:"
 msgstr "Penarafan Kelajuan ISO:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:58
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:58
 msgid "Software:"
 msgstr "Perisian:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:117
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:117
 msgid "Image"
 msgstr "Imej"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:132
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:132
 msgid "Image Type:"
 msgstr "Jenis Imej:"
 
 #. update the "Image Size" label
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:251
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:251
 #, c-format
 msgid "%dx%d pixel"
 msgid_plural "%dx%d pixels"
 msgstr[0] "%dx%d piksel"
 
-#: ../plugins/thunar-sbr/thunar-sbr-case-renamer.c:117
+#: ../plugins/lunar-sbr/lunar-sbr-case-renamer.c:117
 msgid "Con_vert to:"
 msgstr "T_ukar ke:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-case-renamer.c:266
+#: ../plugins/lunar-sbr/lunar-sbr-case-renamer.c:266
 msgid "Uppercase / Lowercase"
 msgstr "Huruf Besar / Huruf Kecil"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:193
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:193
 msgid "Insert _time:"
 msgstr "_Masa sisip:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:223
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:223
 msgid ""
 "The format describes the date and time parts to insert into the file name. "
 "For example, %Y will be substituted with the year, %m with the month and %d "
@@ -3180,214 +3180,214 @@ msgid ""
 "information."
 msgstr "Format ini menerangkan bahagian tarikh dan masa untuk dimasukkan ke dalam nama fail. Sebagai contoh, %Y akan digantikan dengan tahun, %m dengan bulan dan %d dengan hari. Lihat dokumentasi utiliti tarikh untuk mendapatkan maklumat tambahan."
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:238
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:198
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:238
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:198
 msgid "_At position:"
 msgstr "P_ada kedudukan:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:591
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:591
 msgid "Insert Date / Time"
 msgstr "Sisip Tarikh / Masa"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:93
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:93
 msgid "lowercase"
 msgstr "huruf kecil"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:94
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:94
 msgid "UPPERCASE"
 msgstr "HURUF BESAR"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:95
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:95
 msgid "Title Case"
 msgstr "Huruf Pertama Besar"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:96
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:96
 msgid "First character uppercase"
 msgstr "Huruf besar aksara pertama"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:102
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:102
 msgid "Insert"
 msgstr "Sisip"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:103
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:103
 msgid "Overwrite"
 msgstr "Tulis-ganti"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:109
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:109
 msgid "1, 2, 3, ..."
 msgstr "1, 2, 3, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:110
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:110
 msgid "01, 02, 03, ..."
 msgstr "01, 02, 03, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:111
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:111
 msgid "001, 002, 003, ..."
 msgstr "001, 002, 003, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:112
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:112
 msgid "0001, 0002, 0003, ..."
 msgstr "0001, 0002, 0003, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:113
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:113
 msgid "00001, 00002, 00003, ..."
 msgstr "00001, 00002, 00003, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:114
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:114
 msgid "a, b, c, d, ..."
 msgstr "a, b, c, d, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:120
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:120
 msgid "From the front (left)"
 msgstr "Dari hadapan (kiri)"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:121
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:121
 msgid "From the back (right)"
 msgstr "Dari belakang (kanan)"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:127
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:127
 msgid "Old Name - Text - Number"
 msgstr "Nama Lama - Teks - Nombor"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:128
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:128
 msgid "Number - Text - Old Name"
 msgstr "Nombor - Teks - Nama Lama"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:129
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:129
 msgid "Text - Number"
 msgstr "Teks - Nombor"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:130
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:130
 msgid "Number - Text"
 msgstr "Nombor - Teks"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:136
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:136
 msgid "Current"
 msgstr "Semasa"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:140
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:140
 msgid "Date Picture Taken"
 msgstr "Tarikh Gambar Diambil"
 
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:179
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:257
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:179
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:257
 msgid "_Text:"
 msgstr "_Teks:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:386
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:386
 msgid "Insert / Overwrite"
 msgstr "Sisip / Tulis-ganti"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:186
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:186
 msgid "_Number Format:"
 msgstr "Format _Nombor:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:217
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:217
 msgid "_Start With:"
 msgstr "_Mula Dengan:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:229
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:229
 msgid "Text _Format:"
 msgstr "_Format Teks:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:518
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:518
 msgid "Numbering"
 msgstr "Penomboran"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:175
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:175
 msgid "Remove _From Position:"
 msgstr "Buang _Dari Kedudukan:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:210
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:210
 msgid "_To Position:"
 msgstr "_Ke Kedudukan:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:413
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:413
 msgid "Remove Characters"
 msgstr "Buang Aksara"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:202
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:202
 msgid "_Search For:"
 msgstr "_Gelintar Untuk:"
 
 #. reset to default tooltip
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:210
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:633
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:210
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:633
 msgid "Enter the text to search for in the file names."
 msgstr "Masukkan teks untuk gelintar nama fail."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:223
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:223
 msgid "Regular _Expression"
 msgstr "_Ungkapan Nalar"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:225
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:225
 msgid ""
 "If you enable this option, the pattern will be treated as a regular "
 "expression and matched using the Perl-compatible regular expressions (PCRE)."
 " Check the documentation for details about the regular expression syntax."
 msgstr "Jika anda benarkan pilihan ini, corak akan dianggap sebagai ungkapan nalar dan dipadankan menggunakan ungkapan nalar serasi-Perl (PCRE). Semak dokumentasi untuk perincian mengenai sintaks ungkapan nalar."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:232
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:232
 msgid "Replace _With:"
 msgstr "Ganti _Dengan:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:240
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:240
 msgid ""
 "Enter the text that should be used as replacement for the pattern above."
 msgstr "Masukkan teks yang seharusnya diguna sebagai pengganti untuk corak diatas."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:253
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:253
 msgid "C_ase Sensitive Search"
 msgstr "Gelintar Sensitif K_ata"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:255
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:255
 msgid ""
 "If you enable this option, the pattern will be searched in a case-sensitive "
 "manner. The default is to use a case-insensitive search."
 msgstr "Jika anda benarkan pilihan ini, corak akan digelintar dalam bentuk sensitif-kata. Lalai guna gelintar tak-sensitif-kata."
 
 #. setup a tooltip with the error message
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:610
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:610
 #, c-format
 msgid "Invalid regular expression, at character position %ld: %s"
 msgstr "Ungkapan nalar tidak sah, pada kedudukan aksara %ld: %s"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:651
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:651
 msgid "Search & Replace"
 msgstr "Gelintar & Ganti"
 
-#: ../plugins/thunar-sendto-email/main.c:217
+#: ../plugins/lunar-sendto-email/main.c:217
 #, c-format
 msgid "Send \"%s\" as compressed archive?"
 msgstr "Hantar \"%s\" sebagai arkib termampat?"
 
-#: ../plugins/thunar-sendto-email/main.c:220
-#: ../plugins/thunar-sendto-email/main.c:239
+#: ../plugins/lunar-sendto-email/main.c:220
+#: ../plugins/lunar-sendto-email/main.c:239
 msgid "Send _directly"
 msgstr "Hantar secara _terus"
 
-#: ../plugins/thunar-sendto-email/main.c:221
+#: ../plugins/lunar-sendto-email/main.c:221
 msgid "Send com_pressed"
 msgstr "Hantar ter_mampat"
 
-#: ../plugins/thunar-sendto-email/main.c:223
+#: ../plugins/lunar-sendto-email/main.c:223
 msgid ""
 "When sending a file via email, you can either choose to send the file "
 "directly, as is, or compress the file before attaching it to an email. It is"
 " highly recommended to compress large files before sending them."
 msgstr "Bila menghantar fail melalui emel, anda boleh sama ada hantar fail secara terus, atau mampatkan fail sebelum dilampirkan ke dalam emel. Adalah sangat disarankan memampatkan fail bersaiz besar sebelum menghantarnya."
 
-#: ../plugins/thunar-sendto-email/main.c:234
+#: ../plugins/lunar-sendto-email/main.c:234
 #, c-format
 msgid "Send %d file as compressed archive?"
 msgid_plural "Send %d files as compressed archive?"
 msgstr[0] "Hantar %d fail sebagai arkib termampat?"
 
-#: ../plugins/thunar-sendto-email/main.c:240
+#: ../plugins/lunar-sendto-email/main.c:240
 msgid "Send as _archive"
 msgstr "Hantar sebagai _arkib"
 
-#: ../plugins/thunar-sendto-email/main.c:242
+#: ../plugins/lunar-sendto-email/main.c:242
 msgid ""
 "When sending multiple files via email, you can either choose to send the "
 "files directly, attaching multiple files to an email, or send all files "
@@ -3397,170 +3397,170 @@ msgstr "Bila menghantar fail berbilang melalui emel, anda boleh sama ada hantar 
 
 #. allocate the progress dialog
 #. setup the label
-#: ../plugins/thunar-sendto-email/main.c:291
-#: ../plugins/thunar-sendto-email/main.c:317
+#: ../plugins/lunar-sendto-email/main.c:291
+#: ../plugins/lunar-sendto-email/main.c:317
 msgid "Compressing files..."
 msgstr "Memampatkan fail..."
 
 #. tell the user that the command failed
-#: ../plugins/thunar-sendto-email/main.c:342
+#: ../plugins/lunar-sendto-email/main.c:342
 #, c-format
 msgid "ZIP command terminated with error %d"
 msgstr "Perintah ZIP ditamatkan dengan ralat %d"
 
-#: ../plugins/thunar-sendto-email/main.c:430
+#: ../plugins/lunar-sendto-email/main.c:430
 msgid "Failed to create temporary directory"
 msgstr "Gagal mencipta direktori sementara"
 
-#: ../plugins/thunar-sendto-email/main.c:492
-#: ../plugins/thunar-sendto-email/main.c:503
+#: ../plugins/lunar-sendto-email/main.c:492
+#: ../plugins/lunar-sendto-email/main.c:503
 #, c-format
 msgid "Failed to create symbolic link for \"%s\""
 msgstr "Gagal mencipta pautan simbolik untuk \"%s\""
 
 #. tell the user that we failed to compress the file(s)
-#: ../plugins/thunar-sendto-email/main.c:527
+#: ../plugins/lunar-sendto-email/main.c:527
 #, c-format
 msgid "Failed to compress %d file"
 msgid_plural "Failed to compress %d files"
 msgstr[0] "Gagal memapatkan %d fail"
 
 #. tell the user that we failed
-#: ../plugins/thunar-sendto-email/main.c:679
+#: ../plugins/lunar-sendto-email/main.c:679
 msgid "Failed to compose new email"
 msgstr "Gagal mengubah emel baharu"
 
-#: ../plugins/thunar-sendto-email/thunar-sendto-email.desktop.in.in.h:1
+#: ../plugins/lunar-sendto-email/lunar-sendto-email.desktop.in.in.h:1
 msgid "Mail Recipient"
 msgstr "Penerima Mel"
 
 #. tell the user that we failed to connect to the trash
-#: ../plugins/thunar-tpa/thunar-tpa.c:269
-#: ../plugins/thunar-tpa/thunar-tpa.c:309
-#: ../plugins/thunar-tpa/thunar-tpa.c:336
-#: ../plugins/thunar-tpa/thunar-tpa.c:363
+#: ../plugins/lunar-tpa/lunar-tpa.c:269
+#: ../plugins/lunar-tpa/lunar-tpa.c:309
+#: ../plugins/lunar-tpa/lunar-tpa.c:336
+#: ../plugins/lunar-tpa/lunar-tpa.c:363
 msgid "Failed to connect to the Trash"
 msgstr "Gagal menyambung ke Tong Sampah"
 
 #. tell the user whether the trash is full or empty
-#: ../plugins/thunar-tpa/thunar-tpa.c:284
+#: ../plugins/lunar-tpa/lunar-tpa.c:284
 msgid "Trash contains files"
 msgstr "Tong sampah mengandungi fail"
 
-#: ../plugins/thunar-tpa/thunar-tpa.desktop.in.h:1
+#: ../plugins/lunar-tpa/lunar-tpa.desktop.in.h:1
 msgid "Trash Applet"
 msgstr "Aplet Tong Sampah"
 
-#: ../plugins/thunar-tpa/thunar-tpa.desktop.in.h:2
+#: ../plugins/lunar-tpa/lunar-tpa.desktop.in.h:2
 msgid "Display the trash can"
 msgstr "Paparan tong sampah"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:269
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:1
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:269
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:1
 msgid "Edit Action"
 msgstr "Sunting Tindakan"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:269
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:269
 msgid "Create Action"
 msgstr "Cipta Tindakan"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:318
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:318
 msgid "Failed to save actions to disk."
 msgstr "Gagal menyimpan tindakan ke dalam cakera."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:369
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:369
 #, c-format
 msgid ""
 "Are you sure that you want to delete\n"
 "action \"%s\"?"
 msgstr "Anda pasti mahu memadam tindakan\n\"%s\"?"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:370
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:370
 msgid "If you delete a custom action, it is permanently lost."
 msgstr "Jika anda padam tindakan suai, ia akan hilang secara kekal."
 
 #. skip leading slash
-#: ../plugins/thunar-uca/thunar-uca-editor.c:353
+#: ../plugins/lunar-uca/lunar-uca-editor.c:353
 #, c-format
 msgid "This keyboard shortcut is currently used by: '%s'"
 msgstr "Pintasan papan kekunci ini kini digunakan oleh: '%s'"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.c:356
+#: ../plugins/lunar-uca/lunar-uca-editor.c:356
 msgid "Keyboard shortcut already in use"
 msgstr "Pintasan papan kekunci ini sudah digunakan"
 
 #. setup a label to tell that no icon was selected
-#: ../plugins/thunar-uca/thunar-uca-editor.c:507
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:16
+#: ../plugins/lunar-uca/lunar-uca-editor.c:507
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:16
 msgid "No icon"
 msgstr "Tiada ikon"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:803
+#: ../plugins/lunar-uca/lunar-uca-model.c:803
 #, c-format
 msgid "Unknown element <%s>"
 msgstr "Unsur <%s> tidak diketahui"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:821
+#: ../plugins/lunar-uca/lunar-uca-model.c:821
 #, c-format
 msgid "End element handler called while in root context"
 msgstr "Pengendali unsur End dipanggil ketika dalam konteks root"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:926
+#: ../plugins/lunar-uca/lunar-uca-model.c:926
 #, c-format
 msgid "Unknown closing element <%s>"
 msgstr "Unsur penutup <%s> tidak diketahui"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:1426
+#: ../plugins/lunar-uca/lunar-uca-model.c:1426
 #, c-format
 msgid "Failed to determine save location for uca.xml"
 msgstr "Gagal tentukan lokasi simpan untuk uca.xml"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:1546
+#: ../plugins/lunar-uca/lunar-uca-model.c:1546
 #, c-format
 msgid "Command not configured"
 msgstr "Perintah tidak dikonfigur"
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:181
+#: ../plugins/lunar-uca/lunar-uca-provider.c:181
 msgid "Configure c_ustom actions..."
 msgstr "Konfigur tindakan s_uai..."
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:182
+#: ../plugins/lunar-uca/lunar-uca-provider.c:182
 msgid ""
 "Setup custom actions that will appear in the file managers context menus"
 msgstr "Sediakan tindakan suai yang akan muncul dalam menu konteks pengurus fail"
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:431
+#: ../plugins/lunar-uca/lunar-uca-provider.c:431
 #, c-format
 msgid "Failed to launch action \"%s\"."
 msgstr "Gagal melancar tindakan \"%s\"."
 
-#: ../plugins/thunar-uca/uca.xml.in.h:1
+#: ../plugins/lunar-uca/uca.xml.in.h:1
 msgid "Open Terminal Here"
 msgstr "Buka Terminal Di Sini"
 
-#: ../plugins/thunar-uca/uca.xml.in.h:2
+#: ../plugins/lunar-uca/uca.xml.in.h:2
 msgid "Example for a custom action"
 msgstr "Contoh bagi tindakan suai"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:3
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:3
 msgid "The name of the action that will be displayed in the context menu."
 msgstr "Nama tindakan yang akan dipapar dalam menu konteks."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:4
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:4
 msgid "_Description:"
 msgstr "_Keterangan:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:5
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:5
 msgid ""
 "The description of the action that will be displayed as tooltip in the "
 "statusbar when selecting the item from the context menu."
 msgstr "Keterangan tindakan yang akan dipapar sebagai tip alat dalam palang status bila memilih item dari menu konteks."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:6
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:6
 msgid "_Command:"
 msgstr "_Perintah:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:8
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:8
 #, no-c-format
 msgid ""
 "The command (including the necessary parameters) to perform the action. See "
@@ -3571,85 +3571,85 @@ msgid ""
 "if exactly one item is selected."
 msgstr "Perintah (termasuklah parameter yang perlu) untuk membuat tindakan. Rujuk petunjuk parameter perintah dibawah untuk dapatkan senarai pembolehubah parameter yang disokong, yang akan diganti bila melancarkan perintah. Jika huruf besar (contohnya %F, %D, %N) digunakan, tindakan akan boleh dilaksana walaupun lebih dari satu item terpilih. Jika tidak tindakan hanya boleh dilaksana jika hanya satu item terpilih."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:9
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:9
 msgid ""
 "Browse the file system to select an application to use for this action."
 msgstr "Layar sistem fail untuk pilih aplikasi yang diguna untuk tindakan ini."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:10
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:10
 msgid "Keyboard _Shortcut:"
 msgstr "_Pintasan Papan Kekunci:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:11
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:11
 msgid "The keyboard shortcut for the action."
 msgstr "Pintasan papan kekunci untuk tindakan."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:12
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:12
 msgid "Clear the keyboard shortcut for this action."
 msgstr "Kosongkan pintasan papan kekunci untuk tindakan ini."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:13
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:13
 msgid "Use Startup Notification"
 msgstr "Guna Pemberitahuan Permulaan"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:14
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:14
 msgid ""
 "Enable this option if you want a waiting cursor to be shown while the action"
 " is launched. This is also highly recommended if you have focus stealing "
 "prevention enabled in your window manager."
 msgstr "Benarkan pilihan ini jika anda mahu kursor menunggu ditunjukkan ketika tindakan dilancar. Ia juga sangat disarankan jika anda telah benarkan halangan pencurian fokus dalam pengurus tetingkap anda."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:15
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:15
 msgid "_Icon:"
 msgstr "_Ikon:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:17
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:17
 msgid ""
 "Click this button to select an icon file that will be displayed in the "
 "context menu in addition to the action name chosen above."
 msgstr "Klik butang ini untuk pilih satu fail ikon yang akan dipapar dalam menu konteks selain dari nama tindakan pilihan diatas."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:18
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:18
 msgid ""
 "The following command parameters will be substituted when launching the "
 "action:"
 msgstr "Parameter perintah berikut akan diganti bila melancar tindakan:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:19
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:19
 msgid "the path to the first selected file or directory"
 msgstr "laluan ke fail atau direktori pertama yang dipilih"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:20
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:20
 msgid "the paths to all selected files and directories"
 msgstr "laluan ke semua fail dan direktori terpilih"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:22
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:22
 #, no-c-format
 msgid "directory containing the file that is passed in %f"
 msgstr "direktori yang mengandungi fail dilepasi dalam %f"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:24
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:24
 #, no-c-format
 msgid "directories containing the files that are passed in %F"
 msgstr "direktori yang mengandungi fail dilepasi dalam %F"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:25
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:25
 msgid "the first selected filename (without path)"
 msgstr "nama fail terpilih pertama (tanpa laluan)"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:26
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:26
 msgid "the selected filenames (without paths)"
 msgstr "nama fail terpilih (tanpa laluan)"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:27
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:27
 msgid "Basic"
 msgstr "Asas"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:28
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:28
 msgid "_File Pattern:"
 msgstr "Corak _Fail:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:29
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:29
 msgid ""
 "Enter a list of patterns that will be used to determine whether this action "
 "should be displayed for a selected file. If you specify more than one "
@@ -3657,39 +3657,39 @@ msgid ""
 "*.txt;*.doc)."
 msgstr "Masukkan senarai corak yang akan digunakan untuk menentukan sama ada tindakan patut dipapar untuk fail terpilih. Jika anda nyatakan lebih dari satu corak di sini, senarai item mesti dipisahkan dengan tanda koma bertitik (contohnya *.txt;*.doc)."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:30
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:30
 msgid "*"
 msgstr "*"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:31
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:31
 msgid "Appears if selection contains:"
 msgstr "Muncul jika pemilihan mengandungi:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:32
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:32
 msgid "_Directories"
 msgstr "_Direktori"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:33
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:33
 msgid "_Audio Files"
 msgstr "Fail _Audio"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:34
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:34
 msgid "_Image Files"
 msgstr "Fail _Imej"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:35
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:35
 msgid "_Text Files"
 msgstr "Fail _Teks"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:36
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:36
 msgid "_Video Files"
 msgstr "Fail _Video"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:37
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:37
 msgid "_Other Files"
 msgstr "_Lain-lain Fail"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:38
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:38
 msgid ""
 "This page lists the conditions under which the action will appear in the "
 "file managers context menus. The file patterns are specified as a list of "
@@ -3699,99 +3699,99 @@ msgid ""
 "can specify that the action should only appear for certain kinds of files."
 msgstr "Halaman ini senaraikan syarat dimana tindakan akan muncul dalam menu konteks pengurus fail. Corak fail dinyatakan sebagai senarai bagi corak fail ringkas yang terpisah dengan tanda titik bertindih (contohnya *.txt;*.doc). Bagi satu tindakan yang muncul di dalam menu konteks sesebuah fail atau folder, sekurang-kurangnya satu dari corak ini mesti sepadan dengan nama bagi fail ataupun folder. Selain itu, anda juga boleh nyatakan tindakah seharus nya muncul dalam jenis-jenis fail tertentu."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:39
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:39
 msgid "Appearance Conditions"
 msgstr "Syarat Penampilan"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:1
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:1
 msgid "Custom Actions"
 msgstr "Tindakan Suai"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:2
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:2
 msgid ""
 "You can configure custom actions that will appear in the file managers "
 "context menus for certain kinds of files."
 msgstr "Anda boleh konfigur tindakan suai yang akan muncul dalam menu konteks pengurus fail untuk jenis fail tertentu."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:3
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:3
 msgid "Add a new custom action."
 msgstr "Tambah tindakan tersuai baharu."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:4
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:4
 msgid "Edit the currently selected action."
 msgstr "Sunting item semasa yang dipilih."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:5
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:5
 msgid "Delete the currently selected action."
 msgstr "Padam tindakan semasa yang dipilih."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:6
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:6
 msgid "Move the currently selected action up by one row."
 msgstr "Alih tindakan semasa yang dipilih satu baris ke atas."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:7
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:7
 msgid "Move the currently selected action down by one row."
 msgstr "Alih tindakan semasa yang dipilih satu baris ke bawah."
 
-#: ../plugins/thunar-wallpaper/twp-provider.c:154
+#: ../plugins/lunar-wallpaper/twp-provider.c:154
 msgid "Set as wallpaper"
 msgstr "Tetapkan sebagai kertas dinding"
 
-#: ../thunar.desktop.in.in.h:1
-msgid "Thunar File Manager"
-msgstr "Pengurus Fail Thunar"
+#: ../lunar.desktop.in.in.h:1
+msgid "Lunar File Manager"
+msgstr "Pengurus Fail Lunar"
 
-#: ../thunar.desktop.in.in.h:2
+#: ../lunar.desktop.in.in.h:2
 msgid "Browse the filesystem with the file manager"
 msgstr "Layar sistem fail dengan pengurus fail"
 
-#: ../thunar.desktop.in.in.h:3
+#: ../lunar.desktop.in.in.h:3
 msgid "File Manager"
 msgstr "Pengurus Fail"
 
-#: ../thunar.desktop.in.in.h:4
+#: ../lunar.desktop.in.in.h:4
 msgid ""
 "file "
 "manager;explorer;finder;browser;folders;directory;directories;partitions;drives;network;devices;rename;move;copy;delete;permissions;home;trash;"
 msgstr ""
 
-#: ../thunar.desktop.in.in.h:5
+#: ../lunar.desktop.in.in.h:5
 msgid "Home"
 msgstr "Rumah"
 
-#: ../thunar-bulk-rename.desktop.in.in.h:3
-msgid "bulk;renamer;renaming;thunar;files;folders;directory;directories;"
+#: ../lunar-bulk-rename.desktop.in.in.h:3
+msgid "bulk;renamer;renaming;lunar;files;folders;directory;directories;"
 msgstr ""
 
-#: ../thunar/thunar-settings.desktop.in.h:1
+#: ../lunar/lunar-settings.desktop.in.h:1
 msgid "File Manager Settings"
 msgstr "Tetapan Pengurus Fail"
 
-#: ../thunar/thunar-settings.desktop.in.h:2
-msgid "Configure the Thunar file manager"
-msgstr "Konfigur pengurus fail Thunar"
+#: ../lunar/lunar-settings.desktop.in.h:2
+msgid "Configure the Lunar file manager"
+msgstr "Konfigur pengurus fail Lunar"
 
-#: ../thunar/thunar-settings.desktop.in.h:3
+#: ../lunar/lunar-settings.desktop.in.h:3
 msgid ""
-"thunar;settings;preferences;configure;thumbnails;file size;date "
+"lunar;settings;preferences;configure;thumbnails;file size;date "
 "format;shortcuts pane;tree view;tabs;"
 msgstr ""
 
-#: ../org.xfce.thunar.appdata.xml.in.h:1
+#: ../com.expidus.lunar.appdata.xml.in.h:1
 msgid ""
-"Thunar is a file browser specifically designed for the Xfce Desktop, but "
+"Lunar is a file browser specifically designed for the Expidus Desktop, but "
 "also can serve as an alternate file browser for other Desktop environments. "
 "It has a simple, clean two-pane design for browsing all your files."
-msgstr "Thunar ialah pelayar fail yang direka khusus untuk Desktop Xfce, tetapi juga bertindak sebagai pelayar fail alternatif untuk persekitaran Desktop lain. Ia mempunyai rekabentuk ringkas, dengan dua-anak-tetingkap yang kemas unntuk pelayaran semua fail anda."
+msgstr "Lunar ialah pelayar fail yang direka khusus untuk Desktop Expidus, tetapi juga bertindak sebagai pelayar fail alternatif untuk persekitaran Desktop lain. Ia mempunyai rekabentuk ringkas, dengan dua-anak-tetingkap yang kemas unntuk pelayaran semua fail anda."
 
 #. SECURITY:
-#. - A normal active user can run thunar without elevated rights. They
+#. - A normal active user can run lunar without elevated rights. They
 #. may wish to modify files they normally do not have read/write access
 #. to. This isn't a good idea, but is common on single user systems.
-#: ../org.xfce.thunar.policy.in.in.h:6
-msgid "Run Thunar as root"
-msgstr "Jalankan Thunar sebagai root"
+#: ../com.expidus.lunar.policy.in.in.h:6
+msgid "Run Lunar as root"
+msgstr "Jalankan Lunar sebagai root"
 
-#: ../org.xfce.thunar.policy.in.in.h:7
-msgid "Authentication is required to run Thunar as root."
-msgstr "Pengesahihan diperlukan untuk jalankan Thunar sebagai root."
+#: ../com.expidus.lunar.policy.in.in.h:7
+msgid "Authentication is required to run Lunar as root."
+msgstr "Pengesahihan diperlukan untuk jalankan Lunar sebagai root."

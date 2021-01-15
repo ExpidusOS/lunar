@@ -1,20 +1,20 @@
 What's this file about?
 -----------------------
 This file lists all external people that have contributed to this project and
-thereby helped to make Thunar such a successful project.
+thereby helped to make Lunar such a successful project.
 
 
 
 Testers (sorted by name):
 --------------------------
-These people have contributed to Thunar by testing the software,
+These people have contributed to Lunar by testing the software,
 reporting problems and making useful suggestions.
 
 
 
 Translators (sorted by language):
 ----------------------------------
-These people have translated Thunar to foreign languages.
+These people have translated Lunar to foreign languages.
 
  Mohamed Magdy <mohamed.m.k@gmail.com>
   * ar translations
@@ -31,13 +31,13 @@ These people have translated Thunar to foreign languages.
  Michal Várady <miko.vaji@gmail.com>
   * cs translations
 
- Benedikt Meurer <benny@xfce.org>
+ Benedikt Meurer <benny@expidus.org>
   * de translations
  
  Fabian Nowak <timystery@arcor.de>
   * de translations
 
- Jannis Pohlmann <jannis@xfce.org>
+ Jannis Pohlmann <jannis@expidus.org>
   * de translations
 
  Sonam Pelden <sonaa_peldn@yahoo.com>
@@ -55,7 +55,7 @@ These people have translated Thunar to foreign languages.
  Antono Vasiljev <antono.vasiljev@gmail.com>
   * eo translations
 
- Sylvain Vedrenne <gnu_sylvain@xfce.org>
+ Sylvain Vedrenne <gnu_sylvain@expidus.org>
   * eo translations
 
  Daniel Fuertes Pérez <danifp25@yahoo.es>
@@ -103,7 +103,7 @@ These people have translated Thunar to foreign languages.
  Roberto Pariset <r.pariset@gmail.com>
   * it translations
 
- Daichi Kawahata <daichi@xfce.org>
+ Daichi Kawahata <daichi@expidus.org>
   * ja translations
 
  Dimitri Gogelia <delphi.knight@gmail.com>
@@ -225,7 +225,7 @@ Other contributors (sorted by name):
  Young Hahn <youngjin.hahn@gmail.com>
   * icon designer
 
- Daichi Kawahata <daichi@xfce.org>
+ Daichi Kawahata <daichi@expidus.org>
   * i18n coordinator
 
  Laurent Meunier <meunier.laurent@laposte.net>
@@ -237,8 +237,8 @@ Other contributors (sorted by name):
  Matt McClinch <mattmcclinch@gmail.com>
   * patches
 
- Nick Schermer <nick@xfce.org>
+ Nick Schermer <nick@expidus.org>
   * patches
 
- Peter de Ridder <peter@xfce.org>
+ Peter de Ridder <peter@expidus.org>
   * patches

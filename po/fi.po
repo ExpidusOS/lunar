@@ -10,12 +10,12 @@
 # Tero Mononen <tero@mononen.eu>, 2014,2019
 msgid ""
 msgstr ""
-"Project-Id-Version: Thunar\n"
+"Project-Id-Version: Lunar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-29 12:45+0100\n"
 "PO-Revision-Date: 2021-01-01 10:44+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish (http://www.transifex.com/xfce/thunar/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/expidus/lunar/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,129 +23,129 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. setup application name
-#: ../thunar/main.c:57
-msgid "Thunar"
-msgstr "Thunar"
+#: ../lunar/main.c:57
+msgid "Lunar"
+msgstr "Lunar"
 
-#: ../thunar/thunar-application.c:78
+#: ../lunar/lunar-application.c:78
 msgid "Open the bulk rename dialog"
 msgstr "Avaa joukkonimeämisikkuna"
 
-#: ../thunar/thunar-application.c:79
+#: ../lunar/lunar-application.c:79
 msgid "Run in daemon mode"
 msgstr "Suorita taustaprosessina"
 
-#: ../thunar/thunar-application.c:81
-msgid "Quit a running Thunar instance"
-msgstr "Lopeta käynnissä oleva Thunar-instanssi."
+#: ../lunar/lunar-application.c:81
+msgid "Quit a running Lunar instance"
+msgstr "Lopeta käynnissä oleva Lunar-instanssi."
 
-#: ../thunar/thunar-application.c:82
+#: ../lunar/lunar-application.c:82
 msgid "Print version information and exit"
 msgstr "Tulosta versiotiedot ja poistu"
 
-#: ../thunar/thunar-application.c:295
+#: ../lunar/lunar-application.c:295
 #, c-format
 msgid "Acquired the session message bus '%s'\n"
 msgstr "Saatiin istunnon viestintärajapinta '%s'\n"
 
-#: ../thunar/thunar-application.c:305
+#: ../lunar/lunar-application.c:305
 #, c-format
 msgid "Acquired the name '%s' on the session message bus\n"
 msgstr "Saatiin nimi '%s' istunnon viestintärajapinnalta\n"
 
-#: ../thunar/thunar-application.c:315
+#: ../lunar/lunar-application.c:315
 #, c-format
 msgid "Name '%s' lost on the message dbus."
 msgstr "Nimi '%s' menetettiin istunnon viestintärajapinnalla."
 
-#: ../thunar/thunar-application.c:475
-msgid "The Thunar development team. All rights reserved."
-msgstr "Thunarin kehittäjät. Kaikki oikeudet pidätetään."
+#: ../lunar/lunar-application.c:475
+msgid "The Lunar development team. All rights reserved."
+msgstr "Lunarin kehittäjät. Kaikki oikeudet pidätetään."
 
-#: ../thunar/thunar-application.c:476
-msgid "Written by Benedikt Meurer <benny@xfce.org>."
-msgstr "Kirjoittanut Benedikt Meurer <benny@xfce.org>."
+#: ../lunar/lunar-application.c:476
+msgid "Written by Benedikt Meurer <benny@expidus.org>."
+msgstr "Kirjoittanut Benedikt Meurer <benny@expidus.org>."
 
-#: ../thunar/thunar-application.c:477
+#: ../lunar/lunar-application.c:477
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Ilmoita vioista osoitteeseen <%s>"
 
 #. display an error message to the user
-#: ../thunar/thunar-application.c:751
+#: ../lunar/lunar-application.c:751
 msgid "Failed to launch operation"
 msgstr "Toiminnon käynnistys epäonnistui"
 
 #. tell the user that we were unable to launch the file specified
-#: ../thunar/thunar-application.c:1505 ../thunar/thunar-application.c:1637
-#: ../thunar/thunar-location-entry.c:366 ../thunar/thunar-location-entry.c:394
-#: ../thunar/thunar-shortcuts-view.c:1706
-#: ../thunar/thunar-shortcuts-view.c:1734 ../thunar/thunar-window.c:2405
+#: ../lunar/lunar-application.c:1505 ../lunar/lunar-application.c:1637
+#: ../lunar/lunar-location-entry.c:366 ../lunar/lunar-location-entry.c:394
+#: ../lunar/lunar-shortcuts-view.c:1706
+#: ../lunar/lunar-shortcuts-view.c:1734 ../lunar/lunar-window.c:2405
 #, c-format
 msgid "Failed to open \"%s\""
 msgstr "Kohteen \"%s\" avaaminen epäonnistui."
 
-#: ../thunar/thunar-application.c:1641
+#: ../lunar/lunar-application.c:1641
 #, c-format
 msgid "Failed to open \"%s\": %s"
 msgstr "Kohteen \"%s\" avaaminen epäonnistui: %s"
 
 #. display an error message
-#: ../thunar/thunar-application.c:1696 ../thunar/thunar-launcher.c:2105
-#: ../thunar/thunar-properties-dialog.c:762
+#: ../lunar/lunar-application.c:1696 ../lunar/lunar-launcher.c:2105
+#: ../lunar/lunar-properties-dialog.c:762
 #, c-format
 msgid "Failed to rename \"%s\""
 msgstr "Tiedoston \"%s\" nimeäminen epäonnistui."
 
-#: ../thunar/thunar-application.c:1798 ../thunar/thunar-launcher.c:2259
+#: ../lunar/lunar-application.c:1798 ../lunar/lunar-launcher.c:2259
 msgid "New Folder"
 msgstr "Uusi kansio"
 
-#: ../thunar/thunar-application.c:1799 ../thunar/thunar-launcher.c:2260
+#: ../lunar/lunar-application.c:1799 ../lunar/lunar-launcher.c:2260
 msgid "Create New Folder"
 msgstr "Luo uusi kansio"
 
-#: ../thunar/thunar-application.c:1803
+#: ../lunar/lunar-application.c:1803
 msgid "New File"
 msgstr "Uusi tiedosto"
 
-#: ../thunar/thunar-application.c:1804
+#: ../lunar/lunar-application.c:1804
 msgid "Create New File"
 msgstr "Luo uusi tiedosto"
 
 #. generate a title for the create dialog
-#: ../thunar/thunar-application.c:1861 ../thunar/thunar-launcher.c:2305
+#: ../lunar/lunar-application.c:1861 ../lunar/lunar-launcher.c:2305
 #, c-format
 msgid "Create Document from template \"%s\""
 msgstr "Luo asiakirja mallin \"%s\" pohjalta"
 
-#: ../thunar/thunar-application.c:1925
+#: ../lunar/lunar-application.c:1925
 msgid "Copying files..."
 msgstr "Kopioidaan tiedostoja..."
 
-#: ../thunar/thunar-application.c:1961
+#: ../lunar/lunar-application.c:1961
 #, c-format
 msgid "Copying files to \"%s\"..."
 msgstr "Kopioidaan kohteeseen \"%s\"..."
 
-#: ../thunar/thunar-application.c:2008
+#: ../lunar/lunar-application.c:2008
 #, c-format
 msgid "Creating symbolic links in \"%s\"..."
 msgstr "Luodaan linkkejä kohteeseen \"%s\"..."
 
-#: ../thunar/thunar-application.c:2062
+#: ../lunar/lunar-application.c:2062
 #, c-format
 msgid "Moving files into \"%s\"..."
 msgstr "Siirretään kohteeseen \"%s\"..."
 
-#: ../thunar/thunar-application.c:2145
+#: ../lunar/lunar-application.c:2145
 #, c-format
 msgid ""
 "Are you sure that you want to\n"
 "permanently delete \"%s\"?"
 msgstr "Haluatko todella poistaa kohteen\n\"%s\" pysyvästi?"
 
-#: ../thunar/thunar-application.c:2150
+#: ../lunar/lunar-application.c:2150
 #, c-format
 msgid ""
 "Are you sure that you want to permanently\n"
@@ -160,192 +160,192 @@ msgstr[1] "Haluatko todella poistaa valitut\n%u tiedostoa pysyvästi?"
 #. append the cancel item
 #. add the Cancel/Close buttons
 #. configure the dialog properties
-#: ../thunar/thunar-application.c:2165 ../thunar/thunar-application.c:2344
-#: ../thunar/thunar-chooser-dialog.c:288 ../thunar/thunar-chooser-dialog.c:720
-#: ../thunar/thunar-chooser-dialog.c:769 ../thunar/thunar-dialogs.c:98
-#: ../thunar/thunar-dialogs.c:233 ../thunar/thunar-dialogs.c:649
-#: ../thunar/thunar-dialogs.c:762 ../thunar/thunar-dialogs.c:1034
-#: ../thunar/thunar-dnd.c:169 ../thunar/thunar-launcher.c:877
-#: ../thunar/thunar-permissions-chooser.c:535
-#: ../thunar/thunar-permissions-chooser.c:1143
-#: ../thunar/thunar-properties-dialog.c:850
-#: ../thunar/thunar-renamer-dialog.c:357
-#: ../thunar/thunar-renamer-dialog.c:1059
-#: ../thunar/thunar-renamer-progress.c:198
-#: ../thunar/thunar-renamer-progress.c:208
-#: ../thunar/thunar-standard-view.c:2176
-#: ../plugins/thunar-sendto-email/main.c:219
-#: ../plugins/thunar-sendto-email/main.c:238
-#: ../plugins/thunar-sendto-email/main.c:302
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:371
-#: ../plugins/thunar-uca/thunar-uca-editor.c:143
-#: ../plugins/thunar-uca/thunar-uca-editor.c:178
-#: ../plugins/thunar-uca/thunar-uca-editor.c:436
+#: ../lunar/lunar-application.c:2165 ../lunar/lunar-application.c:2344
+#: ../lunar/lunar-chooser-dialog.c:288 ../lunar/lunar-chooser-dialog.c:720
+#: ../lunar/lunar-chooser-dialog.c:769 ../lunar/lunar-dialogs.c:98
+#: ../lunar/lunar-dialogs.c:233 ../lunar/lunar-dialogs.c:649
+#: ../lunar/lunar-dialogs.c:762 ../lunar/lunar-dialogs.c:1034
+#: ../lunar/lunar-dnd.c:169 ../lunar/lunar-launcher.c:877
+#: ../lunar/lunar-permissions-chooser.c:535
+#: ../lunar/lunar-permissions-chooser.c:1143
+#: ../lunar/lunar-properties-dialog.c:850
+#: ../lunar/lunar-renamer-dialog.c:357
+#: ../lunar/lunar-renamer-dialog.c:1059
+#: ../lunar/lunar-renamer-progress.c:198
+#: ../lunar/lunar-renamer-progress.c:208
+#: ../lunar/lunar-standard-view.c:2176
+#: ../plugins/lunar-sendto-email/main.c:219
+#: ../plugins/lunar-sendto-email/main.c:238
+#: ../plugins/lunar-sendto-email/main.c:302
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:371
+#: ../plugins/lunar-uca/lunar-uca-editor.c:143
+#: ../plugins/lunar-uca/lunar-uca-editor.c:178
+#: ../plugins/lunar-uca/lunar-uca-editor.c:436
 msgid "_Cancel"
 msgstr "_Peruuta"
 
-#: ../thunar/thunar-application.c:2166 ../thunar/thunar-launcher.c:259
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:372
+#: ../lunar/lunar-application.c:2166 ../lunar/lunar-launcher.c:259
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:372
 msgid "_Delete"
 msgstr "_Poista"
 
-#: ../thunar/thunar-application.c:2170
+#: ../lunar/lunar-application.c:2170
 msgid "If you delete a file, it is permanently lost."
 msgstr "Tiedoston poistoa ei voi peruuttaa."
 
-#: ../thunar/thunar-application.c:2180
+#: ../lunar/lunar-application.c:2180
 msgid "Deleting files..."
 msgstr "Poistetaan tiedostoja..."
 
-#: ../thunar/thunar-application.c:2215
+#: ../lunar/lunar-application.c:2215
 msgid "Moving files into the trash..."
 msgstr "Siirretään tiedostoja roskakoriin..."
 
-#: ../thunar/thunar-application.c:2261
+#: ../lunar/lunar-application.c:2261
 msgid "Creating files..."
 msgstr "Luodaan tiedostoja..."
 
-#: ../thunar/thunar-application.c:2300
+#: ../lunar/lunar-application.c:2300
 msgid "Creating directories..."
 msgstr "Luodaan kansioita..."
 
-#: ../thunar/thunar-application.c:2339
+#: ../lunar/lunar-application.c:2339
 msgid "Remove all files and folders from the Trash?"
 msgstr "Poistetaanko kaikki tiedostot\nja kansiot roskakorista?"
 
 #. append the "Empty Trash" menu action
 #. prepare the menu item
-#: ../thunar/thunar-application.c:2345 ../thunar/thunar-launcher.c:253
-#: ../thunar/thunar-shortcuts-view.c:1226
-#: ../plugins/thunar-tpa/thunar-tpa.c:175
+#: ../lunar/lunar-application.c:2345 ../lunar/lunar-launcher.c:253
+#: ../lunar/lunar-shortcuts-view.c:1226
+#: ../plugins/lunar-tpa/lunar-tpa.c:175
 msgid "_Empty Trash"
 msgstr "_Tyhjennä roskakori"
 
-#: ../thunar/thunar-application.c:2349
+#: ../lunar/lunar-application.c:2349
 msgid ""
 "If you choose to empty the Trash, all items in it will be permanently lost. "
 "Please note that you can also delete them separately."
 msgstr "Jos roskakori tyhjennetään, sen sisältö häviää lopullisesti. Huomaa, että voit poistaa roskakorista tiedostoja myös yksitellen."
 
-#: ../thunar/thunar-application.c:2366
+#: ../lunar/lunar-application.c:2366
 msgid "Emptying the Trash..."
 msgstr "Tyhjennetään roskakoria..."
 
-#: ../thunar/thunar-application.c:2412
+#: ../lunar/lunar-application.c:2412
 #, c-format
 msgid "Failed to determine the original path for \"%s\""
 msgstr "Kohteen \"%s\" alkuperäisen polun määritys epäonnistui."
 
 #. display an error dialog
-#: ../thunar/thunar-application.c:2429
+#: ../lunar/lunar-application.c:2429
 #, c-format
 msgid "Could not restore \"%s\""
 msgstr "Kohteen \"%s\" palautus epäonnistui"
 
-#: ../thunar/thunar-application.c:2437
+#: ../lunar/lunar-application.c:2437
 msgid "Restoring files..."
 msgstr "Palautetaan tiedostoja..."
 
-#: ../thunar/thunar-chooser-button.c:309 ../thunar/thunar-chooser-dialog.c:471
+#: ../lunar/lunar-chooser-button.c:309 ../lunar/lunar-chooser-dialog.c:471
 #, c-format
 msgid "Failed to set default application for \"%s\""
 msgstr "Oletussovelluksen asettaminen tiedostotyypille \"%s\" epäonnistui."
 
-#: ../thunar/thunar-chooser-button.c:440
+#: ../lunar/lunar-chooser-button.c:440
 #, c-format
 msgid ""
 "The selected application is used to open this and other files of type "
 "\"%s\"."
 msgstr "Valittua sovellusta käytetään tämän ja muiden tyypin \"%s\" tiedostojen avaamiseen."
 
-#: ../thunar/thunar-chooser-button.c:495
+#: ../lunar/lunar-chooser-button.c:495
 msgid "No application selected"
 msgstr "Sovellusta ei ole valittu"
 
-#: ../thunar/thunar-chooser-button.c:508
+#: ../lunar/lunar-chooser-button.c:508
 msgid "Other Application..."
 msgstr "Muu sovellus..."
 
-#: ../thunar/thunar-chooser-dialog.c:186 ../thunar/thunar-launcher.c:2862
+#: ../lunar/lunar-chooser-dialog.c:186 ../lunar/lunar-launcher.c:2862
 msgid "Open With"
 msgstr "Avaa sovelluksessa"
 
 #. create the "Custom command" expand
-#: ../thunar/thunar-chooser-dialog.c:255
+#: ../lunar/lunar-chooser-dialog.c:255
 msgid "Use a _custom command:"
 msgstr "Käytä _mukautettua komentoa:"
 
-#: ../thunar/thunar-chooser-dialog.c:256
+#: ../lunar/lunar-chooser-dialog.c:256
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "Käytä mukautettua komentoa sellaiselle sovellukselle, jota ei löydy yläpuoliselta sovelluslistalta."
 
 #. create the "Custom command" button
-#: ../thunar/thunar-chooser-dialog.c:275
+#: ../lunar/lunar-chooser-dialog.c:275
 msgid "_Browse..."
 msgstr "_Selaa..."
 
 #. create the "Use as default for this kind of file" button
-#: ../thunar/thunar-chooser-dialog.c:281
+#: ../lunar/lunar-chooser-dialog.c:281
 msgid "Use as _default for this kind of file"
 msgstr "Käytä _oletuksena tälle tiedostotyypille"
 
 #. add the "Ok"/"Open" button
-#: ../thunar/thunar-chooser-dialog.c:291
-#: ../thunar/thunar-chooser-dialog.c:1173
-#: ../thunar/thunar-properties-dialog.c:851 ../thunar/thunar-window.c:3132
-#: ../plugins/thunar-uca/thunar-uca-editor.c:144
-#: ../plugins/thunar-uca/thunar-uca-editor.c:437
+#: ../lunar/lunar-chooser-dialog.c:291
+#: ../lunar/lunar-chooser-dialog.c:1173
+#: ../lunar/lunar-properties-dialog.c:851 ../lunar/lunar-window.c:3132
+#: ../plugins/lunar-uca/lunar-uca-editor.c:144
+#: ../plugins/lunar-uca/lunar-uca-editor.c:437
 msgid "_OK"
 msgstr "_OK"
 
 #. display an error to the user
-#: ../thunar/thunar-chooser-dialog.c:432
+#: ../lunar/lunar-chooser-dialog.c:432
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "Uuden sovelluksen \"%s\" lisääminen epäonnistui."
 
-#: ../thunar/thunar-chooser-dialog.c:509
+#: ../lunar/lunar-chooser-dialog.c:509
 #, c-format
 msgid "Failed to execute application \"%s\""
 msgstr "Sovelluksen \"%s\" suoritus epäonnistui."
 
 #. append the "Remove Launcher" item
-#: ../thunar/thunar-chooser-dialog.c:578
+#: ../lunar/lunar-chooser-dialog.c:578
 msgid "_Remove Launcher"
 msgstr "_Poista käynnistin"
 
 #. update the header label
-#: ../thunar/thunar-chooser-dialog.c:658
+#: ../lunar/lunar-chooser-dialog.c:658
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "Avaa <i>%s</i> ja muut tyypin \"%s\" tiedostot sovelluksessa:"
 
-#: ../thunar/thunar-chooser-dialog.c:666
+#: ../lunar/lunar-chooser-dialog.c:666
 #, c-format
 msgid ""
 "Browse the file system to select an application to open files of type "
 "\"%s\"."
 msgstr "Selaa tiedostojärjestelmää valitaksesi sovelluksen, jolla tyypin \"%s\" tiedostot avataan."
 
-#: ../thunar/thunar-chooser-dialog.c:672
+#: ../lunar/lunar-chooser-dialog.c:672
 #, c-format
 msgid ""
 "Change the default application for files of type \"%s\" to the selected "
 "application."
 msgstr "Vaihda valittu sovellus tiedostotyypin \"%s\" oletussovellukseksi."
 
-#: ../thunar/thunar-chooser-dialog.c:718
+#: ../lunar/lunar-chooser-dialog.c:718
 #, c-format
 msgid "Are you sure that you want to remove \"%s\"?"
 msgstr "Haluatko todella poistaa kohteen \"%s\"?"
 
-#: ../thunar/thunar-chooser-dialog.c:721
+#: ../lunar/lunar-chooser-dialog.c:721
 msgid "_Remove"
 msgstr "_Poista"
 
-#: ../thunar/thunar-chooser-dialog.c:724
+#: ../lunar/lunar-chooser-dialog.c:724
 msgid ""
 "This will remove the application launcher that appears in the file context menu, but will not uninstall the application itself.\n"
 "\n"
@@ -353,144 +353,144 @@ msgid ""
 msgstr "Tämä poistaa sovelluksen käynnistimen tiedoston konteksivalikosta, mutta ei poista sovelluksen asennusta.\n\nVoit poistaa käynnistimen ainoastaan, jos se on luotu tiedostonhallinnan \"Avaa sovelluksessa\" -dialogin mukautettu komento -laatikon avulla."
 
 #. display an error to the user
-#: ../thunar/thunar-chooser-dialog.c:739
+#: ../lunar/lunar-chooser-dialog.c:739
 #, c-format
 msgid "Failed to remove \"%s\""
 msgstr "Kohdetta \"%s\" ei voi poistaa"
 
-#: ../thunar/thunar-chooser-dialog.c:766
-#: ../plugins/thunar-uca/thunar-uca-editor.c:175
+#: ../lunar/lunar-chooser-dialog.c:766
+#: ../plugins/lunar-uca/lunar-uca-editor.c:175
 msgid "Select an Application"
 msgstr "Valitse sovellus"
 
 #. change the accept button label text
 #. aka "activate"
-#: ../thunar/thunar-chooser-dialog.c:770
-#: ../thunar/thunar-chooser-dialog.c:1173 ../thunar/thunar-launcher.c:1317
-#: ../thunar/thunar-renamer-dialog.c:1060
-#: ../thunar/thunar-shortcuts-view.c:1118
-#: ../plugins/thunar-uca/thunar-uca-editor.c:179
+#: ../lunar/lunar-chooser-dialog.c:770
+#: ../lunar/lunar-chooser-dialog.c:1173 ../lunar/lunar-launcher.c:1317
+#: ../lunar/lunar-renamer-dialog.c:1060
+#: ../lunar/lunar-shortcuts-view.c:1118
+#: ../plugins/lunar-uca/lunar-uca-editor.c:179
 msgid "_Open"
 msgstr "_Avaa"
 
-#: ../thunar/thunar-chooser-dialog.c:776
-#: ../thunar/thunar-renamer-dialog.c:1067
-#: ../plugins/thunar-uca/thunar-uca-editor.c:186
+#: ../lunar/lunar-chooser-dialog.c:776
+#: ../lunar/lunar-renamer-dialog.c:1067
+#: ../plugins/lunar-uca/lunar-uca-editor.c:186
 msgid "All Files"
 msgstr "Kaikki tiedostot"
 
-#: ../thunar/thunar-chooser-dialog.c:781
-#: ../plugins/thunar-uca/thunar-uca-editor.c:191
+#: ../lunar/lunar-chooser-dialog.c:781
+#: ../plugins/lunar-uca/lunar-uca-editor.c:191
 msgid "Executable Files"
 msgstr "Suoritettavat tiedostot"
 
-#: ../thunar/thunar-chooser-dialog.c:796
-#: ../plugins/thunar-uca/thunar-uca-editor.c:206
+#: ../lunar/lunar-chooser-dialog.c:796
+#: ../plugins/lunar-uca/lunar-uca-editor.c:206
 msgid "Perl Scripts"
 msgstr "Perl-skriptit"
 
-#: ../thunar/thunar-chooser-dialog.c:802
-#: ../plugins/thunar-uca/thunar-uca-editor.c:212
+#: ../lunar/lunar-chooser-dialog.c:802
+#: ../plugins/lunar-uca/lunar-uca-editor.c:212
 msgid "Python Scripts"
 msgstr "Python-skriptit"
 
-#: ../thunar/thunar-chooser-dialog.c:808
-#: ../plugins/thunar-uca/thunar-uca-editor.c:218
+#: ../lunar/lunar-chooser-dialog.c:808
+#: ../plugins/lunar-uca/lunar-uca-editor.c:218
 msgid "Ruby Scripts"
 msgstr "Ruby-skriptit"
 
-#: ../thunar/thunar-chooser-dialog.c:814
-#: ../plugins/thunar-uca/thunar-uca-editor.c:224
+#: ../lunar/lunar-chooser-dialog.c:814
+#: ../plugins/lunar-uca/lunar-uca-editor.c:224
 msgid "Shell Scripts"
 msgstr "Shell-skriptit"
 
-#: ../thunar/thunar-chooser-model.c:251
+#: ../lunar/lunar-chooser-model.c:251
 msgid "None available"
 msgstr "Ei saatavilla"
 
-#: ../thunar/thunar-chooser-model.c:298
+#: ../lunar/lunar-chooser-model.c:298
 msgid "Recommended Applications"
 msgstr "Suositellut sovellukset"
 
-#: ../thunar/thunar-chooser-model.c:316
+#: ../lunar/lunar-chooser-model.c:316
 msgid "Other Applications"
 msgstr "Muut sovellukset"
 
-#: ../thunar/thunar-chooser-model.c:406
+#: ../lunar/lunar-chooser-model.c:406
 #, c-format
 msgid "Failed to remove \"%s\"."
 msgstr "Kohdetta \"%s\" ei voi poistaa."
 
 #. tell the user that we cannot paste
-#: ../thunar/thunar-clipboard-manager.c:354
+#: ../lunar/lunar-clipboard-manager.c:354
 msgid "There is nothing on the clipboard to paste"
 msgstr "Leikepöydällä ei ole liitettävää."
 
 #. setup the dialog
 #. add the "Close" button
 #. add a regular close button, the header bar already provides one
-#: ../thunar/thunar-column-editor.c:120 ../thunar/thunar-dialogs.c:979
-#: ../thunar/thunar-preferences-dialog.c:292
-#: ../thunar/thunar-properties-dialog.c:256
-#: ../thunar/thunar-renamer-dialog.c:358
-#: ../thunar/thunar-renamer-progress.c:215
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:131
+#: ../lunar/lunar-column-editor.c:120 ../lunar/lunar-dialogs.c:979
+#: ../lunar/lunar-preferences-dialog.c:292
+#: ../lunar/lunar-properties-dialog.c:256
+#: ../lunar/lunar-renamer-dialog.c:358
+#: ../lunar/lunar-renamer-progress.c:215
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:131
 msgid "_Close"
 msgstr "_Sulje"
 
-#: ../thunar/thunar-column-editor.c:123
+#: ../lunar/lunar-column-editor.c:123
 msgid "Configure Columns in the Detailed List View"
 msgstr "Yksityiskohtaisen listanäkymän sarakeasetukset"
 
 #. add the "Help" button
-#: ../thunar/thunar-column-editor.c:126
-#: ../thunar/thunar-preferences-dialog.c:303
-#: ../thunar/thunar-properties-dialog.c:255 ../thunar/thunar-window.c:409
+#: ../lunar/lunar-column-editor.c:126
+#: ../lunar/lunar-preferences-dialog.c:303
+#: ../lunar/lunar-properties-dialog.c:255 ../lunar/lunar-window.c:409
 msgid "_Help"
 msgstr "_Ohje"
 
-#: ../thunar/thunar-column-editor.c:141
+#: ../lunar/lunar-column-editor.c:141
 msgid "Visible Columns"
 msgstr "Näkyvät sarakkeet"
 
 #. create the top label for the column editor dialog
-#: ../thunar/thunar-column-editor.c:154
+#: ../lunar/lunar-column-editor.c:154
 msgid ""
 "Choose the order of information to appear in the\n"
 "detailed list view."
 msgstr "Valitse järjestys, jossa tiedot näytetään\nyksityiskohtaisessa listanäkymässä."
 
 #. create the "Move Up" button
-#: ../thunar/thunar-column-editor.c:198
+#: ../lunar/lunar-column-editor.c:198
 msgid "Move _Up"
 msgstr "Siirrä _ylös"
 
 #. create the "Move Down" button
-#: ../thunar/thunar-column-editor.c:209
+#: ../lunar/lunar-column-editor.c:209
 msgid "Move Dow_n"
 msgstr "Siirrä _alas"
 
 #. create the "Show" button
-#: ../thunar/thunar-column-editor.c:220
+#: ../lunar/lunar-column-editor.c:220
 msgid "_Show"
 msgstr "_Näytä"
 
 #. create the "Hide" button
-#: ../thunar/thunar-column-editor.c:226
+#: ../lunar/lunar-column-editor.c:226
 msgid "Hi_de"
 msgstr "_Piilota"
 
 #. create the "Use Default" button
-#: ../thunar/thunar-column-editor.c:237
+#: ../lunar/lunar-column-editor.c:237
 msgid "Use De_fault"
 msgstr "Palauta _oletus"
 
-#: ../thunar/thunar-column-editor.c:246
+#: ../lunar/lunar-column-editor.c:246
 msgid "Column Sizing"
 msgstr "Sarakkeiden koko"
 
 #. create the label that explains the column sizing option
-#: ../thunar/thunar-column-editor.c:259
+#: ../lunar/lunar-column-editor.c:259
 msgid ""
 "By default columns will be automatically expanded if\n"
 "needed to ensure the text is fully visible. If you dis-\n"
@@ -499,474 +499,474 @@ msgid ""
 msgstr "Oletusarvoisesti sarakkeet laajennetaan tarvittaessa\nautomaattisesti, jotta niiden sisältämä teksti näkyy\nkokonaan. Jos asetat alapuolelta tämän toimintatavan\npois käytöstä, sarakkeet pidetään aina käyttäjään\nmäärittämässä leveydessä."
 
 #. create the "Automatically expand columns as needed" button
-#: ../thunar/thunar-column-editor.c:268
+#: ../lunar/lunar-column-editor.c:268
 msgid "Automatically _expand columns as needed"
 msgstr "_Laajenna sarakkeet tarpeen mukaan"
 
 #. the file_time is invalid
 #. reset page title
 #. tell the user that we're unable to determine the file info
-#: ../thunar/thunar-column-model.c:877 ../thunar/thunar-list-model.c:734
-#: ../thunar/thunar-list-model.c:770
-#: ../thunar/thunar-permissions-chooser.c:232 ../thunar/thunar-util.c:491
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:513
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:293
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:294
-#: ../plugins/thunar-uca/thunar-uca-editor.c:431
+#: ../lunar/lunar-column-model.c:877 ../lunar/lunar-list-model.c:734
+#: ../lunar/lunar-list-model.c:770
+#: ../lunar/lunar-permissions-chooser.c:232 ../lunar/lunar-util.c:491
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:513
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:293
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:294
+#: ../plugins/lunar-uca/lunar-uca-editor.c:431
 msgid "Unknown"
 msgstr "Tuntematon"
 
-#: ../thunar/thunar-compact-view.c:108
+#: ../lunar/lunar-compact-view.c:108
 msgid "Compact directory listing"
 msgstr "Kompakti kansionäkymä"
 
-#: ../thunar/thunar-compact-view.c:109
+#: ../lunar/lunar-compact-view.c:109
 msgid "Compact view"
 msgstr "Kompakti näkymä"
 
-#: ../thunar/thunar-dbus-service.c:527
+#: ../lunar/lunar-dbus-service.c:527
 #, c-format
 msgid "Invalid filename \"%s\""
 msgstr "Tiedostonimi \"%s\" ei kelpaa"
 
 #. LaunchFiles() invoked without a valid working directory
-#: ../thunar/thunar-dbus-service.c:976
+#: ../lunar/lunar-dbus-service.c:976
 #, c-format
 msgid "The working directory must be an absolute path"
 msgstr "Työkansion täytyy olla absoluuttinen polku."
 
 #. LaunchFiles() invoked with an empty filename list
-#: ../thunar/thunar-dbus-service.c:984 ../thunar/thunar-dbus-service.c:1419
+#: ../lunar/lunar-dbus-service.c:984 ../lunar/lunar-dbus-service.c:1419
 #, c-format
 msgid "At least one filename must be specified"
 msgstr "Määritä vähintään yksi tiedostonimi."
 
-#: ../thunar/thunar-dbus-service.c:1159
+#: ../lunar/lunar-dbus-service.c:1159
 #, c-format
 msgid "At least one source filename must be specified"
 msgstr "Määritä vähintään yksi lähdetiedosto."
 
-#: ../thunar/thunar-dbus-service.c:1169
+#: ../lunar/lunar-dbus-service.c:1169
 #, c-format
 msgid "The number of source and target filenames must be the same"
 msgstr "Lähde- ja kohdetiedostoja täytyy olla yhtä monta."
 
-#: ../thunar/thunar-dbus-service.c:1178
+#: ../lunar/lunar-dbus-service.c:1178
 #, c-format
 msgid "A destination directory must be specified"
 msgstr "Määritä kohdekansio."
 
-#: ../thunar/thunar-details-view.c:147
+#: ../lunar/lunar-details-view.c:147
 msgid "Configure _Columns..."
 msgstr "_Sarakkeiden asetukset..."
 
-#: ../thunar/thunar-details-view.c:147
+#: ../lunar/lunar-details-view.c:147
 msgid "Configure the columns in the detailed list view"
 msgstr "Muokkaa yksityiskohtaisen listanäkymän sarakkeiden asetuksia."
 
-#: ../thunar/thunar-details-view.c:413
+#: ../lunar/lunar-details-view.c:413
 msgid "Detailed directory listing"
 msgstr "Yksityiskohtainen kansiolistaus"
 
-#: ../thunar/thunar-details-view.c:414
+#: ../lunar/lunar-details-view.c:414
 msgid "Details view"
 msgstr "Yksityiskohtainen näkymä"
 
-#: ../thunar/thunar-dialogs.c:99
+#: ../lunar/lunar-dialogs.c:99
 msgid "C_reate"
 msgstr "_Luo"
 
-#: ../thunar/thunar-dialogs.c:127
+#: ../lunar/lunar-dialogs.c:127
 msgid "Enter the name:"
 msgstr "Syötä nimi:"
 
 #. display an error message
-#: ../thunar/thunar-dialogs.c:167
+#: ../lunar/lunar-dialogs.c:167
 #, c-format
 msgid "Cannot convert filename \"%s\" to the local encoding"
 msgstr "Tiedostonimeä \"%s\" ei voi muuttaa käytössä olevaan merkistöön."
 
 #. create a new dialog window
-#: ../thunar/thunar-dialogs.c:228
+#: ../lunar/lunar-dialogs.c:228
 #, c-format
 msgid "Rename \"%s\""
 msgstr "Nimeä \"%s\" uudelleen"
 
-#: ../thunar/thunar-dialogs.c:234
+#: ../lunar/lunar-dialogs.c:234
 msgid "_Rename"
 msgstr "_Nimeä uudelleen"
 
-#: ../thunar/thunar-dialogs.c:264
+#: ../lunar/lunar-dialogs.c:264
 msgid "Enter the new name:"
 msgstr "Syötä uusi nimi:"
 
-#: ../thunar/thunar-dialogs.c:408
+#: ../lunar/lunar-dialogs.c:408
 msgid "translator-credits"
 msgstr "Jari Rahkonen <jari.rahkonen@pp1.inet.fi>"
 
-#: ../thunar/thunar-dialogs.c:582 ../thunar/thunar-permissions-chooser.c:537
+#: ../lunar/lunar-dialogs.c:582 ../lunar/lunar-permissions-chooser.c:537
 msgid "_Yes"
 msgstr "_Kyllä"
 
-#: ../thunar/thunar-dialogs.c:586
+#: ../lunar/lunar-dialogs.c:586
 msgid "Yes to _all"
 msgstr "Kyllä k_aikkiin"
 
-#: ../thunar/thunar-dialogs.c:590 ../thunar/thunar-dialogs.c:766
+#: ../lunar/lunar-dialogs.c:590 ../lunar/lunar-dialogs.c:766
 msgid "_Replace"
 msgstr "_Korvaa"
 
-#: ../thunar/thunar-dialogs.c:594 ../thunar/thunar-dialogs.c:765
+#: ../lunar/lunar-dialogs.c:594 ../lunar/lunar-dialogs.c:765
 msgid "Replace _All"
 msgstr "Ko_rvaa kaikki"
 
-#: ../thunar/thunar-dialogs.c:598 ../thunar/thunar-dialogs.c:764
+#: ../lunar/lunar-dialogs.c:598 ../lunar/lunar-dialogs.c:764
 msgid "_Skip"
 msgstr "_Ohita"
 
-#: ../thunar/thunar-dialogs.c:602 ../thunar/thunar-dialogs.c:763
+#: ../lunar/lunar-dialogs.c:602 ../lunar/lunar-dialogs.c:763
 msgid "S_kip All"
 msgstr "O_hita kaikki"
 
-#: ../thunar/thunar-dialogs.c:606 ../thunar/thunar-dialogs.c:768
+#: ../lunar/lunar-dialogs.c:606 ../lunar/lunar-dialogs.c:768
 msgid "Re_name"
 msgstr "_Nimeä uudelleen"
 
-#: ../thunar/thunar-dialogs.c:610 ../thunar/thunar-dialogs.c:767
+#: ../lunar/lunar-dialogs.c:610 ../lunar/lunar-dialogs.c:767
 msgid "Rena_me All"
 msgstr "Nimeä uudelleen _kaikki"
 
-#: ../thunar/thunar-dialogs.c:614 ../thunar/thunar-permissions-chooser.c:536
+#: ../lunar/lunar-dialogs.c:614 ../lunar/lunar-permissions-chooser.c:536
 msgid "_No"
 msgstr "_Ei"
 
-#: ../thunar/thunar-dialogs.c:618
+#: ../lunar/lunar-dialogs.c:618
 msgid "N_o to all"
 msgstr "Ei kaikkii_n"
 
-#: ../thunar/thunar-dialogs.c:622
+#: ../lunar/lunar-dialogs.c:622
 msgid "_Retry"
 msgstr "_Uudelleen"
 
-#: ../thunar/thunar-dialogs.c:626
+#: ../lunar/lunar-dialogs.c:626
 msgid "Copy _Anyway"
 msgstr "Kopioi _silti"
 
-#: ../thunar/thunar-dialogs.c:741
+#: ../lunar/lunar-dialogs.c:741
 msgid "Confirm to replace files"
 msgstr "Hyväksy tiedostojen korvaus"
 
-#: ../thunar/thunar-dialogs.c:811
+#: ../lunar/lunar-dialogs.c:811
 #, c-format
 msgid "This folder already contains a symbolic link \"%s\"."
 msgstr "Tämä kansio sisältää jo symbolisen linkin \"%s\"."
 
-#: ../thunar/thunar-dialogs.c:816
+#: ../lunar/lunar-dialogs.c:816
 #, c-format
 msgid "This folder already contains a folder \"%s\"."
 msgstr "Tämä kansio sisältää jo kansion \"%s\"."
 
-#: ../thunar/thunar-dialogs.c:821
+#: ../lunar/lunar-dialogs.c:821
 #, c-format
 msgid "This folder already contains a file \"%s\"."
 msgstr "Tämä kansio sisältää jo tiedoston \"%s\"."
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:836
+#: ../lunar/lunar-dialogs.c:836
 #, c-format
 msgid "Do you want to replace the link"
 msgstr "Haluatko korvata linkin"
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:839
+#: ../lunar/lunar-dialogs.c:839
 #, c-format
 msgid "Do you want to replace the existing folder"
 msgstr "Haluatko korvata olemassa olevan kansion"
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:842
+#: ../lunar/lunar-dialogs.c:842
 #, c-format
 msgid "Do you want to replace the existing file"
 msgstr "Haluatko korvata olemassa olevan tiedoston"
 
 #. Fourth box (size, volume, free space)
-#: ../thunar/thunar-dialogs.c:863 ../thunar/thunar-dialogs.c:902
-#: ../thunar/thunar-properties-dialog.c:514
+#: ../lunar/lunar-dialogs.c:863 ../lunar/lunar-dialogs.c:902
+#: ../lunar/lunar-properties-dialog.c:514
 msgid "Size:"
 msgstr "Koko:"
 
-#: ../thunar/thunar-dialogs.c:863 ../thunar/thunar-dialogs.c:902
-#: ../thunar/thunar-properties-dialog.c:473
+#: ../lunar/lunar-dialogs.c:863 ../lunar/lunar-dialogs.c:902
+#: ../lunar/lunar-properties-dialog.c:473
 msgid "Modified:"
 msgstr "Muokattu:"
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:875
+#: ../lunar/lunar-dialogs.c:875
 #, c-format
 msgid "with the following link?"
 msgstr "seuraavalla linkillä?"
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:878
+#: ../lunar/lunar-dialogs.c:878
 #, c-format
 msgid "with the following folder?"
 msgstr "seuraavalla kansiolla?"
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:881
+#: ../lunar/lunar-dialogs.c:881
 #, c-format
 msgid "with the following file?"
 msgstr "seuraavalla tiedostolla?"
 
-#: ../thunar/thunar-dialogs.c:1014
+#: ../lunar/lunar-dialogs.c:1014
 #, c-format
 msgid ""
 "The desktop file \"%s\" is in an insecure location and not marked as "
 "executable. If you do not trust this program, click Cancel."
 msgstr "Käynnistin ”%s” ei ole turvallisessa sijainnissa eikä sitä ole merkitty suoritettavaksi. Jos et luota tähän ohjelmaan, valitse Peruuta."
 
-#: ../thunar/thunar-dialogs.c:1031
+#: ../lunar/lunar-dialogs.c:1031
 msgid "_Launch Anyway"
 msgstr "_Käynnistä silti"
 
-#: ../thunar/thunar-dialogs.c:1033
+#: ../lunar/lunar-dialogs.c:1033
 msgid "Mark _Executable"
 msgstr "Merkitse _suoritettavaksi"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Copy here"
 msgstr "_Kopioi tähän"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Move here"
 msgstr "_Siirrä tähän"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Link here"
 msgstr "_Linkitä tähän"
 
 #. display an error to the user
 #. display an error message to the user
-#: ../thunar/thunar-dnd.c:250 ../thunar/thunar-launcher.c:693
+#: ../lunar/lunar-dnd.c:250 ../lunar/lunar-launcher.c:693
 #, c-format
 msgid "Failed to execute file \"%s\""
 msgstr "Tiedoston \"%s\" suorittaminen epäonnistui."
 
-#: ../thunar/thunar-enum-types.c:49
+#: ../lunar/lunar-enum-types.c:49
 msgid "Name only"
 msgstr "Pelkkä nimi"
 
-#: ../thunar/thunar-enum-types.c:50
+#: ../lunar/lunar-enum-types.c:50
 msgid "Suffix only"
 msgstr "Pelkkä pääte"
 
-#: ../thunar/thunar-enum-types.c:51
+#: ../lunar/lunar-enum-types.c:51
 msgid "Name and Suffix"
 msgstr "Nimi ja pääte"
 
-#: ../thunar/thunar-enum-types.c:101
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:137
+#: ../lunar/lunar-enum-types.c:101
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:137
 msgid "Date Accessed"
 msgstr "Käytetty"
 
-#: ../thunar/thunar-enum-types.c:102
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:138
+#: ../lunar/lunar-enum-types.c:102
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:138
 msgid "Date Modified"
 msgstr "Muokattu"
 
-#: ../thunar/thunar-enum-types.c:103
+#: ../lunar/lunar-enum-types.c:103
 msgid "Group"
 msgstr "Ryhmä"
 
-#: ../thunar/thunar-enum-types.c:104
+#: ../lunar/lunar-enum-types.c:104
 msgid "MIME Type"
 msgstr "MIME-tyyppi"
 
-#: ../thunar/thunar-enum-types.c:105 ../thunar/thunar-renamer-dialog.c:417
-#: ../thunarx/thunarx-renamer.c:164
+#: ../lunar/lunar-enum-types.c:105 ../lunar/lunar-renamer-dialog.c:417
+#: ../lunarx/lunarx-renamer.c:164
 msgid "Name"
 msgstr "Nimi"
 
-#: ../thunar/thunar-enum-types.c:106
+#: ../lunar/lunar-enum-types.c:106
 msgid "Owner"
 msgstr "Omistaja"
 
 #. Permissions chooser
-#: ../thunar/thunar-enum-types.c:107 ../thunar/thunar-properties-dialog.c:598
+#: ../lunar/lunar-enum-types.c:107 ../lunar/lunar-properties-dialog.c:598
 msgid "Permissions"
 msgstr "Käyttöoikeudet"
 
-#: ../thunar/thunar-enum-types.c:108
+#: ../lunar/lunar-enum-types.c:108
 msgid "Size"
 msgstr "Koko"
 
-#: ../thunar/thunar-enum-types.c:109
+#: ../lunar/lunar-enum-types.c:109
 msgid "Size in Bytes"
 msgstr "Koko tavuissa"
 
-#: ../thunar/thunar-enum-types.c:110
+#: ../lunar/lunar-enum-types.c:110
 msgid "Type"
 msgstr "Tyyppi"
 
-#: ../thunar/thunar-enum-types.c:111
+#: ../lunar/lunar-enum-types.c:111
 msgid "File"
 msgstr "Tiedosto"
 
-#: ../thunar/thunar-enum-types.c:112
+#: ../lunar/lunar-enum-types.c:112
 msgid "File Name"
 msgstr "Tiedostonimi"
 
-#: ../thunar/thunar-file.c:1059 ../thunar/thunar-gio-extensions.c:289
-#: ../thunar/thunar-shortcuts-model.c:1112 ../thunar.desktop.in.in.h:7
+#: ../lunar/lunar-file.c:1059 ../lunar/lunar-gio-extensions.c:289
+#: ../lunar/lunar-shortcuts-model.c:1112 ../lunar.desktop.in.in.h:7
 msgid "Trash"
 msgstr "Roskakori"
 
-#: ../thunar/thunar-file.c:1066 ../thunar/thunar-gio-extensions.c:287
-#: ../thunar/thunar-shortcuts-model.c:994 ../thunar/thunar-window.c:397
+#: ../lunar/lunar-file.c:1066 ../lunar/lunar-gio-extensions.c:287
+#: ../lunar/lunar-shortcuts-model.c:994 ../lunar/lunar-window.c:397
 msgid "File System"
 msgstr "Tiedostojärjestelmä"
 
-#: ../thunar/thunar-file.c:1519
+#: ../lunar/lunar-file.c:1519
 #, c-format
 msgid "The root folder has no parent"
 msgstr "Juurella ei ole yläkansiota."
 
-#: ../thunar/thunar-file.c:1613
+#: ../lunar/lunar-file.c:1613
 #, c-format
 msgid "Failed to parse the desktop file: %s"
 msgstr "Desktop-tiedoston jäsennys epäonnistui: %s"
 
 #. if the .desktop file is not secure, ask user what to do
-#: ../thunar/thunar-file.c:1625
+#: ../lunar/lunar-file.c:1625
 msgid "Untrusted application launcher"
 msgstr "Ei-luotettu sovelluskäynnistin"
 
-#: ../thunar/thunar-file.c:1653
+#: ../lunar/lunar-file.c:1653
 #, c-format
 msgid "No Exec field specified"
 msgstr "Exec-kenttää ei ole määritetty."
 
 #. if the .desktop file is not secure, ask user what to do
-#: ../thunar/thunar-file.c:1662
+#: ../lunar/lunar-file.c:1662
 msgid "Untrusted link launcher"
 msgstr "Ei-luotettu linkin käynnistin"
 
-#: ../thunar/thunar-file.c:1678
+#: ../lunar/lunar-file.c:1678
 #, c-format
 msgid "No URL field specified"
 msgstr "URL-kenttää ei ole määritetty."
 
-#: ../thunar/thunar-file.c:1683
+#: ../lunar/lunar-file.c:1683
 msgid "Invalid desktop file"
 msgstr "Desktop-tiedosto ei kelpaa."
 
 #. TRANSLATORS: this will result in "<path> on <hostname>"
-#: ../thunar/thunar-gio-extensions.c:369
+#: ../lunar/lunar-gio-extensions.c:369
 #, c-format
 msgid "%s on %s"
 msgstr "%s koneella %s"
 
 #. free disk space string
-#: ../thunar/thunar-gio-extensions.c:480
+#: ../lunar/lunar-gio-extensions.c:480
 #, c-format
 msgid "%s of %s free (%d%% used)"
 msgstr "%s/%s vapaana (%d%% käytetty)"
 
-#: ../thunar/thunar-history.c:296
+#: ../lunar/lunar-history.c:296
 msgid "The item will be removed from the history"
 msgstr "Tämä kohde poistetaan historiasta"
 
-#: ../thunar/thunar-history.c:308
+#: ../lunar/lunar-history.c:308
 #, c-format
 msgid "Could not find \"%s\""
 msgstr "Kohdetta ”%s” ei löytynyt"
 
-#: ../thunar/thunar-icon-view.c:164
+#: ../lunar/lunar-icon-view.c:164
 msgid "Icon based directory listing"
 msgstr "Kuvakkeisiin perustuva kansionäkymä"
 
-#: ../thunar/thunar-icon-view.c:165
+#: ../lunar/lunar-icon-view.c:165
 msgid "Icon view"
 msgstr "Kuvakenäkymä"
 
-#: ../thunar/thunar-io-jobs.c:111
+#: ../lunar/lunar-io-jobs.c:111
 #, c-format
 msgid "Error removing file: %s"
 msgstr "Virhe poistaessa tiedostoa: %s"
 
-#: ../thunar/thunar-io-jobs.c:214 ../thunar/thunar-io-jobs.c:369
+#: ../lunar/lunar-io-jobs.c:214 ../lunar/lunar-io-jobs.c:369
 #, c-format
 msgid "The file \"%s\" already exists"
 msgstr "Tiedosto \"%s\" on jo olemassa"
 
-#: ../thunar/thunar-io-jobs.c:237
+#: ../lunar/lunar-io-jobs.c:237
 #, c-format
 msgid "Failed to create empty file \"%s\": %s"
 msgstr "Tiedoston \"%s\" luominen epäonnistui: %s"
 
-#: ../thunar/thunar-io-jobs.c:392
+#: ../lunar/lunar-io-jobs.c:392
 #, c-format
 msgid "Failed to create directory \"%s\": %s"
 msgstr "Kansion \"%s\" luominen epäonnistui: %s"
 
 #. tell the user that we're preparing to unlink the files
-#: ../thunar/thunar-io-jobs.c:459
+#: ../lunar/lunar-io-jobs.c:459
 msgid "Preparing..."
 msgstr "Valmistellaan..."
 
-#: ../thunar/thunar-io-jobs.c:537
+#: ../lunar/lunar-io-jobs.c:537
 #, c-format
 msgid "Could not delete file \"%s\": %s"
 msgstr "Tiedoston \"%s\" poisto epäonnistui: %s"
 
-#: ../thunar/thunar-io-jobs.c:640
+#: ../lunar/lunar-io-jobs.c:640
 #, c-format
 msgid "Could not create symbolic link to \"%s\" because it is not a local file"
 msgstr "Symbolista linkkiä ei luotu, koska \"%s\" ei ole paikallinen tiedosto."
 
 #. generate a useful error message
-#: ../thunar/thunar-io-jobs.c:1015
+#: ../lunar/lunar-io-jobs.c:1015
 #, c-format
 msgid "Failed to change the owner of \"%s\": %s"
 msgstr "Kohteen \"%s\" omistajan vaihto epäonnistui: %s"
 
-#: ../thunar/thunar-io-jobs.c:1016
+#: ../lunar/lunar-io-jobs.c:1016
 #, c-format
 msgid "Failed to change the group of \"%s\": %s"
 msgstr "Kohteen \"%s\" ryhmän vaihto epäonnistui: %s"
 
-#: ../thunar/thunar-io-jobs.c:1171
+#: ../lunar/lunar-io-jobs.c:1171
 #, c-format
 msgid "Failed to change the permissions of \"%s\": %s"
 msgstr "Kohteen \"%s\" käyttöoikeuksien muutos epäonnistui: %s"
 
 #. I18N: put " (copy #)" between basename and extension
-#: ../thunar/thunar-io-jobs-util.c:106 ../thunar/thunar-io-jobs-util.c:212
+#: ../lunar/lunar-io-jobs-util.c:106 ../lunar/lunar-io-jobs-util.c:212
 #, c-format
 msgid "%s (copy %u)%s"
 msgstr "%s (kopio %u)%s"
 
 #. I18N: put " (copy #)" after filename (for files without extension)
-#: ../thunar/thunar-io-jobs-util.c:112 ../thunar/thunar-io-jobs-util.c:218
+#: ../lunar/lunar-io-jobs-util.c:112 ../lunar/lunar-io-jobs-util.c:218
 #, c-format
 msgid "%s (copy %u)"
 msgstr "%s (kopio %u)"
 
 #. I18N: name for first link to basename
-#: ../thunar/thunar-io-jobs-util.c:121 ../thunar/thunar-list-model.c:792
-#: ../thunar/thunar-list-model.c:1633 ../thunar/thunar-list-model.c:1644
-#: ../thunar/thunar-properties-dialog.c:1033
+#: ../lunar/lunar-io-jobs-util.c:121 ../lunar/lunar-list-model.c:792
+#: ../lunar/lunar-list-model.c:1633 ../lunar/lunar-list-model.c:1644
+#: ../lunar/lunar-properties-dialog.c:1033
 #, c-format
 msgid "link to %s"
 msgstr "linkki kohteeseen %s"
 
 #. I18N: name for nth link to basename
-#: ../thunar/thunar-io-jobs-util.c:126
+#: ../lunar/lunar-io-jobs-util.c:126
 #, c-format
 msgid "link %u to %s"
 msgstr "linkki %u kohteeseen %s"
 
-#: ../thunar/thunar-job.c:304
+#: ../lunar/lunar-job.c:304
 #, c-format
 msgid ""
 "The file \"%s\" already exists. Would you like to replace it?\n"
@@ -974,33 +974,33 @@ msgid ""
 "If you replace an existing file, its contents will be overwritten."
 msgstr "Tiedosto \"%s\" on jo olemassa. Haluatko korvata sen?\n\nJos korvaat tiedoston, sen sisältö ylikirjoitetaan."
 
-#: ../thunar/thunar-job.c:386
+#: ../lunar/lunar-job.c:386
 msgid "Do you want to overwrite it?"
 msgstr "Haluatko korvata sen?"
 
-#: ../thunar/thunar-job.c:443
+#: ../lunar/lunar-job.c:443
 msgid "Do you want to permanently delete it?"
 msgstr "Haluatko poistaa sen pysyvästi?"
 
-#: ../thunar/thunar-job.c:497
+#: ../lunar/lunar-job.c:497
 msgid "Do you want to create it?"
 msgstr "Haluatko luoda sen?"
 
-#: ../thunar/thunar-job.c:605
+#: ../lunar/lunar-job.c:605
 msgid "Do you want to skip it?"
 msgstr "Haluatko ohittaa sen?"
 
-#: ../thunar/thunar-job.c:654
+#: ../lunar/lunar-job.c:654
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
 msgstr "Kohteessa ei ole tarpeeksi tilaa. Koeta poistaa tiedostoja."
 
-#: ../thunar/thunar-launcher.c:242
+#: ../lunar/lunar-launcher.c:242
 msgid "Open With Other _Application..."
 msgstr "Avaa muussa _sovelluksessa..."
 
-#: ../thunar/thunar-launcher.c:242 ../thunar/thunar-launcher.c:2863
+#: ../lunar/lunar-launcher.c:242 ../lunar/lunar-launcher.c:2863
 msgid "Choose another application with which to open the selected file"
 msgstr "Valitse muu sovellus, jolla valittu tiedosto avataan."
 
@@ -1008,361 +1008,361 @@ msgstr "Valitse muu sovellus, jolla valittu tiedosto avataan."
 #. possible to automatically migrate to new accel paths.
 #. Waiting for https://gitlab.gnome.org/GNOME/gtk/issues/2375 to be able to
 #. fix that
-#: ../thunar/thunar-launcher.c:246
+#: ../lunar/lunar-launcher.c:246
 msgid "_Send To"
 msgstr "_Lähetä"
 
-#: ../thunar/thunar-launcher.c:249
+#: ../lunar/lunar-launcher.c:249
 msgid "_Properties..."
 msgstr "_Ominaisuudet..."
 
-#: ../thunar/thunar-launcher.c:249
+#: ../lunar/lunar-launcher.c:249
 msgid "View the properties of the selected file"
 msgstr "Näytä valitun tiedoston ominaisuudet."
 
-#: ../thunar/thunar-launcher.c:250 ../thunar/thunar-launcher.c:1363
+#: ../lunar/lunar-launcher.c:250 ../lunar/lunar-launcher.c:1363
 msgid "Ma_ke Link"
 msgid_plural "Ma_ke Links"
 msgstr[0] "L_uo linkki"
 msgstr[1] "L_uo linkit"
 
-#: ../thunar/thunar-launcher.c:251
+#: ../lunar/lunar-launcher.c:251
 msgid "Du_plicate"
 msgstr "Luo k_opio"
 
-#: ../thunar/thunar-launcher.c:252
+#: ../lunar/lunar-launcher.c:252
 msgid "_Rename..."
 msgstr "_Nimeä uudelleen..."
 
-#: ../thunar/thunar-launcher.c:253
+#: ../lunar/lunar-launcher.c:253
 msgid "Delete all files and folders in the Trash"
 msgstr "Poista kaikki tiedostot ja kansiot roskakorista."
 
-#: ../thunar/thunar-launcher.c:254
+#: ../lunar/lunar-launcher.c:254
 msgid "Create _Folder..."
 msgstr "Luo _kansio..."
 
-#: ../thunar/thunar-launcher.c:254
+#: ../lunar/lunar-launcher.c:254
 msgid "Create an empty folder within the current folder"
 msgstr "Luo tyhjä kansio nykyiseen sijaintiin."
 
-#: ../thunar/thunar-launcher.c:255
+#: ../lunar/lunar-launcher.c:255
 msgid "Create _Document"
 msgstr "Luo asiaki_rja"
 
-#: ../thunar/thunar-launcher.c:255
+#: ../lunar/lunar-launcher.c:255
 msgid "Create a new document from a template"
 msgstr "Luo uusi asiakirja mallista"
 
-#: ../thunar/thunar-launcher.c:257
+#: ../lunar/lunar-launcher.c:257
 msgid "_Restore"
 msgstr "_Palauta"
 
-#: ../thunar/thunar-launcher.c:258
+#: ../lunar/lunar-launcher.c:258
 msgid "Mo_ve to Trash"
 msgstr "Siirrä _roskakoriin"
 
-#: ../thunar/thunar-launcher.c:264
+#: ../lunar/lunar-launcher.c:264
 msgid "_Paste"
 msgstr "_Liitä"
 
-#: ../thunar/thunar-launcher.c:264
+#: ../lunar/lunar-launcher.c:264
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr "Siirrä tai kopioi leikkaa- tai kopioi-komennolla valittuja tiedostoja."
 
-#: ../thunar/thunar-launcher.c:265
+#: ../lunar/lunar-launcher.c:265
 msgid "_Paste Into Folder"
 msgstr "_Liitä kansioon"
 
-#: ../thunar/thunar-launcher.c:265
+#: ../lunar/lunar-launcher.c:265
 msgid ""
 "Move or copy files previously selected by a Cut or Copy command into the "
 "selected folder"
 msgstr "Siirrä tai kopioi leikkaa- tai kopioi-komennolla valittuja tiedostoja valittuun kansioon."
 
-#: ../thunar/thunar-launcher.c:266
+#: ../lunar/lunar-launcher.c:266
 msgid "_Copy"
 msgstr "_Kopioi"
 
-#: ../thunar/thunar-launcher.c:266
+#: ../lunar/lunar-launcher.c:266
 msgid "Prepare the selected files to be copied with a Paste command"
 msgstr "Merkitse valitut tiedostot kopioitavaksi liitä-komennolla."
 
-#: ../thunar/thunar-launcher.c:267
+#: ../lunar/lunar-launcher.c:267
 msgid "Cu_t"
 msgstr "L_eikkaa"
 
-#: ../thunar/thunar-launcher.c:267
+#: ../lunar/lunar-launcher.c:267
 msgid "Prepare the selected files to be moved with a Paste command"
 msgstr "Merkitse valitut tiedostot siirrettäväksi liitä-komennolla."
 
 #. append the "Mount" item
-#: ../thunar/thunar-launcher.c:269 ../thunar/thunar-shortcuts-view.c:1158
+#: ../lunar/lunar-launcher.c:269 ../lunar/lunar-shortcuts-view.c:1158
 msgid "_Mount"
 msgstr "_Liitä"
 
-#: ../thunar/thunar-launcher.c:269
+#: ../lunar/lunar-launcher.c:269
 msgid "Mount the selected device"
 msgstr "Liitä valittu taltio"
 
 #. append the "Unmount" item
-#: ../thunar/thunar-launcher.c:270 ../thunar/thunar-shortcuts-view.c:1164
-#: ../thunar/thunar-shortcuts-view.c:1212
+#: ../lunar/lunar-launcher.c:270 ../lunar/lunar-shortcuts-view.c:1164
+#: ../lunar/lunar-shortcuts-view.c:1212
 msgid "_Unmount"
 msgstr "_Irrota liitos"
 
-#: ../thunar/thunar-launcher.c:270
+#: ../lunar/lunar-launcher.c:270
 msgid "Unmount the selected device"
 msgstr "Irrota valitun laitteen liitos"
 
 #. append the "Eject" (safely remove drive) item
-#: ../thunar/thunar-launcher.c:271 ../thunar/thunar-shortcuts-view.c:1170
+#: ../lunar/lunar-launcher.c:271 ../lunar/lunar-shortcuts-view.c:1170
 msgid "_Eject"
 msgstr "_Poista asemasta"
 
-#: ../thunar/thunar-launcher.c:271
+#: ../lunar/lunar-launcher.c:271
 msgid "Eject the selected device"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:826
+#: ../lunar/lunar-launcher.c:826
 #, c-format
 msgid "Failed to open file \"%s\""
 msgstr "Tiedoston \"%s\" avaaminen epäonnistui"
 
 #. we can just tell that n files failed to open
-#: ../thunar/thunar-launcher.c:832
+#: ../lunar/lunar-launcher.c:832
 #, c-format
 msgid "Failed to open %d file"
 msgid_plural "Failed to open %d files"
 msgstr[0] "%d tiedoston avaaminen epäonnistui."
 msgstr[1] "%d tiedoston avaaminen epäonnistui."
 
-#: ../thunar/thunar-launcher.c:871
+#: ../lunar/lunar-launcher.c:871
 msgid "Are you sure you want to open all folders?"
 msgstr "Haluatko todella avata kaikki kansiot?"
 
-#: ../thunar/thunar-launcher.c:873
+#: ../lunar/lunar-launcher.c:873
 #, c-format
 msgid "This will open %d separate file manager window."
 msgid_plural "This will open %d separate file manager windows."
 msgstr[0] "Tämä avaa %d erillisen tiedostonhallintaikkunan."
 msgstr[1] "Tämä avaa %d erillistä tiedostonhallintaikkunaa."
 
-#: ../thunar/thunar-launcher.c:876
+#: ../lunar/lunar-launcher.c:876
 #, c-format
 msgid "Open %d New Window"
 msgid_plural "Open %d New Windows"
 msgstr[0] "Avaa %d uusi ikkuna"
 msgstr[1] "Avaa %d uutta ikkunaa"
 
-#: ../thunar/thunar-launcher.c:953 ../thunar/thunar-launcher.c:1662
-#: ../thunar/thunar-shortcuts-view.c:1770
-#: ../thunar/thunar-shortcuts-view.c:2012
+#: ../lunar/lunar-launcher.c:953 ../lunar/lunar-launcher.c:1662
+#: ../lunar/lunar-shortcuts-view.c:1770
+#: ../lunar/lunar-shortcuts-view.c:2012
 #, c-format
 msgid "Failed to mount \"%s\""
 msgstr "Kohteen \"%s\" liittäminen epäonnistui"
 
-#: ../thunar/thunar-launcher.c:1317
+#: ../lunar/lunar-launcher.c:1317
 msgid "Open the selected file"
 msgid_plural "Open the selected files"
 msgstr[0] "Avaa valittu tiedosto"
 msgstr[1] "Avaa valitut tiedostot"
 
-#: ../thunar/thunar-launcher.c:1321
+#: ../lunar/lunar-launcher.c:1321
 msgid "_Execute"
 msgstr "_Suorita"
 
-#: ../thunar/thunar-launcher.c:1321
+#: ../lunar/lunar-launcher.c:1321
 msgid "Execute the selected file"
 msgid_plural "Execute the selected files"
 msgstr[0] "Suorita valittu tiedosto"
 msgstr[1] "Suorita valitut tiedostot"
 
-#: ../thunar/thunar-launcher.c:1326
+#: ../lunar/lunar-launcher.c:1326
 #, c-format
 msgid "Open in New _Tab"
 msgid_plural "Open in %d New _Tabs"
 msgstr[0] "Avaa uudessa _välilehdessä"
 msgstr[1] "Avaa %d uudessa _välilehdessä"
 
-#: ../thunar/thunar-launcher.c:1327
+#: ../lunar/lunar-launcher.c:1327
 #, c-format
 msgid "Open the selected directory in new tab"
 msgid_plural "Open the selected directories in %d new tabs"
 msgstr[0] "Avaa valittu kansio uudessa välilehdessä"
 msgstr[1] "Avaa valitut kansiot %d uudessa välilehdessä"
 
-#: ../thunar/thunar-launcher.c:1336
+#: ../lunar/lunar-launcher.c:1336
 #, c-format
 msgid "Open in New _Window"
 msgid_plural "Open in %d New _Windows"
 msgstr[0] "Avaa uudessa _ikkunassa"
 msgstr[1] "Avaa %d uudessa _ikkunassa"
 
-#: ../thunar/thunar-launcher.c:1337
+#: ../lunar/lunar-launcher.c:1337
 #, c-format
 msgid "Open the selected directory in new window"
 msgid_plural "Open the selected directories in %d new windows"
 msgstr[0] "Avaa valittu kansio uudessa ikkunassa"
 msgstr[1] "Avaa valitut kansiot %d uudessa ikkunassa"
 
-#: ../thunar/thunar-launcher.c:1364
+#: ../lunar/lunar-launcher.c:1364
 msgid "Create a symbolic link for the selected file"
 msgid_plural "Create a symbolic link for each selected file"
 msgstr[0] "Luo symbolinen linkki valittuun tiedostoon."
 msgstr[1] "Luo symboliset linkit valittuihin tiedostoihin."
 
-#: ../thunar/thunar-launcher.c:1388
+#: ../lunar/lunar-launcher.c:1388
 msgid "Rename the selected file"
 msgid_plural "Rename the selected files"
 msgstr[0] "Nimeä valittu tiedosto uudelleen."
 msgstr[1] "Nimeä valitut tiedostot uudelleen."
 
-#: ../thunar/thunar-launcher.c:1398
+#: ../lunar/lunar-launcher.c:1398
 msgid "Restore the selected file to its original location"
 msgid_plural "Restore the selected files to its original location"
 msgstr[0] "Palauta valittu tiedosto sen alkuperäiseen sijaintiin"
 msgstr[1] "Palauta valitut tiedostot niiden alkuperäiseen sijaintiin"
 
-#: ../thunar/thunar-launcher.c:1415
+#: ../lunar/lunar-launcher.c:1415
 msgid "Move the selected file to the Trash"
 msgid_plural "Move the selected files to the Trash"
 msgstr[0] "Siirrä valittu tiedosto roskakoriin"
 msgstr[1] "Siirrä valitut tiedostot roskakoriin"
 
-#: ../thunar/thunar-launcher.c:1432
+#: ../lunar/lunar-launcher.c:1432
 msgid "Permanently delete the selected file"
 msgid_plural "Permanently delete the selected files"
 msgstr[0] "Poista valittu tiedosto pysyvästi"
 msgstr[1] "Poista valitut tiedostot pysyvästi"
 
-#: ../thunar/thunar-launcher.c:1482
+#: ../lunar/lunar-launcher.c:1482
 msgid "Cut the selection"
 msgstr "Leikkaa valinta"
 
-#: ../thunar/thunar-launcher.c:1492
+#: ../lunar/lunar-launcher.c:1492
 msgid "Prepare the selected file to be moved with a Paste command"
 msgid_plural "Prepare the selected files to be moved with a Paste command"
 msgstr[0] "Merkitse valittu tiedosto siirrettäväksi liitä-komennolla."
 msgstr[1] "Merkitse valitut tiedostot siirrettäväksi liitä-komennolla."
 
-#: ../thunar/thunar-launcher.c:1506
+#: ../lunar/lunar-launcher.c:1506
 msgid "Copy the selection"
 msgstr "Kopioi valinta"
 
-#: ../thunar/thunar-launcher.c:1516
+#: ../lunar/lunar-launcher.c:1516
 msgid "Prepare the selected file to be copied with a Paste command"
 msgid_plural "Prepare the selected files to be copied with a Paste command"
 msgstr[0] "Merkitse valittu tiedosto kopioitavaksi liitä-komennolla."
 msgstr[1] "Merkitse valitut tiedostot kopioitavaksi liitä-komennolla."
 
-#: ../thunar/thunar-launcher.c:1539
+#: ../lunar/lunar-launcher.c:1539
 msgid "Paste the clipboard"
 msgstr "Liitä leikepöydän sisältö"
 
-#: ../thunar/thunar-launcher.c:1768
+#: ../lunar/lunar-launcher.c:1768
 msgid "Side Pane (Create Shortcut)"
 msgid_plural "Side Pane (Create Shortcuts)"
 msgstr[0] "Sivupaneeliin (luo kirjanmerkki)"
 msgstr[1] "Sivupaneeliin (luo kirjanmerkit)"
 
-#: ../thunar/thunar-launcher.c:1769
+#: ../lunar/lunar-launcher.c:1769
 msgid "Add the selected folder to the shortcuts side pane"
 msgid_plural "Add the selected folders to the shortcuts side pane"
 msgstr[0] "Lisää valittu kansio kirjanmerkkipaneeliin."
 msgstr[1] "Lisää valitut kansiot kirjanmerkkipaneeliin."
 
-#: ../thunar/thunar-launcher.c:1788
+#: ../lunar/lunar-launcher.c:1788
 msgid "Desktop (Create Link)"
 msgid_plural "Desktop (Create Links)"
 msgstr[0] "Työpöydälle (luo linkki)"
 msgstr[1] "Työpöydälle (luo linkit)"
 
-#: ../thunar/thunar-launcher.c:1789
+#: ../lunar/lunar-launcher.c:1789
 msgid "Create a link to the selected file on the desktop"
 msgid_plural "Create links to the selected files on the desktop"
 msgstr[0] "Luo työpöydälle linkki valittuun tiedostoon."
 msgstr[1] "Luo työpöydälle linkit valittuihin tiedostoihin."
 
-#: ../thunar/thunar-launcher.c:1810 ../thunar/thunar-launcher.c:1848
+#: ../lunar/lunar-launcher.c:1810 ../lunar/lunar-launcher.c:1848
 #, c-format
 msgid "Send the selected file to \"%s\""
 msgid_plural "Send the selected files to \"%s\""
 msgstr[0] "Lähetä valittu tiedosto kohteeseen \"%s\"."
 msgstr[1] "Lähetä valitut tiedostot kohteeseen \"%s\"."
 
-#: ../thunar/thunar-launcher.c:2321
+#: ../lunar/lunar-launcher.c:2321
 msgid "New Empty File"
 msgstr "Uusi tyhjä tiedosto"
 
-#: ../thunar/thunar-launcher.c:2322
+#: ../lunar/lunar-launcher.c:2322
 msgid "New Empty File..."
 msgstr "Uusi tyhjä tiedosto..."
 
-#: ../thunar/thunar-launcher.c:2521
+#: ../lunar/lunar-launcher.c:2521
 #, c-format
 msgid "No templates installed in \"%s\""
 msgstr "Ei asiakirjamalleja asennettuna sijaintiin \"%s\""
 
-#: ../thunar/thunar-launcher.c:2534
+#: ../lunar/lunar-launcher.c:2534
 msgid "_Empty File"
 msgstr "T_yhjä tiedosto"
 
-#: ../thunar/thunar-launcher.c:2640 ../thunar/thunar-shortcuts-view.c:1936
+#: ../lunar/lunar-launcher.c:2640 ../lunar/lunar-shortcuts-view.c:1936
 #, c-format
 msgid "Failed to eject \"%s\""
 msgstr "Kohteen \"%s\" irrottaminen epäonnistui."
 
-#: ../thunar/thunar-launcher.c:2698 ../thunar/thunar-shortcuts-view.c:2081
+#: ../lunar/lunar-launcher.c:2698 ../lunar/lunar-shortcuts-view.c:2081
 #, c-format
 msgid "Failed to unmount \"%s\""
 msgstr "Kohteen \"%s\" irroittaminen epäonnistui"
 
-#: ../thunar/thunar-launcher.c:2758
+#: ../lunar/lunar-launcher.c:2758
 #, c-format
 msgid "Open With \"%s\""
 msgstr "Avaa sovelluksessa \"%s\""
 
-#: ../thunar/thunar-launcher.c:2759 ../thunar/thunar-launcher.c:2826
+#: ../lunar/lunar-launcher.c:2759 ../lunar/lunar-launcher.c:2826
 #, c-format
 msgid "Use \"%s\" to open the selected file"
 msgid_plural "Use \"%s\" to open the selected files"
 msgstr[0] "Käytä sovellusta \"%s\" valitun tiedoston avaamiseen."
 msgstr[1] "Käytä sovellusta \"%s\" valittujen tiedostojen avaamiseen."
 
-#: ../thunar/thunar-launcher.c:2825
+#: ../lunar/lunar-launcher.c:2825
 #, c-format
 msgid "_Open With \"%s\""
 msgstr "_Avaa sovelluksessa \"%s\""
 
 #. we can only show a generic "Open" action
-#: ../thunar/thunar-launcher.c:2845
+#: ../lunar/lunar-launcher.c:2845
 #, c-format
 msgid "_Open With Default Applications"
 msgstr "_Avaa oletussovelluksissa"
 
-#: ../thunar/thunar-launcher.c:2846
+#: ../lunar/lunar-launcher.c:2846
 #, c-format
 msgid "Open the selected file with the default application"
 msgid_plural "Open the selected files with the default applications"
 msgstr[0] "Avaa valittu tiedosto oletussovelluksessa."
 msgstr[1] "Avaa valitut tiedostot oletussovelluksissa."
 
-#: ../thunar/thunar-list-model.c:2360
+#: ../lunar/lunar-list-model.c:2360
 #, c-format
 msgid "%d file: %s"
 msgid_plural "%d files: %s"
 msgstr[0] "%d tiedosto: %s"
 msgstr[1] "%d tiedostoa: %s"
 
-#: ../thunar/thunar-list-model.c:2368
+#: ../lunar/lunar-list-model.c:2368
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
 msgstr[0] "%d kansio"
 msgstr[1] "%d kansiota"
 
-#: ../thunar/thunar-list-model.c:2374
+#: ../lunar/lunar-list-model.c:2374
 #, c-format
 msgid "0 items"
 msgstr "0 kohdetta"
@@ -1372,45 +1372,45 @@ msgstr "0 kohdetta"
 #. * is between the message about the number of folders
 #. * and the number of items in the selection
 #. TRANSLATORS: string moved from line 2573 to here
-#: ../thunar/thunar-list-model.c:2386
+#: ../lunar/lunar-list-model.c:2386
 #, c-format
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../thunar/thunar-list-model.c:2465
+#: ../lunar/lunar-list-model.c:2465
 #, c-format
 msgid "%s, Free space: %s"
 msgstr "%s, vapaata tilaa: %s"
 
-#: ../thunar/thunar-list-model.c:2490
+#: ../lunar/lunar-list-model.c:2490
 #, c-format
 msgid "\"%s\": broken link"
 msgstr "\"%s\": rikkinäinen linkki"
 
-#: ../thunar/thunar-list-model.c:2495
+#: ../lunar/lunar-list-model.c:2495
 #, c-format
 msgid "\"%s\": %s link to %s"
 msgstr "\"%s\": %s linkki kohteeseen %s"
 
-#: ../thunar/thunar-list-model.c:2501
+#: ../lunar/lunar-list-model.c:2501
 #, c-format
 msgid "\"%s\": shortcut"
 msgstr "\"%s\": pikakuvake"
 
-#: ../thunar/thunar-list-model.c:2505
+#: ../lunar/lunar-list-model.c:2505
 #, c-format
 msgid "\"%s\": mountable"
 msgstr "\"1%s\": liitettävissä"
 
 #. I18N, first %s is the display name of the file, 2nd the file size, 3rd the
 #. content type
-#: ../thunar/thunar-list-model.c:2512
+#: ../lunar/lunar-list-model.c:2512
 #, c-format
 msgid "\"%s\": %s %s"
 msgstr "\"%s\": %s %s"
 
 #. I18N, first %s is the display name of the file, second the content type
-#: ../thunar/thunar-list-model.c:2521
+#: ../lunar/lunar-list-model.c:2521
 #, c-format
 msgid "\"%s\": %s"
 msgstr "\"%s\": %s"
@@ -1420,335 +1420,335 @@ msgstr "\"%s\": %s"
 #. * where the trashed file/folder was located before it was moved to the
 #. trash), otherwise the
 #. * properties dialog width will be messed up.
-#: ../thunar/thunar-list-model.c:2531 ../thunar/thunar-properties-dialog.c:402
+#: ../lunar/lunar-list-model.c:2531 ../lunar/lunar-properties-dialog.c:402
 msgid "Original Path:"
 msgstr "Alkuperäinen polku:"
 
 #. append the image dimensions to the statusbar text
-#: ../thunar/thunar-list-model.c:2554
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:153
+#: ../lunar/lunar-list-model.c:2554
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:153
 msgid "Image Size:"
 msgstr "Kuvan koko:"
 
-#: ../thunar/thunar-list-model.c:2572
+#: ../lunar/lunar-list-model.c:2572
 #, c-format
 msgid "Selection: %s"
 msgstr "Valinta: %s"
 
-#: ../thunar/thunar-location-entry.c:200 ../thunar/thunar-window.c:376
+#: ../lunar/lunar-location-entry.c:200 ../lunar/lunar-window.c:376
 msgid "Reload the current folder"
 msgstr "Lataa nykyinen kansio uudelleen."
 
-#: ../thunar/thunar-location-entry.c:359
+#: ../lunar/lunar-location-entry.c:359
 #, c-format
 msgid "File does not exist"
 msgstr "Tiedostoa ei ole olemassa"
 
-#: ../thunar/thunar-notify.c:168
+#: ../lunar/lunar-notify.c:168
 msgid "Unmounting device"
 msgstr "Irrotetaan taltio"
 
-#: ../thunar/thunar-notify.c:169
+#: ../lunar/lunar-notify.c:169
 #, c-format
 msgid ""
 "The device \"%s\" is being unmounted by the system. Please do not remove the"
 " media or disconnect the drive"
 msgstr "Taltiota \"%s\" irrotetaan tiedostojärjestelmästä. Älä poista taltiota asemasta tai laitetta tietokoneesta."
 
-#: ../thunar/thunar-notify.c:175 ../thunar/thunar-notify.c:214
+#: ../lunar/lunar-notify.c:175 ../lunar/lunar-notify.c:214
 msgid "Writing data to device"
 msgstr "Kirjoitetaan laitteelle"
 
-#: ../thunar/thunar-notify.c:176 ../thunar/thunar-notify.c:215
+#: ../lunar/lunar-notify.c:176 ../lunar/lunar-notify.c:215
 #, c-format
 msgid ""
 "There is data that needs to be written to the device \"%s\" before it can be"
 " removed. Please do not remove the media or disconnect the drive"
 msgstr "Laitteelle \"%s\" täytyy kirjoittaa tietoa ennen sen irrottamista. Älä poista taltiota tai irrota laitetta."
 
-#: ../thunar/thunar-notify.c:208
+#: ../lunar/lunar-notify.c:208
 msgid "Ejecting device"
 msgstr "Poistetaan taltio"
 
-#: ../thunar/thunar-notify.c:209
+#: ../lunar/lunar-notify.c:209
 #, c-format
 msgid "The device \"%s\" is being ejected. This may take some time"
 msgstr "Laittetta \"%s\" irrotetaan. Tämä voi viedä hetken."
 
-#: ../thunar/thunar-path-entry.c:205
+#: ../lunar/lunar-path-entry.c:205
 msgid "Icon size"
 msgstr "Kuvakkeen koko"
 
-#: ../thunar/thunar-path-entry.c:206
+#: ../lunar/lunar-path-entry.c:206
 msgid "The icon size for the path entry"
 msgstr "Polkukentän kuvakkeen koko"
 
-#: ../thunar/thunar-permissions-chooser.c:221
+#: ../lunar/lunar-permissions-chooser.c:221
 msgid "Owner:"
 msgstr "Omistaja:"
 
-#: ../thunar/thunar-permissions-chooser.c:240
+#: ../lunar/lunar-permissions-chooser.c:240
 msgid "_Access:"
 msgstr "_Pääsyoikeudet:"
 
-#: ../thunar/thunar-permissions-chooser.c:266
+#: ../lunar/lunar-permissions-chooser.c:266
 msgid "Gro_up:"
 msgstr "_Ryhmä:"
 
-#: ../thunar/thunar-permissions-chooser.c:286
+#: ../lunar/lunar-permissions-chooser.c:286
 msgid "Acc_ess:"
 msgstr "P_ääsyoikeudet:"
 
-#: ../thunar/thunar-permissions-chooser.c:312
+#: ../lunar/lunar-permissions-chooser.c:312
 msgid "Others"
 msgstr "Muut"
 
-#: ../thunar/thunar-permissions-chooser.c:320
+#: ../lunar/lunar-permissions-chooser.c:320
 msgid "Acce_ss:"
 msgstr "P_ääsyoikeudet:"
 
-#: ../thunar/thunar-permissions-chooser.c:346
+#: ../lunar/lunar-permissions-chooser.c:346
 msgid "Program:"
 msgstr "Sovellus:"
 
-#: ../thunar/thunar-permissions-chooser.c:352
+#: ../lunar/lunar-permissions-chooser.c:352
 msgid "Allow this file to _run as a program"
 msgstr "Salli tiedoston _suorittaminen sovelluksena"
 
-#: ../thunar/thunar-permissions-chooser.c:372
-#: ../thunar/thunar-preferences-dialog.c:891
+#: ../lunar/lunar-permissions-chooser.c:372
+#: ../lunar/lunar-preferences-dialog.c:891
 msgid ""
 "Allowing untrusted programs to run presents a security risk to your system."
 msgstr "Muiden kuin luotettavien sovellusten suorituksen salliminen vaarantaa järjestelmäsi turvallisuuden."
 
-#: ../thunar/thunar-permissions-chooser.c:388
+#: ../lunar/lunar-permissions-chooser.c:388
 msgid ""
 "The folder permissions are inconsistent, you may not be able to work with "
 "files in this folder."
 msgstr "Kansion käyttöoikeudet eivät ole yhtäläiset, et voi ehkä käyttää kansiossa olevia tiedostoja."
 
-#: ../thunar/thunar-permissions-chooser.c:402
+#: ../lunar/lunar-permissions-chooser.c:402
 msgid "Correct _folder permissions..."
 msgstr "K_orjaa kansion käyttöoikeudet…"
 
-#: ../thunar/thunar-permissions-chooser.c:403
+#: ../lunar/lunar-permissions-chooser.c:403
 msgid "Click here to automatically fix the folder permissions."
 msgstr "Napsauta tästä korjataksesi kansion käyttöoikeudet automaattisesti."
 
-#: ../thunar/thunar-permissions-chooser.c:414
+#: ../lunar/lunar-permissions-chooser.c:414
 msgid "Please wait..."
 msgstr "Odota..."
 
-#: ../thunar/thunar-permissions-chooser.c:419
+#: ../lunar/lunar-permissions-chooser.c:419
 msgid "Stop applying permissions recursively."
 msgstr "Keskeytä oikeuksien muuttaminen alikansioista."
 
 #. allocate the question dialog
-#: ../thunar/thunar-permissions-chooser.c:532
+#: ../lunar/lunar-permissions-chooser.c:532
 msgid "Question"
 msgstr "Kysymys"
 
-#: ../thunar/thunar-permissions-chooser.c:556
+#: ../lunar/lunar-permissions-chooser.c:556
 msgid "Apply recursively?"
 msgstr "Asetetaanko alikansioille?"
 
-#: ../thunar/thunar-permissions-chooser.c:562
+#: ../lunar/lunar-permissions-chooser.c:562
 msgid ""
 "Do you want to apply your changes recursively to\n"
 "all files and subfolders below the selected folder?"
 msgstr "Asetetaanko muutokset myös kaikille valitun\nKansion alikansioille ja tiedostoille?"
 
-#: ../thunar/thunar-permissions-chooser.c:567
+#: ../lunar/lunar-permissions-chooser.c:567
 msgid "Do _not ask me again"
 msgstr "_Muista valinta"
 
-#: ../thunar/thunar-permissions-chooser.c:568
+#: ../lunar/lunar-permissions-chooser.c:568
 msgid ""
 "If you select this option your choice will be remembered and you won't be "
 "asked again. You can use the preferences dialog to alter your choice "
 "afterwards."
 msgstr "Tämä asetus saa sovelluksen muistamaan valintasi, eikä asiaa kysytä sinulta enää. Voit muuttaa valintaasi jälkeenpäin asetusdialogin kautta."
 
-#: ../thunar/thunar-permissions-chooser.c:930
+#: ../lunar/lunar-permissions-chooser.c:930
 msgid "Mixed file owners"
 msgstr "Tiedostoilla eri omistajia"
 
-#: ../thunar/thunar-permissions-chooser.c:930
+#: ../lunar/lunar-permissions-chooser.c:930
 msgid "Unknown file owner"
 msgstr "Tuntematon tiedoston omistaja"
 
-#: ../thunar/thunar-permissions-chooser.c:1010
-#: ../plugins/thunar-uca/thunar-uca-editor.c:413
-#: ../plugins/thunar-uca/thunar-uca-editor.c:622
+#: ../lunar/lunar-permissions-chooser.c:1010
+#: ../plugins/lunar-uca/lunar-uca-editor.c:413
+#: ../plugins/lunar-uca/lunar-uca-editor.c:622
 msgid "None"
 msgstr "Ei mitään"
 
 #. 0000
-#: ../thunar/thunar-permissions-chooser.c:1011
+#: ../lunar/lunar-permissions-chooser.c:1011
 msgid "Write only"
 msgstr "Vain kirjoitus"
 
 #. 0002
-#: ../thunar/thunar-permissions-chooser.c:1012
+#: ../lunar/lunar-permissions-chooser.c:1012
 msgid "Read only"
 msgstr "Vain luku"
 
 #. 0004
-#: ../thunar/thunar-permissions-chooser.c:1013
+#: ../lunar/lunar-permissions-chooser.c:1013
 msgid "Read & Write"
 msgstr "Luku ja kirjoitus"
 
-#: ../thunar/thunar-permissions-chooser.c:1015
+#: ../lunar/lunar-permissions-chooser.c:1015
 msgid "Varying (no change)"
 msgstr "Vaihteleva (ei muutosta)"
 
-#: ../thunar/thunar-permissions-chooser.c:1142
+#: ../lunar/lunar-permissions-chooser.c:1142
 msgid "Correct folder permissions automatically?"
 msgstr "Korjataanko kansion käyttöoikeudet automaattisesti?"
 
-#: ../thunar/thunar-permissions-chooser.c:1144
+#: ../lunar/lunar-permissions-chooser.c:1144
 msgid "Correct _folder permissions"
 msgstr "K_orjaa kansion käyttöoikeudet"
 
-#: ../thunar/thunar-permissions-chooser.c:1146
+#: ../lunar/lunar-permissions-chooser.c:1146
 msgid ""
 "The folder permissions will be reset to a consistent state. Only users "
 "allowed to read the contents of this folder will be allowed to enter the "
 "folder afterwards."
 msgstr "Kansion käyttöoikeudet asetetaan yhtäläisiksi. Tämän jälkeen kansioon pääsevät vain sellaiset käyttäjät, joilla on oikeus lukea kansion sisältö."
 
-#: ../thunar/thunar-preferences-dialog.c:285
+#: ../lunar/lunar-preferences-dialog.c:285
 msgid "File Manager Preferences"
 msgstr "Tiedostonhallinnan asetukset"
 
 #. Display
-#: ../thunar/thunar-preferences-dialog.c:322
+#: ../lunar/lunar-preferences-dialog.c:322
 msgid "Display"
 msgstr "Näkymät"
 
-#: ../thunar/thunar-preferences-dialog.c:332
+#: ../lunar/lunar-preferences-dialog.c:332
 msgid "View Settings"
 msgstr "Näkymäasetukset"
 
-#: ../thunar/thunar-preferences-dialog.c:345
+#: ../lunar/lunar-preferences-dialog.c:345
 msgid "View _new folders using:"
 msgstr "_Uusien kansioiden esitystapa:"
 
-#: ../thunar/thunar-preferences-dialog.c:351
-#: ../thunar/thunar-preferences-dialog.c:419
+#: ../lunar/lunar-preferences-dialog.c:351
+#: ../lunar/lunar-preferences-dialog.c:419
 msgid "Icon View"
 msgstr "Kuvakenäkymä"
 
-#: ../thunar/thunar-preferences-dialog.c:352
+#: ../lunar/lunar-preferences-dialog.c:352
 msgid "List View"
 msgstr "Luettelonäkymä"
 
-#: ../thunar/thunar-preferences-dialog.c:353
+#: ../lunar/lunar-preferences-dialog.c:353
 msgid "Compact View"
 msgstr "Kompakti näkymä"
 
-#: ../thunar/thunar-preferences-dialog.c:354
+#: ../lunar/lunar-preferences-dialog.c:354
 msgid "Last Active View"
 msgstr "Viimeksi käytetty näkymä"
 
-#: ../thunar/thunar-preferences-dialog.c:363
+#: ../lunar/lunar-preferences-dialog.c:363
 msgid "Show thumbnails:"
 msgstr "Näytä pienoiskuvat:"
 
-#: ../thunar/thunar-preferences-dialog.c:369
-#: ../thunar/thunar-preferences-dialog.c:785
+#: ../lunar/lunar-preferences-dialog.c:369
+#: ../lunar/lunar-preferences-dialog.c:785
 msgid "Never"
 msgstr "Ei koskaan"
 
-#: ../thunar/thunar-preferences-dialog.c:370
-#: ../thunar/thunar-preferences-dialog.c:783
+#: ../lunar/lunar-preferences-dialog.c:370
+#: ../lunar/lunar-preferences-dialog.c:783
 msgid "Local Files Only"
 msgstr "Vain paikallisista tiedostoista"
 
-#: ../thunar/thunar-preferences-dialog.c:371
-#: ../thunar/thunar-preferences-dialog.c:782
+#: ../lunar/lunar-preferences-dialog.c:371
+#: ../lunar/lunar-preferences-dialog.c:782
 msgid "Always"
 msgstr "Aina"
 
-#: ../thunar/thunar-preferences-dialog.c:380
+#: ../lunar/lunar-preferences-dialog.c:380
 msgid "_Remember view settings for each folder"
 msgstr "_Muista näkymäasetukset jokaisen kansion kohdalla"
 
-#: ../thunar/thunar-preferences-dialog.c:383
+#: ../lunar/lunar-preferences-dialog.c:383
 msgid ""
 "Select this option to remember view type, sort column, and sort order "
 "individually for each folder"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:391
+#: ../lunar/lunar-preferences-dialog.c:391
 msgid "gvfs metadata support is required"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:394
+#: ../lunar/lunar-preferences-dialog.c:394
 msgid "Draw frames around thumbnails"
 msgstr "Piirrä kehykset pienoiskuvien ympärille"
 
-#: ../thunar/thunar-preferences-dialog.c:396
+#: ../lunar/lunar-preferences-dialog.c:396
 msgid "Select this option to draw black frames around thumbnails."
 msgstr "Valitse tämä piirtääksesi mustat kehykset pienoiskuvien ympärille."
 
-#: ../thunar/thunar-preferences-dialog.c:401
+#: ../lunar/lunar-preferences-dialog.c:401
 msgid "Sort _folders before files"
 msgstr "Järjestä _kansiot ennen tiedostoja"
 
-#: ../thunar/thunar-preferences-dialog.c:403
+#: ../lunar/lunar-preferences-dialog.c:403
 msgid ""
 "Select this option to list folders before files when you sort a folder."
 msgstr "Valitse tämä, jos haluat että kansiot sijoitetaan ennen tiedostoja järjestäessäsi kansion."
 
-#: ../thunar/thunar-preferences-dialog.c:408
+#: ../lunar/lunar-preferences-dialog.c:408
 msgid "Show file size in binary format"
 msgstr "Näytä tiedoston koko binäärimuodossa"
 
-#: ../thunar/thunar-preferences-dialog.c:410
+#: ../lunar/lunar-preferences-dialog.c:410
 msgid ""
 "Select this option to show file size in binary format instead of decimal."
 msgstr "Valitse tämä valinta näytääksesi tiedoston koon binäärimuodossa desimaaliluvun sijasta."
 
-#: ../thunar/thunar-preferences-dialog.c:432
+#: ../lunar/lunar-preferences-dialog.c:432
 msgid "_Text beside icons"
 msgstr "_Teksti kuvakkeiden vierellä"
 
-#: ../thunar/thunar-preferences-dialog.c:434
+#: ../lunar/lunar-preferences-dialog.c:434
 msgid ""
 "Select this option to place the icon captions for items beside the icon "
 "rather than below the icon."
 msgstr "Tämä valinta asettaa kuvakkeiden selitteet kuvakkeen vierelle, eikä kuvakkeen alapuolelle."
 
-#: ../thunar/thunar-preferences-dialog.c:444
+#: ../lunar/lunar-preferences-dialog.c:444
 msgid "Window icon"
 msgstr "Ikkunakuvake"
 
-#: ../thunar/thunar-preferences-dialog.c:457
+#: ../lunar/lunar-preferences-dialog.c:457
 msgid "Use current folder icon"
 msgstr "Käytä nykyistä kansiokuvaketta"
 
-#: ../thunar/thunar-preferences-dialog.c:459
+#: ../lunar/lunar-preferences-dialog.c:459
 msgid "Select this option to use the current folder icon as window icon"
 msgstr "Valitse tämä käyttääksesi nykyistä kansiokuvaketta ikkunakuvakkeena"
 
-#: ../thunar/thunar-preferences-dialog.c:468
+#: ../lunar/lunar-preferences-dialog.c:468
 msgid "Date"
 msgstr "Päiväys"
 
-#: ../thunar/thunar-preferences-dialog.c:481
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:214
+#: ../lunar/lunar-preferences-dialog.c:481
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:214
 msgid "_Format:"
 msgstr "_Muoto:"
 
 #. TRANSLATORS: custom date format
-#: ../thunar/thunar-preferences-dialog.c:494
+#: ../lunar/lunar-preferences-dialog.c:494
 msgid "Custom"
 msgstr "Mukautettu"
 
 #. TRANSLATORS: Please do not translate the first column (specifiers),
 #. 'strftime' and of course '\n'
-#: ../thunar/thunar-preferences-dialog.c:504
+#: ../lunar/lunar-preferences-dialog.c:504
 msgid ""
 "Custom date format to apply.\n"
 "\n"
@@ -1764,117 +1764,117 @@ msgid ""
 msgstr "Mukautettu päivämääräformaatti.\n\nTyypillisimmät tarkenteet ovat:\n%d päivä\n%m kuukausi\n%Y vuosi vuosituhannen kanssa\n%H tunti\n%M minuutti\n%S sekunti\n\nTäydellisen listan löydät 'strftime' ohjesivuilta."
 
 #. Side Pane
-#: ../thunar/thunar-preferences-dialog.c:522
+#: ../lunar/lunar-preferences-dialog.c:522
 msgid "Side Pane"
 msgstr "Sivupaneeli"
 
-#: ../thunar/thunar-preferences-dialog.c:532
+#: ../lunar/lunar-preferences-dialog.c:532
 msgid "Shortcuts Pane"
 msgstr "Kirjanmerkkipaneeli"
 
-#: ../thunar/thunar-preferences-dialog.c:545
+#: ../lunar/lunar-preferences-dialog.c:545
 msgid "_Icon Size:"
 msgstr "_Kuvakkeen koko:"
 
-#: ../thunar/thunar-preferences-dialog.c:550
-#: ../thunar/thunar-preferences-dialog.c:598
+#: ../lunar/lunar-preferences-dialog.c:550
+#: ../lunar/lunar-preferences-dialog.c:598
 msgid "16px"
 msgstr "16px"
 
-#: ../thunar/thunar-preferences-dialog.c:551
-#: ../thunar/thunar-preferences-dialog.c:599
+#: ../lunar/lunar-preferences-dialog.c:551
+#: ../lunar/lunar-preferences-dialog.c:599
 msgid "24px"
 msgstr "24px"
 
-#: ../thunar/thunar-preferences-dialog.c:552
-#: ../thunar/thunar-preferences-dialog.c:600
+#: ../lunar/lunar-preferences-dialog.c:552
+#: ../lunar/lunar-preferences-dialog.c:600
 msgid "32px"
 msgstr "32px"
 
-#: ../thunar/thunar-preferences-dialog.c:553
-#: ../thunar/thunar-preferences-dialog.c:601
+#: ../lunar/lunar-preferences-dialog.c:553
+#: ../lunar/lunar-preferences-dialog.c:601
 msgid "48px"
 msgstr "48px"
 
-#: ../thunar/thunar-preferences-dialog.c:554
-#: ../thunar/thunar-preferences-dialog.c:602
+#: ../lunar/lunar-preferences-dialog.c:554
+#: ../lunar/lunar-preferences-dialog.c:602
 msgid "64px"
 msgstr "64px"
 
-#: ../thunar/thunar-preferences-dialog.c:555
-#: ../thunar/thunar-preferences-dialog.c:603
+#: ../lunar/lunar-preferences-dialog.c:555
+#: ../lunar/lunar-preferences-dialog.c:603
 msgid "96px"
 msgstr "96px"
 
-#: ../thunar/thunar-preferences-dialog.c:556
-#: ../thunar/thunar-preferences-dialog.c:604
+#: ../lunar/lunar-preferences-dialog.c:556
+#: ../lunar/lunar-preferences-dialog.c:604
 msgid "128px"
 msgstr "128px"
 
-#: ../thunar/thunar-preferences-dialog.c:557
-#: ../thunar/thunar-preferences-dialog.c:605
+#: ../lunar/lunar-preferences-dialog.c:557
+#: ../lunar/lunar-preferences-dialog.c:605
 msgid "160px"
 msgstr "160px"
 
-#: ../thunar/thunar-preferences-dialog.c:558
-#: ../thunar/thunar-preferences-dialog.c:606
+#: ../lunar/lunar-preferences-dialog.c:558
+#: ../lunar/lunar-preferences-dialog.c:606
 msgid "192px"
 msgstr "192px"
 
-#: ../thunar/thunar-preferences-dialog.c:559
-#: ../thunar/thunar-preferences-dialog.c:607
+#: ../lunar/lunar-preferences-dialog.c:559
+#: ../lunar/lunar-preferences-dialog.c:607
 msgid "256px"
 msgstr "256px"
 
-#: ../thunar/thunar-preferences-dialog.c:568
+#: ../lunar/lunar-preferences-dialog.c:568
 msgid "Show Icon _Emblems"
 msgstr "Näytä _tunnuskuvat"
 
-#: ../thunar/thunar-preferences-dialog.c:570
+#: ../lunar/lunar-preferences-dialog.c:570
 msgid ""
 "Select this option to display icon emblems in the shortcuts pane for all "
 "folders for which emblems have been defined in the folders properties "
 "dialog."
 msgstr "Valitse tämä näyttääksesi kirjanmerkkilistassa tunnuskuvat niille kansioille, joille on sellaisia kansion ominaisuusdialogissa asetettu."
 
-#: ../thunar/thunar-preferences-dialog.c:580
+#: ../lunar/lunar-preferences-dialog.c:580
 msgid "Tree Pane"
 msgstr "Kansiopuupaneeli"
 
-#: ../thunar/thunar-preferences-dialog.c:593
+#: ../lunar/lunar-preferences-dialog.c:593
 msgid "Icon _Size:"
 msgstr "K_uvakkeen koko:"
 
-#: ../thunar/thunar-preferences-dialog.c:616
+#: ../lunar/lunar-preferences-dialog.c:616
 msgid "Show Icon E_mblems"
 msgstr "Näytä kuvakkeiden tu_nnuskuvat"
 
-#: ../thunar/thunar-preferences-dialog.c:618
+#: ../lunar/lunar-preferences-dialog.c:618
 msgid ""
 "Select this option to display icon emblems in the tree pane for all folders "
 "for which emblems have been defined in the folders properties dialog."
 msgstr "Valitse tämä näyttääksesi kansiopuupaneelissa kuvakkeiden tunnuskuvat kaikille kansioille, joille on sellaisia kansion ominaisuusdialogissa asetettu."
 
 #. Behavior
-#: ../thunar/thunar-preferences-dialog.c:628
+#: ../lunar/lunar-preferences-dialog.c:628
 msgid "Behavior"
 msgstr "Käytös"
 
-#: ../thunar/thunar-preferences-dialog.c:638
+#: ../lunar/lunar-preferences-dialog.c:638
 msgid "Navigation"
 msgstr "Navigointi"
 
-#: ../thunar/thunar-preferences-dialog.c:651
+#: ../lunar/lunar-preferences-dialog.c:651
 msgid "_Single click to activate items"
 msgstr "Aktivoi kohteet k_ertanapsautuksella"
 
-#: ../thunar/thunar-preferences-dialog.c:667
+#: ../lunar/lunar-preferences-dialog.c:667
 msgid ""
 "Specify the d_elay before an item gets selected\n"
 "when the mouse pointer is paused over it:"
 msgstr "Määritä _viive, jonka jälkeen kohde valitaan,\nkun hiiren osoitinta pidetään sen yllä:"
 
-#: ../thunar/thunar-preferences-dialog.c:680
+#: ../lunar/lunar-preferences-dialog.c:680
 msgid ""
 "When single-click activation is enabled, pausing the mouse pointer over an "
 "item will automatically select that item after the chosen delay. You can "
@@ -1883,54 +1883,54 @@ msgid ""
 "to select the item without activating it."
 msgstr "Kun kertanapsautuksella aktivointi on käytössä, hiiren pitäminen asetetun viiveen ajan kohteen yllä valitsee sen automaattisesti. Voit estää tämän siirtämällä liukukytkimen vasempaan ääriasentoonsa. Tästä käytöksestä voi olla hyötyä, kun kertanapsautus aktivoi kohteen, mutta haluat vain valita sen aktivoimatta."
 
-#: ../thunar/thunar-preferences-dialog.c:699
+#: ../lunar/lunar-preferences-dialog.c:699
 msgid "Disabled"
 msgstr "Pois käytöstä"
 
-#: ../thunar/thunar-preferences-dialog.c:705
+#: ../lunar/lunar-preferences-dialog.c:705
 msgid "Medium"
 msgstr "Keskipitkä"
 
-#: ../thunar/thunar-preferences-dialog.c:710
+#: ../lunar/lunar-preferences-dialog.c:710
 msgid "Long"
 msgstr "Pitkä"
 
-#: ../thunar/thunar-preferences-dialog.c:716
+#: ../lunar/lunar-preferences-dialog.c:716
 msgid "_Double click to activate items"
 msgstr "Aktivoi kohteet _kaksoisnapsautuksella"
 
-#: ../thunar/thunar-preferences-dialog.c:727
+#: ../lunar/lunar-preferences-dialog.c:727
 msgid "Tabs instead of new Windows"
 msgstr "Välilehden uusien ikkunoiden sijaan"
 
-#: ../thunar/thunar-preferences-dialog.c:740
+#: ../lunar/lunar-preferences-dialog.c:740
 msgid "Open folders in new tabs on middle click"
 msgstr "Avaa kansiot uusissa välilehdissä napsauttamalla keskipainiketta"
 
-#: ../thunar/thunar-preferences-dialog.c:742
+#: ../lunar/lunar-preferences-dialog.c:742
 msgid ""
 "Select this option to open a new tab on middle click instead of a new window"
 msgstr "Valitse tämä avataksesi uuden välilehden keskipainiketta napsauttamalla uuden ikkunan sijaan"
 
-#: ../thunar/thunar-preferences-dialog.c:746
-msgid "Open new thunar instances as tabs"
-msgstr "Avaa uudet Thunar-instanssit välilehtinä"
+#: ../lunar/lunar-preferences-dialog.c:746
+msgid "Open new lunar instances as tabs"
+msgstr "Avaa uudet Lunar-instanssit välilehtinä"
 
-#: ../thunar/thunar-preferences-dialog.c:748
+#: ../lunar/lunar-preferences-dialog.c:748
 msgid ""
-"Select this option to open new thunar instances as tabs in an existing "
-"thunar window"
-msgstr "Valitse tämä avataksesi uudet Thunar-instanssit välilehtinä olemassa olevaan Thunar-ikkunaan"
+"Select this option to open new lunar instances as tabs in an existing "
+"lunar window"
+msgstr "Valitse tämä avataksesi uudet Lunar-instanssit välilehtinä olemassa olevaan Lunar-ikkunaan"
 
-#: ../thunar/thunar-preferences-dialog.c:757
+#: ../lunar/lunar-preferences-dialog.c:757
 msgid "File transfer"
 msgstr "Tiedostosiirto"
 
-#: ../thunar/thunar-preferences-dialog.c:769
+#: ../lunar/lunar-preferences-dialog.c:769
 msgid "Transfer files in parallel:"
 msgstr "Siirrä tiedostot rinnakkain:"
 
-#: ../thunar/thunar-preferences-dialog.c:771
+#: ../lunar/lunar-preferences-dialog.c:771
 msgid ""
 "Indicates the behavior during multiple copies:\n"
 "- Always: all copies are done simultaneously\n"
@@ -1939,461 +1939,461 @@ msgid ""
 "- Never: all copies are done sequentially"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:784
+#: ../lunar/lunar-preferences-dialog.c:784
 msgid "Local Files On Same Devices Only"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:800
+#: ../lunar/lunar-preferences-dialog.c:800
 msgid "Context Menu"
 msgstr "Kontekstivalikko"
 
-#: ../thunar/thunar-preferences-dialog.c:812
+#: ../lunar/lunar-preferences-dialog.c:812
 msgid "Show action to permanently delete files and folders"
 msgstr "Näytä toiminto tiedostojen ja kansioiden pysyvästi poistamiselle"
 
-#: ../thunar/thunar-preferences-dialog.c:814
+#: ../lunar/lunar-preferences-dialog.c:814
 msgid "Select this option to show the 'Delete' action in the context menu"
 msgstr "Valitse tämä valinta näyttääksesi 'Poista' -toiminto kontekstivalikossa."
 
 #. Advanced
-#: ../thunar/thunar-preferences-dialog.c:823
+#: ../lunar/lunar-preferences-dialog.c:823
 msgid "Advanced"
 msgstr "Lisäasetukset"
 
-#: ../thunar/thunar-preferences-dialog.c:833
+#: ../lunar/lunar-preferences-dialog.c:833
 msgid "Folder Permissions"
 msgstr "Kansion käyttöoikeudet"
 
-#: ../thunar/thunar-preferences-dialog.c:846
+#: ../lunar/lunar-preferences-dialog.c:846
 msgid ""
 "When changing the permissions of a folder, you\n"
 "can also apply the changes to the contents of the\n"
 "folder. Select the default behavior below:"
 msgstr "Muuttaessasi Kansion käyttöoikeuksia voit\nasettaa samat oikeudet myös sen sisällölle.\nAlta voit valita oletustoimintatavan."
 
-#: ../thunar/thunar-preferences-dialog.c:855
+#: ../lunar/lunar-preferences-dialog.c:855
 msgid "Ask every time"
 msgstr "Kysy aina"
 
-#: ../thunar/thunar-preferences-dialog.c:856
+#: ../lunar/lunar-preferences-dialog.c:856
 msgid "Apply to Folder and Contents"
 msgstr "Aseta myös kansion sisällölle"
 
-#: ../thunar/thunar-preferences-dialog.c:857
+#: ../lunar/lunar-preferences-dialog.c:857
 msgid "Apply to Folder Only"
 msgstr "Aseta vain kansioille"
 
-#: ../thunar/thunar-preferences-dialog.c:868
+#: ../lunar/lunar-preferences-dialog.c:868
 msgid "Security"
 msgstr "Turvallisuus"
 
-#: ../thunar/thunar-preferences-dialog.c:885
+#: ../lunar/lunar-preferences-dialog.c:885
 msgid "Execute shell scripts"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:899
+#: ../lunar/lunar-preferences-dialog.c:899
 msgid "Volume Management"
 msgstr "Taltionhallinta"
 
 #. add check button to enable/disable auto mounting
-#: ../thunar/thunar-preferences-dialog.c:916
+#: ../lunar/lunar-preferences-dialog.c:916
 msgid "Enable _Volume Management"
 msgstr "Käytä _taltionhallintaa"
 
-#: ../thunar/thunar-preferences-dialog.c:926
+#: ../lunar/lunar-preferences-dialog.c:926
 msgid ""
 "<a href=\"volman-config:\">Configure</a> the management of removable drives,\n"
 "devices and media."
 msgstr "<a href=\"volman-config:\">Muokkaa</a> irrotettavien asemien, laitteiden ja median hallinnan asetuksia."
 
-#: ../thunar/thunar-preferences-dialog.c:941
+#: ../lunar/lunar-preferences-dialog.c:941
 msgid "Missing dependencies"
 msgstr "Puuttuvat riippuvuudet"
 
-#: ../thunar/thunar-preferences-dialog.c:949
+#: ../lunar/lunar-preferences-dialog.c:949
 msgid ""
 "It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\n"
 "Important features including trash support,\n"
 "removable media and remote location browsing\n"
-"will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
-msgstr "Näyttää siltä, että <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> ei ole saatavilla.\nTärkeät ominaisuudet, kuten roskakori tuki,\nirrotettavat tietovälineet, ja etäsijainnin selaaminen\neivät toimi. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Lue lisää]</a>"
+"will not work. <a href=\"https://docs.expidus.com/expidus/lunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
+msgstr "Näyttää siltä, että <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> ei ole saatavilla.\nTärkeät ominaisuudet, kuten roskakori tuki,\nirrotettavat tietovälineet, ja etäsijainnin selaaminen\neivät toimi. <a href=\"https://docs.expidus.com/expidus/lunar/unix-filesystem#gnome_virtual_file_system\">[Lue lisää]</a>"
 
-#. tell the user that we failed to come up with the thunar-volman
+#. tell the user that we failed to come up with the lunar-volman
 #. configuration dialog
-#: ../thunar/thunar-preferences-dialog.c:1023
+#: ../lunar/lunar-preferences-dialog.c:1023
 msgid "Failed to display the volume management settings"
 msgstr "Taltionhallinnan asetusten näyttäminen epäonnistui."
 
-#: ../thunar/thunar-progress-dialog.c:96
+#: ../lunar/lunar-progress-dialog.c:96
 msgid "File Operation Progress"
 msgstr "Tiedostotoiminnon eteneminen"
 
 #. build the tooltip text
-#: ../thunar/thunar-progress-dialog.c:310
+#: ../lunar/lunar-progress-dialog.c:310
 #, c-format
 msgid "%d file operation running"
 msgid_plural "%d file operations running"
 msgstr[0] "%d tiedostotoiminto käynnissä"
 msgstr[1] "%d tiedostotoimintoa käynnissä"
 
-#: ../thunar/thunar-progress-view.c:369
+#: ../lunar/lunar-progress-view.c:369
 msgid "Paused"
 msgstr "Keskeytetty"
 
-#: ../thunar/thunar-progress-view.c:390
+#: ../lunar/lunar-progress-view.c:390
 msgid "Resuming..."
 msgstr "Jatketaan..."
 
 #. update the status text
-#: ../thunar/thunar-progress-view.c:422
+#: ../lunar/lunar-progress-view.c:422
 msgid "Cancelling..."
 msgstr "Perutaan..."
 
-#: ../thunar/thunar-progress-view.c:574
+#: ../lunar/lunar-progress-view.c:574
 msgid "Frozen by another job on same device"
 msgstr ""
 
-#: ../thunar/thunar-progress-view.c:593
+#: ../lunar/lunar-progress-view.c:593
 msgid "Unfreezing..."
 msgstr ""
 
-#: ../thunar/thunar-properties-dialog.c:266
+#: ../lunar/lunar-properties-dialog.c:266
 msgid "General"
 msgstr "Yleiset"
 
-#: ../thunar/thunar-properties-dialog.c:290
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:2
+#: ../lunar/lunar-properties-dialog.c:290
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:2
 msgid "_Name:"
 msgstr "_Nimi:"
 
-#: ../thunar/thunar-properties-dialog.c:325
+#: ../lunar/lunar-properties-dialog.c:325
 msgid "Names:"
 msgstr "Nimet:"
 
 #. Second box (kind, open with, link target)
-#: ../thunar/thunar-properties-dialog.c:346
+#: ../lunar/lunar-properties-dialog.c:346
 msgid "Kind:"
 msgstr "Tyyppi:"
 
-#: ../thunar/thunar-properties-dialog.c:368
+#: ../lunar/lunar-properties-dialog.c:368
 msgid "_Open With:"
 msgstr "_Avaa sovelluksella:"
 
-#: ../thunar/thunar-properties-dialog.c:383
+#: ../lunar/lunar-properties-dialog.c:383
 msgid "Link Target:"
 msgstr "Linkin kohde:"
 
-#: ../thunar/thunar-properties-dialog.c:417
+#: ../lunar/lunar-properties-dialog.c:417
 msgid "Location:"
 msgstr "Sijainti:"
 
 #. Third box (deleted, modified, accessed)
-#: ../thunar/thunar-properties-dialog.c:443
+#: ../lunar/lunar-properties-dialog.c:443
 msgid "Deleted:"
 msgstr "Poistettu:"
 
-#: ../thunar/thunar-properties-dialog.c:458
+#: ../lunar/lunar-properties-dialog.c:458
 msgid "Created:"
 msgstr "Luotu:"
 
-#: ../thunar/thunar-properties-dialog.c:488
+#: ../lunar/lunar-properties-dialog.c:488
 msgid "Accessed:"
 msgstr "Käytetty:"
 
-#: ../thunar/thunar-properties-dialog.c:528
+#: ../lunar/lunar-properties-dialog.c:528
 msgid "Volume:"
 msgstr "Taltio:"
 
-#: ../thunar/thunar-properties-dialog.c:553
+#: ../lunar/lunar-properties-dialog.c:553
 msgid "Usage:"
 msgstr "Käyttö:"
 
 #. Emblem chooser
-#: ../thunar/thunar-properties-dialog.c:588
+#: ../lunar/lunar-properties-dialog.c:588
 msgid "Emblems"
 msgstr "Tunnuskuvat"
 
 #. allocate the icon chooser
 #. allocate the chooser dialog
-#: ../thunar/thunar-properties-dialog.c:848
-#: ../plugins/thunar-uca/thunar-uca-editor.c:434
+#: ../lunar/lunar-properties-dialog.c:848
+#: ../plugins/lunar-uca/lunar-uca-editor.c:434
 #, c-format
 msgid "Select an Icon for \"%s\""
 msgstr "Valitse kuvake kohteelle \"%s\""
 
-#: ../thunar/thunar-properties-dialog.c:873
+#: ../lunar/lunar-properties-dialog.c:873
 #, c-format
 msgid "Failed to change icon of \"%s\""
 msgstr "Kohteen \"%s\" kuvakkeen vaihtaminen epäonnistui."
 
 #. update the properties dialog title
-#: ../thunar/thunar-properties-dialog.c:979
+#: ../lunar/lunar-properties-dialog.c:979
 #, c-format
 msgid "%s - Properties"
 msgstr "%s - Ominaisuudet"
 
-#: ../thunar/thunar-properties-dialog.c:1031
+#: ../lunar/lunar-properties-dialog.c:1031
 msgid "broken link"
 msgstr "rikkinäinen linkki"
 
-#: ../thunar/thunar-properties-dialog.c:1042
+#: ../lunar/lunar-properties-dialog.c:1042
 msgid "unknown"
 msgstr "tuntematon"
 
 #. update the properties dialog title
-#: ../thunar/thunar-properties-dialog.c:1232
+#: ../lunar/lunar-properties-dialog.c:1232
 msgid "Properties"
 msgstr "Ominaisuudet"
 
-#: ../thunar/thunar-properties-dialog.c:1333
+#: ../lunar/lunar-properties-dialog.c:1333
 msgid "mixed"
 msgstr "sekalainen"
 
-#: ../thunar/thunar-renamer-dialog.c:192
+#: ../lunar/lunar-renamer-dialog.c:192
 msgid "_Add Files..."
 msgstr "_Lisää tiedostoja..."
 
-#: ../thunar/thunar-renamer-dialog.c:192
+#: ../lunar/lunar-renamer-dialog.c:192
 msgid "Include additional files in the list of files to be renamed"
 msgstr "Lisää tiedostoja uudelleen nimettävien tiedostojen listalle."
 
-#: ../thunar/thunar-renamer-dialog.c:194
+#: ../lunar/lunar-renamer-dialog.c:194
 msgid "Clear"
 msgstr "Tyhjennä"
 
-#: ../thunar/thunar-renamer-dialog.c:194
+#: ../lunar/lunar-renamer-dialog.c:194
 msgid "Clear the file list below"
 msgstr "Tyhjennä alla oleva tiedostolista."
 
-#: ../thunar/thunar-renamer-dialog.c:195 ../thunar/thunar-window.c:411
+#: ../lunar/lunar-renamer-dialog.c:195 ../lunar/lunar-window.c:411
 msgid "_About"
 msgstr "_Tietoja"
 
-#: ../thunar/thunar-renamer-dialog.c:195
-msgid "Display information about Thunar Bulk Rename"
-msgstr "Näytä tietoja Thunarin joukkonimeäjästä."
+#: ../lunar/lunar-renamer-dialog.c:195
+msgid "Display information about Lunar Bulk Rename"
+msgstr "Näytä tietoja Lunarin joukkonimeäjästä."
 
-#: ../thunar/thunar-renamer-dialog.c:354
-#: ../thunar/thunar-renamer-dialog.c:1781
-#: ../thunar-bulk-rename.desktop.in.in.h:2
+#: ../lunar/lunar-renamer-dialog.c:354
+#: ../lunar/lunar-renamer-dialog.c:1781
+#: ../lunar-bulk-rename.desktop.in.in.h:2
 msgid "Rename Multiple Files"
 msgstr "Nimeä useita tiedostoja uudelleen"
 
 #. add the "Rename Files" button
-#: ../thunar/thunar-renamer-dialog.c:362
+#: ../lunar/lunar-renamer-dialog.c:362
 msgid "_Rename Files"
 msgstr "_Nimeä uudelleen"
 
-#: ../thunar/thunar-renamer-dialog.c:365
+#: ../lunar/lunar-renamer-dialog.c:365
 msgid ""
 "Click here to actually rename the files listed above to their new names."
 msgstr "Napsauta tästä vahvistaaksesi ylläolevan listan tiedostojen nimeämisen."
 
-#: ../thunar/thunar-renamer-dialog.c:435
+#: ../lunar/lunar-renamer-dialog.c:435
 msgid "New Name"
 msgstr "Uusi nimi"
 
-#: ../thunar/thunar-renamer-dialog.c:498
+#: ../lunar/lunar-renamer-dialog.c:498
 msgid ""
 "Click here to view the documentation for the selected rename operation."
 msgstr "Napsauta tästä nähdäksesi valitun nimeämistoiminnon dokumentaation."
 
-#. TRANSLATORS: You can test this string by temporarily removing thunar-sbr.*
-#. from $libdir/thunarx-2/,
+#. TRANSLATORS: You can test this string by temporarily removing lunar-sbr.*
+#. from $libdir/lunarx-2/,
 #. *              and opening the multi rename dialog by selecting multiple
 #. files and pressing F2.
-#: ../thunar/thunar-renamer-dialog.c:608
+#: ../lunar/lunar-renamer-dialog.c:608
 msgid ""
 "No renamer modules were found on your system. Please check your\n"
-"installation or contact your system administrator. If you install Thunar\n"
+"installation or contact your system administrator. If you install Lunar\n"
 "from source, be sure to enable the \"Simple Builtin Renamers\" plugin."
-msgstr "Järjestelmästäsi ei löytynyt nimeämismoduuleita. Tarkista asennuksesi\ntai ota yhteyttä järjestelmänvalvojaasi. Jos asennat Thunarin\nlähdekoodista, aseta käyttöön \"Simple Builtin Renamers\" -liitännäinen."
+msgstr "Järjestelmästäsi ei löytynyt nimeämismoduuleita. Tarkista asennuksesi\ntai ota yhteyttä järjestelmänvalvojaasi. Jos asennat Lunarin\nlähdekoodista, aseta käyttöön \"Simple Builtin Renamers\" -liitännäinen."
 
-#: ../thunar/thunar-renamer-dialog.c:858
+#: ../lunar/lunar-renamer-dialog.c:858
 msgid "Remove File"
 msgid_plural "Remove Files"
 msgstr[0] "Poista tiedosto"
 msgstr[1] "Poista tiedostot"
 
-#: ../thunar/thunar-renamer-dialog.c:859
+#: ../lunar/lunar-renamer-dialog.c:859
 msgid "Remove the selected file from the list of files to be renamed"
 msgid_plural "Remove the selected files from the list of files to be renamed"
 msgstr[0] "Poista valittu tiedosto nimettävien tiedostojen listalta."
 msgstr[1] "Poista valitut tiedostot nimettävien tiedostojen listalta."
 
 #. tell the user that we failed
-#: ../thunar/thunar-renamer-dialog.c:955
+#: ../lunar/lunar-renamer-dialog.c:955
 msgid "Failed to open the documentation browser"
 msgstr "Dokumentaatioselaimen avaaminen epäonnistui."
 
 #. allocate the file chooser
-#: ../thunar/thunar-renamer-dialog.c:1056
+#: ../lunar/lunar-renamer-dialog.c:1056
 msgid "Select files to rename"
 msgstr "Valitse nimettävät tiedostot"
 
-#: ../thunar/thunar-renamer-dialog.c:1072
+#: ../lunar/lunar-renamer-dialog.c:1072
 msgid "Audio Files"
 msgstr "Äänitiedostot"
 
-#: ../thunar/thunar-renamer-dialog.c:1077
+#: ../lunar/lunar-renamer-dialog.c:1077
 msgid "Image Files"
 msgstr "Kuvatiedostot"
 
-#: ../thunar/thunar-renamer-dialog.c:1082
+#: ../lunar/lunar-renamer-dialog.c:1082
 msgid "Video Files"
 msgstr "Videotiedostot"
 
 #. just popup the about dialog
-#: ../thunar/thunar-renamer-dialog.c:1209
-#: ../thunar-bulk-rename.desktop.in.in.h:1
+#: ../lunar/lunar-renamer-dialog.c:1209
+#: ../lunar-bulk-rename.desktop.in.in.h:1
 msgid "Bulk Rename"
 msgstr "Joukkonimeäjä"
 
-#: ../thunar/thunar-renamer-dialog.c:1210
+#: ../lunar/lunar-renamer-dialog.c:1210
 msgid ""
-"Thunar Bulk Rename is a powerful and extensible\n"
+"Lunar Bulk Rename is a powerful and extensible\n"
 "tool to rename multiple files at once."
-msgstr "Thunarin joukkonimeäjä on tehokas ja laajennettavissa\noleva työkalu useiden tiedostojen uudelleennimeämiseen."
+msgstr "Lunarin joukkonimeäjä on tehokas ja laajennettavissa\noleva työkalu useiden tiedostojen uudelleennimeämiseen."
 
 #. change title to reflect the standalone status
-#: ../thunar/thunar-renamer-dialog.c:1781
+#: ../lunar/lunar-renamer-dialog.c:1781
 msgid "Bulk Rename - Rename Multiple Files"
 msgstr "Joukkonimeäjä - nimeä useita tiedostoja"
 
-#: ../thunar/thunar-renamer-progress.c:187
+#: ../lunar/lunar-renamer-progress.c:187
 #, c-format
 msgid "Failed to rename \"%s\" to \"%s\"."
 msgstr "Tiedoston \"%s\" nimeäminen muotoon \"%s\" epäonnistui."
 
-#: ../thunar/thunar-renamer-progress.c:194
+#: ../lunar/lunar-renamer-progress.c:194
 msgid ""
 "You can either choose to skip this file and continue to rename the remaining"
 " files, or revert the previously renamed files to their previous names, or "
 "cancel the operation without reverting previous changes."
 msgstr "Voit joko ohittaa tämän tiedoston ja jatkaa loppujen tiedostojen nimeämistä, palauttaa alkuperäiset nimet jo nimetyille tiedostoille tai peruuttaa toiminnon palauttamatta edeltäviä muutoksia."
 
-#: ../thunar/thunar-renamer-progress.c:199
+#: ../lunar/lunar-renamer-progress.c:199
 msgid "_Revert Changes"
 msgstr "_Palauta muutokset"
 
-#: ../thunar/thunar-renamer-progress.c:200
-#: ../thunar/thunar-renamer-progress.c:209
+#: ../lunar/lunar-renamer-progress.c:200
+#: ../lunar/lunar-renamer-progress.c:209
 msgid "_Skip This File"
 msgstr "_Ohita tiedosto"
 
-#: ../thunar/thunar-renamer-progress.c:206
+#: ../lunar/lunar-renamer-progress.c:206
 msgid ""
 "Do you want to skip this file and continue to rename the remaining files?"
 msgstr "Haluatko ohittaa tämän tiedoston ja jatkaa loppujen tiedostojen nimeämistä?"
 
-#: ../thunar/thunar-shortcuts-model.c:631
-#: ../thunar/thunar-shortcuts-model.c:995 ../thunar/thunar-window.c:397
+#: ../lunar/lunar-shortcuts-model.c:631
+#: ../lunar/lunar-shortcuts-model.c:995 ../lunar/lunar-window.c:397
 msgid "Browse the file system"
 msgstr "Selaa tiedostojärjestelmää."
 
-#: ../thunar/thunar-shortcuts-model.c:665
+#: ../lunar/lunar-shortcuts-model.c:665
 #, c-format
 msgid "Mount and open %s (%s)"
 msgstr "Liitä ja avaa %s (%s)"
 
-#: ../thunar/thunar-shortcuts-model.c:678
-#: ../plugins/thunar-tpa/thunar-tpa.c:284
+#: ../lunar/lunar-shortcuts-model.c:678
+#: ../plugins/lunar-tpa/lunar-tpa.c:284
 msgid "Trash is empty"
 msgstr "Roskakori on tyhjä."
 
-#: ../thunar/thunar-shortcuts-model.c:682
+#: ../lunar/lunar-shortcuts-model.c:682
 #, c-format
 msgid "Trash contains %d file"
 msgid_plural "Trash contains %d files"
 msgstr[0] "Roskakori sisältää %d tiedoston"
 msgstr[1] "Roskakori sisältää %d tiedostoa"
 
-#: ../thunar/thunar-shortcuts-model.c:988
+#: ../lunar/lunar-shortcuts-model.c:988
 msgid "Devices"
 msgstr "Laitteet"
 
-#: ../thunar/thunar-shortcuts-model.c:1031
+#: ../lunar/lunar-shortcuts-model.c:1031
 msgid "Network"
 msgstr "Verkko"
 
-#: ../thunar/thunar-shortcuts-model.c:1039
+#: ../lunar/lunar-shortcuts-model.c:1039
 msgid "Browse Network"
 msgstr "Selaa verkkoa"
 
-#: ../thunar/thunar-shortcuts-model.c:1040 ../thunar/thunar-window.c:407
+#: ../lunar/lunar-shortcuts-model.c:1040 ../lunar/lunar-window.c:407
 msgid "Browse local network connections"
 msgstr "Selaa paikallisverkkoyhteyksiä"
 
-#: ../thunar/thunar-shortcuts-model.c:1062
+#: ../lunar/lunar-shortcuts-model.c:1062
 msgid "Places"
 msgstr "Sijainnit"
 
-#: ../thunar/thunar-shortcuts-model.c:1074
+#: ../lunar/lunar-shortcuts-model.c:1074
 msgid "Open the home folder"
 msgstr "Avaa kotikansio"
 
-#: ../thunar/thunar-shortcuts-model.c:1091
+#: ../lunar/lunar-shortcuts-model.c:1091
 msgid "Open the desktop folder"
 msgstr "Avaa työpöytäkansio"
 
-#: ../thunar/thunar-shortcuts-model.c:1138 ../thunar/thunar-window.c:398
-#: ../thunar/thunar-window.c:401 ../thunar.desktop.in.in.h:6
+#: ../lunar/lunar-shortcuts-model.c:1138 ../lunar/lunar-window.c:398
+#: ../lunar/lunar-window.c:401 ../lunar.desktop.in.in.h:6
 msgid "Computer"
 msgstr "Tietokone"
 
-#: ../thunar/thunar-shortcuts-model.c:1139
+#: ../lunar/lunar-shortcuts-model.c:1139
 msgid "Browse the computer"
 msgstr "Selaa tietokonetta"
 
 #. append the "Open in New Tab" menu action
-#: ../thunar/thunar-shortcuts-view.c:1131
+#: ../lunar/lunar-shortcuts-view.c:1131
 msgid "Open in New Tab"
 msgstr "Avaa uudessa välilehdessä"
 
 #. append the "Open in New Window" menu action
-#: ../thunar/thunar-shortcuts-view.c:1137
+#: ../lunar/lunar-shortcuts-view.c:1137
 msgid "Open in New Window"
 msgstr "Avaa uudessa ikkunassa"
 
-#: ../thunar/thunar-shortcuts-view.c:1188
+#: ../lunar/lunar-shortcuts-view.c:1188
 msgid "Create _Shortcut"
 msgstr "Luo _pikakuvake"
 
-#: ../thunar/thunar-shortcuts-view.c:1285
+#: ../lunar/lunar-shortcuts-view.c:1285
 msgid "_Remove Shortcut"
 msgstr "_Poista kirjanmerkki"
 
 #. append the rename menu item
-#: ../thunar/thunar-shortcuts-view.c:1302
+#: ../lunar/lunar-shortcuts-view.c:1302
 msgid "Re_name Shortcut"
 msgstr "_Nimeä kirjanmerkki uudelleen"
 
-#: ../thunar/thunar-shortcuts-view.c:1632
+#: ../lunar/lunar-shortcuts-view.c:1632
 #, c-format
 msgid "The path \"%s\" does not refer to a directory"
 msgstr "Polku \"%s\" ei osoita kansioon."
 
 #. display an error message to the user
-#: ../thunar/thunar-shortcuts-view.c:1652
+#: ../lunar/lunar-shortcuts-view.c:1652
 msgid "Failed to add new shortcut"
 msgstr "Kirjanmerkin lisääminen epäonnistui."
 
-#: ../thunar/thunar-size-label.c:165
+#: ../lunar/lunar-size-label.c:165
 msgid "Click here to stop calculating the total size of the folder."
 msgstr "Napsauta tästä keskeyttääksesi kansion koon laskemisen."
 
 #. add the label widget
 #. tell the user that we started calculation
-#: ../thunar/thunar-size-label.c:175 ../thunar/thunar-size-label.c:328
+#: ../lunar/lunar-size-label.c:175 ../lunar/lunar-size-label.c:328
 msgid "Calculating..."
 msgstr "Lasketaan..."
 
 #. tell the user that the operation was canceled
-#: ../thunar/thunar-size-label.c:287
+#: ../lunar/lunar-size-label.c:287
 msgid "Calculation aborted"
 msgstr "Laskenta peruutettu"
 
-#: ../thunar/thunar-size-label.c:412
+#: ../lunar/lunar-size-label.c:412
 #, c-format
 msgid "%u item, totalling %s"
 msgid_plural "%u items, totalling %s"
@@ -2402,150 +2402,150 @@ msgstr[1] "%u kohdetta, yhteensä %s"
 
 #. TRANSLATORS: this is shows if during the deep count size
 #. * directories were not accessible
-#: ../thunar/thunar-size-label.c:419
+#: ../lunar/lunar-size-label.c:419
 msgid "(some contents unreadable)"
 msgstr "(jotakin sisältöä ei voi lukea)"
 
 #. nothing was readable, so permission was denied
-#: ../thunar/thunar-size-label.c:430
+#: ../lunar/lunar-size-label.c:430
 msgid "Permission denied"
 msgstr "Käyttö estetty"
 
-#: ../thunar/thunar-standard-view.c:363
+#: ../lunar/lunar-standard-view.c:363
 msgid "Select _all Files"
 msgstr "Valitse k_aikki tiedostot"
 
-#: ../thunar/thunar-standard-view.c:363
+#: ../lunar/lunar-standard-view.c:363
 msgid "Select all files in this window"
 msgstr "Valitse kaikki ikkunassa näkyvät tiedostot."
 
-#: ../thunar/thunar-standard-view.c:364
+#: ../lunar/lunar-standard-view.c:364
 msgid "Select _by Pattern..."
 msgstr "Valitse _hakukaavan avulla..."
 
-#: ../thunar/thunar-standard-view.c:364
+#: ../lunar/lunar-standard-view.c:364
 msgid "Select all files that match a certain pattern"
 msgstr "Valitse kaikki tiedostot, jotka sopivat tiettyyn hakukaavaan."
 
-#: ../thunar/thunar-standard-view.c:365
+#: ../lunar/lunar-standard-view.c:365
 msgid "_Invert Selection"
 msgstr "K_äänteinen valinta"
 
-#: ../thunar/thunar-standard-view.c:365
+#: ../lunar/lunar-standard-view.c:365
 msgid "Select all files but not those currently selected"
 msgstr "Valitse kaikki muut paitsi parhaillaan valitut tiedostot"
 
-#: ../thunar/thunar-standard-view.c:366
+#: ../lunar/lunar-standard-view.c:366
 msgid "U_nselect all Files"
 msgstr ""
 
-#: ../thunar/thunar-standard-view.c:366
+#: ../lunar/lunar-standard-view.c:366
 msgid "Unselect all files in this window"
 msgstr ""
 
-#: ../thunar/thunar-standard-view.c:367
+#: ../lunar/lunar-standard-view.c:367
 msgid "Arran_ge Items"
 msgstr "Jä_rjestä"
 
-#: ../thunar/thunar-standard-view.c:368
+#: ../lunar/lunar-standard-view.c:368
 msgid "Toggle sort direction"
 msgstr ""
 
-#: ../thunar/thunar-standard-view.c:368
+#: ../lunar/lunar-standard-view.c:368
 msgid "Toggle Ascending/Descending sort order"
 msgstr ""
 
-#: ../thunar/thunar-standard-view.c:369
+#: ../lunar/lunar-standard-view.c:369
 msgid "By _Name"
 msgstr "_Nimen mukaan"
 
-#: ../thunar/thunar-standard-view.c:369
+#: ../lunar/lunar-standard-view.c:369
 msgid "Keep items sorted by their name"
 msgstr "Pidä kansion sisältö järjestettynä nimen mukaan."
 
-#: ../thunar/thunar-standard-view.c:370
+#: ../lunar/lunar-standard-view.c:370
 msgid "By _Size"
 msgstr "_Koon mukaan"
 
-#: ../thunar/thunar-standard-view.c:370
+#: ../lunar/lunar-standard-view.c:370
 msgid "Keep items sorted by their size"
 msgstr "Pidä kansion sisältö järjestettynä koon mukaan."
 
-#: ../thunar/thunar-standard-view.c:371
+#: ../lunar/lunar-standard-view.c:371
 msgid "By _Type"
 msgstr "_Tyypin mukaan"
 
-#: ../thunar/thunar-standard-view.c:371
+#: ../lunar/lunar-standard-view.c:371
 msgid "Keep items sorted by their type"
 msgstr "Pidä kansion sisältö järjestettynä tyypin mukaan."
 
-#: ../thunar/thunar-standard-view.c:372
+#: ../lunar/lunar-standard-view.c:372
 msgid "By Modification _Date"
 msgstr "_Muokkauspäivämäärän mukaan"
 
-#: ../thunar/thunar-standard-view.c:372
+#: ../lunar/lunar-standard-view.c:372
 msgid "Keep items sorted by their modification date"
 msgstr "Pidä kansion sisältö järjestettynä muokkauspäivämäärän mukaan."
 
-#: ../thunar/thunar-standard-view.c:373
+#: ../lunar/lunar-standard-view.c:373
 msgid "_Ascending"
 msgstr "N_ousevaan järjestykseen"
 
-#: ../thunar/thunar-standard-view.c:373
+#: ../lunar/lunar-standard-view.c:373
 msgid "Sort items in ascending order"
 msgstr "Järjestä kansion sisältö nousevaan järjestykseen."
 
-#: ../thunar/thunar-standard-view.c:374
+#: ../lunar/lunar-standard-view.c:374
 msgid "_Descending"
 msgstr "_Laskevaan järjestykseen"
 
-#: ../thunar/thunar-standard-view.c:374
+#: ../lunar/lunar-standard-view.c:374
 msgid "Sort items in descending order"
 msgstr "Järjestä kansion sisältö laskevaan järjestykseen."
 
-#: ../thunar/thunar-standard-view.c:1574
+#: ../lunar/lunar-standard-view.c:1574
 msgid "Loading folder contents..."
 msgstr "Ladataan kansion sisältöä..."
 
 #. display an error to the user
-#: ../thunar/thunar-standard-view.c:2101 ../thunar/thunar-window.c:2954
+#: ../lunar/lunar-standard-view.c:2101 ../lunar/lunar-window.c:2954
 msgid "Failed to open the home folder"
 msgstr "Kotikansion avaaminen epäonnistui."
 
-#: ../thunar/thunar-standard-view.c:2172
+#: ../lunar/lunar-standard-view.c:2172
 msgid "Select by Pattern"
 msgstr "Valitse hakukaavan avulla"
 
-#: ../thunar/thunar-standard-view.c:2177
+#: ../lunar/lunar-standard-view.c:2177
 msgid "_Select"
 msgstr "_Valitse"
 
-#: ../thunar/thunar-standard-view.c:2190
+#: ../lunar/lunar-standard-view.c:2190
 msgid "_Pattern:"
 msgstr "_Hakukaava:"
 
-#: ../thunar/thunar-standard-view.c:2206
+#: ../lunar/lunar-standard-view.c:2206
 msgid "Examples:"
 msgstr "Esimerkit:"
 
 #. tell the user that the file name provided by the X Direct Save source is
 #. invalid
-#: ../thunar/thunar-standard-view.c:2574
+#: ../lunar/lunar-standard-view.c:2574
 msgid "Invalid filename provided by XDS drag site"
 msgstr "XDS-raahauslähteen tarjoama tiedostonimi ei kelpaa."
 
 #. display an error dialog to the user
-#: ../thunar/thunar-standard-view.c:2764
+#: ../lunar/lunar-standard-view.c:2764
 #, c-format
 msgid "Failed to create a link for the URL \"%s\""
 msgstr "Linkin luominen URL:iin \"%s\" epäonnistui."
 
-#: ../thunar/thunar-standard-view.c:3213 ../thunar/thunar-window.c:3048
+#: ../lunar/lunar-standard-view.c:3213 ../lunar/lunar-window.c:3048
 #, c-format
 msgid "Failed to open directory \"%s\""
 msgstr "Kansion \"%s\" avaaminen epäonnistui."
 
-#: ../thunar/thunar-transfer-job.c:917
+#: ../lunar/lunar-transfer-job.c:917
 #, c-format
 msgid ""
 "Error while copying to \"%s\": %s more space is required to copy to the "
@@ -2553,683 +2553,683 @@ msgid ""
 msgstr "Virhe kopioidessa kohteeseen \"%s\": kohteessa tarvitaan %s lisää tilaa jotta kopiointi voidaan suorittaa"
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:951
+#: ../lunar/lunar-transfer-job.c:951
 #, c-format
 msgid "Trying to restore \"%s\""
 msgstr "Yritetään palauttaa \"%s\""
 
-#: ../thunar/thunar-transfer-job.c:980
+#: ../lunar/lunar-transfer-job.c:980
 #, c-format
 msgid ""
 "The folder \"%s\" does not exist anymore but is required to restore the file"
 " \"%s\" from the trash"
 msgstr "Kansiota \"%s\" ei ole enää olemassa, mutta se tarvitaan tiedoston \"%s\" palauttamiseksi roskakorista."
 
-#: ../thunar/thunar-transfer-job.c:1007
+#: ../lunar/lunar-transfer-job.c:1007
 #, c-format
 msgid "Failed to restore the folder \"%s\""
 msgstr "Kansion \"%s\" palautus epäonnistui."
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:1082
+#: ../lunar/lunar-transfer-job.c:1082
 #, c-format
 msgid "Trying to move \"%s\""
 msgstr "Yritetään siirtää \"%s\"."
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:1158
+#: ../lunar/lunar-transfer-job.c:1158
 #, c-format
 msgid "Could not move \"%s\" directly. Collecting files for copying..."
 msgstr "Kohdetta \"%s\" ei voi siirtää suoraan. Kerätään kopioitavaksi..."
 
-#: ../thunar/thunar-transfer-job.c:1500
+#: ../lunar/lunar-transfer-job.c:1500
 msgid "Collecting files..."
 msgstr "Kerätään tiedostoja..."
 
-#: ../thunar/thunar-transfer-job.c:1701
+#: ../lunar/lunar-transfer-job.c:1701
 #, c-format
 msgid "%s of %s"
 msgstr "%s/%s"
 
-#: ../thunar/thunar-transfer-job.c:1721
+#: ../lunar/lunar-transfer-job.c:1721
 #, c-format
 msgid "%lu hour remaining (%s/sec)"
 msgid_plural "%lu hours remaining (%s/sec)"
 msgstr[0] "%lu tunti jäljellä (%s/s)"
 msgstr[1] "%lu tuntia jäljellä (%s/s)"
 
-#: ../thunar/thunar-transfer-job.c:1729
+#: ../lunar/lunar-transfer-job.c:1729
 #, c-format
 msgid "%lu minute remaining (%s/sec)"
 msgid_plural "%lu minutes remaining (%s/sec)"
 msgstr[0] "%lu minuutti jäljellä (%s/s)"
 msgstr[1] "%lu minuuttia jäljellä (%s/s)"
 
-#: ../thunar/thunar-transfer-job.c:1736
+#: ../lunar/lunar-transfer-job.c:1736
 #, c-format
 msgid "%lu second remaining (%s/sec)"
 msgid_plural "%lu seconds remaining (%s/sec)"
 msgstr[0] "%lu sekunti jäljellä (%s/s)"
 msgstr[1] "%lu sekuntia jäljellä (%s/s)"
 
-#: ../thunar/thunar-tree-model.c:631
+#: ../lunar/lunar-tree-model.c:631
 msgid "Loading..."
 msgstr "Ladataan..."
 
-#: ../thunar/thunar-util.c:281
+#: ../lunar/lunar-util.c:281
 #, c-format
 msgid "Invalid path"
 msgstr "Polku ei kelpaa."
 
-#: ../thunar/thunar-util.c:315
+#: ../lunar/lunar-util.c:315
 #, c-format
 msgid "Unknown user \"%s\""
 msgstr "Tuntematon käyttäjä \"%s\"."
 
 #. TRANSLATORS: file was modified less than one day ago
-#: ../thunar/thunar-util.c:425
+#: ../lunar/lunar-util.c:425
 msgid "Today"
 msgstr "Tänään"
 
 #. TRANSLATORS: file was modified less than one day ago
-#: ../thunar/thunar-util.c:430
+#: ../lunar/lunar-util.c:430
 #, c-format
 msgid "Today at %X"
 msgstr "Tänään klo %X"
 
 #. TRANSLATORS: file was modified less than two days ago
-#: ../thunar/thunar-util.c:438
+#: ../lunar/lunar-util.c:438
 msgid "Yesterday"
 msgstr "Eilen"
 
 #. TRANSLATORS: file was modified less than two days ago
-#: ../thunar/thunar-util.c:443
+#: ../lunar/lunar-util.c:443
 #, c-format
 msgid "Yesterday at %X"
 msgstr "Eilen klo %X"
 
 #. Days from last week
-#: ../thunar/thunar-util.c:451
+#: ../lunar/lunar-util.c:451
 #, c-format
 msgid "%A at %X"
 msgstr "%A klo %X"
 
 #. Any other date
-#: ../thunar/thunar-util.c:456
+#: ../lunar/lunar-util.c:456
 #, c-format
 msgid "%x at %X"
 msgstr "%x klo %X"
 
-#: ../thunar/thunar-window.c:364
+#: ../lunar/lunar-window.c:364
 msgid "_File"
 msgstr "_Tiedosto"
 
-#: ../thunar/thunar-window.c:365
+#: ../lunar/lunar-window.c:365
 msgid "New _Tab"
 msgstr "_Uusi välilehti"
 
-#: ../thunar/thunar-window.c:365
+#: ../lunar/lunar-window.c:365
 msgid "Open a new tab for the displayed location"
 msgstr "Avaa uusi välilehti osoitetussa sijainnissa"
 
-#: ../thunar/thunar-window.c:366
+#: ../lunar/lunar-window.c:366
 msgid "New _Window"
 msgstr "Uusi _ikkuna"
 
-#: ../thunar/thunar-window.c:366
-msgid "Open a new Thunar window for the displayed location"
-msgstr "Avaa uusi Thunar-ikkuna nykyisessä sijainnissa."
+#: ../lunar/lunar-window.c:366
+msgid "Open a new Lunar window for the displayed location"
+msgstr "Avaa uusi Lunar-ikkuna nykyisessä sijainnissa."
 
-#: ../thunar/thunar-window.c:367
+#: ../lunar/lunar-window.c:367
 msgid "Detac_h Tab"
 msgstr "_Irrota välilehti"
 
-#: ../thunar/thunar-window.c:367
+#: ../lunar/lunar-window.c:367
 msgid "Open current folder in a new window"
 msgstr "Avaa nykyinen kansio uudessa ikkunassa"
 
-#: ../thunar/thunar-window.c:368
+#: ../lunar/lunar-window.c:368
 msgid "C_lose Tab"
 msgstr "_Sulje välilehti"
 
-#: ../thunar/thunar-window.c:368
+#: ../lunar/lunar-window.c:368
 msgid "Close this folder"
 msgstr "Sulje tämä kansio"
 
-#: ../thunar/thunar-window.c:369
+#: ../lunar/lunar-window.c:369
 msgid "_Close Window"
 msgstr "Sulje ikk_una"
 
-#: ../thunar/thunar-window.c:369
+#: ../lunar/lunar-window.c:369
 msgid "Close this window"
 msgstr "Sulje tämä ikkuna."
 
-#: ../thunar/thunar-window.c:370
+#: ../lunar/lunar-window.c:370
 msgid "Close _All Windows"
 msgstr "Sulje _kaikki ikkunat"
 
-#: ../thunar/thunar-window.c:370
-msgid "Close all Thunar windows"
-msgstr "Sulje kaikki Thunar-ikkunat."
+#: ../lunar/lunar-window.c:370
+msgid "Close all Lunar windows"
+msgstr "Sulje kaikki Lunar-ikkunat."
 
-#: ../thunar/thunar-window.c:372
+#: ../lunar/lunar-window.c:372
 msgid "_Edit"
 msgstr "_Muokkaa"
 
-#: ../thunar/thunar-window.c:373
+#: ../lunar/lunar-window.c:373
 msgid "Pr_eferences..."
 msgstr "A_setukset..."
 
-#: ../thunar/thunar-window.c:373
-msgid "Edit Thunars Preferences"
-msgstr "Muokkaa Thunarin asetuksia."
+#: ../lunar/lunar-window.c:373
+msgid "Edit Lunars Preferences"
+msgstr "Muokkaa Lunarin asetuksia."
 
-#: ../thunar/thunar-window.c:375
+#: ../lunar/lunar-window.c:375
 msgid "_View"
 msgstr "_Näytä"
 
-#: ../thunar/thunar-window.c:376
+#: ../lunar/lunar-window.c:376
 msgid "_Reload"
 msgstr "_Lataa uudelleen"
 
-#: ../thunar/thunar-window.c:378
+#: ../lunar/lunar-window.c:378
 msgid "_Location Selector"
 msgstr "_Sijainnin valitsin"
 
-#: ../thunar/thunar-window.c:379
+#: ../lunar/lunar-window.c:379
 msgid "_Pathbar Style"
 msgstr "_Polkupalkki"
 
-#: ../thunar/thunar-window.c:379
+#: ../lunar/lunar-window.c:379
 msgid "Modern approach with buttons that correspond to folders"
 msgstr "Moderni tyyli, jossa painikkeet vastaavat kansioita"
 
-#: ../thunar/thunar-window.c:380
+#: ../lunar/lunar-window.c:380
 msgid "_Toolbar Style"
 msgstr "_Työkalupalkki"
 
-#: ../thunar/thunar-window.c:380
+#: ../lunar/lunar-window.c:380
 msgid "Traditional approach with location bar and navigation buttons"
 msgstr "Perinteinen tyyli sijaintipalkkeineen ja navigointipainikkeineen"
 
-#: ../thunar/thunar-window.c:381
+#: ../lunar/lunar-window.c:381
 msgid "_Side Pane"
 msgstr "Si_vupaneeli"
 
-#: ../thunar/thunar-window.c:382
+#: ../lunar/lunar-window.c:382
 msgid "_Shortcuts"
 msgstr "_Kirjanmerkit"
 
-#: ../thunar/thunar-window.c:382
+#: ../lunar/lunar-window.c:382
 msgid "Toggles the visibility of the shortcuts pane"
 msgstr "Näytä tai piilota kirjanmerkkipaneeli."
 
-#: ../thunar/thunar-window.c:383
+#: ../lunar/lunar-window.c:383
 msgid "_Tree"
 msgstr "_Kansiopuu"
 
-#: ../thunar/thunar-window.c:383
+#: ../lunar/lunar-window.c:383
 msgid "Toggles the visibility of the tree pane"
 msgstr "Näyttä tai piilota kansiopuupaneeli."
 
-#: ../thunar/thunar-window.c:385
+#: ../lunar/lunar-window.c:385
 msgid "St_atusbar"
 msgstr "Til_apalkki"
 
-#: ../thunar/thunar-window.c:385
+#: ../lunar/lunar-window.c:385
 msgid "Change the visibility of this window's statusbar"
 msgstr "Näytä tai piilota tämän ikkunan tilapalkki."
 
-#: ../thunar/thunar-window.c:386
+#: ../lunar/lunar-window.c:386
 msgid "_Menubar"
 msgstr "_Valikkopalkki"
 
-#: ../thunar/thunar-window.c:386
+#: ../lunar/lunar-window.c:386
 msgid "Change the visibility of this window's menubar"
 msgstr "Muuta ikkunan valikkopalkin näkyvyyttä"
 
-#: ../thunar/thunar-window.c:387
+#: ../lunar/lunar-window.c:387
 msgid "Show _Hidden Files"
 msgstr "Näytä _piilotiedostot"
 
-#: ../thunar/thunar-window.c:387
+#: ../lunar/lunar-window.c:387
 msgid "Toggles the display of hidden files in the current window"
 msgstr "Näyttää tai piilottaa piilotiedostot nykyisessä ikkunassa."
 
-#: ../thunar/thunar-window.c:388
+#: ../lunar/lunar-window.c:388
 msgid "Zoom I_n"
 msgstr "L_ähennä"
 
-#: ../thunar/thunar-window.c:388
+#: ../lunar/lunar-window.c:388
 msgid "Show the contents in more detail"
 msgstr "Näytä sisältö suuremmassa koossa."
 
-#: ../thunar/thunar-window.c:389
+#: ../lunar/lunar-window.c:389
 msgid "Zoom _Out"
 msgstr "L_oitonna"
 
-#: ../thunar/thunar-window.c:389
+#: ../lunar/lunar-window.c:389
 msgid "Show the contents in less detail"
 msgstr "Näytä sisältö pienemmässä koossa."
 
-#: ../thunar/thunar-window.c:390
+#: ../lunar/lunar-window.c:390
 msgid "Normal Si_ze"
 msgstr "_Normaalikoko"
 
-#: ../thunar/thunar-window.c:390
+#: ../lunar/lunar-window.c:390
 msgid "Show the contents at the normal size"
 msgstr "Näytä sisältö normaalikoossa."
 
-#: ../thunar/thunar-window.c:391
+#: ../lunar/lunar-window.c:391
 msgid "Clear Saved _Folder View Settings"
 msgstr "Tyhjennä tallennetut _kansion näkymäasetukset"
 
-#: ../thunar/thunar-window.c:391
+#: ../lunar/lunar-window.c:391
 msgid "Delete saved view settings for this folder"
 msgstr "Poista tallennetut näkymäasetukset tämän kansion osalta"
 
-#: ../thunar/thunar-window.c:392
+#: ../lunar/lunar-window.c:392
 msgid "_Icon View"
 msgstr "_Kuvakenäkymä"
 
-#: ../thunar/thunar-window.c:392
+#: ../lunar/lunar-window.c:392
 msgid "Display folder content in an icon view"
 msgstr "Näytä kansion sisältö kuvakenäkymässä."
 
-#: ../thunar/thunar-window.c:393
+#: ../lunar/lunar-window.c:393
 msgid "_List View"
 msgstr "_Luettelonäkymä"
 
-#: ../thunar/thunar-window.c:393
+#: ../lunar/lunar-window.c:393
 msgid "Display folder content in a detailed list view"
 msgstr "Näytä kansion sisältö yksityiskohtaisessa listanäkymässä."
 
-#: ../thunar/thunar-window.c:394
+#: ../lunar/lunar-window.c:394
 msgid "_Compact View"
 msgstr "K_ompakti näkymä"
 
-#: ../thunar/thunar-window.c:394
+#: ../lunar/lunar-window.c:394
 msgid "Display folder content in a compact list view"
 msgstr "Näytä kansion sisältö kompaktissa listanäkymässä."
 
-#: ../thunar/thunar-window.c:396
+#: ../lunar/lunar-window.c:396
 msgid "_Go"
 msgstr "_Siirry"
 
-#: ../thunar/thunar-window.c:398
+#: ../lunar/lunar-window.c:398
 msgid "Go to the computer folder"
 msgstr "Näytä tietokoneen kansio"
 
-#: ../thunar/thunar-window.c:399
+#: ../lunar/lunar-window.c:399
 msgid "_Home"
 msgstr "_Koti"
 
-#: ../thunar/thunar-window.c:399
+#: ../lunar/lunar-window.c:399
 msgid "Go to the home folder"
 msgstr "Näytä kotikansio."
 
-#: ../thunar/thunar-window.c:400
+#: ../lunar/lunar-window.c:400
 msgid "Desktop"
 msgstr "Työpöytä"
 
-#: ../thunar/thunar-window.c:400
+#: ../lunar/lunar-window.c:400
 msgid "Go to the desktop folder"
 msgstr "Näytä työpöytäkansio."
 
-#: ../thunar/thunar-window.c:401
+#: ../lunar/lunar-window.c:401
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
 msgstr "Selaa kaikkia paikallisia ja etälevyjä sekä -kansioita, jotka ovat käytettävissä tällä tietokoneella"
 
-#: ../thunar/thunar-window.c:402
+#: ../lunar/lunar-window.c:402
 msgid "T_rash"
 msgstr "_Roskakori"
 
-#: ../thunar/thunar-window.c:402
+#: ../lunar/lunar-window.c:402
 msgid "Display the contents of the trash can"
 msgstr "Näytä roskakorin sisältö."
 
-#: ../thunar/thunar-window.c:403
+#: ../lunar/lunar-window.c:403
 msgid "Open _Parent"
 msgstr "Avaa _yläkansio"
 
-#: ../thunar/thunar-window.c:403
+#: ../lunar/lunar-window.c:403
 msgid "Open the parent folder"
 msgstr "Avaa nykyisen sijainnin yläkansio."
 
-#: ../thunar/thunar-window.c:404
+#: ../lunar/lunar-window.c:404
 msgid "_Open Location..."
 msgstr "_Avaa sijainti..."
 
-#: ../thunar/thunar-window.c:404
+#: ../lunar/lunar-window.c:404
 msgid "Specify a location to open"
 msgstr "Valitse avattava sijainti."
 
-#: ../thunar/thunar-window.c:406
+#: ../lunar/lunar-window.c:406
 msgid "T_emplates"
 msgstr "Asiakirja_mallit"
 
-#: ../thunar/thunar-window.c:406
+#: ../lunar/lunar-window.c:406
 msgid "Go to the templates folder"
 msgstr "Näytä asiakirjamallikansio."
 
-#: ../thunar/thunar-window.c:407
+#: ../lunar/lunar-window.c:407
 msgid "B_rowse Network"
 msgstr "Selaa _verkkoa"
 
-#: ../thunar/thunar-window.c:410
+#: ../lunar/lunar-window.c:410
 msgid "_Contents"
 msgstr "_Sisältö"
 
-#: ../thunar/thunar-window.c:410
-msgid "Display Thunar user manual"
-msgstr "Näytä Thunarin käyttöohje."
+#: ../lunar/lunar-window.c:410
+msgid "Display Lunar user manual"
+msgstr "Näytä Lunarin käyttöohje."
 
-#: ../thunar/thunar-window.c:411
-msgid "Display information about Thunar"
-msgstr "Näytä tietoja Thunarista."
+#: ../lunar/lunar-window.c:411
+msgid "Display information about Lunar"
+msgstr "Näytä tietoja Lunarista."
 
-#: ../thunar/thunar-window.c:412
+#: ../lunar/lunar-window.c:412
 msgid "Back"
 msgstr "Edellinen"
 
-#: ../thunar/thunar-window.c:412
+#: ../lunar/lunar-window.c:412
 msgid "Go to the previous visited folder"
 msgstr "Palaa edelliseen vierailtuun kansioon"
 
-#: ../thunar/thunar-window.c:414
+#: ../lunar/lunar-window.c:414
 msgid "Forward"
 msgstr "Seuraava"
 
-#: ../thunar/thunar-window.c:414
+#: ../lunar/lunar-window.c:414
 msgid "Go to the next visited folder"
 msgstr "Siirry seuraavaan vierailuun kansioon"
 
-#: ../thunar/thunar-window.c:415
+#: ../lunar/lunar-window.c:415
 msgid "_Previous Tab"
 msgstr "_Edellinen välilehti"
 
-#: ../thunar/thunar-window.c:415
+#: ../lunar/lunar-window.c:415
 msgid "Switch to Previous Tab"
 msgstr "Vaihda edelliseen välilehteen"
 
-#: ../thunar/thunar-window.c:416
+#: ../lunar/lunar-window.c:416
 msgid "_Next Tab"
 msgstr "_Seuraava välilehti"
 
-#: ../thunar/thunar-window.c:416
+#: ../lunar/lunar-window.c:416
 msgid "Switch to Next Tab"
 msgstr "Vaihda seuraavaan välilehteen"
 
 #. add the label with the root warning
-#: ../thunar/thunar-window.c:736
+#: ../lunar/lunar-window.c:736
 msgid "Warning: you are using the root account. You may harm your system."
 msgstr "Varoitus: Käytät pääkäyttäjätiliä. Voit vahingoittaa järjestelmääsi."
 
-#: ../thunar/thunar-window.c:1991
+#: ../lunar/lunar-window.c:1991
 msgid "Close tab"
 msgstr "Sulje välilehti"
 
-#: ../thunar/thunar-window.c:2233
+#: ../lunar/lunar-window.c:2233
 #, c-format
 msgid "Open the location \"%s\""
 msgstr "Avaa sijainti \"%s\""
 
-#: ../thunar/thunar-window.c:2379
+#: ../lunar/lunar-window.c:2379
 #, c-format
 msgid "Failed to launch \"%s\""
 msgstr "Kohteen \"%s\" suorittaminen epäonnistui."
 
-#: ../thunar/thunar-window.c:2904
+#: ../lunar/lunar-window.c:2904
 msgid "Failed to open parent folder"
 msgstr "Yläkansion avaaminen epäonnistui."
 
-#: ../thunar/thunar-window.c:3023
+#: ../lunar/lunar-window.c:3023
 #, c-format
 msgid "The directory \"%s\" does not exist. Do you want to create it?"
 msgstr "Kansiota \"%s\" ei ole olemassa. Haluatko luoda sen?"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3090
+#: ../lunar/lunar-window.c:3090
 msgid "Failed to browse the computer"
 msgstr "Tietokoneen selaaminen epäonnistui"
 
 #. display the "About Templates" dialog
-#: ../thunar/thunar-window.c:3130
+#: ../lunar/lunar-window.c:3130
 msgid "About Templates"
 msgstr "Tietoja asiakirjamalleista"
 
-#: ../thunar/thunar-window.c:3152
+#: ../lunar/lunar-window.c:3152
 msgid "All files in this folder will appear in the \"Create Document\" menu."
 msgstr "Kaikki tämän kansion tiedostot näkyvät \"Luo asiakirja\" -valikossa."
 
-#: ../thunar/thunar-window.c:3159
+#: ../lunar/lunar-window.c:3159
 msgid ""
-"If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Thunar will add an entry for this document in the \"Create Document\" menu.\n"
+"If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Lunar will add an entry for this document in the \"Create Document\" menu.\n"
 "\n"
 "You can then select the entry from the \"Create Document\" menu and a copy of the document will be created in the directory you are viewing."
-msgstr "Jos luot usein tietyntyyppisiä asiakirjoja, kopioi yksi niistä tähän kansioon. Thunar lisää asiakirjan \"Luo asiakirja\" -valikkoon.\n\nValitessasi tämän kohteen \"Luo asiakirja\" -valikosta asiakirjasta luodaan kopio näkyvillä olevaan kansioon."
+msgstr "Jos luot usein tietyntyyppisiä asiakirjoja, kopioi yksi niistä tähän kansioon. Lunar lisää asiakirjan \"Luo asiakirja\" -valikkoon.\n\nValitessasi tämän kohteen \"Luo asiakirja\" -valikosta asiakirjasta luodaan kopio näkyvillä olevaan kansioon."
 
-#: ../thunar/thunar-window.c:3171
+#: ../lunar/lunar-window.c:3171
 msgid "Do _not display this message again"
 msgstr "_Muista valinta"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3202
+#: ../lunar/lunar-window.c:3202
 msgid "Failed to open the file system root folder"
 msgstr "Tiedostojärjestelmän juurikansion avaus epäonnistui."
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3235
+#: ../lunar/lunar-window.c:3235
 msgid "Failed to display the contents of the trash can"
 msgstr "Roskakorin sisällön näyttäminen epäonnistui."
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3268
+#: ../lunar/lunar-window.c:3268
 msgid "Failed to browse the network"
 msgstr "Verkon selaaminen epäonnistui."
 
-#: ../thunar/thunar-window.c:3372
+#: ../lunar/lunar-window.c:3372
 msgid ""
-"Thunar is a fast and easy to use file manager\n"
-"for the Xfce Desktop Environment."
-msgstr "Thunar on nopea ja helppokäyttöinen\ntiedostonhallintaohjelma Xfce-ympäristöön."
+"Lunar is a fast and easy to use file manager\n"
+"for the Expidus Desktop Environment."
+msgstr "Lunar on nopea ja helppokäyttöinen\ntiedostonhallintaohjelma Expidus-ympäristöön."
 
-#: ../thunarx/thunarx-property-page.c:111
+#: ../lunarx/lunarx-property-page.c:111
 msgid "Label"
 msgstr "Nimike"
 
-#: ../thunarx/thunarx-property-page.c:112
+#: ../lunarx/lunarx-property-page.c:112
 msgid "Text of the page's label"
 msgstr "Sivun nimikkeen teksti"
 
-#: ../thunarx/thunarx-property-page.c:124
+#: ../lunarx/lunarx-property-page.c:124
 msgid "Label widget"
 msgstr "Nimike-elementti"
 
-#: ../thunarx/thunarx-property-page.c:125
+#: ../lunarx/lunarx-property-page.c:125
 msgid "A widget to display in place of the usual page label"
 msgstr "Käyttöliittymäelementti, joka näytetään tavanomaisen sivun nimikkeen sijaan."
 
-#: ../thunarx/thunarx-provider-plugin.c:81
+#: ../lunarx/lunarx-provider-plugin.c:81
 msgid "Resident"
 msgstr "Pysyvä"
 
-#: ../thunarx/thunarx-provider-plugin.c:82
+#: ../lunarx/lunarx-provider-plugin.c:82
 msgid "Don't unload the plugin from memory"
 msgstr "Älä poista liitännäistä muistista."
 
-#: ../thunarx/thunarx-renamer.c:149
+#: ../lunarx/lunarx-renamer.c:149
 msgid "Help URL"
 msgstr "Ohjeen URL"
 
-#: ../thunarx/thunarx-renamer.c:150
+#: ../lunarx/lunarx-renamer.c:150
 msgid "The URL to the documentation of the renamer"
 msgstr "Nimeäjän dokumentaatioon osoittava URL."
 
-#: ../thunarx/thunarx-renamer.c:165
+#: ../lunarx/lunarx-renamer.c:165
 msgid "The user visible name of the renamer"
 msgstr "Nimeäjän käyttäjälle näkyvä nimi."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:153
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:59
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:153
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:59
 msgid "Description:"
 msgstr "Kuvaus:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:160
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:160
 msgid ""
 "The generic name of the entry, for example \"Web Browser\" in case of "
 "Firefox."
 msgstr "Kohteen yleinen nimi, esimerkiksi Firefoxille tämä olisi \"Web-selain\"."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:177
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:177
 msgid "Command:"
 msgstr "Komento:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:184
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:184
 msgid "The program to execute, possibly with arguments."
 msgstr "Suoritettava sovellus, mahdollisesti määritteineen."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:200
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:200
 msgid "Working Directory:"
 msgstr "Työkansio:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:207
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:207
 msgid "The working directory for the program."
 msgstr "Ohjelman työkansio."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:223
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:223
 msgid "URL:"
 msgstr "URL:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:230
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:230
 msgid "The URL to access."
 msgstr "Avattava URL."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:246
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:60
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:246
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:60
 msgid "Comment:"
 msgstr "Kommentti:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:253
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:253
 msgid ""
 "Tooltip for the entry, for example \"View sites on the Internet\" in case of"
 " Firefox. Should not be redundant with the name or the description."
 msgstr "Kohteen työkaluvihje, esimerkiksi \"Selaa Internetin web-sivuja\" Firefoxille. Ei pitäisi toistaa nimi- tai kuvauskentän sisältöä."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:276
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:276
 msgid "Options:"
 msgstr "Asetukset:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:282
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:282
 msgid "Use _startup notification"
 msgstr "Käytä _käynnistysilmaisinta"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:283
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:283
 msgid ""
 "Select this option to enable startup notification when the command is run "
 "from the file manager or the menu. Not every application supports startup "
 "notification."
 msgstr "Valitse tämä ottaaksesi käyttöön käynnistysilmaisimen, kun komento suoritetaan tiedostonhallinnasta tai valikosta. Kaikki sovellukset eivät tue käynnistysilmaisinta."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:291
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:291
 msgid "Run in _terminal"
 msgstr "Suorita _päätteessä"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:292
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:292
 msgid "Select this option to run the command in a terminal window."
 msgstr "Valitse tämä suorittaaksesi komennon pääteikkunassa."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:366
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:366
 msgid "Launcher"
 msgstr "Käynnistin"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:368
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:368
 msgid "Link"
 msgstr "Linkki"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:610
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:610
 #, c-format
 msgid "Failed to save \"%s\"."
 msgstr "Kohteen \"%s\" tallennus epäonnistui."
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:47
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:47
 msgid "Date Taken:"
 msgstr "Kuvattu:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:48
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:48
 msgid "Camera Brand:"
 msgstr "Kameran merkki:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:49
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:49
 msgid "Camera Model:"
 msgstr "Kameran malli:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:50
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:50
 msgid "Exposure Time:"
 msgstr "Valotusaika:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:51
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:51
 msgid "Exposure Program:"
 msgstr "Valotusohjelma:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:52
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:52
 msgid "Aperture Value:"
 msgstr "Aukkoarvo:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:53
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:53
 msgid "Metering Mode:"
 msgstr "Valon mittaustapa:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:54
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:54
 msgid "Flash Fired:"
 msgstr "Salama:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:55
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:55
 msgid "Focal Length:"
 msgstr "Polttoväli:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:56
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:56
 msgid "Shutter Speed:"
 msgstr "Sulkijan nopeus:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:57
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:57
 msgid "ISO Speed Ratings:"
 msgstr "ISO-nopeusluokitus:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:58
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:58
 msgid "Software:"
 msgstr "Ohjelmisto:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:117
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:117
 msgid "Image"
 msgstr "Kuva"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:132
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:132
 msgid "Image Type:"
 msgstr "Kuvatyyppi:"
 
 #. update the "Image Size" label
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:251
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:251
 #, c-format
 msgid "%dx%d pixel"
 msgid_plural "%dx%d pixels"
 msgstr[0] "%dx%d kuvapiste"
 msgstr[1] "%dx%d kuvapistettä"
 
-#: ../plugins/thunar-sbr/thunar-sbr-case-renamer.c:117
+#: ../plugins/lunar-sbr/lunar-sbr-case-renamer.c:117
 msgid "Con_vert to:"
 msgstr "Muuta _muotoon:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-case-renamer.c:266
+#: ../plugins/lunar-sbr/lunar-sbr-case-renamer.c:266
 msgid "Uppercase / Lowercase"
 msgstr "Pienaakkoset / Suuraakkoset"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:193
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:193
 msgid "Insert _time:"
 msgstr "Lisää _aika:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:223
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:223
 msgid ""
 "The format describes the date and time parts to insert into the file name. "
 "For example, %Y will be substituted with the year, %m with the month and %d "
@@ -3237,215 +3237,215 @@ msgid ""
 "information."
 msgstr "Tämän avulla määrität tiedostonimeen lisättävät päivämäärä- ja aikatiedot. Esimerkiksi %Y korvataan vuosiluvulla, %m kuukaudella ja %d päivällä. Lisätietoja löydät date-komennon dokumentaatiosta."
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:238
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:198
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:238
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:198
 msgid "_At position:"
 msgstr "_Sijainti:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:591
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:591
 msgid "Insert Date / Time"
 msgstr "Lisää päiväys / aika"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:93
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:93
 msgid "lowercase"
 msgstr "pienaakkoset"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:94
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:94
 msgid "UPPERCASE"
 msgstr "SUURAAKKOSET"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:95
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:95
 msgid "Title Case"
 msgstr "Otsikkotyylin Aakkoset"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:96
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:96
 msgid "First character uppercase"
 msgstr "Ensimmäinen kirjain isolla"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:102
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:102
 msgid "Insert"
 msgstr "Lisää"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:103
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:103
 msgid "Overwrite"
 msgstr "Korvaa"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:109
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:109
 msgid "1, 2, 3, ..."
 msgstr "1, 2, 3, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:110
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:110
 msgid "01, 02, 03, ..."
 msgstr "01, 02, 03, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:111
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:111
 msgid "001, 002, 003, ..."
 msgstr "001, 002, 003, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:112
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:112
 msgid "0001, 0002, 0003, ..."
 msgstr "0001, 0002, 0003, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:113
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:113
 msgid "00001, 00002, 00003, ..."
 msgstr "00001, 00002, 00003, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:114
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:114
 msgid "a, b, c, d, ..."
 msgstr "a, b, c, d, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:120
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:120
 msgid "From the front (left)"
 msgstr "Alusta alkaen (vasemmalta)"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:121
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:121
 msgid "From the back (right)"
 msgstr "Lopusta alkaen (oikealta)"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:127
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:127
 msgid "Old Name - Text - Number"
 msgstr "Vanha nimi - Teksti - Numero"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:128
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:128
 msgid "Number - Text - Old Name"
 msgstr "Numero - Teksti - Vanha nimi"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:129
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:129
 msgid "Text - Number"
 msgstr "Teksti - Numero"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:130
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:130
 msgid "Number - Text"
 msgstr "Numero - Teksti"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:136
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:136
 msgid "Current"
 msgstr "Nykyinen"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:140
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:140
 msgid "Date Picture Taken"
 msgstr "Kuvauspäivämäärä"
 
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:179
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:257
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:179
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:257
 msgid "_Text:"
 msgstr "_Teksti:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:386
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:386
 msgid "Insert / Overwrite"
 msgstr "Lisää / Korvaa"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:186
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:186
 msgid "_Number Format:"
 msgstr "_Numeron muoto:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:217
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:217
 msgid "_Start With:"
 msgstr "_Aloita:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:229
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:229
 msgid "Text _Format:"
 msgstr "Tekstin _Muoto:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:518
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:518
 msgid "Numbering"
 msgstr "Numerointi"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:175
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:175
 msgid "Remove _From Position:"
 msgstr "Poista _sijainnista:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:210
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:210
 msgid "_To Position:"
 msgstr "Sij_aintiin:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:413
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:413
 msgid "Remove Characters"
 msgstr "Poista merkkejä"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:202
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:202
 msgid "_Search For:"
 msgstr "_Etsi:"
 
 #. reset to default tooltip
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:210
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:633
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:210
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:633
 msgid "Enter the text to search for in the file names."
 msgstr "Syötä teksti, jota etsitään tiedostonimistä."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:223
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:223
 msgid "Regular _Expression"
 msgstr "Säännöllinen _lauseke"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:225
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:225
 msgid ""
 "If you enable this option, the pattern will be treated as a regular "
 "expression and matched using the Perl-compatible regular expressions (PCRE)."
 " Check the documentation for details about the regular expression syntax."
 msgstr "Jos valitset tämän, hakukaavaa käsitellään säännöllisenä lausekkeena ja hakuun käytetään Perl-yhteensopivia säännöllisiä lausekkeita (PCRE). Dokumentaatiosta löydät lisätietoja lausekerakenteesta."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:232
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:232
 msgid "Replace _With:"
 msgstr "_Korvaa tällä:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:240
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:240
 msgid ""
 "Enter the text that should be used as replacement for the pattern above."
 msgstr "Syötä teksti, jolla ylläoleva kaava korvataan."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:253
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:253
 msgid "C_ase Sensitive Search"
 msgstr "_Ota kirjainkoko huomioon"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:255
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:255
 msgid ""
 "If you enable this option, the pattern will be searched in a case-sensitive "
 "manner. The default is to use a case-insensitive search."
 msgstr "Jos valitset tämän, kirjainkoko otetaan huomioon kaavaa etsittäessä. Oletusarvoisesti kirjainkokoa ei huomioida."
 
 #. setup a tooltip with the error message
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:610
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:610
 #, c-format
 msgid "Invalid regular expression, at character position %ld: %s"
 msgstr "Säännöllinen lauseke ei kelpaa merkkikohdassa %ld: %s"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:651
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:651
 msgid "Search & Replace"
 msgstr "Etsi ja korvaa"
 
-#: ../plugins/thunar-sendto-email/main.c:217
+#: ../plugins/lunar-sendto-email/main.c:217
 #, c-format
 msgid "Send \"%s\" as compressed archive?"
 msgstr "Lähetetäänkö \"%s\" pakattuna arkistona?"
 
-#: ../plugins/thunar-sendto-email/main.c:220
-#: ../plugins/thunar-sendto-email/main.c:239
+#: ../plugins/lunar-sendto-email/main.c:220
+#: ../plugins/lunar-sendto-email/main.c:239
 msgid "Send _directly"
 msgstr "Lähetä _suoraan"
 
-#: ../plugins/thunar-sendto-email/main.c:221
+#: ../plugins/lunar-sendto-email/main.c:221
 msgid "Send com_pressed"
 msgstr "Lähetä _pakattuna"
 
-#: ../plugins/thunar-sendto-email/main.c:223
+#: ../plugins/lunar-sendto-email/main.c:223
 msgid ""
 "When sending a file via email, you can either choose to send the file "
 "directly, as is, or compress the file before attaching it to an email. It is"
 " highly recommended to compress large files before sending them."
 msgstr "Lähettäessäsi tiedoston sähköpostilla voit valita, lähetetäänkö se suoraan eli sellaisenaan vai pakataanko se ennen sähköpostiviestiin liittämistä. On suositeltavaa, että suuret tiedostot lähetetään pakattuina."
 
-#: ../plugins/thunar-sendto-email/main.c:234
+#: ../plugins/lunar-sendto-email/main.c:234
 #, c-format
 msgid "Send %d file as compressed archive?"
 msgid_plural "Send %d files as compressed archive?"
 msgstr[0] "Lähetetäänkö %d tiedosto pakattuna arkistona?"
 msgstr[1] "Lähetetäänkö %d tiedostoa pakattuna arkistona?"
 
-#: ../plugins/thunar-sendto-email/main.c:240
+#: ../plugins/lunar-sendto-email/main.c:240
 msgid "Send as _archive"
 msgstr "Lähetä _arkistona"
 
-#: ../plugins/thunar-sendto-email/main.c:242
+#: ../plugins/lunar-sendto-email/main.c:242
 msgid ""
 "When sending multiple files via email, you can either choose to send the "
 "files directly, attaching multiple files to an email, or send all files "
@@ -3455,29 +3455,29 @@ msgstr "Lähettäessäsi useita tiedostoja sähköpostilla voit valita, lähetet
 
 #. allocate the progress dialog
 #. setup the label
-#: ../plugins/thunar-sendto-email/main.c:300
-#: ../plugins/thunar-sendto-email/main.c:326
+#: ../plugins/lunar-sendto-email/main.c:300
+#: ../plugins/lunar-sendto-email/main.c:326
 msgid "Compressing files..."
 msgstr "Pakataan tiedostoja..."
 
 #. tell the user that the command failed
-#: ../plugins/thunar-sendto-email/main.c:351
+#: ../plugins/lunar-sendto-email/main.c:351
 #, c-format
 msgid "ZIP command terminated with error %d"
 msgstr "ZIP-komennon suoritus epäonnistui (virhe %d)."
 
-#: ../plugins/thunar-sendto-email/main.c:439
+#: ../plugins/lunar-sendto-email/main.c:439
 msgid "Failed to create temporary directory"
 msgstr "Väliaikaiskansion luominen epäonnistui."
 
-#: ../plugins/thunar-sendto-email/main.c:501
-#: ../plugins/thunar-sendto-email/main.c:512
+#: ../plugins/lunar-sendto-email/main.c:501
+#: ../plugins/lunar-sendto-email/main.c:512
 #, c-format
 msgid "Failed to create symbolic link for \"%s\""
 msgstr "Symbolisen linkin luominen kohteelle \"%s\" epäonnistui."
 
 #. tell the user that we failed to compress the file(s)
-#: ../plugins/thunar-sendto-email/main.c:536
+#: ../plugins/lunar-sendto-email/main.c:536
 #, c-format
 msgid "Failed to compress %d file"
 msgid_plural "Failed to compress %d files"
@@ -3485,146 +3485,146 @@ msgstr[0] "%d tiedoston pakkaaminen epäonnistui."
 msgstr[1] "%d tiedoston pakkaaminen epäonnistui."
 
 #. tell the user that we failed
-#: ../plugins/thunar-sendto-email/main.c:688
+#: ../plugins/lunar-sendto-email/main.c:688
 msgid "Failed to compose new email"
 msgstr "Sähköpostiviestin luominen epäonnistui."
 
-#: ../plugins/thunar-sendto-email/thunar-sendto-email.desktop.in.in.h:1
+#: ../plugins/lunar-sendto-email/lunar-sendto-email.desktop.in.in.h:1
 msgid "Mail Recipient"
 msgstr "Postin vastaanottaja"
 
 #. tell the user that we failed to connect to the trash
-#: ../plugins/thunar-tpa/thunar-tpa.c:269
-#: ../plugins/thunar-tpa/thunar-tpa.c:309
-#: ../plugins/thunar-tpa/thunar-tpa.c:336
-#: ../plugins/thunar-tpa/thunar-tpa.c:363
+#: ../plugins/lunar-tpa/lunar-tpa.c:269
+#: ../plugins/lunar-tpa/lunar-tpa.c:309
+#: ../plugins/lunar-tpa/lunar-tpa.c:336
+#: ../plugins/lunar-tpa/lunar-tpa.c:363
 msgid "Failed to connect to the Trash"
 msgstr "Roskakoriin yhdistäminen epäonnistui."
 
 #. tell the user whether the trash is full or empty
-#: ../plugins/thunar-tpa/thunar-tpa.c:284
+#: ../plugins/lunar-tpa/lunar-tpa.c:284
 msgid "Trash contains files"
 msgstr "Roskakorissa on tiedostoja."
 
-#: ../plugins/thunar-tpa/thunar-tpa.desktop.in.h:1
+#: ../plugins/lunar-tpa/lunar-tpa.desktop.in.h:1
 msgid "Trash Applet"
 msgstr "Roskakorisovelma"
 
-#: ../plugins/thunar-tpa/thunar-tpa.desktop.in.h:2
+#: ../plugins/lunar-tpa/lunar-tpa.desktop.in.h:2
 msgid "Display the trash can"
 msgstr "Näytä roskakorin sisältö."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:269
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:1
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:269
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:1
 msgid "Edit Action"
 msgstr "Muokkaa toimintoa"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:269
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:269
 msgid "Create Action"
 msgstr "Luo toiminto"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:318
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:318
 msgid "Failed to save actions to disk."
 msgstr "Toimintojen tallentaminen epäonnistui."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:369
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:369
 #, c-format
 msgid ""
 "Are you sure that you want to delete\n"
 "action \"%s\"?"
 msgstr "Haluatko varmasti poistaa\ntoiminnon \"%s\"?"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:370
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:370
 msgid "If you delete a custom action, it is permanently lost."
 msgstr "Mukautetun toiminnon poistoa ei voi peruuttaa."
 
 #. skip leading slash
-#: ../plugins/thunar-uca/thunar-uca-editor.c:355
+#: ../plugins/lunar-uca/lunar-uca-editor.c:355
 #, c-format
 msgid "This keyboard shortcut is currently used by: '%s'"
 msgstr "Tämä pikanäppäin on jo käytössä: '%s'"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.c:358
+#: ../plugins/lunar-uca/lunar-uca-editor.c:358
 msgid "Keyboard shortcut already in use"
 msgstr "Pikanäppäin on jo käytössä"
 
 #. setup a label to tell that no icon was selected
-#: ../plugins/thunar-uca/thunar-uca-editor.c:509
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:18
+#: ../plugins/lunar-uca/lunar-uca-editor.c:509
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:18
 msgid "No icon"
 msgstr "Ei kuvaketta"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:835
+#: ../plugins/lunar-uca/lunar-uca-model.c:835
 #, c-format
 msgid "End element handler called while in root context"
 msgstr "Sulkuelementin käsittelijää kutsuttiin juurikontekstissa."
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:950
+#: ../plugins/lunar-uca/lunar-uca-model.c:950
 #, c-format
 msgid "Unknown closing element <%s>"
 msgstr "Tuntematon sulkuelementti <%s>"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:1458
+#: ../plugins/lunar-uca/lunar-uca-model.c:1458
 #, c-format
 msgid "Failed to determine save location for uca.xml"
 msgstr "Tallennuskohteen selvittäminen tiedostolle uca.xml epäonnistui."
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:1580
+#: ../plugins/lunar-uca/lunar-uca-model.c:1580
 #, c-format
 msgid "Command not configured"
 msgstr "Komentoa ei ole asetettu"
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:181
+#: ../plugins/lunar-uca/lunar-uca-provider.c:181
 msgid "Configure c_ustom actions..."
 msgstr "_Mukautetut toiminnot..."
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:182
+#: ../plugins/lunar-uca/lunar-uca-provider.c:182
 msgid ""
 "Setup custom actions that will appear in the file managers context menus"
 msgstr "Luo mukautettuja toimintoja, jotka näkyvät tiedostonhallinnan kontekstivalikoissa."
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:528
+#: ../plugins/lunar-uca/lunar-uca-provider.c:528
 #, c-format
 msgid "Failed to launch action \"%s\"."
 msgstr "Toiminnon \"%s\" suorittaminen epäonnistui."
 
-#: ../plugins/thunar-uca/uca.xml.in.h:1
+#: ../plugins/lunar-uca/uca.xml.in.h:1
 msgid "Open Terminal Here"
 msgstr "Avaa pääte tässä kansiossa"
 
-#: ../plugins/thunar-uca/uca.xml.in.h:2
+#: ../plugins/lunar-uca/uca.xml.in.h:2
 msgid "Example for a custom action"
 msgstr "Esimerkki mukautetusta toiminnosta"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:3
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:3
 msgid "The name of the action that will be displayed in the context menu."
 msgstr "Kontekstivalikossa näytettävä toiminnon nimi."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:4
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:4
 msgid "_Description:"
 msgstr "_Kuvaus:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:5
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:5
 msgid ""
 "The description of the action that will be displayed as tooltip in the "
 "statusbar when selecting the item from the context menu."
 msgstr "Toiminnon kuvaus, joka näytetään työkaluvihjeenä tilapalkissa valittaessa kohdetta kontekstivalikosta."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:6
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:6
 msgid "_Submenu:"
 msgstr "_Alivalikko:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:7
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:7
 msgid ""
 "The submenu in which the action will be displayed. Leave empty for no menu. "
 "Use '/' for nested menus."
 msgstr ""
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:8
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:8
 msgid "_Command:"
 msgstr "_Komento:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:10
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:10
 #, no-c-format
 msgid ""
 "The command (including the necessary parameters) to perform the action. See "
@@ -3635,85 +3635,85 @@ msgid ""
 "if exactly one item is selected."
 msgstr "Komento (tarvittavine määreineen), jonka toiminto suorittaa. Alapuolella näet komennon määreiden selitteet tuetuille määremuuttujille, jotka korvataan komentoa suoritettaessa. Käytettäessä isoja kirjaimia (esim. %F, %D, %N) toiminnon voi suorittaa myös silloin, kun useita kohteita on valittuna. Muussa tapauksessa toiminto on käytettävissä silloin, kun valittuna on ainoastaan yksi tiedosto."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:11
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:11
 msgid ""
 "Browse the file system to select an application to use for this action."
 msgstr "Selaa tiedostojärjestelmää valitaksesi sovelluksen toiminnolle."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:12
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:12
 msgid "Keyboard _Shortcut:"
 msgstr "Näppäimistön pikan_äppäin:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:13
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:13
 msgid "The keyboard shortcut for the action."
 msgstr "Pikanäppäin toiminnolle."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:14
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:14
 msgid "Clear the keyboard shortcut for this action."
 msgstr "Tyhjennä tämän toiminnon pikanäppäin."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:15
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:15
 msgid "Use Startup Notification"
 msgstr "Käytä käynnistysilmaisinta"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:16
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:16
 msgid ""
 "Enable this option if you want a waiting cursor to be shown while the action"
 " is launched. This is also highly recommended if you have focus stealing "
 "prevention enabled in your window manager."
 msgstr "Valitse tämä, jos haluat hiiren osoittimen muuttuvan toiminnon käynnistyksen ajaksi. Tämä on suositeltavaa myös, jos käytät ikkunamanagerisi kohdistuksen ryöstön estoa."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:17
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:17
 msgid "_Icon:"
 msgstr "_Kuvake:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:19
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:19
 msgid ""
 "Click this button to select an icon file that will be displayed in the "
 "context menu in addition to the action name chosen above."
 msgstr "Napsauta tätä painiketta valitaksesi kuvaketiedoston, joka näytetään kontekstivalikossa toiminnon nimen lisäksi."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:20
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:20
 msgid ""
 "The following command parameters will be substituted when launching the "
 "action:"
 msgstr "Seuraavat komennon määreet korvataan\ntoimintoa suoritettaessa:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:21
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:21
 msgid "the path to the first selected file or directory"
 msgstr "polku ensimmäiseen valittuun tiedostoon tai hakemistoon"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:22
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:22
 msgid "the paths to all selected files and directories"
 msgstr "polut kaikkiin valittuihin tiedostoihin ja hakemistoihin"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:24
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:24
 #, no-c-format
 msgid "directory containing the file that is passed in %f"
 msgstr "kansio, jossa muuttujan %f osoittama tiedosto sijaitsee"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:26
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:26
 #, no-c-format
 msgid "directories containing the files that are passed in %F"
 msgstr "kansiot, joissa muuttujan %F osoittamat tiedostot sijaitsevat"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:27
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:27
 msgid "the first selected filename (without path)"
 msgstr "ensimmäisen valitun tiedoston nimi (ilman polkua)"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:28
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:28
 msgid "the selected filenames (without paths)"
 msgstr "valittujen tiedostojen nimet (ilman polkuja)"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:29
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:29
 msgid "Basic"
 msgstr "Perustiedot"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:30
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:30
 msgid "_File Pattern:"
 msgstr "_Tiedostokaava:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:31
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:31
 msgid ""
 "Enter a list of patterns that will be used to determine whether this action "
 "should be displayed for a selected file. If you specify more than one "
@@ -3721,39 +3721,39 @@ msgid ""
 "*.txt;*.doc)."
 msgstr "Syötä lista kaavoista, joita käytetään päättäessä, pitäisikö toiminto näyttää valitulle tiedostolle. Jos määrität useamman kuin yhden kaavan, listan erottimena käytetään puolipistettä (esim. *.txt;*.doc)."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:32
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:32
 msgid "*"
 msgstr "*"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:33
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:33
 msgid "Appears if selection contains:"
 msgstr "Näytetään, jos valittuna on:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:34
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:34
 msgid "_Directories"
 msgstr "_Kansioita"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:35
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:35
 msgid "_Audio Files"
 msgstr "_Äänitiedostoja"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:36
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:36
 msgid "_Image Files"
 msgstr "_Kuvatiedostoja"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:37
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:37
 msgid "_Text Files"
 msgstr "_Tekstitiedostoja"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:38
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:38
 msgid "_Video Files"
 msgstr "_Videotiedostoja"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:39
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:39
 msgid "_Other Files"
 msgstr "_Muita tiedostoja"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:40
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:40
 msgid ""
 "This page lists the conditions under which the action will appear in the "
 "file managers context menus. The file patterns are specified as a list of "
@@ -3763,99 +3763,99 @@ msgid ""
 "can specify that the action should only appear for certain kinds of files."
 msgstr "Tämä sivu listaa edellytykset, jolloin toiminto näkyy tiedostonhallinnan kontekstivalikoissa. Tiedostosuodattimet määritetään yksinkertaisina tiedostosuodattimina puolipilkuin erotettuina (esim. *.txt,*.doc). Jotta toiminto näkyy tiedoston tai hakemiston kontekstivalikossa, vähintään yhden suodattimen tulee vastata tiedoston tai hakemiston nimeä. Voit lisäksi rajata toiminnon näkymään vain tietyntyyppisten tiedostojen valikossa."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:41
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:41
 msgid "Appearance Conditions"
 msgstr "Näkyvyysehdot"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:1
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:1
 msgid "Custom Actions"
 msgstr "Mukautetut toiminnot"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:2
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:2
 msgid ""
 "You can configure custom actions that will appear in the file managers "
 "context menus for certain kinds of files."
 msgstr "Voit asettaa mukautettuja toimintoja, jotka näytetään\ntiedostonhallinnan kontekstivalikoissa tietyille tiedostotyypeille."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:3
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:3
 msgid "Add a new custom action."
 msgstr "Lisää mukautettu toiminto."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:4
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:4
 msgid "Edit the currently selected action."
 msgstr "Muokkaa valittua toimintoa."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:5
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:5
 msgid "Delete the currently selected action."
 msgstr "Poista valittu toiminto."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:6
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:6
 msgid "Move the currently selected action up by one row."
 msgstr "Siirrä valittu toiminto rivin verran ylemmäs."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:7
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:7
 msgid "Move the currently selected action down by one row."
 msgstr "Siirrä valittu toiminto rivin verran alemmas."
 
-#: ../plugins/thunar-wallpaper/twp-provider.c:154
+#: ../plugins/lunar-wallpaper/twp-provider.c:154
 msgid "Set as wallpaper"
 msgstr "Aseta taustakuvaksi"
 
-#: ../thunar.desktop.in.in.h:1
-msgid "Thunar File Manager"
-msgstr "Thunar-tiedostonhallinta"
+#: ../lunar.desktop.in.in.h:1
+msgid "Lunar File Manager"
+msgstr "Lunar-tiedostonhallinta"
 
-#: ../thunar.desktop.in.in.h:2
+#: ../lunar.desktop.in.in.h:2
 msgid "Browse the filesystem with the file manager"
 msgstr "Selaa tiedostojärjestelmää tiedostonhallinnassa"
 
-#: ../thunar.desktop.in.in.h:3
+#: ../lunar.desktop.in.in.h:3
 msgid "File Manager"
 msgstr "Tiedostonhallinta"
 
-#: ../thunar.desktop.in.in.h:4
+#: ../lunar.desktop.in.in.h:4
 msgid ""
 "file "
 "manager;explorer;finder;browser;folders;directory;directories;partitions;drives;network;devices;rename;move;copy;delete;permissions;home;trash;"
 msgstr ""
 
-#: ../thunar.desktop.in.in.h:5
+#: ../lunar.desktop.in.in.h:5
 msgid "Home"
 msgstr "Kotihakemisto"
 
-#: ../thunar-bulk-rename.desktop.in.in.h:3
-msgid "bulk;renamer;renaming;thunar;files;folders;directory;directories;"
+#: ../lunar-bulk-rename.desktop.in.in.h:3
+msgid "bulk;renamer;renaming;lunar;files;folders;directory;directories;"
 msgstr ""
 
-#: ../thunar/thunar-settings.desktop.in.h:1
+#: ../lunar/lunar-settings.desktop.in.h:1
 msgid "File Manager Settings"
 msgstr "Tiedostonhallinnan asetukset"
 
-#: ../thunar/thunar-settings.desktop.in.h:2
-msgid "Configure the Thunar file manager"
-msgstr "Thunar-tiedostonhallinnan asetukset"
+#: ../lunar/lunar-settings.desktop.in.h:2
+msgid "Configure the Lunar file manager"
+msgstr "Lunar-tiedostonhallinnan asetukset"
 
-#: ../thunar/thunar-settings.desktop.in.h:3
+#: ../lunar/lunar-settings.desktop.in.h:3
 msgid ""
-"thunar;settings;preferences;configure;thumbnails;file size;date "
+"lunar;settings;preferences;configure;thumbnails;file size;date "
 "format;shortcuts pane;tree view;tabs;"
 msgstr ""
 
-#: ../org.xfce.thunar.appdata.xml.in.h:1
+#: ../com.expidus.lunar.appdata.xml.in.h:1
 msgid ""
-"Thunar is a file browser specifically designed for the Xfce Desktop, but "
+"Lunar is a file browser specifically designed for the Expidus Desktop, but "
 "also can serve as an alternate file browser for other Desktop environments. "
 "It has a simple, clean two-pane design for browsing all your files."
-msgstr "Thunar on tiedostoselain, joka on suunniteltu erityisesti Xfce-työpöydälle, mutta jota voi käyttää vaihtoehtoisena tiedostoselaimena myös muilla työpöytäjärjestelmillä. Se käyttää yksinkertaista kaksiruutuista muotoilua kaikkien tiedostojesi selaamiseen."
+msgstr "Lunar on tiedostoselain, joka on suunniteltu erityisesti Expidus-työpöydälle, mutta jota voi käyttää vaihtoehtoisena tiedostoselaimena myös muilla työpöytäjärjestelmillä. Se käyttää yksinkertaista kaksiruutuista muotoilua kaikkien tiedostojesi selaamiseen."
 
 #. SECURITY:
-#. - A normal active user can run thunar without elevated rights. They
+#. - A normal active user can run lunar without elevated rights. They
 #. may wish to modify files they normally do not have read/write access
 #. to. This isn't a good idea, but is common on single user systems.
-#: ../org.xfce.thunar.policy.in.in.h:6
-msgid "Run Thunar as root"
-msgstr "Käynnistä Thunar pääkäyttäjän oikeuksin."
+#: ../com.expidus.lunar.policy.in.in.h:6
+msgid "Run Lunar as root"
+msgstr "Käynnistä Lunar pääkäyttäjän oikeuksin."
 
-#: ../org.xfce.thunar.policy.in.in.h:7
-msgid "Authentication is required to run Thunar as root."
-msgstr "Jotta Thunar voidaan käynnistää pääkäyttäjän oikeuksin, todennus tarvitaan."
+#: ../com.expidus.lunar.policy.in.in.h:7
+msgid "Authentication is required to run Lunar as root."
+msgstr "Jotta Lunar voidaan käynnistää pääkäyttäjän oikeuksin, todennus tarvitaan."

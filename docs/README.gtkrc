@@ -1,9 +1,9 @@
-Thunar GTK Style Properties
+Lunar GTK Style Properties
 ===========================
 
-  Several user interface elements in Thunar are customizable via the standard
+  Several user interface elements in Lunar are customizable via the standard
   GTK style mechanism. Besides the customization provided by the GTK widgets,
-  that are used in Thunar, there are a bunch of additional settings that can
+  that are used in Lunar, there are a bunch of additional settings that can
   be customized via the GTK theme or the ~/.gtkrc-2.0 file in the users home
   directory.
 
@@ -11,11 +11,11 @@ Thunar GTK Style Properties
   can be customized for this widgets.
 
 
-ThunarAbstractIconView
+LunarAbstractIconView
 ----------------------
 
-  The ThunarAbstractIconView widget class is the base class for both the
-  ThunarIconView (the "Icon View") and the ThunarCompactView (the "Compact
+  The LunarAbstractIconView widget class is the base class for both the
+  LunarIconView (the "Icon View") and the LunarCompactView (the "Compact
   List View"). It provides two additional settings that can be customized:
 
    * column-spacing (0...)
@@ -34,19 +34,19 @@ ThunarAbstractIconView
   to 3 pixel, then you can put the following lines in the file ~/.gtkrc-2.0 in
   your home directory (just create the file if it is not already present):
 
-   style "thunar-icon-view-reduced-style"
+   style "lunar-icon-view-reduced-style"
    {
-     ThunarIconView::column-spacing = 3
-     ThunarIconView::row-spacing = 3
+     LunarIconView::column-spacing = 3
+     LunarIconView::row-spacing = 3
    }
 
-   class "ThunarIconView" style "thunar-icon-view-reduced-style"
+   class "LunarIconView" style "lunar-icon-view-reduced-style"
 
 
-ThunarPathEntry
+LunarPathEntry
 ---------------
 
-  The ThunarPathEntry widget class is used for the location bar, both in the
+  The LunarPathEntry widget class is used for the location bar, both in the
   traditional location selector and the "Open Location" dialog. The path entry
   displays an icon right before the path, whose size can be customized via the
 
@@ -55,21 +55,21 @@ ThunarPathEntry
   style property. For example to increase the size to 24 pixel, you can put the
   following lines in the file ~/.gtkrc-2.0:
 
-   style "thunar-path-entry-increased-style"
+   style "lunar-path-entry-increased-style"
    {
-     ThunarPathEntry::icon-size = 24
+     LunarPathEntry::icon-size = 24
    }
 
-   class "ThunarPathEntry" style "thunar-path-entry-increased-style"
+   class "LunarPathEntry" style "lunar-path-entry-increased-style"
 
   You should however make sure that your icon theme supports the icon size,
   otherwise you might end up with ugly up/down-scaled icons.
 
 
-ThunarLocationButtons
+LunarLocationButtons
 ---------------------
 
-  The ThunarLocationButtons widget class is used for the path bar style loca-
+  The LunarLocationButtons widget class is used for the path bar style loca-
   tion selector. It provides the following customizable style properties:
 
    * spacing (0...)
@@ -79,5 +79,5 @@ ThunarLocationButtons
 
 
 
-Additional information can be found on the Thunar Project Wiki:
-https://docs.xfce.org/xfce/thunar/hidden-settings
+Additional information can be found on the Lunar Project Wiki:
+https://docs.expidus.com/expidus/lunar/hidden-settings

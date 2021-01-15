@@ -1,6 +1,6 @@
 /* vi:set et ai sw=2 sts=2 ts=2: */
 /*-
- * Copyright (c) 2005 Benedikt Meurer <benny@xfce.org>
+ * Copyright (c) 2005 Benedikt Meurer <benny@expidus.org>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -26,9 +26,9 @@
 
 
 
-G_MODULE_EXPORT void thunar_extension_initialize (ThunarxProviderPlugin *plugin);
-G_MODULE_EXPORT void thunar_extension_shutdown   (void);
-G_MODULE_EXPORT void thunar_extension_list_types (const GType         **types,
+G_MODULE_EXPORT void lunar_extension_initialize (LunarxProviderPlugin *plugin);
+G_MODULE_EXPORT void lunar_extension_shutdown   (void);
+G_MODULE_EXPORT void lunar_extension_list_types (const GType         **types,
                                                   gint                 *n_types);
 
 
@@ -39,12 +39,12 @@ static GType type_list[1];
 
 
 void
-thunar_extension_initialize (ThunarxProviderPlugin *plugin)
+lunar_extension_initialize (LunarxProviderPlugin *plugin)
 {
   const gchar *mismatch;
 
-  /* verify that the thunarx versions are compatible */
-  mismatch = thunarx_check_version (THUNARX_MAJOR_VERSION, THUNARX_MINOR_VERSION, THUNARX_MICRO_VERSION);
+  /* verify that the lunarx versions are compatible */
+  mismatch = lunarx_check_version (LUNARX_MAJOR_VERSION, LUNARX_MINOR_VERSION, LUNARX_MICRO_VERSION);
   if (G_UNLIKELY (mismatch != NULL))
     {
       g_warning ("Version mismatch: %s", mismatch);
@@ -63,7 +63,7 @@ thunar_extension_initialize (ThunarxProviderPlugin *plugin)
 
 
 void
-thunar_extension_shutdown (void)
+lunar_extension_shutdown (void)
 {
   g_message ("Shutting down TexOpenTerminal extension");
 }
@@ -71,7 +71,7 @@ thunar_extension_shutdown (void)
 
 
 void
-thunar_extension_list_types (const GType **types,
+lunar_extension_list_types (const GType **types,
                              gint         *n_types)
 {
   *types = type_list;

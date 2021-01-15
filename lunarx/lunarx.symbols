@@ -1,0 +1,117 @@
+/* vi:set et ai sw=2 sts=2 ts=2: */
+/*-
+ * Copyright (c) 2005-2006 Benedikt Meurer <benny@expidus.org>.
+ * Copyright (c) 2009 Jannis Pohlmann <jannis@expidus.org>.
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Library General Public
+ * License as published by the Free Software Foundation; either
+ * version 2 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Library General Public License for more details.
+ *
+ * You should have received a copy of the GNU Library General Public
+ * License along with this library; if not, write to the
+ * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ * Boston, MA 02111-1307, USA.
+ */
+
+/* This file lists all exported symbols. It is used to generate
+ * for ABI compatibility checks. */
+
+/* lunarx-config symbols */
+lunarx_major_version
+lunarx_minor_version
+lunarx_micro_version
+lunarx_check_version
+
+/* LunarxFileInfo methods */
+lunarx_file_info_get_type G_GNUC_CONST
+lunarx_file_info_get_name
+lunarx_file_info_get_uri
+lunarx_file_info_get_parent_uri
+lunarx_file_info_get_uri_scheme
+lunarx_file_info_get_mime_type
+lunarx_file_info_has_mime_type
+lunarx_file_info_is_directory
+lunarx_file_info_get_file_info
+lunarx_file_info_get_filesystem_info
+lunarx_file_info_get_location
+lunarx_file_info_changed
+lunarx_file_info_renamed
+lunarx_file_info_list_get_type
+lunarx_file_info_list_copy
+lunarx_file_info_list_free
+
+/* LunarxMenu methods */
+lunarx_menu_get_type G_GNUC_CONST
+lunarx_menu_new G_GNUC_MALLOC
+lunarx_menu_append_item
+lunarx_menu_prepend_item
+lunarx_menu_get_items
+
+/* LunarxMenuItem methods */
+lunarx_menu_item_get_type G_GNUC_CONST
+lunarx_menu_item_new G_GNUC_MALLOC
+lunarx_menu_item_activate
+lunarx_menu_item_get_sensitive
+lunarx_menu_item_set_sensitive
+lunarx_menu_item_set_menu
+lunarx_menu_item_list_free
+
+/* LunarxMenuProvider methods */
+lunarx_menu_provider_get_type G_GNUC_CONST
+lunarx_menu_provider_get_file_menu_items G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+lunarx_menu_provider_get_folder_menu_items G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+lunarx_menu_provider_get_dnd_menu_items G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT
+
+/* LunarxPreferencesProvider methods */
+lunarx_preferences_provider_get_type G_GNUC_CONST
+lunarx_preferences_provider_get_menu_items
+
+/* LunarxPropertyPage methods */
+lunarx_property_page_get_type G_GNUC_CONST
+lunarx_property_page_new G_GNUC_MALLOC
+lunarx_property_page_new_with_label_widget G_GNUC_MALLOC
+lunarx_property_page_get_label
+lunarx_property_page_set_label
+lunarx_property_page_get_label_widget
+lunarx_property_page_set_label_widget
+
+/* LunarxPropertyPageProvider methods */
+lunarx_property_page_provider_get_type G_GNUC_CONST
+lunarx_property_page_provider_get_pages
+
+/* LunarxProviderFactory methods */
+lunarx_provider_factory_get_type G_GNUC_CONST
+lunarx_provider_factory_get_default
+lunarx_provider_factory_list_providers G_GNUC_MALLOC
+
+/* LunarxProviderPlugin methods */
+lunarx_provider_plugin_get_type G_GNUC_CONST
+lunarx_provider_plugin_get_resident
+lunarx_provider_plugin_set_resident
+lunarx_provider_plugin_register_type
+lunarx_provider_plugin_add_interface
+lunarx_provider_plugin_register_enum
+lunarx_provider_plugin_register_flags
+
+/* LunarxRenamer methods */
+lunarx_renamer_get_type G_GNUC_CONST
+lunarx_renamer_get_help_url
+lunarx_renamer_set_help_url
+lunarx_renamer_get_name
+lunarx_renamer_set_name
+lunarx_renamer_process G_GNUC_MALLOC
+lunarx_renamer_save
+lunarx_renamer_load
+lunarx_renamer_get_menu_items G_GNUC_MALLOC
+lunarx_renamer_changed
+
+/* LunarxRenamerProvider methods */
+lunarx_renamer_provider_get_type G_GNUC_CONST
+lunarx_renamer_provider_get_renamers G_GNUC_MALLOC
+

@@ -1,6 +1,6 @@
 appsdir = $(datadir)/icons/hicolor/16x16/apps
 apps_DATA =								\
-	org.xfce.thunar.png
+	com.expidus.lunar.png
 
 stockdir = $(datadir)/icons/hicolor/16x16/stock/navigation
 stock_DATA =								\

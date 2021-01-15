@@ -1,28 +1,28 @@
 <!--
-  Copyright (c) 2006 Benedikt Meurer <benny@xfce.org>
+  Copyright (c) 2006 Benedikt Meurer <benny@expidus.org>
 -->
 
-<refentry id="Thunar">
+<refentry id="Lunar">
   <refmeta>
-    <refentrytitle>Thunar</refentrytitle>
+    <refentrytitle>Lunar</refentrytitle>
     <manvolnum>1</manvolnum>
   </refmeta>
 
   <refnamediv>
-    <refname>Thunar</refname>
-    <refpurpose>File Manager for the Xfce Desktop Environment</refpurpose>
+    <refname>Lunar</refname>
+    <refpurpose>File Manager for the Expidus Desktop Environment</refpurpose>
   </refnamediv>
 
   <refsynopsisdiv>
     <cmdsynopsis>
-      <command>Thunar</command>
+      <command>Lunar</command>
       <arg choice="opt">options</arg>
       <arg rep="repeat">
         <arg>URI</arg>
       </arg>
     </cmdsynopsis>
     <cmdsynopsis>
-      <command>Thunar</command>
+      <command>Lunar</command>
       <arg choice="opt">options</arg>
       <arg choice="plain">--bulk-rename</arg>
       <arg rep="repeat">
@@ -30,7 +30,7 @@
       </arg>
     </cmdsynopsis>
     <cmdsynopsis>
-      <command>Thunar</command>
+      <command>Lunar</command>
       <arg choice="opt">options</arg>
       <arg choice="plain">--quit</arg>
     </cmdsynopsis>
@@ -39,7 +39,7 @@
   <refsect1>
     <title>Description</title>
     <para>
-      <command>Thunar</command> is a fast and easy to use file manager for the Xfce Desktop Environment. It
+      <command>Lunar</command> is a fast and easy to use file manager for the Expidus Desktop Environment. It
       has been designed from the ground up to be lighweight with special focus on usability. Its user
       interface is clean and intuitive, and does not include any confusing or useless options.
     </para>
@@ -48,11 +48,11 @@
   <refsect1>
     <title>Invocation</title>
     <para>
-      <command>Thunar</command> takes a list of <replaceable>URI</replaceable>s for folders that should be
+      <command>Lunar</command> takes a list of <replaceable>URI</replaceable>s for folders that should be
       opened in new file manager windows or files that should be run using the default application for their
       types. The <replaceable>URI</replaceable>s may be specified as either <emphasis role="bold">file:</emphasis>
       or <emphasis role="bold">trash:</emphasis> URIs, absolute paths or paths relative to the current directory
-      from which <command>Thunar</command> is being invoked. If no <replaceable>URI</replaceable>s are specified,
+      from which <command>Lunar</command> is being invoked. If no <replaceable>URI</replaceable>s are specified,
       the current folder will be opened in a new file manager window.
     </para>
     <para>
@@ -91,9 +91,9 @@
           <term><option>--daemon</option></term>
           <listitem>
             <para>
-              Do not terminate the <command>Thunar</command> instance when the last window is closed, but keep
-              it running to speed up opening new windows later on. This is the default when spawning <command>Thunar</command>
-              as part of the default Xfce session or when using D-Bus activation.
+              Do not terminate the <command>Lunar</command> instance when the last window is closed, but keep
+              it running to speed up opening new windows later on. This is the default when spawning <command>Lunar</command>
+              as part of the default Expidus session or when using D-Bus activation.
             </para>
           </listitem>
         </varlistentry>
@@ -109,8 +109,8 @@
           <term><option>-q</option>, <option>--quit</option></term>
           <listitem>
             <para>
-              Terminate any <command>Thunar</command> instance running in the background (spawned using the
-              <option>--daemon</option> option). This command should be used whenever <command>Thunar</command>
+              Terminate any <command>Lunar</command> instance running in the background (spawned using the
+              <option>--daemon</option> option). This command should be used whenever <command>Lunar</command>
               is upgraded to a new version to ensure that no old instance is reused.
             </para>
           </listitem>
@@ -122,10 +122,10 @@
   <refsect1>
     <title>Author</title>
     <para>
-      <command>Thunar</command> was written by Benedikt Meurer <email>benny@xfce.org</email>.
+      <command>Lunar</command> was written by Benedikt Meurer <email>benny@expidus.org</email>.
     </para>
     <para>
-      This manual page was written by Benedikt Meurer <email>benny@xfce.org</email>.
+      This manual page was written by Benedikt Meurer <email>benny@expidus.org</email>.
     </para>
   </refsect1>
 </refentry>

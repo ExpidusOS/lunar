@@ -1,6 +1,6 @@
 # vi:set ts=8 sw=8 noet ai nocindent syntax=automake:
 # -
-# Copyright (c) 2010 Jannis Pohlmann <jannis@xfce.org>
+# Copyright (c) 2010 Jannis Pohlmann <jannis@expidus.org>
 # 
 # This program is free software; you can redistribute it and/or 
 # modify it under the terms of the GNU General Public License as
@@ -22,8 +22,8 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 SUBDIRS =								\
 	icons								\
 	po								\
-	thunarx								\
-	thunar								\
+	lunarx								\
+	lunar								\
 	docs								\
 	examples							\
 	plugins
@@ -47,8 +47,8 @@ dist-hook: ChangeLog
 
 desktopdir = $(datadir)/applications
 desktop_in_in_files = 							\
-	thunar.desktop.in.in						\
-	thunar-bulk-rename.desktop.in.in
+	lunar.desktop.in.in						\
+	lunar-bulk-rename.desktop.in.in
 desktop_in_files = $(desktop_in_in_files:.desktop.in.in=.desktop.in)
 %.desktop.in: %.desktop.in.in Makefile
 	$(AM_V_GEN) $(SED) -e "s,\@HELPERDIR\@,$(HELPER_PATH_PREFIX),g" < $< > $@
@@ -61,16 +61,16 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 @INTLTOOL_XML_RULE@
 appdatadir = $(datadir)/metainfo
 appdata_DATA = $(appdata_in_files:.xml.in=.xml)
-appdata_in_files = org.xfce.thunar.appdata.xml.in
+appdata_in_files = com.expidus.lunar.appdata.xml.in
 
 servicedir = $(datadir)/dbus-1/services
-service_in_files = org.xfce.FileManager.service.in	\
-	org.xfce.Thunar.service.in						\
-	org.xfce.Thunar.FileManager1.service.in
+service_in_files = com.expidus.FileManager.service.in	\
+	com.expidus.Lunar.service.in						\
+	com.expidus.Lunar.FileManager1.service.in
 service_DATA = $(service_in_files:.service.in=.service)
 
 systemd_userdir = $(prefix)/lib/systemd/user
-systemd_user_in_files = thunar.service.in
+systemd_user_in_files = lunar.service.in
 systemd_user_DATA = $(systemd_user_in_files:.service.in=.service)
 
 %.service: %.service.in Makefile
@@ -78,7 +78,7 @@ systemd_user_DATA = $(systemd_user_in_files:.service.in=.service)
 
 polkit_policydir = $(datadir)/polkit-1/actions
 polkit_in_in_files =			\
-	org.xfce.thunar.policy.in.in
+	com.expidus.lunar.policy.in.in
 polkit_in_files = $(polkit_in_in_files:.policy.in.in=.policy.in)
 %.policy.in: %.policy.in.in Makefile
 	sed -e "s,\@bindir\@,$(bindir),g" < $< > $@

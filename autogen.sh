@@ -2,7 +2,7 @@
 #
 # vi:set et ai sw=2 sts=2 ts=2: */
 #-
-# Copyright (c) 2009 Jannis Pohlmann <jannis@xfce.org>
+# Copyright (c) 2009 Jannis Pohlmann <jannis@expidus.org>
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License as
@@ -21,10 +21,10 @@
 
 (type xdt-autogen) >/dev/null 2>&1 || {
   cat >&2 <<EOF
-autogen.sh: You don't seem to have the Xfce development tools installed on
+autogen.sh: You don't seem to have the Expidus development tools installed on
             your system, which are required to build this software.
-            Please install the xfce4-dev-tools package first, it is available
-            from your distribution or https://www.xfce.org/.
+            Please install the expidus1-dev-tools package first, it is available
+            from your distribution or https://www.expidus.org/.
 EOF
   exit 1
 }

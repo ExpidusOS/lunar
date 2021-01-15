@@ -2,10 +2,10 @@
 ======
 - Fix action of Back/Forward mouse gesture when using RTL (Issue #90)
 - Prevent crash on mouse gesture action (Issue #443)
-- Avoid crashes when closing thunar with ctrl+w (#336)
+- Avoid crashes when closing lunar with ctrl+w (#336)
 - Ignore double-click events from back/forward mouse button (Issue #371)
 - Remove GLIB_CHECK_VERSION IFDEFs which are obsolete after glib bump
-- bump minimum required exo version to 4.15.3
+- bump minimum required endo version to 4.15.3
 - Wrap box around spinner to prevent flickering (Issue #440)
 - Use g_drive_is_removable over g_drive_is_media_removable
 - bump glib (and gio, gthread, etc) to 2.50.0
@@ -16,13 +16,13 @@
 - Regression: Fix broken bulk renamer context menu (Issue #436)
 - Revert of b12247c2 and proper fix for Issue #423
 - Remove duplicated code in renamer and prevent possible leak
-- Prevent possible crash of thunar_launcher_poke (Issue #436)
+- Prevent possible crash of lunar_launcher_poke (Issue #436)
 - Fix combo box entry order (Issue #435)
 - Remove TODO file
 - Change focus when clicking an emblem entry (Issue #315)
 - Bump GLib minimum version to 2.44
 - Prevent Gtk-CRITICAL when terminating session (Issue #430)
-- Missing thunarx support on the shortcut view (Issue #423)
+- Missing lunarx support on the shortcut view (Issue #423)
 - Translation Updates:
   Basque, Chinese (China), Czech, Danish, Estonian, Korean, Norwegian
   Nynorsk, Turkish, Vietnamese
@@ -32,9 +32,9 @@
 - No special treatment on "rename" for .desktop files (Issue #56)
 - Show full filename/extention for .desktop files (Issue #56)
 - Focus view when location selector is closed (Issue #420)
-- Thunar shows wrong content after outside operations (Issue #355)
+- Lunar shows wrong content after outside operations (Issue #355)
 - Regression: Restore file menu section arrangement
-- Use same README.md structure than other xfce projects
+- Use same README.md structure than other expidus projects
 - Fall back to fast content type if regular is unavilable in file 
   attributes (!36)
 - Fix Regressions around menu bar spinner (Issue #394)
@@ -54,23 +54,23 @@
 
 4.15.2
 ======
-- Regression: Dont crash when starting thunar with gvfs disabled
+- Regression: Dont crash when starting lunar with gvfs disabled
 - Move mount/unmount/eject actions into launcher (Issue #349)
-- Use thunar-menu and launcher in tree-view (Issue# 349)
+- Use lunar-menu and launcher in tree-view (Issue# 349)
 - Use the new icon when running with elevated privileges (root)
-- Remove limit on paths to check in thunar_file_accepts_drop (Issue #350)
+- Remove limit on paths to check in lunar_file_accepts_drop (Issue #350)
 - AC_CONFIG_MACRO_DIR → AC_CONFIG_MACRO_DIRS (MR !27)
 - Avoid crashes when using details view (Issue #307)
 - Fix unavailable rubber banding in detailed view (Issue #326)
 - Remove obsolete dispose method to prevent warning (Issue #319)
 - Show device indentifier in side pane tooltip (Issue #207)
-- Make use of shared field codes expansion of libxfce4util (MR !23)
+- Make use of shared field codes expansion of libexpidus1util (MR !23)
 - Implement directory specific sort-column and sort-order (Issue #8)
 - Add an option to delete saved directory specific settings (Issue #8)
 - Implements directory specific view type (Issue #8)
 - Add features to support directory specific view settings (Issue #8)
 - Regression: Add missing seperator to icon view submenu
-- Replace _thunar_assert() with _thunar_return_if_fail() in order to 
+- Replace _lunar_assert() with _lunar_return_if_fail() in order to 
   prevent crash when build with debug on FreeBSD (MR !22)
 - Menu items cut/copy/paste do not work for location entry (Issue #303)
 - Translation Updates:
@@ -83,7 +83,7 @@
 ======
 - Shorten strings for different views (Issue #247)
 - Segfault when file is created while files are selected (Issue #339)
-- Thunar hangs when closing windows using CTRL+W (Issue #336)
+- Lunar hangs when closing windows using CTRL+W (Issue #336)
 - Regression: Missing accelerators for bookmark items (Issue #331)
 - Fixed SEGV when the side pane is hidden (Issue #335)
 - Regression: Window menu not updated properly (Issue #320)
@@ -98,28 +98,28 @@
 4.15.0
 ======
 - Fix unavailable rubber banding in detailed view (Issue #326)
-- Context menu entries in Thunar flutter while downloading (Issue #276)
-- Improve cusor handling after file deletion in thunar (Issue #69)
+- Context menu entries in Lunar flutter while downloading (Issue #276)
+- Improve cusor handling after file deletion in lunar (Issue #69)
 - Fix regression: Trying to open a .desktop file from the context menu
   leads to the execution of the file (Issue #325)
 - Use numbering on label "open new window/tab" only for multiple windows/tabs
   (MR #15)
 - Remove "Sort by" and "View as" from menu item labels (Issue #247)
 - Add new app icon and switch to rDNS icon name (MR #11)
-- Replace deprecated GtkActionEntry with XfceGtkActionEntry (Issue #293)
+- Replace deprecated GtkActionEntry with ExpidusGtkActionEntry (Issue #293)
 - Menus are now updated when selection changes not only when opened (Issue #293)
 - Merge all file-context-menus into one (Issue #198)
 - Ghost file ocasionally remains when dropping file into directory (Fixes #312)
-- Use XfceFilenameInput to validate long filenames (Bug #13720)
+- Use ExpidusFilenameInput to validate long filenames (Bug #13720)
 - Support for variables like $HOME in address bar (Bug #12165)
 - Fix eject button click detection when using RTL languages (Bug #11387)
 - Remove upper case from group names in shortcuts view
 - Option to rename a file when existing copy conflicts (Bug #16686)
 - Remove suffix "- FileManager" from window title
-- Move from exo-csource to xdt-csource (Bug #16717)
+- Move from endo-csource to xdt-csource (Bug #16717)
 - Pause button on copy/move (Bug #16685)
 - Allow drag-and-drop of multiple files in icon view (Bug #2487)
-- Add keywords to .desktop files to thunar (Bug #16618)
+- Add keywords to .desktop files to lunar (Bug #16618)
 - Reduce vertical space in Templates info popup
 - Hide android phone from network group (Bug #11584)
 - Reduce size of Templates info popup
@@ -136,18 +136,18 @@
 - Option to use static icon instead of folder icon (Bug #16501)
 - Remove top level desktop entry from tree view (Bug #16474)
 - Easy access to computer:/// (Bug #16472)
-- Use libxfce4ui close-multiple-tab dialog (Bug #16254)
+- Use libexpidus1ui close-multiple-tab dialog (Bug #16254)
 - Replace deprecated G_FILE_MONITOR_EVENT_MOVED (Bug #16328)
 - Use symbolic icon for eject (Bug #16281)
 - Prevent ghost files after "move" on remote locations (Bug #15704)
 - Add a confirmation dialog when closing a window with multiple open tabs.
 - Improve explanation string for "invert selection" action (Bug #15625)
 - Improve layout of Permissions tab (Bug #15557)
-- Remove superfluous shell script "ThunarBulkRename" (Bug #15373)
+- Remove superfluous shell script "LunarBulkRename" (Bug #15373)
 - Make labels in permissions chooser wrap
 - Add a small delay when dismissing notifications (Bug #14552)
 - File / Folder size text in statusbar sometimes is ambiguous (Bug #14203)
-- Add missing parameter to ThunarBrowserPokeDeviceFunc function
+- Add missing parameter to LunarBrowserPokeDeviceFunc function
 - Add property to enable/disable frames on thumbnails (Bug #14433)
 - Improved spacing between widgets in Properties and Preferences dialogs
 - Fixed numerous compiler warnings
@@ -171,14 +171,14 @@
 - Fix shortcut support for addressbar (Bug #4537 and Bug #13680)
 - Fix crash in bulk renamer on repeated rename (Bug #16824)
 - Add checks for thumbnailer 0 handles (Bug #14122)
-- Replace 'thunar_return_if_fail (THUNAR_IS_DEVICE (device))' with 
+- Replace 'lunar_return_if_fail (LUNAR_IS_DEVICE (device))' with 
 standard 'if (..)' to prevent possible crashes. (Bug #13404)
 - Fix check if folder is fully loaded when expanding path in tree view. 
 Prevents 100% CPU load and loosing sync with main view in some cases.
 (Bug #15762)
 - Fixes 100%CPU on tree-view in some rare cases (Bug #16024)
 - Delete native files faster (Bug #16641)
-- Support libxfce4ui XfceTitledDialog new API (Bug #16616)
+- Support libexpidus1ui ExpidusTitledDialog new API (Bug #16616)
 - Translation Updates:
   Albanian, Amharic, Arabic, Armenian, Armenian (Armenia), Basque, 
   Belarusian, Bengali, Bulgarian, Catalan, Chinese (China), Chinese (Hong 
@@ -233,7 +233,7 @@ view) (Bug #15936)
 
 1.8.11
 ======
-- Thunar 1.8.10 crashing on startup in FreeBSD and Fedora, caused by 
+- Lunar 1.8.10 crashing on startup in FreeBSD and Fedora, caused by 
 nonfunctional pango version check (Bug #16136, Bug #16138)
 - Translation Updates:
 Interlingue, Spanish
@@ -241,14 +241,14 @@ Interlingue, Spanish
 1.8.10
 ======
 - Allow compilation with panel 4.15
-- thunar-job: callee should keep track of the number of processed files 
+- lunar-job: callee should keep track of the number of processed files 
 (Bug #16117)
-- Thunar does not show a context menu on right-click when started via 
+- Lunar does not show a context menu on right-click when started via 
 trash-panel-plugin (Bug #16000)
 - Make sure icon text is centered after unchecking "Text beside icons"
 - Remove the vertical gap between icon and its label (Bug #16041)
 - Fix icon view alignment (Bug #16107)
-- Not possible to grab scrollbar on the very right pixels when Thunar 
+- Not possible to grab scrollbar on the very right pixels when Lunar 
 is maximized (Bug #16050)
 - Wrap text of error dialog
 - Not possible to empty the trash via the pathbar context menu
@@ -260,17 +260,17 @@ Prevent usage of deprecated gtk_dialog_get_action_area
 - Center action buttons in conflict dialog window (Bug #15973)
 - Clear user customizable action shortcut when the action is deleted
 - Prevent Gtk-CRITICAL when adding or modifying a user customizable action.
-- Thunar SendTo Email: Add missing archive formats for archive 
+- Lunar SendTo Email: Add missing archive formats for archive 
 detection (Bug #15917)
 - sendto plugin: fix content type resolution. (Bug #15916)
 - sendto plugin: extract function tse_file_is_archive (Bug #15916)
 - sendto plugin: move g_file_info_get_content_type() call out of the 
 cycle (Bug #15916)
 - All glory to lowercase (Bug #15394)
-- mismatched names between thunar.appdata.xml and thunar.desktop (Bug #15498)
+- mismatched names between lunar.appdata.xml and lunar.desktop (Bug #15498)
 - Replace text "Enter the new name:" by "Enter the name:" for file 
 creation dialog (Bug #15423)
-- Remove superfluous .desktop file "Thunar-folder-handler.desktop.in" 
+- Remove superfluous .desktop file "Lunar-folder-handler.desktop.in" 
 (Bug #15467)
 - Prevent unnecessary fallback copy-delete in file move when overwriting
 - Fix possible memory leak
@@ -312,7 +312,7 @@ Portuguese (Brazil), Swedish, Thai, Turkish
 - Fix crash on unmounted volume in tree pane right click (Bug #15452)
 - Do not check G_FILE_ATTRIBUTE_ACCESS_CAN_WRITE anymore (Bug #15367)
 - Deactivate "Move to Trash" menu entry on volumes without trash (Bug #15352)
-- thunar-sendto-email.desktop: use xdg mail-send icon
+- lunar-sendto-email.desktop: use xdg mail-send icon
 - Restore "Empty File" menu icon (Bug #15540)
 - Rename Camelcase to Title Case (Bug #15579)
 - Update mimeapps.list only when necessary (Bug #15533)
@@ -325,7 +325,7 @@ Serbian, Spanish, Thai, Turkish
 
 1.8.6
 =====
-- Job is now optional for thunar_io_scan_directory
+- Job is now optional for lunar_io_scan_directory
 - Expand scroll window of file operation progress dialog (Bug #14946)
 - Fix compiler error -Wcast-function-type (GCC 8)
 - Bump glib minimal required version
@@ -365,20 +365,20 @@ Spanish, Swedish, Telugu, Thai, Turkish, Urdu, Urdu (Pakistan), Uyghur, Vietname
 1.8.4
 =====
 - renamed org.freedesktop.FileManager1.service.in to
- org.xfce.Thunar.FileManager1.service.in to avoid name clashes (Bug #12414)
+ com.expidus.Lunar.FileManager1.service.in to avoid name clashes (Bug #12414)
 - Exit when name org.freedesktop.filemanager1 lost on message-dbus (Bug #15088)
 - Translation updates: Bengali, Catalan, Portuguese
 
 1.8.3
 =====
-- Thunar sometimes mounts USB drives with root permission (Bug #14719)
-- FreeBSD -Thunar crash due to passing null to strcmp() (Bug #15059)
+- Lunar sometimes mounts USB drives with root permission (Bug #14719)
+- FreeBSD -Lunar crash due to passing null to strcmp() (Bug #15059)
 - Add support for org.freedesktop.FileManager1 (Bug #12414)
-- Still 8sec delay on logout when there is an open thunar window (Bug #15008)
-- Thunar does not recover directories opened in a previous session (Bug #14969)
-- Thunar utilizes 100%CPU when the parent directory is not readable (Bug #14900)
+- Still 8sec delay on logout when there is an open lunar window (Bug #15008)
+- Lunar does not recover directories opened in a previous session (Bug #14969)
+- Lunar utilizes 100%CPU when the parent directory is not readable (Bug #14900)
 - Add support for CTRL+Z in rename dialog (Bug #14956)
-- Thunar rarely freezes when switching to tree-view (#14960)
+- Lunar rarely freezes when switching to tree-view (#14960)
 - Crash in tree-view when multiple windows are open (Bug #14714)
 - Improve description of UCA command parameters (Bug #14720)
 - Fixed some Warnings and GLib-GObject-CRITICAL messages
@@ -404,7 +404,7 @@ detailed view. (Bug #14548)
 - Show numeric(%) progress in file operation dialog (Bug #14102)
 - Add Ctrl+= as alternative accelerator for Zoom In (Bug #14586)
 - Fix UCA forgets keyboard shortcut (Bug #14617)
-- Add preference to open new thunar instances as tabs (Bug #13314)
+- Add preference to open new lunar instances as tabs (Bug #13314)
 - Add support for folder.jpg (Bug #14576)
 - Show file size in binary units by default (Bug #14653)
 - Removed start limit from Bulk Renamer to rename by number (Bug #14437)
@@ -424,8 +424,8 @@ Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietna
 
 1.8.1
 =====
-- Downgrade libxfce4-ui required version to 4.12.0
-- Bump exo version to 0.12.0
+- Downgrade libexpidus1-ui required version to 4.12.0
+- Bump endo version to 0.12.0
 - Use symbolic icon for edit button in pathbar
 - Add the right-click menu item "Open with" as well for folders
 - Translation updates: Catalan, French, Galician, Norwegian Bokmål
@@ -443,15 +443,15 @@ Russian, Spanish, Turkish, Ukrainian
 
 1.7.2
 =====
-- Thunar confuses files (bug #12435)
+- Lunar confuses files (bug #12435)
 - Use display_name instead of basename to display filenames (bug #13532) 
 - Avoid unexpected overshoot fade on icon view
 - Make it possible to assign accelerators to custom actions
-- Killing thunar as well kills all launched sub-processes (bug #14277)
-- Thunar User Configurable Actions do not work for remote locations (bug #7652), patch from (bug#7305)
-- replaced links to "http://thunar.xfce.org/" with "https://docs.xfce.org/xfce/thunar/start"
+- Killing lunar as well kills all launched sub-processes (bug #14277)
+- Lunar User Configurable Actions do not work for remote locations (bug #7652), patch from (bug#7305)
+- replaced links to "http://lunar.expidus.org/" with "https://docs.expidus.com/expidus/lunar/start"
 - SIGSEGV when thumbnailer is under heavy load after opening many tabs (bug #13756)
-- bumped dependency to xfce4-panel to API v.2 / 4.12.0
+- bumped dependency to expidus1-panel to API v.2 / 4.12.0
 - Fixed creation of .desktop file when dropping URL into folder (bug #14239)
 - Restoring non-empty folders leaves copy in Trash (bug #13535)
 - Fixed an uncritical "use after free"
@@ -464,25 +464,25 @@ Portuguese (Brazil), Russian, Serbian, Slovak, Spanish, Swedish, Turkish, Ukrain
 =====
 - Do not translate "Trash" files and folders (Bug #14211)
 - Regression: Context menu misplaced (bug #14216)
-- Crash in thunar_file_is_gfile_ancestor (bug #14202)
+- Crash in lunar_file_is_gfile_ancestor (bug #14202)
 - Add a systemd user unit for the two D-Bus session services (bug #12236)
 - Add setting to show file sizes in bytes (bug #11690) fix for statusbar
 - Add setting to show file sizes in bytes (bug #11690) fix for overwrite confirmation dialog
 - Add setting to show file size in bytes in detailed view (Bug #11690)
 - Show exact size in bytes in directory properties dialog (bug #12858)
-- Thunar's "open with" custom command doesn't escape the path (bug #10883)
+- Lunar's "open with" custom command doesn't escape the path (bug #10883)
 - Fix potential buffer overflow (bug #12444)
-- Thunar fails to scan for file templates if the Templates directory is a symbolic link ( bug #12032 )
-- missing codegen for "make dist" in thunar-tpa (bug #14190)
-- Ported thunar-tpa to gdbus (bug #14038)
+- Lunar fails to scan for file templates if the Templates directory is a symbolic link ( bug #12032 )
+- missing codegen for "make dist" in lunar-tpa (bug #14190)
+- Ported lunar-tpa to gdbus (bug #14038)
 - fixed bug - no bool argument available for dbus signal "TrashChanged"
 - Bump gtk to 3.22
-- Prevent crash after updating thunar if old thunar deamon is still running
+- Prevent crash after updating lunar if old lunar deamon is still running
 - Only show additional "real_name" of user in detailed_view if it is different from "name" (bug #13648)
 - Change inappropriate word "Sentence" in upper-/lowercase renamer (bug #9483)
 - Skip functions not meant to be introspectable (Bug #14045)
 - Fix for failing GObject introspection build. Followup of (Bug #14070)
-- thunarx-provider-module.h missing inside tar.bz2 file created by "make dist" (Bug #14070)
+- lunarx-provider-module.h missing inside tar.bz2 file created by "make dist" (Bug #14070)
 - Fix crash on unavailable file move copy (Bug #14056)
 - Provide missing g-i annotations (Bug #14045)
 - Use e.g. instead of i.e. (Bug #14035)
@@ -496,9 +496,9 @@ Portuguese (Brazil), Russian, Serbian, Slovak, Spanish, Swedish, Turkish, Ukrain
 - GTK3 Port
 - Replace dbus-glib with GDBus
 - Improved Pathbar style for Location Selector
-- Bump thunarx to version 3 and replace GtkAction with ThunarxMenu and ThunarxMenuItem
-- GObject-Introspection support for thunarx-3
-- Update thunarx documentation and fix its generation
+- Bump lunarx to version 3 and replace GtkAction with LunarxMenu and LunarxMenuItem
+- GObject-Introspection support for lunarx-3
+- Update lunarx documentation and fix its generation
 - Same bugfixes from 1.6.13
 - Translation updates: Albanian, Amharic, Arabic, Asturian, Bangla, Basque,
   Belarusian, Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong),
@@ -526,11 +526,11 @@ Swedish, Telugu, Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.6.16
 ======
-- Thunar sometimes mounts USB drives with root permission (Bug #14719)
-- FreeBSD -Thunar crash due to passing null to strcmp() (Bug #15059)
+- Lunar sometimes mounts USB drives with root permission (Bug #14719)
+- FreeBSD -Lunar crash due to passing null to strcmp() (Bug #15059)
 - 100%CPU when the parent directory is not readable in tree-view (Bug #14900)
 - Add support for CTRL+Z in rename dialog (Bug #14956)
-- Thunar rarely freezes when switching to tree-view (#14960)
+- Lunar rarely freezes when switching to tree-view (#14960)
 - Crash in tree-view when multiple windows are open (Bug #14714)
 - Avoid segfault on file operations (Bug #14281)
 - Translation updates: Amharic, Asturian, Basque, Belarusian, Bengali, Catalan,
@@ -543,9 +543,9 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.6.15
 ======
-- Thunar confuses files (bug #12435)
-- Thunar User Configurable Actions do not work for remote locations (bug #7652), patch from (bug#7305)
-- replaced links to "http://thunar.xfce.org/" with "https://docs.xfce.org/xfce/thunar/Start/"
+- Lunar confuses files (bug #12435)
+- Lunar User Configurable Actions do not work for remote locations (bug #7652), patch from (bug#7305)
+- replaced links to "http://lunar.expidus.org/" with "https://docs.expidus.com/expidus/lunar/Start/"
 - SIGSEGV when thumbnailer is under heavy load after opening many tabs (bug #13756)
 - Fixed creation of .desktop file when dropping URL into folder (bug #14239)
 - Restoring non-empty folders leaves copy in Trash (bug #13535)
@@ -554,7 +554,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 1.6.14
 ======
 - Do not translate "Trash" files and folders (Bug #14211)
-- Crash in thunar_file_is_gfile_ancestor (bug #14202)
+- Crash in lunar_file_is_gfile_ancestor (bug #14202)
 - Fix potential buffer overflow (Bug #12444)
 - Fix crash on unavailable file move copy (Bug #14056)
 - Translation updates: Arabic, Belarusian, Catalan, English (United Kingdom),
@@ -564,7 +564,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 ======
 - Handle cases when file watch is not supported (Bug #13881)
 - Missing Trash Translation String (Bug #13409)
-- Delete Thunar symlink on uninstall (Bug #13533)
+- Delete Lunar symlink on uninstall (Bug #13533)
 - Handle g_mem_is_system_malloc deprecation
 - Prefer local (file://) URIs than native ones (e.g. smb://) (Bug #13845)
 - Translation updates: Amharic, Arabic, Asturian, Bangla, Basque, Belarusian,
@@ -579,11 +579,11 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.6.12
 ======
-- Fix deadlock in mutex causing Thunar to hang (Bug #13481)
+- Fix deadlock in mutex causing Lunar to hang (Bug #13481)
 - Add support for Exif:ImageDescription and Exif:UserComment
 - Do not pass NULL to g_file_test
-- Bump libxfce4panel version for TPA plugin to 4.9.0
-- Switch from XfcePanelImage to GtkImage
+- Bump libexpidus1panel version for TPA plugin to 4.9.0
+- Switch from ExpidusPanelImage to GtkImage
 - Fixed a compilation error with the newest dev panel API
 - Translation updates: Catalan, Dutch (Flemish), Galician, Korean, Lithuanian,
   Spanish, Thai
@@ -592,8 +592,8 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 ======
 - Fix a crash for on cut/pasting of multiple files (Bug #12260)
 - Fix a crash when renaming files (Bug #12264)
-- Fix missing return value for debug in thunar_file_reload (bug #12827)
-- Fix thunar history being deleted after view change (bug #12708)
+- Fix missing return value for debug in lunar_file_reload (bug #12827)
+- Fix lunar history being deleted after view change (bug #12708)
 - Expand the name column by default in details view (#11357)
 - Silently ignore G_IO_ERROR_FAILED_HANDLED (#8695)
 - Fixing missing return value in standard view
@@ -606,16 +606,16 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.6.10
 ======
-- Do not track thunar/thunar-marshal.{c,h} (Harald Judt)
+- Do not track lunar/lunar-marshal.{c,h} (Harald Judt)
 - Remove Makefile and Makefile.in files when running distclean (Harald Judt)
 - Remove subversion $Id$ tags (Harald Judt)
 - Really fix trash state at startup (bug #9513 and #11913) (Harald Judt)
-- Use proper return type for thunar_file_reload (bug #11913) (Harald Judt)
+- Use proper return type for lunar_file_reload (bug #11913) (Harald Judt)
 - Revert "Fix loading the trash bin status at startup (bug #9513)" (Harald Judt)
 
 1.6.9
 =====
-- Fix ThunarBulkRename script not supporting spaces (bug #9713) (Harald Judt)
+- Fix LunarBulkRename script not supporting spaces (bug #9713) (Harald Judt)
 - Use "Name" column for drag & drop instead of first column (bug #11905) (Harald Judt)
 - Update the path entry icon when current file changes (Harald Judt)
 - Revert changes for restoring the trash in the session client (bug #9513) (Harald Judt)
@@ -637,7 +637,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Use only open selection instead of open action with KEY_Up and KEY_Down (Harald Judt)
 - Fix assertion when hitting KEY_Left on a top-level item in the tree view (Harald Judt)
 - Revert workaround for desktop toplevel item in the tree view (Harald Judt)
-- Always select the proper toplevel item in the thunar tree view (Harald Judt)
+- Always select the proper toplevel item in the lunar tree view (Harald Judt)
 - Unescape URI in history error message (Harald Judt)
 - Remove unmounted files from history when going back or forward (Harald Judt)
 - Translation updates: Basque, French, Galician
@@ -658,14 +658,14 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Keep the scroll position when restoring the file selection (Harald Judt)
 - Restore selection only when rows-reordered signal is received (bug #11855) (Harald Judt)
 - For folders copied always append "copy #" to the end of their names (bug #11862) (Harald Judt)
-- Update F5 binding for new ThunarWindow::reload signal (Evangelos Foutras)
+- Update F5 binding for new LunarWindow::reload signal (Evangelos Foutras)
 - Do not perform the complete folder reload in idle (bug #11849) (Harald Judt)
 - Coverity CID 60623: Unused value (Harald Judt)
 - Coverity CID 60621: Missing return statement (Harald Judt)
 - Coverity CID 60620: Explicit null dereferenced (Harald Judt)
 - Coverity CID 60619: Explicit null dereferenced (Harald Judt)
 - Coverity CID 60617: Unchecked return value (Harald Judt)
-- Remove unused variable in thunar_standard_view_set_history (Harald Judt)
+- Remove unused variable in lunar_standard_view_set_history (Harald Judt)
 - Remove startup notification dependencies (bug #11837) (Harald Judt)
 - Translation updates: Galician, German, Lithuanian
 
@@ -675,10 +675,10 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Let row changes accumulate a bit before restoring selection (Harald Judt)
 - Implement reloading file information on manual reload (Harald Judt)
 - Extend reload functions to allow a full reload (Harald Judt)
-- Check in thunar-marshal with new _thunar_marshal_BOOLEAN__BOOLEAN (Harald Judt)
+- Check in lunar-marshal with new _lunar_marshal_BOOLEAN__BOOLEAN (Harald Judt)
 - Reload files changed by jobs in an idle loop (bug #11008) (Harald Judt)
 - Refactor code for moving thumbnail cache file on renames/moves (Harald Judt)
-- Rework thunar_file_monitor to properly register moved files (Harald Judt)
+- Rework lunar_file_monitor to properly register moved files (Harald Judt)
 - Add function to reload parent file of a file (Harald Judt)
 - Fix updating file info for moved files (bug #11008) (Harald Judt)
 - Revert "Refresh file info after getting it from cache (bug #11008)" (Harald Judt)
@@ -697,14 +697,14 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Remember and restore file selection on view changes (Harald Judt)
 - Restore file selection when changing sort order (bug #9886) (Harald Judt)
 - Update model with changed binary file size setting immediately (Harald Judt)
-- Fix typo busy_pulse in thunar-shortcuts-model.c (Harald Judt)
-- Fix typo in thunar-clipboard-manager (Harald Judt)
+- Fix typo busy_pulse in lunar-shortcuts-model.c (Harald Judt)
+- Fix typo in lunar-clipboard-manager (Harald Judt)
 - Fix Gdk-CRITICAL error (Thaddaeus Tintenfisch)
 - Clean up more files with make clean (Harald Judt)
 - Rework usage of binary file size properties (bug #11450) (Harald Judt)
-- Remove duplicate break statement in thunar-standard-view (Harald Judt)
+- Remove duplicate break statement in lunar-standard-view (Harald Judt)
 - Fix compiler warning about shadowing 'basename' (bug #11633) (Matt Thirtytwo)
-- thunar/thunar-dbus-service-infos.xml corrections (Thaddaeus Tintenfisch)
+- lunar/lunar-dbus-service-infos.xml corrections (Thaddaeus Tintenfisch)
 - Fix startup id handling for launch requests over D-Bus (bug #9646) (Thaddaeus Tintenfisch)
 - Fallback to non-cached version of source file (bug #9142) (Thaddaeus Tintenfisch)
 - Translation updates: Chinese (China), Croatian, English (Australia), French, German,
@@ -717,7 +717,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Respect the "View new folders using" preference (bug #11606) (Harald Judt)
 - Improve check for shell scripts and add hidden option for bug #7596 (Harald Judt)
 - Fix some GTK_STOCK icon usages resulting in missing icons (bug #11608) (Jani Välimaa)
-- plugins/thunar-wallpaper: Fix icon (Jani Välimaa)
+- plugins/lunar-wallpaper: Fix icon (Jani Välimaa)
 - Fix icon name for folders and a memory leak (bug #11608) (Harald Judt)
 - Also query for network location icons (Nick Schermer)
 - Don't use deprecated function (Nick Schermer)
@@ -725,8 +725,8 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Sidepane treeview: Do not switch folder when clicking a row expander (Harald Judt)
 - Fix cppcheck possible errors/warnings (Harald Judt)
 - Hide template file extensions in context menu (bug #11571) (Thaddaeus Tintenfisch)
-- thunar-wallpaper: Fix translation in applications other than thunar (Harald Judt)
-- thunar-wallpaper: Check if file is really an image (bug #11565) (Thaddaeus Tintenfisch)
+- lunar-wallpaper: Fix translation in applications other than lunar (Harald Judt)
+- lunar-wallpaper: Check if file is really an image (bug #11565) (Thaddaeus Tintenfisch)
 - Update another copyright string (Harald Judt)
 - Fix endless rename loop in case of error on the properties dialog (bug #11557) (Harald Judt)
 - Translation updates: Asturian, Bulgarian, Finnish, French, German,
@@ -738,25 +738,25 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Add .gitignore
 - Do not execute but only open shell scripts by default (bug #7596) (Harald Judt)
 - Fix typo in error message (Nick Schermer)
-- Improve keyboard navigation for thunar-tree-view (bug #4519) (Harald Judt)
+- Improve keyboard navigation for lunar-tree-view (bug #4519) (Harald Judt)
 - Allow <ctrl> + middle click in shortcut and treeview panes (Harald Judt)
 - Set correct dialog window hint for progress dialog (bug #11467) (Matt Thirtytwo)
 - Refresh file info after getting it from cache (bug #11008) (Peter de Ridder)
 - Remove unused enum for signal handlers (bug #11493) (Matt Thirtytwo)
 - Simplify Makefile.am. Generated files are separated from typed source files (Matt Thirtytwo)
-- thunar-tpa: Install desktop file to $(datadir)/xfce4/panel/plugins (Robby Workman)
-- Fix anchor offset in xfce_dialog_show_help () function. (Olivier Duchateau)
+- lunar-tpa: Install desktop file to $(datadir)/expidus1/panel/plugins (Robby Workman)
+- Fix anchor offset in expidus_dialog_show_help () function. (Olivier Duchateau)
 - Properly handle m4 stuff (Harald Judt)
 - TWP: Single-workspace-mode = TRUE is the default (Bug #11047) (Eric Koegel)
-- thunar-wallpaper: Do not use escaped filenames for xfconf (Harald Judt)
-- Use xfconf and handle xfdesktop's single workspace (Bug #11047) (Eric Koegel)
+- lunar-wallpaper: Do not use escaped filenames for esconf (Harald Judt)
+- Use esconf and handle xfdesktop's single workspace (Bug #11047) (Eric Koegel)
 - Revert "Workaround for crashes on RHEL5" (Andrzej)
 - Revert "Fallback to image surface, workaround for bug in Cairo/RENDER" (Andrzej)
-- Renaming a file from another file manager, file disappears in Thunar window (bug #11430) (Andrzej)
+- Renaming a file from another file manager, file disappears in Lunar window (bug #11430) (Andrzej)
 - Make usage/free string more clear (bug #11345) (Harald Judt)
 - Make single middle click open files and folders (bug #10587) (Harald Judt)
 - Add a progressbar to the freespace indicator in the properties dialog (Harald Judt, Simon Steinbeiss)
-- Change resize style in thunar-wallpaper plugin (Thaddaeus Tintenfisch)
+- Change resize style in lunar-wallpaper plugin (Thaddaeus Tintenfisch)
 - Add vim modeline. Remove obsolete '$Id$' line (Matt Thirtytwo)
 - Right click context menu with wrong icon (bug #10652) (Andrzej)
 - Translation updates
@@ -766,17 +766,17 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - make distcheck fix (reference docs linking error) (Andrzej)
 - Add support for binary file size units (bug #10864) (Andre Miranda)
 - Strip trailing spaces/Github test (Nick)
-- Fix case of Xfce in appdata description (Simon)
+- Fix case of Expidus in appdata description (Simon)
 - Update intltool (Eric)
 - Add pkexec policy (Bug #11122) (Eric)
 - Remove trailing whitespace from Makefile to prevent warning (Simon)
-- Add appdata file for Thunar (Bug 11172) (Eric)
+- Add appdata file for Lunar (Bug 11172) (Eric)
 - Check for thumbnails in the new location (Bug #11263) (Eric)
 - Default application not respected with glib >= 2.41 (Bug #11212) (Guido)
 - Add support for the GTK 3 bookmarks file (bug #10627) (Alistair)
-- Update xfconf setting for thunar-wallpaper plugin (Eric)
+- Update esconf setting for lunar-wallpaper plugin (Eric)
 - Update copyright. (Nick)
-- thunar-tpa: fix libxfce4panel version checking macros (Andrzej)
+- lunar-tpa: fix libexpidus1panel version checking macros (Andrzej)
 - Fallback to image surface, workaround for bug in Cairo/RENDER (Andrzej)
 - Fixed missing inode-directory/folder icons on old systems. (Andrzej)
 - Change name of file copies (and links) (bug #7518). (Nick)
@@ -787,7 +787,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Smarter file extension selecting (bug #10268). (Jeff Shipley)
 - I18n: Remove broken / unsupported translations. (Nick)
 - Force reference on files from the cache. (Nick)
-- Drop README.thunarrc. (Nick)
+- Drop README.lunarrc. (Nick)
 - Translation updates.
 
 1.6.3
@@ -842,7 +842,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Clear mutex to avoid memleak with 2.32 api.
 - Fix file menu displacement after a forced update (bug #9604).
 - Put remote bookmarks in places and improve icon loading.
-- Use ThunarBrowser to resolve locations in launcher.
+- Use LunarBrowser to resolve locations in launcher.
 - Translation updates: Amharic, Arabic, Asturian, Belarusian, 
   Bengali, Catalan (Valencian), Czech, Danish, German, Dzongkha, Greek, 
   English (United Kingdom), Esperanto, Spanish (Castilian), Estonian, 
@@ -914,7 +914,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Always set the icons size of the toolbar.
 - Make the entry the default location bar.
 - Don't set weight in chooser model to light (bug #7688).
-- Fallback to only default values if xfconf failed.
+- Fallback to only default values if esconf failed.
 - Improve generating remote display names (bug #9442).
 - Remove user directories and add bookmarks in go menu.
 - Trigger callback function when opening unmounted locations (bug #9447).
@@ -948,14 +948,14 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Allow resizing of chooser dialog.
 - Don't abort on non-utf8 charaters in path entry.
 - Don't show drive icon for remote mounts in history.
-- Release all ThunarFiles when closing a view, this should resolve
+- Release all LunarFiles when closing a view, this should resolve
   mounts that were empty after unmounting.
 - Show tooltip uri/filename in history menu item.
 - End with a / in the path entry.
 - Add function to generate nice remote display names.
 - Easy adding bookmarks for remote mounts.
-- Do not call eject in thunar_device_volume_mount_finished.
-- Reduce tumbler traffic on startup of Thunar.
+- Do not call eject in lunar_device_volume_mount_finished.
+- Reduce tumbler traffic on startup of Lunar.
 - Use drive_stop in device handling.
 - Put reload button in location entry.
 - Create pull-down history buttons and remove arrows.
@@ -964,7 +964,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Drop the separators in the toolbar.
 - Extend history tooltips to describe functionality of the button.
 - Avoid segfault with null mime-type (bug #8390).
-- Implement tabs in Thunar (bug #6102).
+- Implement tabs in Lunar (bug #6102).
 - Do not try to mount a device twice in treeview (bug #9412).
 - Keep delaying selecing files if not loaded yet (bug #7328).
 - Slightly toned thumbnail frame.
@@ -975,7 +975,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Avoid crash when toplevel window cannot be found (bug #9417).
 - Revert "Remove XdndDirectSave0 protocol." (bug #9414).
 - Rename filename of insecure desktop files (bug #8786).
-- Cache pixmaps on the ThunarFile and drop ring buffer.
+- Cache pixmaps on the LunarFile and drop ring buffer.
 - Add lazy checks to thumbnailer.
 - Add menu item for permanent delete.
 - Only show "Move to Trash" if trash is supported.
@@ -1010,7 +1010,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Make massing plugin warnings non-fatal (bug #2604).
 - Show transfer rate in transfer dialog (bug #8250).
 - Check free space before copying (bug #5658).
-- Port settings to xfconf.
+- Port settings to esconf.
 - Handle null content-types when sorting (bug #8465).
 - Scroll to first file with pattern select.
 - Add secure desktop file launching (bug #5012).
@@ -1030,7 +1030,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.4.0
 =====
-- Add a 64x64 and 128x128 icon for Thunar.
+- Add a 64x64 and 128x128 icon for Lunar.
 - Move away from the hard-coded size of window icons (bug #8626).
 - Link against gmodule (bug #8467).
 - Don't use deprecated g_format_size_for_display.
@@ -1049,12 +1049,12 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Enable startup-notify in the uca example.
 - Hide thumb queue cleanup debug and plug memleak.
 - Plug more leaks in thumbnailer.
-- Reload ThunarView if job finishes.
+- Reload LunarView if job finishes.
 - Use macro to get uri where possible.
 - Free string in progress view.
 - Fix file selection problems.
 - Free module list in provider factory.
-- Use a normal ExoBinding to avoid mem leak.
+- Use a normal EndoBinding to avoid mem leak.
 - Bump 4util and 4ui dependencies.
 - Use macro to search for sed (bug #8686).
 - Translation updates: Catalan (Valencian), Czech, Greek, Basque,
@@ -1068,10 +1068,10 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Fix properties dialog crash with files with unknown content type.
 - Fix crash when hovering a CD drive with a special icon (bug #7309).
   Reported and solved by Ambroz Bizjak.
-- Use portable abicheck.sh from xfconf.
+- Use portable abicheck.sh from esconf.
 - Avoid segfaults due to interpreting display names as format strings.
 - Improve the UI according to bugs #7496 and #7497.
-- Treat backup files as hidden as with thunar-vfs (bug #7615).
+- Treat backup files as hidden as with lunar-vfs (bug #7615).
 - Fix crash when opening a mountable drive with no media (bug #7308)
   in a way that does not break SMB shares (#bug 7774).
   Patches by Ambroz Bizjak and Axel Sommerfeldt.
@@ -1084,7 +1084,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
   Fix by Lionel Le Folgoc<lionel@lefolgoc.net>.
 - Fix sorting of filenames with large numbers (bug #5356).
   Patch by Eric Koegel.
-- Respect ThunarIconFactory::show-thumbnails. Fixes a regression.
+- Respect LunarIconFactory::show-thumbnails. Fixes a regression.
 - Fix crash when removing an ancestor of the current folder (bug #8168).
 - Fix handling %U when launching multiple files with an app (bug #7456).
 - Improve sorting of file names that include numbers (bug #5359,
@@ -1093,7 +1093,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Compress icons and images.
 - Remove the manual.
 - Use 32 instead of 36 pixels for small icons.
-- Show Thunar settings in category.
+- Show Lunar settings in category.
 - Don't update UI more then fourth per second in deep count job.
 - Fix sorting of applications in chooser dialog.
 - Depend on Gtk 2.20 and Glib 2.24 and drop some workarounds.
@@ -1101,7 +1101,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Prevent looping in some renamers.
 - Fix segfault when plugin returns a NULL suffix.
 - Remove spec file, rpm build and update libtool.
-- Lowercase the thunar executable and install a Thunar symlink.
+- Lowercase the lunar executable and install a Lunar symlink.
 - Make the clipboard persistence (bug #7060).
 - Use glib functions for get/set cwd (bug #7522).
 - Don't interpret file display names as format strings
@@ -1116,7 +1116,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Only erase top-level items from trash (bug #7147).
 - Don't interpret file display names as format strings (bug #7128).
 - Ship stock_folder-copy.png and stock_folder-move.png icons with
-  Thunar itself (bug #6851).
+  Lunar itself (bug #6851).
 - Fix segfault when calling strcasecmp with NULL parameters (bug #7206).
 - Only change the Name field when renaming desktop files (bug #7155).
 - Force desktop file reload after changing the Name field.
@@ -1152,19 +1152,19 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.1.5
 =====
-- Make .desktop entries installed by Thunar validate against
+- Make .desktop entries installed by Lunar validate against
   desktop-file-utils 0.16 (bug #6655). Patch by Samuli Suominen.
 - Fix missing instruction to load the sendto model (bug #6762).
-- Fix the sample D-Bus client for the org.xfce.FileManager interface.
+- Fix the sample D-Bus client for the com.expidus.FileManager interface.
 - Fix home folder being displayed as "Desktop" if $HOME is set to
   /home/username/Desktop.
-- Fix outdated Thunar D-Bus API usage in the trash panel applet.
+- Fix outdated Lunar D-Bus API usage in the trash panel applet.
 - Create user dirs instead of showing an error if they don't exist.
 - Allow scrolling in the 'Open With' combo box of the file properties
   dialog (bug #3055).
 - Expand filenames starting with './' based on the current working
   directory instead of home (bug #3451).
-- Print an error if thunar-settings fails to contact the file manager
+- Print an error if lunar-settings fails to contact the file manager
   service (bug #6547).
 - Permanently delete files if at least one of them cannot be trashed
   (bug #6748).
@@ -1173,7 +1173,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Use GTK_STOCK_FILE as the fallback icon for files (bug #6662).
 - Fix compiler warnings about shadowed variables.
 - Use Name field as display name of desktop entries (bug #6860).
-- Fix a memory leak in thunar_transfer_job_execute().
+- Fix a memory leak in lunar_transfer_job_execute().
 - Fix a segmentation fault when reloading files.
 - Avoid GIO 2.20 function calls.
 - Properly avoid launching the file manager recursively by checking
@@ -1185,8 +1185,8 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.1.4
 =====
-- Add startup parameter to the D-Bus call in thunar-settings (bug
-  #6768). This will make thunar-settings start again.
+- Add startup parameter to the D-Bus call in lunar-settings (bug
+  #6768). This will make lunar-settings start again.
 - Properly hide partitions that are not mountable by the user.
 - Translation updates: Japanese, Finnish.
 
@@ -1214,18 +1214,18 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.1.2
 =====
-- Move helpers from $libexecdir to $libdir/Thunar.
-- Fix replacing @docdir@ in ThunarHelp.
-- Move panel plugin to $(libdir)/xfce4/panel/plugins.
+- Move helpers from $libexecdir to $libdir/Lunar.
+- Fix replacing @docdir@ in LunarHelp.
+- Move panel plugin to $(libdir)/expidus1/panel/plugins.
 - Move manual translations to docs/manual/po.
 - Abort dist when validating the xml file fails.
-- Wait for a reply in thunar-settings.
+- Wait for a reply in lunar-settings.
 - Add CopyTo, CopyInto, MoveInto, LinkInto, UnlinkFiles
   D-Bus methods.
 - Add startup-id to more D-Bus methods.
-- Move LaunchFiles to org.xfce.FM.
+- Move LaunchFiles to com.expidus.FM.
 - Remove README.volumes and ThumbnailersCacheFormat as
-  those are specific to thunar-vfs.
+  those are specific to lunar-vfs.
 - Display content type in the file properties dialog
   tooltip (bug #2369).
 - Translation updates (kk, pt, ca, fr, da, fi, it, uk, he, de,
@@ -1233,24 +1233,24 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.1.1
 =====
-- Port the code related to thunar-volman to udev. This is an optional
-  part of Thunar. The consequences are that instead of calling
-  thunar-volman with HAL UDIs, we'll now call thunar-volman with
-  sysfs paths. For this to work, a more recent version of thunar-volman
+- Port the code related to lunar-volman to udev. This is an optional
+  part of Lunar. The consequences are that instead of calling
+  lunar-volman with HAL UDIs, we'll now call lunar-volman with
+  sysfs paths. For this to work, a more recent version of lunar-volman
   is required: 0.5.0.
 - Re-implement mount/eject notifications based on libnotify.
   Notifications were gone after the port to GIO because we no longer
-  used exo-mount to mount or eject devices.
+  used endo-mount to mount or eject devices.
 - Fix segfaults when loading image icons.
 - Force a folder reload when the new_file closure is finished (bug
   #6409).
 - Update the trash panel plugin to the new panel framework.
 - Create status icon only when we're actually going to display it.
-- Change CWD before spawning applications in ThunarLauncher.
-- Fix browsing shortcuts and mountables in ThunarLauncher.
-- Synchronize ThunarListModel sorting with detailed list view
+- Change CWD before spawning applications in LunarLauncher.
+- Fix browsing shortcuts and mountables in LunarLauncher.
+- Synchronize LunarListModel sorting with detailed list view
   captions.
-- Fix sorting by type in ThunarListModel (bug #6143).
+- Fix sorting by type in LunarListModel (bug #6143).
 - Refilter the tree model when a hidden dir is entered/left (bug
   #6142).
 - Properly update the cursor when a row is deleted (bug #5361).
@@ -1263,22 +1263,22 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 1.1.0
 =====
-- Replace ThunarVFS with GIO. There will be a separate maintenance
-  release of ThunarVFS soon after this release. All functionality
-  previously based on ThunarVFS is now implemented on top of GIO
+- Replace LunarVFS with GIO. There will be a separate maintenance
+  release of LunarVFS soon after this release. All functionality
+  previously based on LunarVFS is now implemented on top of GIO
   and GVfs. This means that remote filesystems can be accessed via
   SFTP, FTP, SMB etc. For this as well as the trash feature GVfs
-  is required. Thunar does not depend on it because GVfs is a set
+  is required. Lunar does not depend on it because GVfs is a set
   of GIO extensions and there is no guarantee for those to be
   available at runtime if they are installed at buildtime. This is left
   for distributions to set up properly.
 - Thumbnails are now generated using the thumbnail management D-Bus
   specification. One implementation of this specification is Tumbler
   which is released independently.
-- Bump the API version of Thunarx to 2 because symbols related to
-  ThunarVFS were removed and replaced by new symbols dealing with GIO.
+- Bump the API version of Lunarx to 2 because symbols related to
+  LunarVFS were removed and replaced by new symbols dealing with GIO.
   This requires all existing plugins to be updated and linked against
-  thunarx-2 instead of thunarx-1.
+  lunarx-2 instead of lunarx-1.
 - Show "Network" item in the side pane and the "Go" menu if the
   network:// URI scheme is supported by GIO (via an extension). Make
   the "Trash" item optional too.
@@ -1291,18 +1291,18 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
   in order to support startup notification over D-Bus.
 - Avoid requesting drag data if the drag target is GDK_NONE (bug #5771).
 - Add startup notification support to the custom actions plugin.
-- Use install-exec-hook for installing the thunar symlink (bug #5835).
+- Use install-exec-hook for installing the lunar symlink (bug #5835).
 - Use silent build rules if available.
-- Use libxfce4ui instead of libxfcegui4.
-- Depend on xfce4-dev-tools >= 4.7.2 to get rid of custom configure code.
-- Depend on exo-1 >= 0.5.1.
+- Use libexpidus1ui instead of libexpidusgui4.
+- Depend on expidus1-dev-tools >= 4.7.2 to get rid of custom configure code.
+- Depend on endo-1 >= 0.5.1.
 - Updated translations: German, French, Chinese, Portuguese, Czech, Slovak,
   Latvian, Basque, Danish, Asturian, Japanese, Galician, Spanish, Greek,
   Turkish, Russian, Swedish, Catalan, Albanian, Kazakh.
 
 1.0.1
 ========
-- Put quotes around filenames in thunar-wallpaper-plugin (bug #5056)
+- Put quotes around filenames in lunar-wallpaper-plugin (bug #5056)
 - Apply umask properly when creating files/directories.
   Patch by Giovanni Bechis (bug #3532).
 
@@ -1336,7 +1336,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
   people with dead keys to use the location selector.
 - Unload folders in the tree side pane when they are collapsed (bug #4051).
 - Don't monitor /proc and /dev on Linux systems.
-- Implement window groups so modal dialogs don't block other Thunar
+- Implement window groups so modal dialogs don't block other Lunar
   windows (bug #3586).
 - Open a question dialog before removing a custom action (bug #3838).
 - Make the first alpha numeric character upper-case in the case renamer
@@ -1351,7 +1351,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
   one in the backward history (bug #4660).
 - Implement reorder, positioned drag and drop and rubberbanding in the
   renamer dialog (bug #3325).
-- Change Name value of the desktop entry to "Thunar File Manager".
+- Change Name value of the desktop entry to "Lunar File Manager".
 - Go back and forward using the 8th and 9th button on the mouse (bug #4687).
 - Various compilers warnings were fixed, some performace improvements
   and less memory allocations.
@@ -1363,9 +1363,9 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 0.9.92
 ======
 - Fix build on MacOS X (bug #4433).
-- Don't create Thunar -> thunar symlink on case-insensitive
+- Don't create Lunar -> lunar symlink on case-insensitive
   filesystems (bug #4430).
-- Add thunar-wallpaper-plugin for setting the wallpaper on
+- Add lunar-wallpaper-plugin for setting the wallpaper on
   xfdesktop >= 4.5.90.
 
 0.9.91
@@ -1374,8 +1374,8 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 
 0.9.80
 ======
-- Fix .desktop file to launch thunar-settings dialog with
-  xfce4-settings-manager
+- Fix .desktop file to launch lunar-settings dialog with
+  expidus1-settings-manager
 - Update Indonesian, Korean, Polisn, Arabic, Ukranian, Galician, Turkish,
   English Brittish, Lithuanian, Latvian, Chinese (traditional), Portuguese,
   Brazilian Portuguese, Catalan, Greek, French, Spanish, Russian, Czech and
@@ -1388,7 +1388,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Do not display volumes without mountable file systems (Bug #3555).
 - Properly recognize OGG files as audio files for custom actions (Bug #3604).
 - Add new date renamer (Bug #3656).
-- Pass the correct $DISPLAY value to processes spawned by Thunar and
+- Pass the correct $DISPLAY value to processes spawned by Lunar and
   xfdesktop in multi screen environments (Bug #3667).
 - Preselect the whole filename when renaming folders (Bug #3057).
 - Prevent infinite recursion on JPEG files with broken EXIF data (Bug #3452).
@@ -1398,7 +1398,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Add support for different date/time formats (Bug #3265).
 - Fix crash on sparc64 (Bug #2815).
 - Properly binaries selected for custom actions (Bug #3105).
-- Fix invalid invocation of thunar-volman for volumes that should be
+- Fix invalid invocation of lunar-volman for volumes that should be
   ignored (Bug #2789).
 - Reduce binary size by stripping XML comments and whitespace (Bug #3094).
 - Use the correct HAL property to determine whether a given volume or
@@ -1435,14 +1435,14 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Improve startup notification support.
 - Add support for trashes other than the home trash (Bug #2132).
 - Fix crash on platforms where sizeof(GType) != sizeof(gint) (Bug #2726).
-- Add support for thunar-volman, which gets invoked by Thunar whenever a
+- Add support for lunar-volman, which gets invoked by Lunar whenever a
   new device is added to the HAL device tree.
 - Add support for memory cards and generic removable disk drives (Bug #2652).
 - Handle blank discs and pure audio discs as well (Bug #2599).
-- Use exo-mount to mount, eject and unmount volumes of relying on external
+- Use endo-mount to mount, eject and unmount volumes of relying on external
   utilities, like pmount or gnome-mount, that do not always behave properly
   (Bug #2715).
-- Add ability to mount floppy drives using exo-mount (Bug #2075).
+- Add ability to mount floppy drives using endo-mount (Bug #2075).
 - Make sure GThread gets initialized first to avoid possible crashes in
   the GSlice allocator later.
 - Add ability to load custom thumbnailers from .desktop files.
@@ -1452,9 +1452,9 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
   lock-free algorithm.
 - Ellipsize long shortcut names, but make sure "File System" still fits into
   the side pane.
-- Properly initialize the translation domain for thunar-vfs (Bug #2543).
+- Properly initialize the translation domain for lunar-vfs (Bug #2543).
 - Do not gather detailed statistics from non-regular files to avoid blocking
-  Thunar forever reading from a named pipe (Bug #2655).
+  Lunar forever reading from a named pipe (Bug #2655).
 - Add keyboard shortcuts to switch between the different views (Bug #2600).
 - Do not display "Desktop (Create Link)" action in "Send To" menu for
   trashed files, because symlinks cannot be created for files in the
@@ -1488,17 +1488,17 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
   being used (#2024).
 - Add support for HAL on FreeBSD. Make HAL the preferred volume manager on
   FreeBSD.
-- Adjust the preferences dialog to match the look of the other Xfce preferences
+- Adjust the preferences dialog to match the look of the other Expidus preferences
   dialogs (#2379).
 - Allow to change the icon of .desktop files (#2150).
-- Allow Thunar extensions to add menu items to the Drag'n'Drop context menu.
-  This is for example used by the thunar-archive-plugin to add an "Extract
+- Allow Lunar extensions to add menu items to the Drag'n'Drop context menu.
+  This is for example used by the lunar-archive-plugin to add an "Extract
   Here" action, which extracts a dragged archive file at the drop location.
 - Display the real mime type as tooltip for the "Kind" label in the properties
   dialog (#2369).
 - Keep the modification time when copying files (#2244).
 - Make sure emblems don't get too large with SVG icon themes (#2466).
-- Make sure Thunar is restarted prior to xfdesktop, so the trash support in
+- Make sure Lunar is restarted prior to xfdesktop, so the trash support in
   xfdesktop works as expected even if D-Bus autoactivation is not setup
   properly.
 - Place automake options into configure.in.in instead of Makefile.am and add
@@ -1513,7 +1513,7 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Update the icon mime icon lookup to try icon names from Icon Naming Spec
   first, and fallback to legacy GNOME icon names.
 - Use default dbus connection timeout (#2243).
-- Use exo-open for the default "Open Terminal Here" action (#2256).
+- Use endo-open for the default "Open Terminal Here" action (#2256).
 - Use the thumbnail database to load SVG icons from the icon theme, because
   loading SVG is quite slow and takes a lot more memory than loading and
   scaling PNG icons from the thumbnail database.
@@ -1542,10 +1542,10 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 0.4.0rc1
 ========
 - An implementation of the XDG Trash Specification was imported and is now
-  used by both Thunar and xfdesktop to display and manage trashed files.
+  used by both Lunar and xfdesktop to display and manage trashed files.
   The implementation is currently limited to the home trash, but that will
   be extended to support foreign trash cans soon.
-- Add a trash panel applet for the Xfce panel, that displays the current
+- Add a trash panel applet for the Expidus panel, that displays the current
   state of the trash, allows to open and empty the trash, and supports
   drops of files to the trash.
 - Add "No to all" response to the transfer progress dialog, which allows to
@@ -1555,15 +1555,15 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
   GTK+ 2.9.0 and above (Bug #1996).
 - Add menus to the "Back" and "Forward" buttons in the toolbar (Bug #1782).
 - Update the path bar with the latest changes to GtkFileChooser (Bug #2060).
-- The dependency of the thunar-vfs library on GConf is gone. Instead the
+- The dependency of the lunar-vfs library on GConf is gone. Instead the
   available thumbnailers are now determined by an external tool and added to
-  a cache file, which will be mapped by all processes using the thunar-vfs
+  a cache file, which will be mapped by all processes using the lunar-vfs
   library (Bug #2131).
 - Add a new thumbnailer for TrueType fonts using the FreeType 2.x library.
 - Add a warning text to the window when running as super user (Bug #2218).
 - Add desktop shortcut to the shortcuts pane and use a special icon for the
   desktop folder (Bug #2235).
-- Use the new icon chooser dialog, available with exo 0.3.1.10rc1, to pick
+- Use the new icon chooser dialog, available with endo 0.3.1.10rc1, to pick
   icons for custom actions.
 - Fix invalid display of the file's group in the properties dialog (Bug #1838).
 - Fix the location entry completion crashing with certain GTK+ versions (Bug
@@ -1577,12 +1577,12 @@ Ukrainian, Urdu, Urdu (Pakistan), Uyghur, Vietnamese
 - Fix compilation with compilers other than gcc (Bug #1852).
 - Fix compilation on NetBSD 2.99 and above.
 - Fix compilation on OpenBSD.
-- Add manual page for Thunar (Bug #1650).
+- Add manual page for Lunar (Bug #1650).
 - Unmount volumes prior to ejecting them (Bug #2236).
 - Do not use different icons to represent the home folder.
-- Use "<folder> - File Manager" for the title of Thunar windows to make it
+- Use "<folder> - File Manager" for the title of Lunar windows to make it
   easier to identify file manager windows in the taskbar.
-- The thunar-vfs reference manual was updated to reflect the latest changes.
+- The lunar-vfs reference manual was updated to reflect the latest changes.
 - Case sensitive sorting is now disabled by default (Bug #2064).
 - Use a localized human readable format for the file dates (Bug #2057).
 - Use the new GSlice allocator where possible to reduce memory overhead.

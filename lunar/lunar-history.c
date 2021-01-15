@@ -1,0 +1,725 @@
+/* vi:set et ai sw=2 sts=2 ts=2: */
+/*-
+ * Copyright (c) 2005-2006 Benedikt Meurer <benny@expidus.org>
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License as published by the Free
+ * Software Foundation; either version 2 of the License, or (at your option)
+ * any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+ * more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program; if not, write to the Free Software Foundation, Inc., 59 Temple
+ * Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
+#include <lunar/lunar-gobject-extensions.h>
+#include <lunar/lunar-gtk-extensions.h>
+#include <lunar/lunar-history.h>
+#include <lunar/lunar-icon-factory.h>
+#include <lunar/lunar-navigator.h>
+#include <lunar/lunar-private.h>
+#include <lunar/lunar-dialogs.h>
+
+#include <libexpidus1ui/libexpidus1ui.h>
+
+
+
+/* Property identifiers */
+enum
+{
+  PROP_0,
+  PROP_CURRENT_DIRECTORY,
+};
+
+/* Signal identifiers */
+enum
+{
+  HISTORY_CHANGED,
+  LAST_SIGNAL,
+};
+
+
+
+static void            lunar_history_navigator_init         (LunarNavigatorIface *iface);
+static void            lunar_history_finalize               (GObject              *object);
+static void            lunar_history_get_property           (GObject              *object,
+                                                              guint                 prop_id,
+                                                              GValue               *value,
+                                                              GParamSpec           *pspec);
+static void            lunar_history_set_property           (GObject              *object,
+                                                              guint                 prop_id,
+                                                              const GValue         *value,
+                                                              GParamSpec           *pspec);
+static LunarFile     *lunar_history_get_current_directory  (LunarNavigator      *navigator);
+static void            lunar_history_set_current_directory  (LunarNavigator      *navigator,
+                                                              LunarFile           *current_directory);
+static void            lunar_history_go_back                (LunarHistory        *history,
+                                                              GFile                *goto_file);
+static void            lunar_history_go_forward             (LunarHistory        *history,
+                                                              GFile                *goto_file);
+static void            lunar_history_action_back_nth        (GtkWidget            *item,
+                                                              LunarHistory        *history);
+static void            lunar_history_action_forward_nth     (GtkWidget            *item,
+                                                              LunarHistory        *history);
+
+
+
+struct _LunarHistory
+{
+  GObject __parent__;
+
+  LunarFile     *current_directory;
+
+  GSList         *back_list;
+  GSList         *forward_list;
+};
+
+static guint history_signals[LAST_SIGNAL];
+
+G_DEFINE_TYPE_WITH_CODE (LunarHistory, lunar_history, G_TYPE_OBJECT,
+    G_IMPLEMENT_INTERFACE (LUNAR_TYPE_NAVIGATOR, lunar_history_navigator_init))
+
+
+
+static GQuark lunar_history_display_name_quark;
+static GQuark lunar_history_gfile_quark;
+
+
+
+static void
+lunar_history_class_init (LunarHistoryClass *klass)
+{
+  GObjectClass *gobject_class;
+
+  gobject_class = G_OBJECT_CLASS (klass);
+  gobject_class->finalize = lunar_history_finalize;
+  gobject_class->get_property = lunar_history_get_property;
+  gobject_class->set_property = lunar_history_set_property;
+
+  lunar_history_display_name_quark = g_quark_from_static_string ("lunar-history-display-name");
+  lunar_history_gfile_quark = g_quark_from_static_string ("lunar-history-gfile");
+
+  /**
+   * LunarHistory::current-directory:
+   *
+   * Inherited from #LunarNavigator.
+   **/
+  g_object_class_override_property (gobject_class,
+                                    PROP_CURRENT_DIRECTORY,
+                                    "current-directory");
+
+  history_signals[HISTORY_CHANGED] =
+    g_signal_new (I_("history-changed"),
+                  G_TYPE_FROM_CLASS (klass),
+                  G_SIGNAL_RUN_LAST,
+                  G_STRUCT_OFFSET (LunarHistoryClass, history_changed),
+                  NULL, NULL,
+                  g_cclosure_marshal_VOID__STRING,
+                  G_TYPE_NONE, 1, G_TYPE_STRING);
+}
+
+
+
+static void
+lunar_history_navigator_init (LunarNavigatorIface *iface)
+{
+  iface->get_current_directory = lunar_history_get_current_directory;
+  iface->set_current_directory = lunar_history_set_current_directory;
+}
+
+
+
+static void
+lunar_history_init (LunarHistory *history)
+{
+
+}
+
+
+
+static void
+lunar_history_finalize (GObject *object)
+{
+  LunarHistory *history = LUNAR_HISTORY (object);
+
+  /* release the "forward" and "back" lists */
+  g_slist_free_full (history->forward_list, g_object_unref);
+  g_slist_free_full (history->back_list, g_object_unref);
+
+  (*G_OBJECT_CLASS (lunar_history_parent_class)->finalize) (object);
+}
+
+
+
+static void
+lunar_history_get_property (GObject    *object,
+                             guint       prop_id,
+                             GValue     *value,
+                             GParamSpec *pspec)
+{
+  LunarHistory *history = LUNAR_HISTORY (object);
+
+  switch (prop_id)
+    {
+    case PROP_CURRENT_DIRECTORY:
+      g_value_set_object (value, lunar_navigator_get_current_directory (LUNAR_NAVIGATOR (history)));
+      break;
+
+    default:
+      G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
+      break;
+    }
+}
+
+
+
+static void
+lunar_history_set_property (GObject      *object,
+                             guint         prop_id,
+                             const GValue *value,
+                             GParamSpec   *pspec)
+{
+  LunarHistory *history = LUNAR_HISTORY (object);
+
+  switch (prop_id)
+    {
+    case PROP_CURRENT_DIRECTORY:
+      lunar_navigator_set_current_directory (LUNAR_NAVIGATOR (history), g_value_get_object (value));
+      break;
+
+    default:
+      G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
+      break;
+    }
+}
+
+
+
+static LunarFile*
+lunar_history_get_current_directory (LunarNavigator *navigator)
+{
+  return LUNAR_HISTORY (navigator)->current_directory;
+}
+
+
+
+static GFile *
+lunar_history_get_gfile (LunarFile *file)
+{
+  GFile       *gfile;
+  const gchar *display_name;
+
+  _lunar_return_val_if_fail (LUNAR_IS_FILE (file), NULL);
+
+  gfile = lunar_file_get_file (file);
+
+  display_name = lunar_file_get_display_name (file);
+  g_object_set_qdata_full (G_OBJECT (gfile), lunar_history_display_name_quark,
+                           g_strdup (display_name), g_free);
+
+  return g_object_ref (gfile);
+}
+
+
+
+static void
+lunar_history_set_current_directory (LunarNavigator *navigator,
+                                      LunarFile      *current_directory)
+{
+  LunarHistory *history = LUNAR_HISTORY (navigator);
+  GFile         *gfile;
+
+  /* verify that we don't already use that directory */
+  if (G_UNLIKELY (current_directory == history->current_directory))
+    return;
+
+  /* if the new directory is the first one in the forward history, we
+   * just move forward one step instead of clearing the whole forward
+   * history */
+  if (current_directory != NULL
+      && history->forward_list != NULL
+      && g_file_equal (lunar_file_get_file (current_directory), history->forward_list->data))
+    {
+      lunar_history_go_forward (history, history->forward_list->data);
+    }
+  else
+    {
+      /* clear the "forward" list */
+      g_slist_free_full (history->forward_list, g_object_unref);
+      history->forward_list = NULL;
+
+      /* prepend the previous current directory to the "back" list */
+      if (G_LIKELY (history->current_directory != NULL))
+        {
+          gfile = lunar_history_get_gfile (history->current_directory);
+          history->back_list = g_slist_prepend (history->back_list, gfile);
+
+          g_object_unref (history->current_directory);
+        }
+
+      /* activate the new current directory */
+      history->current_directory = current_directory;
+
+      /* connect to the new current directory */
+      if (G_LIKELY (current_directory != NULL))
+        g_object_ref (G_OBJECT (current_directory));
+    }
+
+  /* notify listeners */
+  if (current_directory != NULL)
+    {
+      g_object_notify (G_OBJECT (history), "current-directory");
+      g_signal_emit (G_OBJECT (history), history_signals[HISTORY_CHANGED], 0, history);
+    }
+}
+
+
+
+static void
+lunar_history_error_not_found (GFile    *goto_file,
+                                gpointer  parent)
+{
+  gchar  *parse_name;
+  gchar  *path;
+  GError *error = NULL;
+
+  g_set_error_literal (&error, G_FILE_ERROR, G_FILE_ERROR_EXIST,
+                       _("The item will be removed from the history"));
+
+  path = g_file_get_path (goto_file);
+  if (path == NULL)
+    {
+      path = g_file_get_uri (goto_file);
+      parse_name = g_uri_unescape_string (path, NULL);
+      g_free (path);
+    }
+  else
+    parse_name = g_file_get_parse_name (goto_file);
+
+  lunar_dialogs_show_error (parent, error, _("Could not find \"%s\""), parse_name);
+  g_free (parse_name);
+
+  g_error_free (error);
+}
+
+
+
+static void
+lunar_history_go_back (LunarHistory  *history,
+                        GFile          *goto_file)
+{
+  GFile      *gfile;
+  GSList     *lp;
+  GSList     *lnext;
+  LunarFile *directory;
+
+  _lunar_return_if_fail (LUNAR_IS_HISTORY (history));
+  _lunar_return_if_fail (G_IS_FILE (goto_file));
+
+  /* check if the directory still exists */
+  directory = lunar_file_get (goto_file, NULL);
+  if (directory == NULL || ! lunar_file_is_mounted (directory))
+    {
+      lunar_history_error_not_found (goto_file, NULL);
+
+      /* delete item from the history */
+      lp = g_slist_find (history->back_list, goto_file);
+      if (lp != NULL)
+        {
+          g_object_unref (lp->data);
+          history->back_list = g_slist_delete_link (history->back_list, lp);
+        }
+      return;
+    }
+
+  /* prepend the previous current directory to the "forward" list */
+  if (G_LIKELY (history->current_directory != NULL))
+    {
+      gfile = lunar_history_get_gfile (history->current_directory);
+      history->forward_list = g_slist_prepend (history->forward_list, gfile);
+
+      g_object_unref (history->current_directory);
+      history->current_directory = NULL;
+    }
+
+  /* add all the items of the back list to the "forward" list until
+   * the target file is reached  */
+  for (lp = history->back_list; lp != NULL; lp = lnext)
+    {
+      lnext = lp->next;
+
+      if (g_file_equal (goto_file, G_FILE (lp->data)))
+        {
+          if (directory != NULL)
+            history->current_directory = g_object_ref (directory);
+
+          /* remove the new directory from the list */
+          g_object_unref (lp->data);
+          history->back_list = g_slist_delete_link (history->back_list, lp);
+
+          break;
+        }
+
+      /* remove item from the list */
+      history->back_list = g_slist_remove_link (history->back_list, lp);
+
+      /* prepend element to the other list */
+      lp->next = history->forward_list;
+      history->forward_list = lp;
+    }
+
+  if (directory != NULL)
+    g_object_unref (directory);
+
+  /* tell the other modules to change the current directory */
+  if (G_LIKELY (history->current_directory != NULL))
+    lunar_navigator_change_directory (LUNAR_NAVIGATOR (history), history->current_directory);
+}
+
+
+
+static void
+lunar_history_go_forward (LunarHistory  *history,
+                           GFile          *goto_file)
+{
+  GFile      *gfile;
+  GSList     *lnext;
+  GSList     *lp;
+  LunarFile *directory;
+
+  _lunar_return_if_fail (LUNAR_IS_HISTORY (history));
+  _lunar_return_if_fail (G_IS_FILE (goto_file));
+
+  /* check if the directory still exists */
+  directory = lunar_file_get (goto_file, NULL);
+  if (directory == NULL || ! lunar_file_is_mounted (directory))
+    {
+      lunar_history_error_not_found (goto_file, NULL);
+
+      /* delete item from the history */
+      lp = g_slist_find (history->forward_list, goto_file);
+      if (lp != NULL)
+        {
+          g_object_unref (lp->data);
+          history->forward_list = g_slist_delete_link (history->forward_list, lp);
+        }
+      return;
+    }
+
+  /* prepend the previous current directory to the "back" list */
+  if (G_LIKELY (history->current_directory != NULL))
+    {
+      gfile = lunar_history_get_gfile (history->current_directory);
+      history->back_list = g_slist_prepend (history->back_list, gfile);
+
+      g_object_unref (history->current_directory);
+      history->current_directory = NULL;
+    }
+
+  for (lp = history->forward_list; lp != NULL; lp = lnext)
+    {
+      lnext = lp->next;
+
+      if (g_file_equal (goto_file, G_FILE (lp->data)))
+        {
+          if (directory != NULL)
+            history->current_directory = g_object_ref (directory);
+
+          /* remove the new dirctory from the list */
+          g_object_unref (lp->data);
+          history->forward_list = g_slist_delete_link (history->forward_list, lp);
+
+          break;
+        }
+
+      /* remove item from the list */
+      history->forward_list = g_slist_remove_link (history->forward_list, lp);
+
+      /* prepend item to the back list */
+      lp->next = history->back_list;
+      history->back_list = lp;
+    }
+
+  if (directory != NULL)
+    g_object_unref (directory);
+
+  /* tell the other modules to change the current directory */
+  if (G_LIKELY (history->current_directory != NULL))
+    lunar_navigator_change_directory (LUNAR_NAVIGATOR (history), history->current_directory);
+}
+
+
+
+void
+lunar_history_action_back (LunarHistory *history)
+{
+  _lunar_return_if_fail (LUNAR_IS_HISTORY (history));
+
+  /* go back one step */
+  if (history->back_list != NULL)
+    lunar_history_go_back (history, history->back_list->data);
+}
+
+
+
+static void
+lunar_history_action_back_nth (GtkWidget     *item,
+                                LunarHistory *history)
+{
+  GFile *file;
+
+  _lunar_return_if_fail (GTK_IS_MENU_ITEM (item));
+  _lunar_return_if_fail (LUNAR_IS_HISTORY (history));
+
+  file = g_object_get_qdata (G_OBJECT (item), lunar_history_gfile_quark);
+  if (G_LIKELY (file != NULL))
+    lunar_history_go_back (history, file);
+}
+
+
+
+void
+lunar_history_action_forward (LunarHistory *history)
+{
+  _lunar_return_if_fail (LUNAR_IS_HISTORY (history));
+
+  /* go forward one step */
+  if (history->forward_list != NULL)
+    lunar_history_go_forward (history, history->forward_list->data);
+}
+
+
+
+static void
+lunar_history_action_forward_nth (GtkWidget     *item,
+                                   LunarHistory *history)
+{
+  GFile *file;
+
+  _lunar_return_if_fail (GTK_IS_MENU_ITEM (item));
+  _lunar_return_if_fail (LUNAR_IS_HISTORY (history));
+
+  file = g_object_get_qdata (G_OBJECT (item), lunar_history_gfile_quark);
+  if (G_LIKELY (file != NULL))
+    lunar_history_go_forward (history, file);
+}
+
+
+
+void
+lunar_history_show_menu (LunarHistory         *history,
+                          LunarHistoryMenuType  type,
+                          GtkWidget             *parent)
+{
+  LunarIconFactory *icon_factory;
+  GtkIconTheme      *icon_theme;
+  GCallback          handler;
+  GtkWidget         *image;
+  GtkWidget         *menu;
+  GtkWidget         *item;
+  GdkPixbuf         *icon;
+  GSList            *lp;
+  LunarFile        *file;
+  const gchar       *display_name;
+  const gchar       *icon_name;
+  gchar             *parse_name;
+
+  _lunar_return_if_fail (GTK_IS_WIDGET (parent));
+  _lunar_return_if_fail (LUNAR_IS_HISTORY (history));
+
+  menu = gtk_menu_new ();
+
+  /* determine the icon factory to use to load the icons */
+  icon_theme = gtk_icon_theme_get_for_screen (gtk_widget_get_screen (parent));
+  icon_factory = lunar_icon_factory_get_for_icon_theme (icon_theme);
+
+  /* check if we have "Back" or "Forward" here */
+  if (type == LUNAR_HISTORY_MENU_BACK)
+    {
+      /* display the "back" list */
+      lp = history->back_list;
+      handler = G_CALLBACK (lunar_history_action_back_nth);
+    }
+  else
+    {
+      /* display the "forward" list */
+      lp = history->forward_list;
+      handler = G_CALLBACK (lunar_history_action_forward_nth);
+    }
+
+  /* add menu items for all list items */
+  for (;lp != NULL; lp = lp->next)
+    {
+      parse_name = g_file_get_parse_name (lp->data);
+      file = lunar_file_cache_lookup (lp->data);
+      image = NULL;
+      if (file != NULL)
+        {
+          /* load the icon for the file */
+          icon = lunar_icon_factory_load_file_icon (icon_factory, file, LUNAR_FILE_ICON_STATE_DEFAULT, 16);
+          if (icon != NULL)
+            {
+              /* setup the image for the file */
+              image = gtk_image_new_from_pixbuf (icon);
+              g_object_unref (G_OBJECT (icon));
+            }
+
+          g_object_unref (file);
+        }
+
+      if (image == NULL)
+        {
+          /* some custom likely alternatives */
+          if (lunar_g_file_is_home (lp->data))
+            icon_name = "user-home";
+          else if (!g_file_has_uri_scheme (lp->data, "file"))
+            icon_name = "folder-remote";
+          else if (lunar_g_file_is_root (lp->data))
+            icon_name = "drive-harddisk";
+          else
+            icon_name = "folder";
+
+          image = gtk_image_new_from_icon_name (icon_name, GTK_ICON_SIZE_MENU);
+        }
+
+      /* add an item for this file */
+      display_name = g_object_get_qdata (G_OBJECT (lp->data), lunar_history_display_name_quark);
+      item = expidus_gtk_image_menu_item_new (display_name, parse_name, NULL,
+                                           NULL, NULL, image, GTK_MENU_SHELL (menu));
+      g_object_set_qdata (G_OBJECT (item), lunar_history_gfile_quark, lp->data);
+      g_signal_connect (G_OBJECT (item), "activate", handler, history);
+
+      g_free (parse_name);
+    }
+
+  gtk_widget_show_all (menu);
+  /* release the icon factory */
+  g_object_unref (G_OBJECT (icon_factory));
+
+  /* run the menu (takes over the floating of menu) */
+  lunar_gtk_menu_run (GTK_MENU (menu));
+}
+
+
+
+LunarHistory *
+lunar_history_copy (LunarHistory *history)
+{
+  LunarHistory *copy;
+  GSList        *lp;
+
+  _lunar_return_val_if_fail (history == NULL || LUNAR_IS_HISTORY (history), NULL);
+
+  if (G_UNLIKELY (history == NULL))
+    return NULL;
+
+  copy = g_object_new (LUNAR_TYPE_HISTORY, NULL);
+
+  /* take a ref on the current directory */
+  copy->current_directory = g_object_ref (history->current_directory);
+
+  /* copy the back list */
+  for (lp = history->back_list; lp != NULL; lp = lp->next)
+      copy->back_list = g_slist_append (copy->back_list, g_object_ref (G_OBJECT (lp->data)));
+
+  /* copy the forward list */
+  for (lp = history->forward_list; lp != NULL; lp = lp->next)
+      copy->forward_list = g_slist_append (copy->forward_list, g_object_ref (G_OBJECT (lp->data)));
+
+  return copy;
+}
+
+
+
+/**
+ * lunar_history_has_back:
+ * @history : a #LunarHistory.
+ *
+ * Return value: TRUE if there is a backward history
+ **/
+gboolean
+lunar_history_has_back (LunarHistory *history)
+{
+  _lunar_return_val_if_fail (LUNAR_IS_HISTORY (history), FALSE);
+
+  return history->back_list != NULL;
+}
+
+
+
+
+/**
+ * lunar_history_has_forward:
+ * @history : a #LunarHistory.
+ *
+ * Return value: TRUE if there is a forward history
+ **/
+gboolean
+lunar_history_has_forward (LunarHistory *history)
+{
+  _lunar_return_val_if_fail (LUNAR_IS_HISTORY (history), FALSE);
+
+  return history->forward_list != NULL;
+}
+
+
+
+/**
+ * lunar_file_history_peek_back:
+ * @history : a #LunarHistory.
+ *
+ * Returns the previous directory in the history.
+ *
+ * The returned #LunarFile must be released by the caller.
+ *
+ * Return value: the previous #LunarFile in the history.
+ **/
+LunarFile *
+lunar_history_peek_back (LunarHistory *history)
+{
+  LunarFile *result = NULL;
+
+  _lunar_return_val_if_fail (LUNAR_IS_HISTORY (history), NULL);
+
+  /* pick the first (conceptually the last) file in the back list, if there are any */
+  if (history->back_list != NULL)
+    result = lunar_file_get (history->back_list->data, NULL);
+
+  return result;
+}
+
+
+
+/**
+ * lunar_file_history_peek_forward:
+ * @history : a #LunarHistory.
+ *
+ * Returns the next directory in the history. This often but not always
+ * refers to a child of the current directory.
+ *
+ * The returned #LunarFile must be released by the caller.
+ *
+ * Return value: the next #LunarFile in the history.
+ **/
+LunarFile *
+lunar_history_peek_forward (LunarHistory *history)
+{
+  LunarFile *result = NULL;
+
+  _lunar_return_val_if_fail (LUNAR_IS_HISTORY (history), NULL);
+
+  /* pick the first file in the forward list, if there are any */
+  if (history->forward_list != NULL)
+    result = lunar_file_get (history->forward_list->data, NULL);
+
+  return result;
+}

@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+extensionsdir=${libdir}/lunarx-@LUNARX_VERSION_API@
+
+Name: lunarx
+Description: A library to create Lunar extensions
+Requires: gtk+-3.0 gio-2.0
+Version: @PACKAGE_VERSION@
+Libs: -L${libdir} -llunarx-@LUNARX_VERSION_API@
+Cflags: -I${includedir}/lunarx-@LUNARX_VERSION_API@

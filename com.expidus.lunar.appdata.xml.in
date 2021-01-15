@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 Ryan Lerch <rlerch@redhat.com> -->
+
+<component type="desktop-application">
+  <id type="desktop">com.expidus.Lunar</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>GPL-2.0</project_license>
+  <name>Lunar</name>
+  <summary>File Browser</summary>
+  <description>
+    <_p>
+      Lunar is a file browser specifically designed for the Expidus Desktop, but also can
+      serve as an alternate file browser for other Desktop environments. It has a simple,
+      clean two-pane design for browsing all your files.
+    </_p>
+  </description>
+  <url type="homepage">https://expidus.org/projects</url>
+  <url type="bugtracker">https://gitlab.expidus.com/expidus/lunar</url>
+  <url type="help">https://docs.expidus.com/expidus/lunar/start</url>
+
+  <screenshots>
+    <screenshot type="default">https://docs.expidus.org/_media/expidus/lunar/file-manager-window.png</screenshot>
+  </screenshots>
+
+  <categories>
+    <category>System</category>
+  </categories>
+
+  <project_group>Expidus</project_group>
+  <updatecontact>expidus1-dev@expidus.org</updatecontact>
+  <translation type="gettext">Lunar</translation>
+</component>

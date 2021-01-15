@@ -1,7 +1,7 @@
-thunarx/thunarx-file-info.c
-thunarx/thunarx-menu-provider.c
-thunarx/thunarx-preferences-provider.c
-thunarx/thunarx-property-page-provider.c
-thunarx/thunarx-provider-factory.c
-thunarx/thunarx-provider-module.c
-thunarx/thunarx-renamer-provider.c
+lunarx/lunarx-file-info.c
+lunarx/lunarx-menu-provider.c
+lunarx/lunarx-preferences-provider.c
+lunarx/lunarx-property-page-provider.c
+lunarx/lunarx-provider-factory.c
+lunarx/lunarx-provider-module.c
+lunarx/lunarx-renamer-provider.c

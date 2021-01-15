@@ -74,10 +74,10 @@ of `autoconf'.
   3. Optionally, type `make check' to run any self-tests that come with
      the package, generally using the just-built uninstalled binaries.
      
-  4. After that it is possible to run thunar directly from the source-folder:
-     ./thunar/thunar -q;./thunar/thunar
-     The -q argument will quit any running thunar-daemon.
-     However if you want to make use of thunar-plugin, you will need to
+  4. After that it is possible to run lunar directly from the source-folder:
+     ./lunar/lunar -q;./lunar/lunar
+     The -q argument will quit any running lunar-daemon.
+     However if you want to make use of lunar-plugin, you will need to
      run 'make install':
 
   5. Type `make install' to install the programs and any data files and

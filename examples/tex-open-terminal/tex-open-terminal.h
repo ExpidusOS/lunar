@@ -1,6 +1,6 @@
 /* vi:set et ai sw=2 sts=2 ts=2: */
 /*-
- * Copyright (c) 2005 Benedikt Meurer <benny@xfce.org>
+ * Copyright (c) 2005 Benedikt Meurer <benny@expidus.org>
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
@@ -21,7 +21,7 @@
 #ifndef __TEX_OPEN_TERMINAL_H__
 #define __TEX_OPEN_TERMINAL_H__
 
-#include <thunarx/thunarx.h>
+#include <lunarx/lunarx.h>
 
 G_BEGIN_DECLS;
 
@@ -36,7 +36,7 @@ typedef struct _TexOpenTerminal      TexOpenTerminal;
 #define TEX_OPEN_TERMINAL_GET_CLASS(obj)  (G_TYPE_INSTANCE_GET_CLASS ((obj), TEX_TYPE_OPEN_TERMINAL, TexOpenTerminalClass))
 
 GType tex_open_terminal_get_type      (void) G_GNUC_CONST;
-void  tex_open_terminal_register_type (ThunarxProviderPlugin *plugin);
+void  tex_open_terminal_register_type (LunarxProviderPlugin *plugin);
 
 G_END_DECLS;
 

@@ -10,12 +10,12 @@
 # Nguyễn Quốc Vinh , <kureikain@gmail.com>, <line : 601-end>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: Thunar\n"
+"Project-Id-Version: Lunar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-12-03 00:45+0100\n"
 "PO-Revision-Date: 2020-12-13 00:51+0000\n"
 "Last-Translator: Le Tri <Leminhtri10a1t@gmail.com>\n"
-"Language-Team: Vietnamese (http://www.transifex.com/xfce/thunar/language/vi/)\n"
+"Language-Team: Vietnamese (http://www.transifex.com/expidus/lunar/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,181 +23,181 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. setup application name
-#: ../thunar/main.c:57
-msgid "Thunar"
-msgstr "Thunar"
+#: ../lunar/main.c:57
+msgid "Lunar"
+msgstr "Lunar"
 
-#: ../thunar/thunar-abstract-icon-view.c:118
+#: ../lunar/lunar-abstract-icon-view.c:118
 msgid "Arran_ge Items"
 msgstr "_Sắp xếp các mục"
 
-#: ../thunar/thunar-abstract-icon-view.c:119
+#: ../lunar/lunar-abstract-icon-view.c:119
 msgid "By _Name"
 msgstr ""
 
-#: ../thunar/thunar-abstract-icon-view.c:119
+#: ../lunar/lunar-abstract-icon-view.c:119
 msgid "Keep items sorted by their name"
 msgstr "Giữ các mục được sắp xếp theo tên"
 
-#: ../thunar/thunar-abstract-icon-view.c:120
+#: ../lunar/lunar-abstract-icon-view.c:120
 msgid "By _Size"
 msgstr ""
 
-#: ../thunar/thunar-abstract-icon-view.c:120
+#: ../lunar/lunar-abstract-icon-view.c:120
 msgid "Keep items sorted by their size"
 msgstr "Giữ các mục được sắp xếp theo kích thước"
 
-#: ../thunar/thunar-abstract-icon-view.c:121
+#: ../lunar/lunar-abstract-icon-view.c:121
 msgid "By _Type"
 msgstr ""
 
-#: ../thunar/thunar-abstract-icon-view.c:121
+#: ../lunar/lunar-abstract-icon-view.c:121
 msgid "Keep items sorted by their type"
 msgstr "Giữ các mục được sắp xếp theo loại"
 
-#: ../thunar/thunar-abstract-icon-view.c:122
+#: ../lunar/lunar-abstract-icon-view.c:122
 msgid "By Modification _Date"
 msgstr ""
 
-#: ../thunar/thunar-abstract-icon-view.c:122
+#: ../lunar/lunar-abstract-icon-view.c:122
 msgid "Keep items sorted by their modification date"
 msgstr "Giữ các mục được sắp xếp theo ngày chỉnh sửa"
 
-#: ../thunar/thunar-abstract-icon-view.c:123
+#: ../lunar/lunar-abstract-icon-view.c:123
 msgid "_Ascending"
 msgstr "Tăng dần"
 
-#: ../thunar/thunar-abstract-icon-view.c:123
+#: ../lunar/lunar-abstract-icon-view.c:123
 msgid "Sort items in ascending order"
 msgstr "Sắp xếp theo thứ tự tăng dần"
 
-#: ../thunar/thunar-abstract-icon-view.c:124
+#: ../lunar/lunar-abstract-icon-view.c:124
 msgid "_Descending"
 msgstr "Giảm dần"
 
-#: ../thunar/thunar-abstract-icon-view.c:124
+#: ../lunar/lunar-abstract-icon-view.c:124
 msgid "Sort items in descending order"
 msgstr "Sắp xếp theo thứ tự giảm dần"
 
-#: ../thunar/thunar-application.c:78
+#: ../lunar/lunar-application.c:78
 msgid "Open the bulk rename dialog"
 msgstr "Mở hộp thoại đổi tên hàng loạt"
 
-#: ../thunar/thunar-application.c:79
+#: ../lunar/lunar-application.c:79
 msgid "Run in daemon mode"
 msgstr "Chạy trong chế độ Daemon"
 
-#: ../thunar/thunar-application.c:81
-msgid "Quit a running Thunar instance"
+#: ../lunar/lunar-application.c:81
+msgid "Quit a running Lunar instance"
 msgstr "Thoát trình Thunnar đang chạy"
 
-#: ../thunar/thunar-application.c:82
+#: ../lunar/lunar-application.c:82
 msgid "Print version information and exit"
 msgstr "In thông tin phiên bản và thoát"
 
-#: ../thunar/thunar-application.c:295
+#: ../lunar/lunar-application.c:295
 #, c-format
 msgid "Acquired the session message bus '%s'\n"
 msgstr "Yêu cầu bus thông tin phiên làm việc'%s'\n"
 
-#: ../thunar/thunar-application.c:305
+#: ../lunar/lunar-application.c:305
 #, c-format
 msgid "Acquired the name '%s' on the session message bus\n"
 msgstr "Yêu cầu tên '%s' của thông báo bus của phiên làm việc\n"
 
-#: ../thunar/thunar-application.c:315
+#: ../lunar/lunar-application.c:315
 #, c-format
 msgid "Name '%s' lost on the message dbus."
 msgstr "Tên '%s' đã mất trong thông báo của dbus."
 
-#: ../thunar/thunar-application.c:475
-msgid "The Thunar development team. All rights reserved."
-msgstr "Đội phát triển Thunar. Giữ toàn quyền."
+#: ../lunar/lunar-application.c:475
+msgid "The Lunar development team. All rights reserved."
+msgstr "Đội phát triển Lunar. Giữ toàn quyền."
 
-#: ../thunar/thunar-application.c:476
-msgid "Written by Benedikt Meurer <benny@xfce.org>."
-msgstr "Được viết bởi Benedikt Meurer <benny@xfce.org>."
+#: ../lunar/lunar-application.c:476
+msgid "Written by Benedikt Meurer <benny@expidus.org>."
+msgstr "Được viết bởi Benedikt Meurer <benny@expidus.org>."
 
-#: ../thunar/thunar-application.c:477
+#: ../lunar/lunar-application.c:477
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Vui lòng thông báo lỗi đến <%s>."
 
 #. display an error message to the user
-#: ../thunar/thunar-application.c:751
+#: ../lunar/lunar-application.c:751
 msgid "Failed to launch operation"
 msgstr "Không thể bắt đầu hoạt động"
 
 #. tell the user that we were unable to launch the file specified
-#: ../thunar/thunar-application.c:1505 ../thunar/thunar-application.c:1637
-#: ../thunar/thunar-location-entry.c:366 ../thunar/thunar-location-entry.c:394
-#: ../thunar/thunar-shortcuts-view.c:1706
-#: ../thunar/thunar-shortcuts-view.c:1734 ../thunar/thunar-window.c:2395
+#: ../lunar/lunar-application.c:1505 ../lunar/lunar-application.c:1637
+#: ../lunar/lunar-location-entry.c:366 ../lunar/lunar-location-entry.c:394
+#: ../lunar/lunar-shortcuts-view.c:1706
+#: ../lunar/lunar-shortcuts-view.c:1734 ../lunar/lunar-window.c:2395
 #, c-format
 msgid "Failed to open \"%s\""
 msgstr "Không thể mở \"%s\""
 
-#: ../thunar/thunar-application.c:1641
+#: ../lunar/lunar-application.c:1641
 #, c-format
 msgid "Failed to open \"%s\": %s"
 msgstr "Không thể mở \"%s\": %s"
 
 #. display an error message
-#: ../thunar/thunar-application.c:1696 ../thunar/thunar-launcher.c:2105
-#: ../thunar/thunar-properties-dialog.c:739
+#: ../lunar/lunar-application.c:1696 ../lunar/lunar-launcher.c:2105
+#: ../lunar/lunar-properties-dialog.c:739
 #, c-format
 msgid "Failed to rename \"%s\""
 msgstr "Không thể đổi tên \"%s\""
 
-#: ../thunar/thunar-application.c:1798 ../thunar/thunar-launcher.c:2259
+#: ../lunar/lunar-application.c:1798 ../lunar/lunar-launcher.c:2259
 msgid "New Folder"
 msgstr "Thư mục mới"
 
-#: ../thunar/thunar-application.c:1799 ../thunar/thunar-launcher.c:2260
+#: ../lunar/lunar-application.c:1799 ../lunar/lunar-launcher.c:2260
 msgid "Create New Folder"
 msgstr "Tạo thư mục"
 
-#: ../thunar/thunar-application.c:1803
+#: ../lunar/lunar-application.c:1803
 msgid "New File"
 msgstr "File mới"
 
-#: ../thunar/thunar-application.c:1804
+#: ../lunar/lunar-application.c:1804
 msgid "Create New File"
 msgstr "Tạo file"
 
 #. generate a title for the create dialog
-#: ../thunar/thunar-application.c:1861 ../thunar/thunar-launcher.c:2305
+#: ../lunar/lunar-application.c:1861 ../lunar/lunar-launcher.c:2305
 #, c-format
 msgid "Create Document from template \"%s\""
 msgstr "Tạo tài liệu mới từ mẫu \"%s\""
 
-#: ../thunar/thunar-application.c:1925
+#: ../lunar/lunar-application.c:1925
 msgid "Copying files..."
 msgstr "Đang Copy Files..."
 
-#: ../thunar/thunar-application.c:1961
+#: ../lunar/lunar-application.c:1961
 #, c-format
 msgid "Copying files to \"%s\"..."
 msgstr "Đang chép tập tin đến \"%s\""
 
-#: ../thunar/thunar-application.c:2008
+#: ../lunar/lunar-application.c:2008
 #, c-format
 msgid "Creating symbolic links in \"%s\"..."
 msgstr "Tạo liên kết trong \"%s\""
 
-#: ../thunar/thunar-application.c:2062
+#: ../lunar/lunar-application.c:2062
 #, c-format
 msgid "Moving files into \"%s\"..."
 msgstr "Đang di chuyển tập tin vào \"%s\""
 
-#: ../thunar/thunar-application.c:2145
+#: ../lunar/lunar-application.c:2145
 #, c-format
 msgid ""
 "Are you sure that you want to\n"
 "permanently delete \"%s\"?"
 msgstr "Bạn có chắc chắn muốn \nxóa vĩnh viễn \"%s\"?"
 
-#: ../thunar/thunar-application.c:2150
+#: ../lunar/lunar-application.c:2150
 #, c-format
 msgid ""
 "Are you sure that you want to permanently\n"
@@ -211,192 +211,192 @@ msgstr[0] "Bạn có chắc chắn muốn xóa vĩnh viễn\nFile %u đã chọn
 #. append the cancel item
 #. add the Cancel/Close buttons
 #. configure the dialog properties
-#: ../thunar/thunar-application.c:2165 ../thunar/thunar-application.c:2344
-#: ../thunar/thunar-chooser-dialog.c:288 ../thunar/thunar-chooser-dialog.c:705
-#: ../thunar/thunar-chooser-dialog.c:753 ../thunar/thunar-dialogs.c:98
-#: ../thunar/thunar-dialogs.c:233 ../thunar/thunar-dialogs.c:649
-#: ../thunar/thunar-dialogs.c:762 ../thunar/thunar-dialogs.c:1034
-#: ../thunar/thunar-dnd.c:169 ../thunar/thunar-launcher.c:877
-#: ../thunar/thunar-permissions-chooser.c:535
-#: ../thunar/thunar-permissions-chooser.c:1143
-#: ../thunar/thunar-properties-dialog.c:827
-#: ../thunar/thunar-renamer-dialog.c:357
-#: ../thunar/thunar-renamer-dialog.c:1059
-#: ../thunar/thunar-renamer-progress.c:198
-#: ../thunar/thunar-renamer-progress.c:208
-#: ../thunar/thunar-standard-view.c:2083
-#: ../plugins/thunar-sendto-email/main.c:219
-#: ../plugins/thunar-sendto-email/main.c:238
-#: ../plugins/thunar-sendto-email/main.c:293
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:371
-#: ../plugins/thunar-uca/thunar-uca-editor.c:141
-#: ../plugins/thunar-uca/thunar-uca-editor.c:176
-#: ../plugins/thunar-uca/thunar-uca-editor.c:434
+#: ../lunar/lunar-application.c:2165 ../lunar/lunar-application.c:2344
+#: ../lunar/lunar-chooser-dialog.c:288 ../lunar/lunar-chooser-dialog.c:705
+#: ../lunar/lunar-chooser-dialog.c:753 ../lunar/lunar-dialogs.c:98
+#: ../lunar/lunar-dialogs.c:233 ../lunar/lunar-dialogs.c:649
+#: ../lunar/lunar-dialogs.c:762 ../lunar/lunar-dialogs.c:1034
+#: ../lunar/lunar-dnd.c:169 ../lunar/lunar-launcher.c:877
+#: ../lunar/lunar-permissions-chooser.c:535
+#: ../lunar/lunar-permissions-chooser.c:1143
+#: ../lunar/lunar-properties-dialog.c:827
+#: ../lunar/lunar-renamer-dialog.c:357
+#: ../lunar/lunar-renamer-dialog.c:1059
+#: ../lunar/lunar-renamer-progress.c:198
+#: ../lunar/lunar-renamer-progress.c:208
+#: ../lunar/lunar-standard-view.c:2083
+#: ../plugins/lunar-sendto-email/main.c:219
+#: ../plugins/lunar-sendto-email/main.c:238
+#: ../plugins/lunar-sendto-email/main.c:293
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:371
+#: ../plugins/lunar-uca/lunar-uca-editor.c:141
+#: ../plugins/lunar-uca/lunar-uca-editor.c:176
+#: ../plugins/lunar-uca/lunar-uca-editor.c:434
 msgid "_Cancel"
 msgstr "_Huỷ bỏ"
 
-#: ../thunar/thunar-application.c:2166 ../thunar/thunar-launcher.c:259
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:372
+#: ../lunar/lunar-application.c:2166 ../lunar/lunar-launcher.c:259
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:372
 msgid "_Delete"
 msgstr "Xóa"
 
-#: ../thunar/thunar-application.c:2170
+#: ../lunar/lunar-application.c:2170
 msgid "If you delete a file, it is permanently lost."
 msgstr "Nếu bạn xóa một File, nó sẽ vĩnh viễn mất đi"
 
-#: ../thunar/thunar-application.c:2180
+#: ../lunar/lunar-application.c:2180
 msgid "Deleting files..."
 msgstr "Đang xóa Files..."
 
-#: ../thunar/thunar-application.c:2215
+#: ../lunar/lunar-application.c:2215
 msgid "Moving files into the trash..."
 msgstr "Đang di chuyển các File vào thùng rác..."
 
-#: ../thunar/thunar-application.c:2261
+#: ../lunar/lunar-application.c:2261
 msgid "Creating files..."
 msgstr "Đang tạo Files..."
 
-#: ../thunar/thunar-application.c:2300
+#: ../lunar/lunar-application.c:2300
 msgid "Creating directories..."
 msgstr "Đang tạo thư mục..."
 
-#: ../thunar/thunar-application.c:2339
+#: ../lunar/lunar-application.c:2339
 msgid "Remove all files and folders from the Trash?"
 msgstr "Loại bỏ tất cả các Files và thư mục từ thùng rác"
 
 #. append the "Empty Trash" menu action
 #. prepare the menu item
-#: ../thunar/thunar-application.c:2345 ../thunar/thunar-launcher.c:253
-#: ../thunar/thunar-shortcuts-view.c:1226
-#: ../plugins/thunar-tpa/thunar-tpa.c:175
+#: ../lunar/lunar-application.c:2345 ../lunar/lunar-launcher.c:253
+#: ../lunar/lunar-shortcuts-view.c:1226
+#: ../plugins/lunar-tpa/lunar-tpa.c:175
 msgid "_Empty Trash"
 msgstr "Xóa sạch thùng rác"
 
-#: ../thunar/thunar-application.c:2349
+#: ../lunar/lunar-application.c:2349
 msgid ""
 "If you choose to empty the Trash, all items in it will be permanently lost. "
 "Please note that you can also delete them separately."
 msgstr "Nếu bạn xóa sạch thùng rác, tất cả các mục sẽ vĩnh viễn mât điChú ý rằng bạn cũng có thể xóa chúng một cách riêng lẽ"
 
-#: ../thunar/thunar-application.c:2366
+#: ../lunar/lunar-application.c:2366
 msgid "Emptying the Trash..."
 msgstr "Đang xóa sạch thùng rác..."
 
-#: ../thunar/thunar-application.c:2412
+#: ../lunar/lunar-application.c:2412
 #, c-format
 msgid "Failed to determine the original path for \"%s\""
 msgstr "Không thể xác định đường dẫn gốc cho \"%s\""
 
 #. display an error dialog
-#: ../thunar/thunar-application.c:2429
+#: ../lunar/lunar-application.c:2429
 #, c-format
 msgid "Could not restore \"%s\""
 msgstr "Không thể phục hồi \"%s\""
 
-#: ../thunar/thunar-application.c:2437
+#: ../lunar/lunar-application.c:2437
 msgid "Restoring files..."
 msgstr "Đang phục hồi tập tin"
 
-#: ../thunar/thunar-chooser-button.c:309 ../thunar/thunar-chooser-dialog.c:456
+#: ../lunar/lunar-chooser-button.c:309 ../lunar/lunar-chooser-dialog.c:456
 #, c-format
 msgid "Failed to set default application for \"%s\""
 msgstr "Thất bại để thiết lập ứng dụng mặc định cho %s"
 
-#: ../thunar/thunar-chooser-button.c:440
+#: ../lunar/lunar-chooser-button.c:440
 #, c-format
 msgid ""
 "The selected application is used to open this and other files of type "
 "\"%s\"."
 msgstr "Ứng dụng đã chọn được dùng để mở tập tin này và những tập tin cùng kiểu \"%s\"."
 
-#: ../thunar/thunar-chooser-button.c:495
+#: ../lunar/lunar-chooser-button.c:495
 msgid "No application selected"
 msgstr "Chưa có ứng dụng nào được chọn"
 
-#: ../thunar/thunar-chooser-button.c:508
+#: ../lunar/lunar-chooser-button.c:508
 msgid "Other Application..."
 msgstr "Các ứng dụng khác..."
 
-#: ../thunar/thunar-chooser-dialog.c:186 ../thunar/thunar-launcher.c:2862
+#: ../lunar/lunar-chooser-dialog.c:186 ../lunar/lunar-launcher.c:2862
 msgid "Open With"
 msgstr "Mở với"
 
 #. create the "Custom command" expand
-#: ../thunar/thunar-chooser-dialog.c:255
+#: ../lunar/lunar-chooser-dialog.c:255
 msgid "Use a _custom command:"
 msgstr "Sử _dụng lệnh tuỳ biến"
 
-#: ../thunar/thunar-chooser-dialog.c:256
+#: ../lunar/lunar-chooser-dialog.c:256
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "Sử dụng một lệng tuỳ biến cho một ứng dụng mà ko có ở bên trên danh sách ứng dụng"
 
 #. create the "Custom command" button
-#: ../thunar/thunar-chooser-dialog.c:275
+#: ../lunar/lunar-chooser-dialog.c:275
 msgid "_Browse..."
 msgstr "_Duyệt"
 
 #. create the "Use as default for this kind of file" button
-#: ../thunar/thunar-chooser-dialog.c:281
+#: ../lunar/lunar-chooser-dialog.c:281
 msgid "Use as _default for this kind of file"
 msgstr "Sử dụng như _mặc định cho kiểu file này"
 
 #. add the "Ok"/"Open" button
-#: ../thunar/thunar-chooser-dialog.c:291
-#: ../thunar/thunar-chooser-dialog.c:1155
-#: ../thunar/thunar-properties-dialog.c:828 ../thunar/thunar-window.c:3120
-#: ../plugins/thunar-uca/thunar-uca-editor.c:142
-#: ../plugins/thunar-uca/thunar-uca-editor.c:435
+#: ../lunar/lunar-chooser-dialog.c:291
+#: ../lunar/lunar-chooser-dialog.c:1155
+#: ../lunar/lunar-properties-dialog.c:828 ../lunar/lunar-window.c:3120
+#: ../plugins/lunar-uca/lunar-uca-editor.c:142
+#: ../plugins/lunar-uca/lunar-uca-editor.c:435
 msgid "_OK"
 msgstr "_Đồng "
 
 #. display an error to the user
-#: ../thunar/thunar-chooser-dialog.c:429
+#: ../lunar/lunar-chooser-dialog.c:429
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "Thất bại trong việc thêm ứng dụng mới \"%s\""
 
-#: ../thunar/thunar-chooser-dialog.c:494
+#: ../lunar/lunar-chooser-dialog.c:494
 #, c-format
 msgid "Failed to execute application \"%s\""
 msgstr "Không thể chạy chương trình \"%s\""
 
 #. append the "Remove Launcher" item
-#: ../thunar/thunar-chooser-dialog.c:563
+#: ../lunar/lunar-chooser-dialog.c:563
 msgid "_Remove Launcher"
 msgstr "Xoá liên kết"
 
 #. update the header label
-#: ../thunar/thunar-chooser-dialog.c:643
+#: ../lunar/lunar-chooser-dialog.c:643
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "Mở <i>%s</i> and những dạng file \"%s\" với:"
 
-#: ../thunar/thunar-chooser-dialog.c:651
+#: ../lunar/lunar-chooser-dialog.c:651
 #, c-format
 msgid ""
 "Browse the file system to select an application to open files of type "
 "\"%s\"."
 msgstr "Duyệt hệ thống tập tin để chọn một ứng dụng để mở loại file \"%s\"."
 
-#: ../thunar/thunar-chooser-dialog.c:657
+#: ../lunar/lunar-chooser-dialog.c:657
 #, c-format
 msgid ""
 "Change the default application for files of type \"%s\" to the selected "
 "application."
 msgstr "Đổi ứng dụng mặc định cho loại file \"%s\" thành ứng dụng."
 
-#: ../thunar/thunar-chooser-dialog.c:703
+#: ../lunar/lunar-chooser-dialog.c:703
 #, c-format
 msgid "Are you sure that you want to remove \"%s\"?"
 msgstr "Bạn có chắc muốn xoá  \"%s\"?"
 
-#: ../thunar/thunar-chooser-dialog.c:706
+#: ../lunar/lunar-chooser-dialog.c:706
 msgid "_Remove"
 msgstr "_Gỡ bỏ "
 
-#: ../thunar/thunar-chooser-dialog.c:709
+#: ../lunar/lunar-chooser-dialog.c:709
 msgid ""
 "This will remove the application launcher that appears in the file context menu, but will not uninstall the application itself.\n"
 "\n"
@@ -404,144 +404,144 @@ msgid ""
 msgstr "Hành động này sẽ xoá trình khởi động ứng dụng trong trình đơn ngữ cảnh này , nhưg sẽ không gỡ bỏ bản thân ứng dụng.\n\nBạn chỉ có thể xoá trình khởi động ứng dụng mà được tạo thông qua ô lệnh tuỳ biến  trong hộp thoại \"Mở với\" của trình quản lý tập tin."
 
 #. display an error to the user
-#: ../thunar/thunar-chooser-dialog.c:724
+#: ../lunar/lunar-chooser-dialog.c:724
 #, c-format
 msgid "Failed to remove \"%s\""
 msgstr "Không thể di chuyển \"%s\""
 
-#: ../thunar/thunar-chooser-dialog.c:750
-#: ../plugins/thunar-uca/thunar-uca-editor.c:173
+#: ../lunar/lunar-chooser-dialog.c:750
+#: ../plugins/lunar-uca/lunar-uca-editor.c:173
 msgid "Select an Application"
 msgstr "Lựa chọn ứng dụng"
 
 #. change the accept button label text
 #. aka "activate"
-#: ../thunar/thunar-chooser-dialog.c:754
-#: ../thunar/thunar-chooser-dialog.c:1155 ../thunar/thunar-launcher.c:1317
-#: ../thunar/thunar-renamer-dialog.c:1060
-#: ../thunar/thunar-shortcuts-view.c:1118
-#: ../plugins/thunar-uca/thunar-uca-editor.c:177
+#: ../lunar/lunar-chooser-dialog.c:754
+#: ../lunar/lunar-chooser-dialog.c:1155 ../lunar/lunar-launcher.c:1317
+#: ../lunar/lunar-renamer-dialog.c:1060
+#: ../lunar/lunar-shortcuts-view.c:1118
+#: ../plugins/lunar-uca/lunar-uca-editor.c:177
 msgid "_Open"
 msgstr "_Mở"
 
-#: ../thunar/thunar-chooser-dialog.c:760
-#: ../thunar/thunar-renamer-dialog.c:1067
-#: ../plugins/thunar-uca/thunar-uca-editor.c:184
+#: ../lunar/lunar-chooser-dialog.c:760
+#: ../lunar/lunar-renamer-dialog.c:1067
+#: ../plugins/lunar-uca/lunar-uca-editor.c:184
 msgid "All Files"
 msgstr "Tất cả tập tin"
 
-#: ../thunar/thunar-chooser-dialog.c:765
-#: ../plugins/thunar-uca/thunar-uca-editor.c:189
+#: ../lunar/lunar-chooser-dialog.c:765
+#: ../plugins/lunar-uca/lunar-uca-editor.c:189
 msgid "Executable Files"
 msgstr "Các tập tin có thể thực thi được"
 
-#: ../thunar/thunar-chooser-dialog.c:780
-#: ../plugins/thunar-uca/thunar-uca-editor.c:204
+#: ../lunar/lunar-chooser-dialog.c:780
+#: ../plugins/lunar-uca/lunar-uca-editor.c:204
 msgid "Perl Scripts"
 msgstr "Kịch bản Perl"
 
-#: ../thunar/thunar-chooser-dialog.c:786
-#: ../plugins/thunar-uca/thunar-uca-editor.c:210
+#: ../lunar/lunar-chooser-dialog.c:786
+#: ../plugins/lunar-uca/lunar-uca-editor.c:210
 msgid "Python Scripts"
 msgstr "Kịch bản Python"
 
-#: ../thunar/thunar-chooser-dialog.c:792
-#: ../plugins/thunar-uca/thunar-uca-editor.c:216
+#: ../lunar/lunar-chooser-dialog.c:792
+#: ../plugins/lunar-uca/lunar-uca-editor.c:216
 msgid "Ruby Scripts"
 msgstr "Kịch bản Ruby"
 
-#: ../thunar/thunar-chooser-dialog.c:798
-#: ../plugins/thunar-uca/thunar-uca-editor.c:222
+#: ../lunar/lunar-chooser-dialog.c:798
+#: ../plugins/lunar-uca/lunar-uca-editor.c:222
 msgid "Shell Scripts"
 msgstr "Kịch bản shell"
 
-#: ../thunar/thunar-chooser-model.c:251
+#: ../lunar/lunar-chooser-model.c:251
 msgid "None available"
 msgstr "Không khả dụng"
 
-#: ../thunar/thunar-chooser-model.c:298
+#: ../lunar/lunar-chooser-model.c:298
 msgid "Recommended Applications"
 msgstr "Các ứng dụng đề nghị"
 
-#: ../thunar/thunar-chooser-model.c:316
+#: ../lunar/lunar-chooser-model.c:316
 msgid "Other Applications"
 msgstr "Các ứng dụng khác"
 
-#: ../thunar/thunar-chooser-model.c:406
+#: ../lunar/lunar-chooser-model.c:406
 #, c-format
 msgid "Failed to remove \"%s\"."
 msgstr "Không thể xóa \"%s\""
 
 #. tell the user that we cannot paste
-#: ../thunar/thunar-clipboard-manager.c:354
+#: ../lunar/lunar-clipboard-manager.c:354
 msgid "There is nothing on the clipboard to paste"
 msgstr "Không có dữ liệu trong clipboard để chép vào"
 
 #. setup the dialog
 #. add the "Close" button
 #. add a regular close button, the header bar already provides one
-#: ../thunar/thunar-column-editor.c:120 ../thunar/thunar-dialogs.c:979
-#: ../thunar/thunar-preferences-dialog.c:292
-#: ../thunar/thunar-properties-dialog.c:255
-#: ../thunar/thunar-renamer-dialog.c:358
-#: ../thunar/thunar-renamer-progress.c:215
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:131
+#: ../lunar/lunar-column-editor.c:120 ../lunar/lunar-dialogs.c:979
+#: ../lunar/lunar-preferences-dialog.c:292
+#: ../lunar/lunar-properties-dialog.c:255
+#: ../lunar/lunar-renamer-dialog.c:358
+#: ../lunar/lunar-renamer-progress.c:215
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:131
 msgid "_Close"
 msgstr "Đóng"
 
-#: ../thunar/thunar-column-editor.c:123
+#: ../lunar/lunar-column-editor.c:123
 msgid "Configure Columns in the Detailed List View"
 msgstr "Cấu hình cột trong khung nhìn theo danh sách chi tiết"
 
 #. add the "Help" button
-#: ../thunar/thunar-column-editor.c:126
-#: ../thunar/thunar-preferences-dialog.c:303
-#: ../thunar/thunar-properties-dialog.c:254 ../thunar/thunar-window.c:409
+#: ../lunar/lunar-column-editor.c:126
+#: ../lunar/lunar-preferences-dialog.c:303
+#: ../lunar/lunar-properties-dialog.c:254 ../lunar/lunar-window.c:409
 msgid "_Help"
 msgstr "Trợ giúp "
 
-#: ../thunar/thunar-column-editor.c:141
+#: ../lunar/lunar-column-editor.c:141
 msgid "Visible Columns"
 msgstr "Các cột hiện hữu"
 
 #. create the top label for the column editor dialog
-#: ../thunar/thunar-column-editor.c:154
+#: ../lunar/lunar-column-editor.c:154
 msgid ""
 "Choose the order of information to appear in the\n"
 "detailed list view."
 msgstr "Chọn trật tự thông tin xuất hiện trong\nkhung nhìn danh sách chi tiết."
 
 #. create the "Move Up" button
-#: ../thunar/thunar-column-editor.c:198
+#: ../lunar/lunar-column-editor.c:198
 msgid "Move _Up"
 msgstr "Dời _lên"
 
 #. create the "Move Down" button
-#: ../thunar/thunar-column-editor.c:209
+#: ../lunar/lunar-column-editor.c:209
 msgid "Move Dow_n"
 msgstr "Dời _xuống"
 
 #. create the "Show" button
-#: ../thunar/thunar-column-editor.c:220
+#: ../lunar/lunar-column-editor.c:220
 msgid "_Show"
 msgstr "_Hiện"
 
 #. create the "Hide" button
-#: ../thunar/thunar-column-editor.c:226
+#: ../lunar/lunar-column-editor.c:226
 msgid "Hi_de"
 msgstr "Ẩ_n"
 
 #. create the "Use Default" button
-#: ../thunar/thunar-column-editor.c:237
+#: ../lunar/lunar-column-editor.c:237
 msgid "Use De_fault"
 msgstr "Sử dụng mặc địn_h"
 
-#: ../thunar/thunar-column-editor.c:246
+#: ../lunar/lunar-column-editor.c:246
 msgid "Column Sizing"
 msgstr "Kích thước cột"
 
 #. create the label that explains the column sizing option
-#: ../thunar/thunar-column-editor.c:259
+#: ../lunar/lunar-column-editor.c:259
 msgid ""
 "By default columns will be automatically expanded if\n"
 "needed to ensure the text is fully visible. If you dis-\n"
@@ -550,474 +550,474 @@ msgid ""
 msgstr "Theo mặc định các cột sẽ được tự động mở rộng nếu\ncần để chắc rằng nội dung có thể đc nhìn thấy toàn bộ. Nếu bạn vô\nhiệu hoá tính năng này thì trình quản lý tập tin sẽ luôn luôn \ndùng độ rộng cột do người dùng định nghĩa."
 
 #. create the "Automatically expand columns as needed" button
-#: ../thunar/thunar-column-editor.c:268
+#: ../lunar/lunar-column-editor.c:268
 msgid "Automatically _expand columns as needed"
 msgstr "Tự động mở _rộng cột khi cần thiết"
 
 #. the file_time is invalid
 #. reset page title
 #. tell the user that we're unable to determine the file info
-#: ../thunar/thunar-column-model.c:877 ../thunar/thunar-list-model.c:734
-#: ../thunar/thunar-list-model.c:770
-#: ../thunar/thunar-permissions-chooser.c:232 ../thunar/thunar-util.c:491
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:513
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:293
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:294
-#: ../plugins/thunar-uca/thunar-uca-editor.c:429
+#: ../lunar/lunar-column-model.c:877 ../lunar/lunar-list-model.c:734
+#: ../lunar/lunar-list-model.c:770
+#: ../lunar/lunar-permissions-chooser.c:232 ../lunar/lunar-util.c:491
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:513
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:293
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:294
+#: ../plugins/lunar-uca/lunar-uca-editor.c:429
 msgid "Unknown"
 msgstr "Không rõ"
 
-#: ../thunar/thunar-compact-view.c:108
+#: ../lunar/lunar-compact-view.c:108
 msgid "Compact directory listing"
 msgstr "Thu gọn danh sách thư mục"
 
-#: ../thunar/thunar-compact-view.c:109
+#: ../lunar/lunar-compact-view.c:109
 msgid "Compact view"
 msgstr "Chế độ thu gọn"
 
-#: ../thunar/thunar-dbus-service.c:527
+#: ../lunar/lunar-dbus-service.c:527
 #, c-format
 msgid "Invalid filename \"%s\""
 msgstr "Tên file \"%s\" không hợp lệ"
 
 #. LaunchFiles() invoked without a valid working directory
-#: ../thunar/thunar-dbus-service.c:976
+#: ../lunar/lunar-dbus-service.c:976
 #, c-format
 msgid "The working directory must be an absolute path"
 msgstr "Thư mục làm việc phải là đường dần dẫn tuyệt đối"
 
 #. LaunchFiles() invoked with an empty filename list
-#: ../thunar/thunar-dbus-service.c:984 ../thunar/thunar-dbus-service.c:1419
+#: ../lunar/lunar-dbus-service.c:984 ../lunar/lunar-dbus-service.c:1419
 #, c-format
 msgid "At least one filename must be specified"
 msgstr "Phải chỉ rõ ít nhất một tên tập tin"
 
-#: ../thunar/thunar-dbus-service.c:1159
+#: ../lunar/lunar-dbus-service.c:1159
 #, c-format
 msgid "At least one source filename must be specified"
 msgstr "Hãy chỉ ra ít nhất một tập tin nguồn"
 
-#: ../thunar/thunar-dbus-service.c:1169
+#: ../lunar/lunar-dbus-service.c:1169
 #, c-format
 msgid "The number of source and target filenames must be the same"
 msgstr "Số tên tập tin nguồn và đích phải giống nhau"
 
-#: ../thunar/thunar-dbus-service.c:1178
+#: ../lunar/lunar-dbus-service.c:1178
 #, c-format
 msgid "A destination directory must be specified"
 msgstr "Phải chỉ rõ thư mục đích"
 
-#: ../thunar/thunar-details-view.c:145
+#: ../lunar/lunar-details-view.c:145
 msgid "Configure _Columns..."
 msgstr "Cấu hình các _cột"
 
-#: ../thunar/thunar-details-view.c:145
+#: ../lunar/lunar-details-view.c:145
 msgid "Configure the columns in the detailed list view"
 msgstr "Cấu hình các cột trong chế độ xem danh sách chi tiết"
 
-#: ../thunar/thunar-details-view.c:411
+#: ../lunar/lunar-details-view.c:411
 msgid "Detailed directory listing"
 msgstr "Danh sách thư mục chi tiết"
 
-#: ../thunar/thunar-details-view.c:412
+#: ../lunar/lunar-details-view.c:412
 msgid "Details view"
 msgstr "Khung nhìn chi tiết"
 
-#: ../thunar/thunar-dialogs.c:99
+#: ../lunar/lunar-dialogs.c:99
 msgid "C_reate"
 msgstr "_Tạo"
 
-#: ../thunar/thunar-dialogs.c:127
+#: ../lunar/lunar-dialogs.c:127
 msgid "Enter the name:"
 msgstr "Nhập tên:"
 
 #. display an error message
-#: ../thunar/thunar-dialogs.c:167
+#: ../lunar/lunar-dialogs.c:167
 #, c-format
 msgid "Cannot convert filename \"%s\" to the local encoding"
 msgstr "Không thế chuyển tên file \"%s\" qua chế độ mã hoá mặc cục bộ"
 
 #. create a new dialog window
-#: ../thunar/thunar-dialogs.c:228
+#: ../lunar/lunar-dialogs.c:228
 #, c-format
 msgid "Rename \"%s\""
 msgstr "Đổi tên \"%s\""
 
-#: ../thunar/thunar-dialogs.c:234
+#: ../lunar/lunar-dialogs.c:234
 msgid "_Rename"
 msgstr "Đổi tê_n"
 
-#: ../thunar/thunar-dialogs.c:264
+#: ../lunar/lunar-dialogs.c:264
 msgid "Enter the new name:"
 msgstr "Nhập tên mới"
 
-#: ../thunar/thunar-dialogs.c:408
+#: ../lunar/lunar-dialogs.c:408
 msgid "translator-credits"
 msgstr "Người dịch"
 
-#: ../thunar/thunar-dialogs.c:582 ../thunar/thunar-permissions-chooser.c:537
+#: ../lunar/lunar-dialogs.c:582 ../lunar/lunar-permissions-chooser.c:537
 msgid "_Yes"
 msgstr "_Chấp nhận"
 
-#: ../thunar/thunar-dialogs.c:586
+#: ../lunar/lunar-dialogs.c:586
 msgid "Yes to _all"
 msgstr "Chấp nhận tất _cả"
 
-#: ../thunar/thunar-dialogs.c:590 ../thunar/thunar-dialogs.c:766
+#: ../lunar/lunar-dialogs.c:590 ../lunar/lunar-dialogs.c:766
 msgid "_Replace"
 msgstr "_Thay thế"
 
-#: ../thunar/thunar-dialogs.c:594 ../thunar/thunar-dialogs.c:765
+#: ../lunar/lunar-dialogs.c:594 ../lunar/lunar-dialogs.c:765
 msgid "Replace _All"
 msgstr "Thay thế tất _cả"
 
-#: ../thunar/thunar-dialogs.c:598 ../thunar/thunar-dialogs.c:764
+#: ../lunar/lunar-dialogs.c:598 ../lunar/lunar-dialogs.c:764
 msgid "_Skip"
 msgstr "_Bỏ qua"
 
-#: ../thunar/thunar-dialogs.c:602 ../thunar/thunar-dialogs.c:763
+#: ../lunar/lunar-dialogs.c:602 ../lunar/lunar-dialogs.c:763
 msgid "S_kip All"
 msgstr "Bỏ qua hết"
 
-#: ../thunar/thunar-dialogs.c:606 ../thunar/thunar-dialogs.c:768
+#: ../lunar/lunar-dialogs.c:606 ../lunar/lunar-dialogs.c:768
 msgid "Re_name"
 msgstr ""
 
-#: ../thunar/thunar-dialogs.c:610 ../thunar/thunar-dialogs.c:767
+#: ../lunar/lunar-dialogs.c:610 ../lunar/lunar-dialogs.c:767
 msgid "Rena_me All"
 msgstr ""
 
-#: ../thunar/thunar-dialogs.c:614 ../thunar/thunar-permissions-chooser.c:536
+#: ../lunar/lunar-dialogs.c:614 ../lunar/lunar-permissions-chooser.c:536
 msgid "_No"
 msgstr "_Không"
 
-#: ../thunar/thunar-dialogs.c:618
+#: ../lunar/lunar-dialogs.c:618
 msgid "N_o to all"
 msgstr "Khô_ng cho tất cả"
 
-#: ../thunar/thunar-dialogs.c:622
+#: ../lunar/lunar-dialogs.c:622
 msgid "_Retry"
 msgstr "_Thử lại"
 
-#: ../thunar/thunar-dialogs.c:626
+#: ../lunar/lunar-dialogs.c:626
 msgid "Copy _Anyway"
 msgstr "Cứ sao chép"
 
-#: ../thunar/thunar-dialogs.c:741
+#: ../lunar/lunar-dialogs.c:741
 msgid "Confirm to replace files"
 msgstr "Xác nhận thay thế tập tin"
 
-#: ../thunar/thunar-dialogs.c:811
+#: ../lunar/lunar-dialogs.c:811
 #, c-format
 msgid "This folder already contains a symbolic link \"%s\"."
 msgstr "Thư mục này đã chứa liên kết tên: \"%s\"."
 
-#: ../thunar/thunar-dialogs.c:816
+#: ../lunar/lunar-dialogs.c:816
 #, c-format
 msgid "This folder already contains a folder \"%s\"."
 msgstr "Thư mục này đã có thư mục con: \"%s\"."
 
-#: ../thunar/thunar-dialogs.c:821
+#: ../lunar/lunar-dialogs.c:821
 #, c-format
 msgid "This folder already contains a file \"%s\"."
 msgstr "Thư mục này đã chứa tập tin \"%s\"."
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:836
+#: ../lunar/lunar-dialogs.c:836
 #, c-format
 msgid "Do you want to replace the link"
 msgstr ""
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:839
+#: ../lunar/lunar-dialogs.c:839
 #, c-format
 msgid "Do you want to replace the existing folder"
 msgstr ""
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:842
+#: ../lunar/lunar-dialogs.c:842
 #, c-format
 msgid "Do you want to replace the existing file"
 msgstr ""
 
 #. Fourth box (size, volume, free space)
-#: ../thunar/thunar-dialogs.c:863 ../thunar/thunar-dialogs.c:902
-#: ../thunar/thunar-properties-dialog.c:498
+#: ../lunar/lunar-dialogs.c:863 ../lunar/lunar-dialogs.c:902
+#: ../lunar/lunar-properties-dialog.c:498
 msgid "Size:"
 msgstr "Kích thước:"
 
-#: ../thunar/thunar-dialogs.c:863 ../thunar/thunar-dialogs.c:902
-#: ../thunar/thunar-properties-dialog.c:457
+#: ../lunar/lunar-dialogs.c:863 ../lunar/lunar-dialogs.c:902
+#: ../lunar/lunar-properties-dialog.c:457
 msgid "Modified:"
 msgstr "Thay đổi:"
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:875
+#: ../lunar/lunar-dialogs.c:875
 #, c-format
 msgid "with the following link?"
 msgstr ""
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:878
+#: ../lunar/lunar-dialogs.c:878
 #, c-format
 msgid "with the following folder?"
 msgstr ""
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:881
+#: ../lunar/lunar-dialogs.c:881
 #, c-format
 msgid "with the following file?"
 msgstr ""
 
-#: ../thunar/thunar-dialogs.c:1014
+#: ../lunar/lunar-dialogs.c:1014
 #, c-format
 msgid ""
 "The desktop file \"%s\" is in an insecure location and not marked as "
 "executable. If you do not trust this program, click Cancel."
 msgstr "Tập tin desktop \"%s\" nằm trong địa điểm không an toàn và không được đánh dấu để thực thi được. Nếu bạn không tin tưởng chương trình này, bấm hủy."
 
-#: ../thunar/thunar-dialogs.c:1031
+#: ../lunar/lunar-dialogs.c:1031
 msgid "_Launch Anyway"
 msgstr "Cứ chạy"
 
-#: ../thunar/thunar-dialogs.c:1033
+#: ../lunar/lunar-dialogs.c:1033
 msgid "Mark _Executable"
 msgstr "Đánh dấu thực thi được"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Copy here"
 msgstr "_Sao chép vào đây"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Move here"
 msgstr "_Di chuyển tới đây"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Link here"
 msgstr "_Tạo liên kết ở đây"
 
 #. display an error to the user
 #. display an error message to the user
-#: ../thunar/thunar-dnd.c:250 ../thunar/thunar-launcher.c:693
+#: ../lunar/lunar-dnd.c:250 ../lunar/lunar-launcher.c:693
 #, c-format
 msgid "Failed to execute file \"%s\""
 msgstr "Không thể thực thi tập tin \"%s\""
 
-#: ../thunar/thunar-enum-types.c:49
+#: ../lunar/lunar-enum-types.c:49
 msgid "Name only"
 msgstr "Chỉ tên"
 
-#: ../thunar/thunar-enum-types.c:50
+#: ../lunar/lunar-enum-types.c:50
 msgid "Suffix only"
 msgstr "Chỉ đuôi"
 
-#: ../thunar/thunar-enum-types.c:51
+#: ../lunar/lunar-enum-types.c:51
 msgid "Name and Suffix"
 msgstr "Tên và đuôi"
 
-#: ../thunar/thunar-enum-types.c:101
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:137
+#: ../lunar/lunar-enum-types.c:101
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:137
 msgid "Date Accessed"
 msgstr "Ngày truy cập"
 
-#: ../thunar/thunar-enum-types.c:102
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:138
+#: ../lunar/lunar-enum-types.c:102
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:138
 msgid "Date Modified"
 msgstr "Ngày thay đổi"
 
-#: ../thunar/thunar-enum-types.c:103
+#: ../lunar/lunar-enum-types.c:103
 msgid "Group"
 msgstr "Nhóm"
 
-#: ../thunar/thunar-enum-types.c:104
+#: ../lunar/lunar-enum-types.c:104
 msgid "MIME Type"
 msgstr "Kiểu MIME"
 
-#: ../thunar/thunar-enum-types.c:105 ../thunar/thunar-renamer-dialog.c:417
-#: ../thunarx/thunarx-renamer.c:164
+#: ../lunar/lunar-enum-types.c:105 ../lunar/lunar-renamer-dialog.c:417
+#: ../lunarx/lunarx-renamer.c:164
 msgid "Name"
 msgstr "Tên"
 
-#: ../thunar/thunar-enum-types.c:106
+#: ../lunar/lunar-enum-types.c:106
 msgid "Owner"
 msgstr "Chủ sở hữu"
 
 #. Permissions chooser
-#: ../thunar/thunar-enum-types.c:107 ../thunar/thunar-properties-dialog.c:582
+#: ../lunar/lunar-enum-types.c:107 ../lunar/lunar-properties-dialog.c:582
 msgid "Permissions"
 msgstr "Quyền hạn"
 
-#: ../thunar/thunar-enum-types.c:108
+#: ../lunar/lunar-enum-types.c:108
 msgid "Size"
 msgstr "Kích cỡ"
 
-#: ../thunar/thunar-enum-types.c:109
+#: ../lunar/lunar-enum-types.c:109
 msgid "Size in Bytes"
 msgstr "Kích thước tính bằng byte"
 
-#: ../thunar/thunar-enum-types.c:110
+#: ../lunar/lunar-enum-types.c:110
 msgid "Type"
 msgstr "Kiểu"
 
-#: ../thunar/thunar-enum-types.c:111
+#: ../lunar/lunar-enum-types.c:111
 msgid "File"
 msgstr "Tập tin"
 
-#: ../thunar/thunar-enum-types.c:112
+#: ../lunar/lunar-enum-types.c:112
 msgid "File Name"
 msgstr "Tên file"
 
-#: ../thunar/thunar-file.c:1066 ../thunar/thunar-gio-extensions.c:289
-#: ../thunar/thunar-shortcuts-model.c:1112 ../thunar.desktop.in.in.h:7
+#: ../lunar/lunar-file.c:1066 ../lunar/lunar-gio-extensions.c:289
+#: ../lunar/lunar-shortcuts-model.c:1112 ../lunar.desktop.in.in.h:7
 msgid "Trash"
 msgstr "Thùng rác"
 
-#: ../thunar/thunar-file.c:1073 ../thunar/thunar-gio-extensions.c:287
-#: ../thunar/thunar-shortcuts-model.c:994 ../thunar/thunar-window.c:397
+#: ../lunar/lunar-file.c:1073 ../lunar/lunar-gio-extensions.c:287
+#: ../lunar/lunar-shortcuts-model.c:994 ../lunar/lunar-window.c:397
 msgid "File System"
 msgstr "File hệ thống"
 
-#: ../thunar/thunar-file.c:1526
+#: ../lunar/lunar-file.c:1526
 #, c-format
 msgid "The root folder has no parent"
 msgstr "Thư mục gốc không có thư mục cha"
 
-#: ../thunar/thunar-file.c:1620
+#: ../lunar/lunar-file.c:1620
 #, c-format
 msgid "Failed to parse the desktop file: %s"
 msgstr "Cú pháp tập tin \"%s\" không đúng"
 
 #. if the .desktop file is not secure, ask user what to do
-#: ../thunar/thunar-file.c:1632
+#: ../lunar/lunar-file.c:1632
 msgid "Untrusted application launcher"
 msgstr "Trình chạy ứng dụng không tin tưởng"
 
-#: ../thunar/thunar-file.c:1660
+#: ../lunar/lunar-file.c:1660
 #, c-format
 msgid "No Exec field specified"
 msgstr "Exec không xác định"
 
 #. if the .desktop file is not secure, ask user what to do
-#: ../thunar/thunar-file.c:1669
+#: ../lunar/lunar-file.c:1669
 msgid "Untrusted link launcher"
 msgstr "Trình chạy liên kết không tin tưởng"
 
-#: ../thunar/thunar-file.c:1685
+#: ../lunar/lunar-file.c:1685
 #, c-format
 msgid "No URL field specified"
 msgstr "URL không xác định"
 
-#: ../thunar/thunar-file.c:1690
+#: ../lunar/lunar-file.c:1690
 msgid "Invalid desktop file"
 msgstr "Desktop file không hợp lệ"
 
 #. TRANSLATORS: this will result in "<path> on <hostname>"
-#: ../thunar/thunar-gio-extensions.c:369
+#: ../lunar/lunar-gio-extensions.c:369
 #, c-format
 msgid "%s on %s"
 msgstr "%s trên %s"
 
 #. free disk space string
-#: ../thunar/thunar-gio-extensions.c:480
+#: ../lunar/lunar-gio-extensions.c:480
 #, c-format
 msgid "%s of %s free (%d%% used)"
 msgstr "%scủa %scòn trống (%d%%đã dùng)"
 
-#: ../thunar/thunar-history.c:296
+#: ../lunar/lunar-history.c:296
 msgid "The item will be removed from the history"
 msgstr "Mục này sẽ bị xóa khỏi lịch sử"
 
-#: ../thunar/thunar-history.c:308
+#: ../lunar/lunar-history.c:308
 #, c-format
 msgid "Could not find \"%s\""
 msgstr "Không thể tìm \"%s\""
 
-#: ../thunar/thunar-icon-view.c:164
+#: ../lunar/lunar-icon-view.c:164
 msgid "Icon based directory listing"
 msgstr "Danh sách thư mục theo biểu tượng"
 
-#: ../thunar/thunar-icon-view.c:165
+#: ../lunar/lunar-icon-view.c:165
 msgid "Icon view"
 msgstr "Khung nhìn biểu tượng"
 
-#: ../thunar/thunar-io-jobs.c:111
+#: ../lunar/lunar-io-jobs.c:111
 #, c-format
 msgid "Error removing file: %s"
 msgstr "Lỗi khi xóa tập tin:%s"
 
-#: ../thunar/thunar-io-jobs.c:214 ../thunar/thunar-io-jobs.c:369
+#: ../lunar/lunar-io-jobs.c:214 ../lunar/lunar-io-jobs.c:369
 #, c-format
 msgid "The file \"%s\" already exists"
 msgstr "File \"%s\" đã tồn tại "
 
-#: ../thunar/thunar-io-jobs.c:237
+#: ../lunar/lunar-io-jobs.c:237
 #, c-format
 msgid "Failed to create empty file \"%s\": %s"
 msgstr "Không tạo được tập tin rỗng \"%s\": %s"
 
-#: ../thunar/thunar-io-jobs.c:392
+#: ../lunar/lunar-io-jobs.c:392
 #, c-format
 msgid "Failed to create directory \"%s\": %s"
 msgstr "Không tạo được thư mục \"%s\": %s"
 
 #. tell the user that we're preparing to unlink the files
-#: ../thunar/thunar-io-jobs.c:459
+#: ../lunar/lunar-io-jobs.c:459
 msgid "Preparing..."
 msgstr "Chuẩn bị..."
 
-#: ../thunar/thunar-io-jobs.c:537
+#: ../lunar/lunar-io-jobs.c:537
 #, c-format
 msgid "Could not delete file \"%s\": %s"
 msgstr "Xóa file \"%s\" bị lỗi: %s"
 
-#: ../thunar/thunar-io-jobs.c:640
+#: ../lunar/lunar-io-jobs.c:640
 #, c-format
 msgid "Could not create symbolic link to \"%s\" because it is not a local file"
 msgstr "Không thể tạo liên kết đến \"%s\" vì nó không phải là tập tin nằm ở máy này"
 
 #. generate a useful error message
-#: ../thunar/thunar-io-jobs.c:1015
+#: ../lunar/lunar-io-jobs.c:1015
 #, c-format
 msgid "Failed to change the owner of \"%s\": %s"
 msgstr "Đổi chủ sở hữu của \"%s\" bị lỗi: %s"
 
-#: ../thunar/thunar-io-jobs.c:1016
+#: ../lunar/lunar-io-jobs.c:1016
 #, c-format
 msgid "Failed to change the group of \"%s\": %s"
 msgstr "Đổi nhóm của \"%s\" bị lỗi: %s"
 
-#: ../thunar/thunar-io-jobs.c:1171
+#: ../lunar/lunar-io-jobs.c:1171
 #, c-format
 msgid "Failed to change the permissions of \"%s\": %s"
 msgstr "Đổi quyền của \"%s\" bị lỗi: %s"
 
 #. I18N: put " (copy #)" between basename and extension
-#: ../thunar/thunar-io-jobs-util.c:106 ../thunar/thunar-io-jobs-util.c:212
+#: ../lunar/lunar-io-jobs-util.c:106 ../lunar/lunar-io-jobs-util.c:212
 #, c-format
 msgid "%s (copy %u)%s"
 msgstr "%s (copy %u)%s"
 
 #. I18N: put " (copy #)" after filename (for files without extension)
-#: ../thunar/thunar-io-jobs-util.c:112 ../thunar/thunar-io-jobs-util.c:218
+#: ../lunar/lunar-io-jobs-util.c:112 ../lunar/lunar-io-jobs-util.c:218
 #, c-format
 msgid "%s (copy %u)"
 msgstr "%s (chép %u)"
 
 #. I18N: name for first link to basename
-#: ../thunar/thunar-io-jobs-util.c:121 ../thunar/thunar-list-model.c:792
-#: ../thunar/thunar-list-model.c:1633 ../thunar/thunar-list-model.c:1644
-#: ../thunar/thunar-properties-dialog.c:1010
+#: ../lunar/lunar-io-jobs-util.c:121 ../lunar/lunar-list-model.c:792
+#: ../lunar/lunar-list-model.c:1633 ../lunar/lunar-list-model.c:1644
+#: ../lunar/lunar-properties-dialog.c:1010
 #, c-format
 msgid "link to %s"
 msgstr "Liên kết tới %s"
 
 #. I18N: name for nth link to basename
-#: ../thunar/thunar-io-jobs-util.c:126
+#: ../lunar/lunar-io-jobs-util.c:126
 #, c-format
 msgid "link %u to %s"
 msgstr "liên kết %u đến %s"
 
-#: ../thunar/thunar-job.c:304
+#: ../lunar/lunar-job.c:304
 #, c-format
 msgid ""
 "The file \"%s\" already exists. Would you like to replace it?\n"
@@ -1025,33 +1025,33 @@ msgid ""
 "If you replace an existing file, its contents will be overwritten."
 msgstr "File \"%s\" đã tồn tại. Bạn có muốn thay thế nó?\n\nNếu bạn thay thế, nội dung file có sẵn sẽ bị ghi đè."
 
-#: ../thunar/thunar-job.c:386
+#: ../lunar/lunar-job.c:386
 msgid "Do you want to overwrite it?"
 msgstr "Bạn có muốn ghi đè?"
 
-#: ../thunar/thunar-job.c:443
+#: ../lunar/lunar-job.c:443
 msgid "Do you want to permanently delete it?"
 msgstr "Bạn có muốn xóa nó vĩnh viễn không?"
 
-#: ../thunar/thunar-job.c:497
+#: ../lunar/lunar-job.c:497
 msgid "Do you want to create it?"
 msgstr "Bạn có muốn tạo nó không?"
 
-#: ../thunar/thunar-job.c:605
+#: ../lunar/lunar-job.c:605
 msgid "Do you want to skip it?"
 msgstr "Bạn muốn bỏ qua?"
 
-#: ../thunar/thunar-job.c:654
+#: ../lunar/lunar-job.c:654
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
 msgstr "Không đủ dung lượng trống trên địa điểm đích. Thử xóa vài thứ để có thêm khoảng trống."
 
-#: ../thunar/thunar-launcher.c:242
+#: ../lunar/lunar-launcher.c:242
 msgid "Open With Other _Application..."
 msgstr "Mở với ứng dụng _khác"
 
-#: ../thunar/thunar-launcher.c:242 ../thunar/thunar-launcher.c:2863
+#: ../lunar/lunar-launcher.c:242 ../lunar/lunar-launcher.c:2863
 msgid "Choose another application with which to open the selected file"
 msgstr "CHọn một ứng dụng khác để mở file đã chọn"
 
@@ -1059,335 +1059,335 @@ msgstr "CHọn một ứng dụng khác để mở file đã chọn"
 #. possible to automatically migrate to new accel paths.
 #. Waiting for https://gitlab.gnome.org/GNOME/gtk/issues/2375 to be able to
 #. fix that
-#: ../thunar/thunar-launcher.c:246
+#: ../lunar/lunar-launcher.c:246
 msgid "_Send To"
 msgstr "_Gởi tới"
 
-#: ../thunar/thunar-launcher.c:249
+#: ../lunar/lunar-launcher.c:249
 msgid "_Properties..."
 msgstr "Th_uộc tính..."
 
-#: ../thunar/thunar-launcher.c:249
+#: ../lunar/lunar-launcher.c:249
 msgid "View the properties of the selected file"
 msgstr "Xem thuộc tính của các tập tin đã chọn"
 
-#: ../thunar/thunar-launcher.c:250 ../thunar/thunar-launcher.c:1363
+#: ../lunar/lunar-launcher.c:250 ../lunar/lunar-launcher.c:1363
 msgid "Ma_ke Link"
 msgid_plural "Ma_ke Links"
 msgstr[0] "Tạo liên kết"
 
-#: ../thunar/thunar-launcher.c:251
+#: ../lunar/lunar-launcher.c:251
 msgid "Du_plicate"
 msgstr "Tạo bản sao"
 
-#: ../thunar/thunar-launcher.c:252
+#: ../lunar/lunar-launcher.c:252
 msgid "_Rename..."
 msgstr "Đổi _tên"
 
-#: ../thunar/thunar-launcher.c:253
+#: ../lunar/lunar-launcher.c:253
 msgid "Delete all files and folders in the Trash"
 msgstr "Xóa toàn bộ tập tin và thư mục trong thùng rác?"
 
-#: ../thunar/thunar-launcher.c:254
+#: ../lunar/lunar-launcher.c:254
 msgid "Create _Folder..."
 msgstr "Tạo thư _mục..."
 
-#: ../thunar/thunar-launcher.c:254
+#: ../lunar/lunar-launcher.c:254
 msgid "Create an empty folder within the current folder"
 msgstr "Tạo thư mục trống trong thư mục hiện tại"
 
-#: ../thunar/thunar-launcher.c:255
+#: ../lunar/lunar-launcher.c:255
 msgid "Create _Document"
 msgstr "Tạo tài liệu"
 
-#: ../thunar/thunar-launcher.c:255
+#: ../lunar/lunar-launcher.c:255
 msgid "Create a new document from a template"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:257
+#: ../lunar/lunar-launcher.c:257
 msgid "_Restore"
 msgstr "Phục hồi"
 
-#: ../thunar/thunar-launcher.c:258
+#: ../lunar/lunar-launcher.c:258
 msgid "Mo_ve to Trash"
 msgstr "Đưa vào thùng rác"
 
-#: ../thunar/thunar-launcher.c:264
+#: ../lunar/lunar-launcher.c:264
 msgid "_Paste"
 msgstr "_Dán"
 
-#: ../thunar/thunar-launcher.c:264
+#: ../lunar/lunar-launcher.c:264
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr "Di chuyển hoặc sao chép tập tin đã chọn khi chạy lệnh Cắt hoặc Sao chép"
 
-#: ../thunar/thunar-launcher.c:265
+#: ../lunar/lunar-launcher.c:265
 msgid "_Paste Into Folder"
 msgstr "Dán vào thư mục này"
 
-#: ../thunar/thunar-launcher.c:265
+#: ../lunar/lunar-launcher.c:265
 msgid ""
 "Move or copy files previously selected by a Cut or Copy command into the "
 "selected folder"
 msgstr "Di chuyển hoặc sao chép tập tin đã chọn khi chạy lệnh Cắt hoặc Sao chép vào thư mục đã chọn"
 
-#: ../thunar/thunar-launcher.c:266
+#: ../lunar/lunar-launcher.c:266
 msgid "_Copy"
 msgstr "Sao _chép"
 
-#: ../thunar/thunar-launcher.c:266
+#: ../lunar/lunar-launcher.c:266
 msgid "Prepare the selected files to be copied with a Paste command"
 msgstr "Đọc các tập tin đã chọn để sao chép"
 
-#: ../thunar/thunar-launcher.c:267
+#: ../lunar/lunar-launcher.c:267
 msgid "Cu_t"
 msgstr "_Cắt"
 
-#: ../thunar/thunar-launcher.c:267
+#: ../lunar/lunar-launcher.c:267
 msgid "Prepare the selected files to be moved with a Paste command"
 msgstr "Đọc các tập tin đã chọn để di chuyển"
 
 #. append the "Mount" item
-#: ../thunar/thunar-launcher.c:269 ../thunar/thunar-shortcuts-view.c:1158
+#: ../lunar/lunar-launcher.c:269 ../lunar/lunar-shortcuts-view.c:1158
 msgid "_Mount"
 msgstr "Gắn kết"
 
-#: ../thunar/thunar-launcher.c:269
+#: ../lunar/lunar-launcher.c:269
 msgid "Mount the selected device"
 msgstr ""
 
 #. append the "Unmount" item
-#: ../thunar/thunar-launcher.c:270 ../thunar/thunar-shortcuts-view.c:1164
-#: ../thunar/thunar-shortcuts-view.c:1212
+#: ../lunar/lunar-launcher.c:270 ../lunar/lunar-shortcuts-view.c:1164
+#: ../lunar/lunar-shortcuts-view.c:1212
 msgid "_Unmount"
 msgstr "_Bỏ gắn kết"
 
-#: ../thunar/thunar-launcher.c:270
+#: ../lunar/lunar-launcher.c:270
 msgid "Unmount the selected device"
 msgstr ""
 
 #. append the "Eject" (safely remove drive) item
-#: ../thunar/thunar-launcher.c:271 ../thunar/thunar-shortcuts-view.c:1170
+#: ../lunar/lunar-launcher.c:271 ../lunar/lunar-shortcuts-view.c:1170
 msgid "_Eject"
 msgstr "Ngắt"
 
-#: ../thunar/thunar-launcher.c:271
+#: ../lunar/lunar-launcher.c:271
 msgid "Eject the selected device"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:826
+#: ../lunar/lunar-launcher.c:826
 #, c-format
 msgid "Failed to open file \"%s\""
 msgstr "Không thể mở tập tin \"%s\""
 
 #. we can just tell that n files failed to open
-#: ../thunar/thunar-launcher.c:832
+#: ../lunar/lunar-launcher.c:832
 #, c-format
 msgid "Failed to open %d file"
 msgid_plural "Failed to open %d files"
 msgstr[0] "Không mở được %d tập tin"
 
-#: ../thunar/thunar-launcher.c:871
+#: ../lunar/lunar-launcher.c:871
 msgid "Are you sure you want to open all folders?"
 msgstr "Bạn có chắc muốn mở tất cả thư mục"
 
-#: ../thunar/thunar-launcher.c:873
+#: ../lunar/lunar-launcher.c:873
 #, c-format
 msgid "This will open %d separate file manager window."
 msgid_plural "This will open %d separate file manager windows."
 msgstr[0] "Mở %d cửa sổ quản lí tập tin tách biệt."
 
-#: ../thunar/thunar-launcher.c:876
+#: ../lunar/lunar-launcher.c:876
 #, c-format
 msgid "Open %d New Window"
 msgid_plural "Open %d New Windows"
 msgstr[0] "Mở %d cửa sổ mới"
 
-#: ../thunar/thunar-launcher.c:953 ../thunar/thunar-launcher.c:1662
-#: ../thunar/thunar-shortcuts-view.c:1770
-#: ../thunar/thunar-shortcuts-view.c:2012
+#: ../lunar/lunar-launcher.c:953 ../lunar/lunar-launcher.c:1662
+#: ../lunar/lunar-shortcuts-view.c:1770
+#: ../lunar/lunar-shortcuts-view.c:2012
 #, c-format
 msgid "Failed to mount \"%s\""
 msgstr "Không thể gắn kết \"%s\""
 
-#: ../thunar/thunar-launcher.c:1317
+#: ../lunar/lunar-launcher.c:1317
 msgid "Open the selected file"
 msgid_plural "Open the selected files"
 msgstr[0] "Mở các tập tin đã chọn"
 
-#: ../thunar/thunar-launcher.c:1321
+#: ../lunar/lunar-launcher.c:1321
 msgid "_Execute"
 msgstr "_Chạy"
 
-#: ../thunar/thunar-launcher.c:1321
+#: ../lunar/lunar-launcher.c:1321
 msgid "Execute the selected file"
 msgid_plural "Execute the selected files"
 msgstr[0] "Thực thi các tập tin đã chọn"
 
-#: ../thunar/thunar-launcher.c:1326
+#: ../lunar/lunar-launcher.c:1326
 #, c-format
 msgid "Open in New _Tab"
 msgid_plural "Open in %d New _Tabs"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1327
+#: ../lunar/lunar-launcher.c:1327
 #, c-format
 msgid "Open the selected directory in new tab"
 msgid_plural "Open the selected directories in %d new tabs"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1336
+#: ../lunar/lunar-launcher.c:1336
 #, c-format
 msgid "Open in New _Window"
 msgid_plural "Open in %d New _Windows"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1337
+#: ../lunar/lunar-launcher.c:1337
 #, c-format
 msgid "Open the selected directory in new window"
 msgid_plural "Open the selected directories in %d new windows"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1364
+#: ../lunar/lunar-launcher.c:1364
 msgid "Create a symbolic link for the selected file"
 msgid_plural "Create a symbolic link for each selected file"
 msgstr[0] "Tạo liên kết cho mỗi tập tin đã chọn"
 
-#: ../thunar/thunar-launcher.c:1388
+#: ../lunar/lunar-launcher.c:1388
 msgid "Rename the selected file"
 msgid_plural "Rename the selected files"
 msgstr[0] "Đổi tên tập tin đã chọn"
 
-#: ../thunar/thunar-launcher.c:1398
+#: ../lunar/lunar-launcher.c:1398
 msgid "Restore the selected file to its original location"
 msgid_plural "Restore the selected files to its original location"
 msgstr[0] ""
 
-#: ../thunar/thunar-launcher.c:1415
+#: ../lunar/lunar-launcher.c:1415
 msgid "Move the selected file to the Trash"
 msgid_plural "Move the selected files to the Trash"
 msgstr[0] "Đưa các tập tin đã chọn vào thùng rác"
 
-#: ../thunar/thunar-launcher.c:1432
+#: ../lunar/lunar-launcher.c:1432
 msgid "Permanently delete the selected file"
 msgid_plural "Permanently delete the selected files"
 msgstr[0] "Xóa vĩnh viễn các tập tin đã chọn"
 
-#: ../thunar/thunar-launcher.c:1482
+#: ../lunar/lunar-launcher.c:1482
 msgid "Cut the selection"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:1492
+#: ../lunar/lunar-launcher.c:1492
 msgid "Prepare the selected file to be moved with a Paste command"
 msgid_plural "Prepare the selected files to be moved with a Paste command"
 msgstr[0] "Đọc các tập tin đã chọn để di chuyển"
 
-#: ../thunar/thunar-launcher.c:1506
+#: ../lunar/lunar-launcher.c:1506
 msgid "Copy the selection"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:1516
+#: ../lunar/lunar-launcher.c:1516
 msgid "Prepare the selected file to be copied with a Paste command"
 msgid_plural "Prepare the selected files to be copied with a Paste command"
 msgstr[0] "Đọc các tập tin đã chọn để sao chép"
 
-#: ../thunar/thunar-launcher.c:1539
+#: ../lunar/lunar-launcher.c:1539
 msgid "Paste the clipboard"
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:1768
+#: ../lunar/lunar-launcher.c:1768
 msgid "Side Pane (Create Shortcut)"
 msgid_plural "Side Pane (Create Shortcuts)"
 msgstr[0] "Pane trái (Tạo biểu tượng tắt)"
 
-#: ../thunar/thunar-launcher.c:1769
+#: ../lunar/lunar-launcher.c:1769
 msgid "Add the selected folder to the shortcuts side pane"
 msgid_plural "Add the selected folders to the shortcuts side pane"
 msgstr[0] "Thêm thư mục đã chọn vào pane trái"
 
-#: ../thunar/thunar-launcher.c:1788
+#: ../lunar/lunar-launcher.c:1788
 msgid "Desktop (Create Link)"
 msgid_plural "Desktop (Create Links)"
 msgstr[0] "Desktop (tạo liên kết)"
 
-#: ../thunar/thunar-launcher.c:1789
+#: ../lunar/lunar-launcher.c:1789
 msgid "Create a link to the selected file on the desktop"
 msgid_plural "Create links to the selected files on the desktop"
 msgstr[0] "Tạo liên kết đến các tập tin đã chọn trên desktop"
 
-#: ../thunar/thunar-launcher.c:1810 ../thunar/thunar-launcher.c:1848
+#: ../lunar/lunar-launcher.c:1810 ../lunar/lunar-launcher.c:1848
 #, c-format
 msgid "Send the selected file to \"%s\""
 msgid_plural "Send the selected files to \"%s\""
 msgstr[0] "Gửi các tập tin đã chọn đến \"%s\""
 
-#: ../thunar/thunar-launcher.c:2321
+#: ../lunar/lunar-launcher.c:2321
 msgid "New Empty File"
 msgstr "Tạo tập tin rỗng"
 
-#: ../thunar/thunar-launcher.c:2322
+#: ../lunar/lunar-launcher.c:2322
 msgid "New Empty File..."
 msgstr "Tạo tập tin mới..."
 
-#: ../thunar/thunar-launcher.c:2521
+#: ../lunar/lunar-launcher.c:2521
 #, c-format
 msgid "No templates installed in \"%s\""
 msgstr ""
 
-#: ../thunar/thunar-launcher.c:2534
+#: ../lunar/lunar-launcher.c:2534
 msgid "_Empty File"
 msgstr "Tậ_p tin rỗng"
 
-#: ../thunar/thunar-launcher.c:2640 ../thunar/thunar-shortcuts-view.c:1936
+#: ../lunar/lunar-launcher.c:2640 ../lunar/lunar-shortcuts-view.c:1936
 #, c-format
 msgid "Failed to eject \"%s\""
 msgstr "Không thể ngắt \"%s\""
 
-#: ../thunar/thunar-launcher.c:2698 ../thunar/thunar-shortcuts-view.c:2081
+#: ../lunar/lunar-launcher.c:2698 ../lunar/lunar-shortcuts-view.c:2081
 #, c-format
 msgid "Failed to unmount \"%s\""
 msgstr "Không thể gắn kết \"%s\""
 
-#: ../thunar/thunar-launcher.c:2758
+#: ../lunar/lunar-launcher.c:2758
 #, c-format
 msgid "Open With \"%s\""
 msgstr "Mở bằng \"%s\""
 
-#: ../thunar/thunar-launcher.c:2759 ../thunar/thunar-launcher.c:2826
+#: ../lunar/lunar-launcher.c:2759 ../lunar/lunar-launcher.c:2826
 #, c-format
 msgid "Use \"%s\" to open the selected file"
 msgid_plural "Use \"%s\" to open the selected files"
 msgstr[0] "Sử dụng \"%s\" để mở tập tin đã chọn"
 
-#: ../thunar/thunar-launcher.c:2825
+#: ../lunar/lunar-launcher.c:2825
 #, c-format
 msgid "_Open With \"%s\""
 msgstr "_Mở bằng \"%s\""
 
 #. we can only show a generic "Open" action
-#: ../thunar/thunar-launcher.c:2845
+#: ../lunar/lunar-launcher.c:2845
 #, c-format
 msgid "_Open With Default Applications"
 msgstr "Mở bằng chương trình mặc đị_nh"
 
-#: ../thunar/thunar-launcher.c:2846
+#: ../lunar/lunar-launcher.c:2846
 #, c-format
 msgid "Open the selected file with the default application"
 msgid_plural "Open the selected files with the default applications"
 msgstr[0] "Mở các tập tin đã chọn bằng chương trình mặc định"
 
-#: ../thunar/thunar-list-model.c:2360
+#: ../lunar/lunar-list-model.c:2360
 #, c-format
 msgid "%d file: %s"
 msgid_plural "%d files: %s"
 msgstr[0] ""
 
-#: ../thunar/thunar-list-model.c:2368
+#: ../lunar/lunar-list-model.c:2368
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
 msgstr[0] ""
 
-#: ../thunar/thunar-list-model.c:2374
+#: ../lunar/lunar-list-model.c:2374
 #, c-format
 msgid "0 items"
 msgstr ""
@@ -1397,45 +1397,45 @@ msgstr ""
 #. * is between the message about the number of folders
 #. * and the number of items in the selection
 #. TRANSLATORS: string moved from line 2573 to here
-#: ../thunar/thunar-list-model.c:2386
+#: ../lunar/lunar-list-model.c:2386
 #, c-format
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../thunar/thunar-list-model.c:2465
+#: ../lunar/lunar-list-model.c:2465
 #, c-format
 msgid "%s, Free space: %s"
 msgstr ""
 
-#: ../thunar/thunar-list-model.c:2490
+#: ../lunar/lunar-list-model.c:2490
 #, c-format
 msgid "\"%s\": broken link"
 msgstr "\"%s\": liên kết đã hỏng"
 
-#: ../thunar/thunar-list-model.c:2495
+#: ../lunar/lunar-list-model.c:2495
 #, c-format
 msgid "\"%s\": %s link to %s"
 msgstr "\"%s\": %s liên kết tới %s"
 
-#: ../thunar/thunar-list-model.c:2501
+#: ../lunar/lunar-list-model.c:2501
 #, c-format
 msgid "\"%s\": shortcut"
 msgstr "\"%s\": lối tắt"
 
-#: ../thunar/thunar-list-model.c:2505
+#: ../lunar/lunar-list-model.c:2505
 #, c-format
 msgid "\"%s\": mountable"
 msgstr "\"%s\": có thể mount"
 
 #. I18N, first %s is the display name of the file, 2nd the file size, 3rd the
 #. content type
-#: ../thunar/thunar-list-model.c:2512
+#: ../lunar/lunar-list-model.c:2512
 #, c-format
 msgid "\"%s\": %s %s"
 msgstr "\"%s\": %s %s"
 
 #. I18N, first %s is the display name of the file, second the content type
-#: ../thunar/thunar-list-model.c:2521
+#: ../lunar/lunar-list-model.c:2521
 #, c-format
 msgid "\"%s\": %s"
 msgstr "\"%s\": %s"
@@ -1445,334 +1445,334 @@ msgstr "\"%s\": %s"
 #. * where the trashed file/folder was located before it was moved to the
 #. trash), otherwise the
 #. * properties dialog width will be messed up.
-#: ../thunar/thunar-list-model.c:2531 ../thunar/thunar-properties-dialog.c:401
+#: ../lunar/lunar-list-model.c:2531 ../lunar/lunar-properties-dialog.c:401
 msgid "Original Path:"
 msgstr "Đường dẫn gốc:"
 
 #. append the image dimensions to the statusbar text
-#: ../thunar/thunar-list-model.c:2554
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:153
+#: ../lunar/lunar-list-model.c:2554
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:153
 msgid "Image Size:"
 msgstr "Kích thước ảnh"
 
-#: ../thunar/thunar-list-model.c:2572
+#: ../lunar/lunar-list-model.c:2572
 #, c-format
 msgid "Selection: %s"
 msgstr ""
 
-#: ../thunar/thunar-location-entry.c:200 ../thunar/thunar-window.c:376
+#: ../lunar/lunar-location-entry.c:200 ../lunar/lunar-window.c:376
 msgid "Reload the current folder"
 msgstr "Đọc lại thư mục hiện tại"
 
-#: ../thunar/thunar-location-entry.c:359
+#: ../lunar/lunar-location-entry.c:359
 #, c-format
 msgid "File does not exist"
 msgstr "Tập tin không tồn tại"
 
-#: ../thunar/thunar-notify.c:168
+#: ../lunar/lunar-notify.c:168
 msgid "Unmounting device"
 msgstr "Đang tháo gắn kết thiết bị"
 
-#: ../thunar/thunar-notify.c:169
+#: ../lunar/lunar-notify.c:169
 #, c-format
 msgid ""
 "The device \"%s\" is being unmounted by the system. Please do not remove the"
 " media or disconnect the drive"
 msgstr "Thiết bị \"%s\" đang được tháo gắn kết, xin đừng rút hoặc ngắt thiết bị đó"
 
-#: ../thunar/thunar-notify.c:175 ../thunar/thunar-notify.c:214
+#: ../lunar/lunar-notify.c:175 ../lunar/lunar-notify.c:214
 msgid "Writing data to device"
 msgstr "Đang ghi dữ liệu lên thiết bị"
 
-#: ../thunar/thunar-notify.c:176 ../thunar/thunar-notify.c:215
+#: ../lunar/lunar-notify.c:176 ../lunar/lunar-notify.c:215
 #, c-format
 msgid ""
 "There is data that needs to be written to the device \"%s\" before it can be"
 " removed. Please do not remove the media or disconnect the drive"
 msgstr "Còn dữ liệu cần phải ghi lên thiết bị \"%s\" trước khi có thể tháo. Xin đừng rút hoặc ngắt thiết bị"
 
-#: ../thunar/thunar-notify.c:208
+#: ../lunar/lunar-notify.c:208
 msgid "Ejecting device"
 msgstr "Đang ngắt thiết bị"
 
-#: ../thunar/thunar-notify.c:209
+#: ../lunar/lunar-notify.c:209
 #, c-format
 msgid "The device \"%s\" is being ejected. This may take some time"
 msgstr "Đang ngắt thiết bị \"%s\". Việc này có thể tốn ít thời gian"
 
-#: ../thunar/thunar-path-entry.c:205
+#: ../lunar/lunar-path-entry.c:205
 msgid "Icon size"
 msgstr "Kích cỡ biểu tưởng"
 
-#: ../thunar/thunar-path-entry.c:206
+#: ../lunar/lunar-path-entry.c:206
 msgid "The icon size for the path entry"
 msgstr "Kĩch cỡ biểu tượng cho mục đường dẫn này"
 
-#: ../thunar/thunar-permissions-chooser.c:221
+#: ../lunar/lunar-permissions-chooser.c:221
 msgid "Owner:"
 msgstr "Chủ sở hữu:"
 
-#: ../thunar/thunar-permissions-chooser.c:240
+#: ../lunar/lunar-permissions-chooser.c:240
 msgid "_Access:"
 msgstr "Truy cập:"
 
-#: ../thunar/thunar-permissions-chooser.c:266
+#: ../lunar/lunar-permissions-chooser.c:266
 msgid "Gro_up:"
 msgstr "Nhóm:"
 
-#: ../thunar/thunar-permissions-chooser.c:286
+#: ../lunar/lunar-permissions-chooser.c:286
 msgid "Acc_ess:"
 msgstr ""
 
-#: ../thunar/thunar-permissions-chooser.c:312
+#: ../lunar/lunar-permissions-chooser.c:312
 msgid "Others"
 msgstr ""
 
-#: ../thunar/thunar-permissions-chooser.c:320
+#: ../lunar/lunar-permissions-chooser.c:320
 msgid "Acce_ss:"
 msgstr "Truy cập:"
 
-#: ../thunar/thunar-permissions-chooser.c:346
+#: ../lunar/lunar-permissions-chooser.c:346
 msgid "Program:"
 msgstr "Chương trình:"
 
-#: ../thunar/thunar-permissions-chooser.c:352
+#: ../lunar/lunar-permissions-chooser.c:352
 msgid "Allow this file to _run as a program"
 msgstr "Cho phép tập tin này chạy như một chương trình"
 
-#: ../thunar/thunar-permissions-chooser.c:372
+#: ../lunar/lunar-permissions-chooser.c:372
 msgid ""
 "Allowing untrusted programs to run presents a security risk to your system."
 msgstr ""
 
-#: ../thunar/thunar-permissions-chooser.c:388
+#: ../lunar/lunar-permissions-chooser.c:388
 msgid ""
 "The folder permissions are inconsistent, you may not be able to work with "
 "files in this folder."
 msgstr ""
 
-#: ../thunar/thunar-permissions-chooser.c:402
+#: ../lunar/lunar-permissions-chooser.c:402
 msgid "Correct _folder permissions..."
 msgstr "Sửa quyền của thư mục..."
 
-#: ../thunar/thunar-permissions-chooser.c:403
+#: ../lunar/lunar-permissions-chooser.c:403
 msgid "Click here to automatically fix the folder permissions."
 msgstr "Bấm vào đây để tự động sửa quyền thư mục."
 
-#: ../thunar/thunar-permissions-chooser.c:414
+#: ../lunar/lunar-permissions-chooser.c:414
 msgid "Please wait..."
 msgstr "Xin đợi..."
 
-#: ../thunar/thunar-permissions-chooser.c:419
+#: ../lunar/lunar-permissions-chooser.c:419
 msgid "Stop applying permissions recursively."
 msgstr "Dừng áp dụng quyền cho các mục con (đệ quy)."
 
 #. allocate the question dialog
-#: ../thunar/thunar-permissions-chooser.c:532
+#: ../lunar/lunar-permissions-chooser.c:532
 msgid "Question"
 msgstr "Câu hỏi"
 
-#: ../thunar/thunar-permissions-chooser.c:556
+#: ../lunar/lunar-permissions-chooser.c:556
 msgid "Apply recursively?"
 msgstr "Áp dụng cho các mục con?"
 
-#: ../thunar/thunar-permissions-chooser.c:562
+#: ../lunar/lunar-permissions-chooser.c:562
 msgid ""
 "Do you want to apply your changes recursively to\n"
 "all files and subfolders below the selected folder?"
 msgstr "Bạn có muốn áp dụng những thay đổi cho\ntoàn bộ thư mục và tập tin con của thư mục đã chọn?"
 
-#: ../thunar/thunar-permissions-chooser.c:567
+#: ../lunar/lunar-permissions-chooser.c:567
 msgid "Do _not ask me again"
 msgstr "Đừng hỏi lại nữa"
 
-#: ../thunar/thunar-permissions-chooser.c:568
+#: ../lunar/lunar-permissions-chooser.c:568
 msgid ""
 "If you select this option your choice will be remembered and you won't be "
 "asked again. You can use the preferences dialog to alter your choice "
 "afterwards."
 msgstr "Nếu đánh dấu mục này, các lựa chọn của bạn sẽ được ghi nhớ và bạn không bị hỏi lại nữa. Bạn có thể dùng cửa sổ tùy chỉnh để thay đổi lựa chọn của bạn sau này."
 
-#: ../thunar/thunar-permissions-chooser.c:930
+#: ../lunar/lunar-permissions-chooser.c:930
 msgid "Mixed file owners"
 msgstr "Tệp tin đa chủ sở hữu"
 
-#: ../thunar/thunar-permissions-chooser.c:930
+#: ../lunar/lunar-permissions-chooser.c:930
 msgid "Unknown file owner"
 msgstr "Không biết chủ sỡ hữu tập tin"
 
-#: ../thunar/thunar-permissions-chooser.c:1010
-#: ../plugins/thunar-uca/thunar-uca-editor.c:411
-#: ../plugins/thunar-uca/thunar-uca-editor.c:617
+#: ../lunar/lunar-permissions-chooser.c:1010
+#: ../plugins/lunar-uca/lunar-uca-editor.c:411
+#: ../plugins/lunar-uca/lunar-uca-editor.c:617
 msgid "None"
 msgstr "Không"
 
 #. 0000
-#: ../thunar/thunar-permissions-chooser.c:1011
+#: ../lunar/lunar-permissions-chooser.c:1011
 msgid "Write only"
 msgstr "Chỉ ghi"
 
 #. 0002
-#: ../thunar/thunar-permissions-chooser.c:1012
+#: ../lunar/lunar-permissions-chooser.c:1012
 msgid "Read only"
 msgstr "Chỉ đọc"
 
 #. 0004
-#: ../thunar/thunar-permissions-chooser.c:1013
+#: ../lunar/lunar-permissions-chooser.c:1013
 msgid "Read & Write"
 msgstr "Đọc & ghi"
 
-#: ../thunar/thunar-permissions-chooser.c:1015
+#: ../lunar/lunar-permissions-chooser.c:1015
 msgid "Varying (no change)"
 msgstr "Thay đổi (giữ nguyên)"
 
-#: ../thunar/thunar-permissions-chooser.c:1142
+#: ../lunar/lunar-permissions-chooser.c:1142
 msgid "Correct folder permissions automatically?"
 msgstr "Sửa quyền thư mục tự động?"
 
-#: ../thunar/thunar-permissions-chooser.c:1144
+#: ../lunar/lunar-permissions-chooser.c:1144
 msgid "Correct _folder permissions"
 msgstr "Sửa quyền thư mục"
 
-#: ../thunar/thunar-permissions-chooser.c:1146
+#: ../lunar/lunar-permissions-chooser.c:1146
 msgid ""
 "The folder permissions will be reset to a consistent state. Only users "
 "allowed to read the contents of this folder will be allowed to enter the "
 "folder afterwards."
 msgstr "Quyền thư mục sẽ được đặt lại cho phù hợp. Chỉ có những người dùng được phép đọc ở thư mục này mới được quyền vào các thư mục con của nó."
 
-#: ../thunar/thunar-preferences-dialog.c:285
+#: ../lunar/lunar-preferences-dialog.c:285
 msgid "File Manager Preferences"
 msgstr "Tùy chỉnh trình quản lí tập tin"
 
 #. Display
-#: ../thunar/thunar-preferences-dialog.c:322
+#: ../lunar/lunar-preferences-dialog.c:322
 msgid "Display"
 msgstr "Hiển thị"
 
-#: ../thunar/thunar-preferences-dialog.c:332
+#: ../lunar/lunar-preferences-dialog.c:332
 msgid "View Settings"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:345
+#: ../lunar/lunar-preferences-dialog.c:345
 msgid "View _new folders using:"
 msgstr "Kiểu hiển thị thư mục:"
 
-#: ../thunar/thunar-preferences-dialog.c:351
-#: ../thunar/thunar-preferences-dialog.c:419
+#: ../lunar/lunar-preferences-dialog.c:351
+#: ../lunar/lunar-preferences-dialog.c:419
 msgid "Icon View"
 msgstr "Kiểu biểu tượng"
 
-#: ../thunar/thunar-preferences-dialog.c:352
+#: ../lunar/lunar-preferences-dialog.c:352
 msgid "List View"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:353
+#: ../lunar/lunar-preferences-dialog.c:353
 msgid "Compact View"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:354
+#: ../lunar/lunar-preferences-dialog.c:354
 msgid "Last Active View"
 msgstr "Kiểu lần trước xem"
 
-#: ../thunar/thunar-preferences-dialog.c:363
+#: ../lunar/lunar-preferences-dialog.c:363
 msgid "Show thumbnails:"
 msgstr "Hiện thu nhỏ"
 
-#: ../thunar/thunar-preferences-dialog.c:369
-#: ../thunar/thunar-preferences-dialog.c:785
+#: ../lunar/lunar-preferences-dialog.c:369
+#: ../lunar/lunar-preferences-dialog.c:785
 msgid "Never"
 msgstr "Không"
 
-#: ../thunar/thunar-preferences-dialog.c:370
-#: ../thunar/thunar-preferences-dialog.c:783
+#: ../lunar/lunar-preferences-dialog.c:370
+#: ../lunar/lunar-preferences-dialog.c:783
 msgid "Local Files Only"
 msgstr "Chỉ tập tin trên máy"
 
-#: ../thunar/thunar-preferences-dialog.c:371
-#: ../thunar/thunar-preferences-dialog.c:782
+#: ../lunar/lunar-preferences-dialog.c:371
+#: ../lunar/lunar-preferences-dialog.c:782
 msgid "Always"
 msgstr "Luôn luôn"
 
-#: ../thunar/thunar-preferences-dialog.c:380
+#: ../lunar/lunar-preferences-dialog.c:380
 msgid "_Remember view settings for each folder"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:383
+#: ../lunar/lunar-preferences-dialog.c:383
 msgid ""
 "Select this option to remember view type, sort column, and sort order "
 "individually for each folder"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:391
+#: ../lunar/lunar-preferences-dialog.c:391
 msgid "gvfs metadata support is required"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:394
+#: ../lunar/lunar-preferences-dialog.c:394
 msgid "Draw frames around thumbnails"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:396
+#: ../lunar/lunar-preferences-dialog.c:396
 msgid "Select this option to draw black frames around thumbnails."
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:401
+#: ../lunar/lunar-preferences-dialog.c:401
 msgid "Sort _folders before files"
 msgstr "Xếp thư mục trước tập tin"
 
-#: ../thunar/thunar-preferences-dialog.c:403
+#: ../lunar/lunar-preferences-dialog.c:403
 msgid ""
 "Select this option to list folders before files when you sort a folder."
 msgstr "Chọn mục này để sắp xếp các thư mục đằng trước tập tin."
 
-#: ../thunar/thunar-preferences-dialog.c:408
+#: ../lunar/lunar-preferences-dialog.c:408
 msgid "Show file size in binary format"
 msgstr "Hiển thị kích thước tập tin trong hệ nhị phân"
 
-#: ../thunar/thunar-preferences-dialog.c:410
+#: ../lunar/lunar-preferences-dialog.c:410
 msgid ""
 "Select this option to show file size in binary format instead of decimal."
 msgstr "Chọn tùy chọn này để hiển thị kích thước của tập tin trong hệ nhị phân thay thế cho hệ thập phân."
 
-#: ../thunar/thunar-preferences-dialog.c:432
+#: ../lunar/lunar-preferences-dialog.c:432
 msgid "_Text beside icons"
 msgstr "Tên nằm bên biểu tượng"
 
-#: ../thunar/thunar-preferences-dialog.c:434
+#: ../lunar/lunar-preferences-dialog.c:434
 msgid ""
 "Select this option to place the icon captions for items beside the icon "
 "rather than below the icon."
 msgstr "Chọn mục này để hiển thị tên của biển tượng nằm một bên chứ không phải ở dưới biểu tượng đó."
 
-#: ../thunar/thunar-preferences-dialog.c:444
+#: ../lunar/lunar-preferences-dialog.c:444
 msgid "Window icon"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:457
+#: ../lunar/lunar-preferences-dialog.c:457
 msgid "Use current folder icon"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:459
+#: ../lunar/lunar-preferences-dialog.c:459
 msgid "Select this option to use the current folder icon as window icon"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:468
+#: ../lunar/lunar-preferences-dialog.c:468
 msgid "Date"
 msgstr "Ngày tháng"
 
-#: ../thunar/thunar-preferences-dialog.c:481
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:214
+#: ../lunar/lunar-preferences-dialog.c:481
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:214
 msgid "_Format:"
 msgstr "Định dạng:"
 
 #. TRANSLATORS: custom date format
-#: ../thunar/thunar-preferences-dialog.c:494
+#: ../lunar/lunar-preferences-dialog.c:494
 msgid "Custom"
 msgstr "Tùy chỉnh"
 
 #. TRANSLATORS: Please do not translate the first column (specifiers),
 #. 'strftime' and of course '\n'
-#: ../thunar/thunar-preferences-dialog.c:504
+#: ../lunar/lunar-preferences-dialog.c:504
 msgid ""
 "Custom date format to apply.\n"
 "\n"
@@ -1788,117 +1788,117 @@ msgid ""
 msgstr "Định dạng ngày tùy chỉnh được áp dụng.\n\nNhững thông số kỹ thuật là:\n%d ngày của một tháng\n%m tháng\n%Y năm bao gồm thế kỉ \n%H giờ\n%M phút\n%S giây\n\nCho một danh sách hoàn chỉnh, kiểm tra trang chủ của 'strftime'"
 
 #. Side Pane
-#: ../thunar/thunar-preferences-dialog.c:522
+#: ../lunar/lunar-preferences-dialog.c:522
 msgid "Side Pane"
 msgstr "Pane bên trái"
 
-#: ../thunar/thunar-preferences-dialog.c:532
+#: ../lunar/lunar-preferences-dialog.c:532
 msgid "Shortcuts Pane"
 msgstr "Kiểu danh sách"
 
-#: ../thunar/thunar-preferences-dialog.c:545
+#: ../lunar/lunar-preferences-dialog.c:545
 msgid "_Icon Size:"
 msgstr "Cỡ biểu tượng:"
 
-#: ../thunar/thunar-preferences-dialog.c:550
-#: ../thunar/thunar-preferences-dialog.c:598
+#: ../lunar/lunar-preferences-dialog.c:550
+#: ../lunar/lunar-preferences-dialog.c:598
 msgid "16px"
 msgstr "16px"
 
-#: ../thunar/thunar-preferences-dialog.c:551
-#: ../thunar/thunar-preferences-dialog.c:599
+#: ../lunar/lunar-preferences-dialog.c:551
+#: ../lunar/lunar-preferences-dialog.c:599
 msgid "24px"
 msgstr "24px"
 
-#: ../thunar/thunar-preferences-dialog.c:552
-#: ../thunar/thunar-preferences-dialog.c:600
+#: ../lunar/lunar-preferences-dialog.c:552
+#: ../lunar/lunar-preferences-dialog.c:600
 msgid "32px"
 msgstr "32px"
 
-#: ../thunar/thunar-preferences-dialog.c:553
-#: ../thunar/thunar-preferences-dialog.c:601
+#: ../lunar/lunar-preferences-dialog.c:553
+#: ../lunar/lunar-preferences-dialog.c:601
 msgid "48px"
 msgstr "48px"
 
-#: ../thunar/thunar-preferences-dialog.c:554
-#: ../thunar/thunar-preferences-dialog.c:602
+#: ../lunar/lunar-preferences-dialog.c:554
+#: ../lunar/lunar-preferences-dialog.c:602
 msgid "64px"
 msgstr "64px"
 
-#: ../thunar/thunar-preferences-dialog.c:555
-#: ../thunar/thunar-preferences-dialog.c:603
+#: ../lunar/lunar-preferences-dialog.c:555
+#: ../lunar/lunar-preferences-dialog.c:603
 msgid "96px"
 msgstr "96px"
 
-#: ../thunar/thunar-preferences-dialog.c:556
-#: ../thunar/thunar-preferences-dialog.c:604
+#: ../lunar/lunar-preferences-dialog.c:556
+#: ../lunar/lunar-preferences-dialog.c:604
 msgid "128px"
 msgstr "128px"
 
-#: ../thunar/thunar-preferences-dialog.c:557
-#: ../thunar/thunar-preferences-dialog.c:605
+#: ../lunar/lunar-preferences-dialog.c:557
+#: ../lunar/lunar-preferences-dialog.c:605
 msgid "160px"
 msgstr "160px"
 
-#: ../thunar/thunar-preferences-dialog.c:558
-#: ../thunar/thunar-preferences-dialog.c:606
+#: ../lunar/lunar-preferences-dialog.c:558
+#: ../lunar/lunar-preferences-dialog.c:606
 msgid "192px"
 msgstr "192px"
 
-#: ../thunar/thunar-preferences-dialog.c:559
-#: ../thunar/thunar-preferences-dialog.c:607
+#: ../lunar/lunar-preferences-dialog.c:559
+#: ../lunar/lunar-preferences-dialog.c:607
 msgid "256px"
 msgstr "256px"
 
-#: ../thunar/thunar-preferences-dialog.c:568
+#: ../lunar/lunar-preferences-dialog.c:568
 msgid "Show Icon _Emblems"
 msgstr "Hiện biểu tượng ý nghĩa"
 
-#: ../thunar/thunar-preferences-dialog.c:570
+#: ../lunar/lunar-preferences-dialog.c:570
 msgid ""
 "Select this option to display icon emblems in the shortcuts pane for all "
 "folders for which emblems have been defined in the folders properties "
 "dialog."
 msgstr "Chọn biểu tượng này để hiển thị biểu tượng ý nghĩa của mục đó. Ví dụ thư mục home thì là ngôi nhà chứ không phải hình thư mục thông thường, .."
 
-#: ../thunar/thunar-preferences-dialog.c:580
+#: ../lunar/lunar-preferences-dialog.c:580
 msgid "Tree Pane"
 msgstr "Kiểu cây"
 
-#: ../thunar/thunar-preferences-dialog.c:593
+#: ../lunar/lunar-preferences-dialog.c:593
 msgid "Icon _Size:"
 msgstr "Cỡ biểu tượng:"
 
-#: ../thunar/thunar-preferences-dialog.c:616
+#: ../lunar/lunar-preferences-dialog.c:616
 msgid "Show Icon E_mblems"
 msgstr "Hiện biểu tượng ý nghĩa"
 
-#: ../thunar/thunar-preferences-dialog.c:618
+#: ../lunar/lunar-preferences-dialog.c:618
 msgid ""
 "Select this option to display icon emblems in the tree pane for all folders "
 "for which emblems have been defined in the folders properties dialog."
 msgstr "Chọn biểu tượng này để hiển thị biểu tượng ý nghĩa của mục đó. Ví dụ thư mục home thì là ngôi nhà chứ không phải hình thư mục thông thường, .."
 
 #. Behavior
-#: ../thunar/thunar-preferences-dialog.c:628
+#: ../lunar/lunar-preferences-dialog.c:628
 msgid "Behavior"
 msgstr "Hành vi"
 
-#: ../thunar/thunar-preferences-dialog.c:638
+#: ../lunar/lunar-preferences-dialog.c:638
 msgid "Navigation"
 msgstr "Chế độ bấm chuột"
 
-#: ../thunar/thunar-preferences-dialog.c:651
+#: ../lunar/lunar-preferences-dialog.c:651
 msgid "_Single click to activate items"
 msgstr "Bấm chuột một lần để mở biểu tượng"
 
-#: ../thunar/thunar-preferences-dialog.c:667
+#: ../lunar/lunar-preferences-dialog.c:667
 msgid ""
 "Specify the d_elay before an item gets selected\n"
 "when the mouse pointer is paused over it:"
 msgstr "Thời gian trễ để mục được chọn khi di chuyển\nchuột trên nó"
 
-#: ../thunar/thunar-preferences-dialog.c:680
+#: ../lunar/lunar-preferences-dialog.c:680
 msgid ""
 "When single-click activation is enabled, pausing the mouse pointer over an "
 "item will automatically select that item after the chosen delay. You can "
@@ -1907,54 +1907,54 @@ msgid ""
 "to select the item without activating it."
 msgstr "Nếu chọn chế độ bấm chuột một lần, biểu tượng sẽ tự động được chọn sau một khoảng thời gian tùy chỉnh khi đưa chuột vào nó. Bạn có thể tắt chức năng này bằng cách kéo thanh trượt về phía cuối bên trái. Chức năng này chỉ có ích khi ở chế độ bấm chuột một lần và bạn chỉ muốn chọn thay vì mở biểu tượng."
 
-#: ../thunar/thunar-preferences-dialog.c:699
+#: ../lunar/lunar-preferences-dialog.c:699
 msgid "Disabled"
 msgstr "Tắt"
 
-#: ../thunar/thunar-preferences-dialog.c:705
+#: ../lunar/lunar-preferences-dialog.c:705
 msgid "Medium"
 msgstr "Trung bình"
 
-#: ../thunar/thunar-preferences-dialog.c:710
+#: ../lunar/lunar-preferences-dialog.c:710
 msgid "Long"
 msgstr "Lâu"
 
-#: ../thunar/thunar-preferences-dialog.c:716
+#: ../lunar/lunar-preferences-dialog.c:716
 msgid "_Double click to activate items"
 msgstr "Double click để mở biểu tượng"
 
-#: ../thunar/thunar-preferences-dialog.c:727
+#: ../lunar/lunar-preferences-dialog.c:727
 msgid "Tabs instead of new Windows"
 msgstr "Chuyển hướng thay vì mở cửa sổ mới"
 
-#: ../thunar/thunar-preferences-dialog.c:740
+#: ../lunar/lunar-preferences-dialog.c:740
 msgid "Open folders in new tabs on middle click"
 msgstr "Mở thư mục trong tab mới khi nhấp chuột giữa"
 
-#: ../thunar/thunar-preferences-dialog.c:742
+#: ../lunar/lunar-preferences-dialog.c:742
 msgid ""
 "Select this option to open a new tab on middle click instead of a new window"
 msgstr "Chọn tùy chọn này để mở tab mới khi nhấp chuột giữa thay vì mở cửa sổ mới"
 
-#: ../thunar/thunar-preferences-dialog.c:746
-msgid "Open new thunar instances as tabs"
-msgstr "Mở tiến trình mới của thunar bằng tab"
+#: ../lunar/lunar-preferences-dialog.c:746
+msgid "Open new lunar instances as tabs"
+msgstr "Mở tiến trình mới của lunar bằng tab"
 
-#: ../thunar/thunar-preferences-dialog.c:748
+#: ../lunar/lunar-preferences-dialog.c:748
 msgid ""
-"Select this option to open new thunar instances as tabs in an existing "
-"thunar window"
-msgstr "Chọn tùy chọn này để mở tiến trình mới của thunar băng tab trong cửa sổ thunar hiện tại"
+"Select this option to open new lunar instances as tabs in an existing "
+"lunar window"
+msgstr "Chọn tùy chọn này để mở tiến trình mới của lunar băng tab trong cửa sổ lunar hiện tại"
 
-#: ../thunar/thunar-preferences-dialog.c:757
+#: ../lunar/lunar-preferences-dialog.c:757
 msgid "File transfer"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:769
+#: ../lunar/lunar-preferences-dialog.c:769
 msgid "Transfer files in parallel:"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:771
+#: ../lunar/lunar-preferences-dialog.c:771
 msgid ""
 "Indicates the behavior during multiple copies:\n"
 "- Always: all copies are done simultaneously\n"
@@ -1963,457 +1963,457 @@ msgid ""
 "- Never: all copies are done sequentially"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:784
+#: ../lunar/lunar-preferences-dialog.c:784
 msgid "Local Files On Same Devices Only"
 msgstr ""
 
-#: ../thunar/thunar-preferences-dialog.c:800
+#: ../lunar/lunar-preferences-dialog.c:800
 msgid "Context Menu"
 msgstr "Menu ngữ cảnh"
 
-#: ../thunar/thunar-preferences-dialog.c:812
+#: ../lunar/lunar-preferences-dialog.c:812
 msgid "Show action to permanently delete files and folders"
 msgstr "Hiển thị hành động để xóa vĩnh viễn tập tin và thư mục"
 
-#: ../thunar/thunar-preferences-dialog.c:814
+#: ../lunar/lunar-preferences-dialog.c:814
 msgid "Select this option to show the 'Delete' action in the context menu"
 msgstr "Chọn tùy chọn này để hiển thị hành động 'Xóa' trong menu ngữ cảnh"
 
 #. Advanced
-#: ../thunar/thunar-preferences-dialog.c:823
+#: ../lunar/lunar-preferences-dialog.c:823
 msgid "Advanced"
 msgstr "Nâng cao"
 
-#: ../thunar/thunar-preferences-dialog.c:833
+#: ../lunar/lunar-preferences-dialog.c:833
 msgid "Folder Permissions"
 msgstr "Quyền thư mục"
 
-#: ../thunar/thunar-preferences-dialog.c:846
+#: ../lunar/lunar-preferences-dialog.c:846
 msgid ""
 "When changing the permissions of a folder, you\n"
 "can also apply the changes to the contents of the\n"
 "folder. Select the default behavior below:"
 msgstr "Khi thay đổi quyền của một thư mục, bạn cũng\ncó thể áp dụng những thay đổi đó cho những mục\ncon của nó. Và mặc định là:"
 
-#: ../thunar/thunar-preferences-dialog.c:855
+#: ../lunar/lunar-preferences-dialog.c:855
 msgid "Ask every time"
 msgstr "Hỏi mọi lúc"
 
-#: ../thunar/thunar-preferences-dialog.c:856
+#: ../lunar/lunar-preferences-dialog.c:856
 msgid "Apply to Folder and Contents"
 msgstr "Áp dụng cho thư mục đó và mục con"
 
-#: ../thunar/thunar-preferences-dialog.c:857
+#: ../lunar/lunar-preferences-dialog.c:857
 msgid "Apply to Folder Only"
 msgstr "Chỉ áp dụng cho thư mục đó"
 
-#: ../thunar/thunar-preferences-dialog.c:868
+#: ../lunar/lunar-preferences-dialog.c:868
 msgid "Volume Management"
 msgstr "Quản lí ổ đĩa"
 
 #. add check button to enable/disable auto mounting
-#: ../thunar/thunar-preferences-dialog.c:885
+#: ../lunar/lunar-preferences-dialog.c:885
 msgid "Enable _Volume Management"
 msgstr "Bật tác vụ quản lí ổ đĩa"
 
-#: ../thunar/thunar-preferences-dialog.c:895
+#: ../lunar/lunar-preferences-dialog.c:895
 msgid ""
 "<a href=\"volman-config:\">Configure</a> the management of removable drives,\n"
 "devices and media."
 msgstr "<a href=\"volman-config:\">Cấu hình</a> trình quản lý ổ đĩa di động,\ncác thiế bị và phương tiện."
 
-#: ../thunar/thunar-preferences-dialog.c:910
+#: ../lunar/lunar-preferences-dialog.c:910
 msgid "Missing dependencies"
 msgstr "Thiếu gói phụ thuộc"
 
-#: ../thunar/thunar-preferences-dialog.c:918
+#: ../lunar/lunar-preferences-dialog.c:918
 msgid ""
 "It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\n"
 "Important features including trash support,\n"
 "removable media and remote location browsing\n"
-"will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
-msgstr "Có vẻ như <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a>không khả dụng.\nNhững tính năng quan trọng bao gồm hỗ trợ thùng rác,\nphương tiện di động và duyệt từ xa sẽ không hoạt động. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Đọc thêm]</a>"
+"will not work. <a href=\"https://docs.expidus.com/expidus/lunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
+msgstr "Có vẻ như <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a>không khả dụng.\nNhững tính năng quan trọng bao gồm hỗ trợ thùng rác,\nphương tiện di động và duyệt từ xa sẽ không hoạt động. <a href=\"https://docs.expidus.com/expidus/lunar/unix-filesystem#gnome_virtual_file_system\">[Đọc thêm]</a>"
 
-#. tell the user that we failed to come up with the thunar-volman
+#. tell the user that we failed to come up with the lunar-volman
 #. configuration dialog
-#: ../thunar/thunar-preferences-dialog.c:992
+#: ../lunar/lunar-preferences-dialog.c:992
 msgid "Failed to display the volume management settings"
 msgstr "Không mở được cấu hình tác vụ quản lí ổ đĩa"
 
-#: ../thunar/thunar-progress-dialog.c:96
+#: ../lunar/lunar-progress-dialog.c:96
 msgid "File Operation Progress"
 msgstr "Tiến trình tác vụ tập tin"
 
 #. build the tooltip text
-#: ../thunar/thunar-progress-dialog.c:310
+#: ../lunar/lunar-progress-dialog.c:310
 #, c-format
 msgid "%d file operation running"
 msgid_plural "%d file operations running"
 msgstr[0] "%d tác vụ tập tin đang chạy"
 
-#: ../thunar/thunar-progress-view.c:239
+#: ../lunar/lunar-progress-view.c:239
 msgid "Pause"
 msgstr ""
 
-#: ../thunar/thunar-progress-view.c:246
+#: ../lunar/lunar-progress-view.c:246
 msgid "Resume"
 msgstr ""
 
-#: ../thunar/thunar-progress-view.c:253
+#: ../lunar/lunar-progress-view.c:253
 msgid "Cancel"
 msgstr "Hủy bỏ"
 
-#: ../thunar/thunar-progress-view.c:369
+#: ../lunar/lunar-progress-view.c:369
 msgid "Paused"
 msgstr ""
 
-#: ../thunar/thunar-progress-view.c:390
+#: ../lunar/lunar-progress-view.c:390
 msgid "Resuming..."
 msgstr ""
 
 #. update the status text
-#: ../thunar/thunar-progress-view.c:422
+#: ../lunar/lunar-progress-view.c:422
 msgid "Cancelling..."
 msgstr "Đang hủy..."
 
-#: ../thunar/thunar-progress-view.c:574
+#: ../lunar/lunar-progress-view.c:574
 msgid "Frozen by another job on same device"
 msgstr ""
 
-#: ../thunar/thunar-progress-view.c:593
+#: ../lunar/lunar-progress-view.c:593
 msgid "Unfreezing..."
 msgstr ""
 
-#: ../thunar/thunar-properties-dialog.c:265
+#: ../lunar/lunar-properties-dialog.c:265
 msgid "General"
 msgstr "Chung"
 
-#: ../thunar/thunar-properties-dialog.c:289
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:2
+#: ../lunar/lunar-properties-dialog.c:289
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:2
 msgid "_Name:"
 msgstr "Tên:"
 
-#: ../thunar/thunar-properties-dialog.c:324
+#: ../lunar/lunar-properties-dialog.c:324
 msgid "Names:"
 msgstr "Tên:"
 
 #. Second box (kind, open with, link target)
-#: ../thunar/thunar-properties-dialog.c:345
+#: ../lunar/lunar-properties-dialog.c:345
 msgid "Kind:"
 msgstr "Kiểu:"
 
-#: ../thunar/thunar-properties-dialog.c:367
+#: ../lunar/lunar-properties-dialog.c:367
 msgid "_Open With:"
 msgstr "Mở bằng:"
 
-#: ../thunar/thunar-properties-dialog.c:382
+#: ../lunar/lunar-properties-dialog.c:382
 msgid "Link Target:"
 msgstr "Liên kết đích:"
 
-#: ../thunar/thunar-properties-dialog.c:416
+#: ../lunar/lunar-properties-dialog.c:416
 msgid "Location:"
 msgstr "Địa điểm:"
 
 #. Third box (deleted, modified, accessed)
-#: ../thunar/thunar-properties-dialog.c:442
+#: ../lunar/lunar-properties-dialog.c:442
 msgid "Deleted:"
 msgstr "Đã xoá"
 
-#: ../thunar/thunar-properties-dialog.c:472
+#: ../lunar/lunar-properties-dialog.c:472
 msgid "Accessed:"
 msgstr "Đã truy xuất:"
 
-#: ../thunar/thunar-properties-dialog.c:512
+#: ../lunar/lunar-properties-dialog.c:512
 msgid "Volume:"
 msgstr "Ổ đĩa"
 
-#: ../thunar/thunar-properties-dialog.c:537
+#: ../lunar/lunar-properties-dialog.c:537
 msgid "Usage:"
 msgstr "Cách sử dụng:"
 
 #. Emblem chooser
-#: ../thunar/thunar-properties-dialog.c:572
+#: ../lunar/lunar-properties-dialog.c:572
 msgid "Emblems"
 msgstr "Ý nghĩa"
 
 #. allocate the icon chooser
 #. allocate the chooser dialog
-#: ../thunar/thunar-properties-dialog.c:825
-#: ../plugins/thunar-uca/thunar-uca-editor.c:432
+#: ../lunar/lunar-properties-dialog.c:825
+#: ../plugins/lunar-uca/lunar-uca-editor.c:432
 #, c-format
 msgid "Select an Icon for \"%s\""
 msgstr "Chọn biểu tượng cho \"%s\""
 
-#: ../thunar/thunar-properties-dialog.c:850
+#: ../lunar/lunar-properties-dialog.c:850
 #, c-format
 msgid "Failed to change icon of \"%s\""
 msgstr "Không thể thay đổi biểu tượng của \"%s\""
 
 #. update the properties dialog title
-#: ../thunar/thunar-properties-dialog.c:956
+#: ../lunar/lunar-properties-dialog.c:956
 #, c-format
 msgid "%s - Properties"
 msgstr "%s - Các thuộc tính"
 
-#: ../thunar/thunar-properties-dialog.c:1008
+#: ../lunar/lunar-properties-dialog.c:1008
 msgid "broken link"
 msgstr "liên kết hỏng"
 
-#: ../thunar/thunar-properties-dialog.c:1019
+#: ../lunar/lunar-properties-dialog.c:1019
 msgid "unknown"
 msgstr "không rõ"
 
 #. update the properties dialog title
-#: ../thunar/thunar-properties-dialog.c:1194
+#: ../lunar/lunar-properties-dialog.c:1194
 msgid "Properties"
 msgstr "Thuộc tính"
 
-#: ../thunar/thunar-properties-dialog.c:1294
+#: ../lunar/lunar-properties-dialog.c:1294
 msgid "mixed"
 msgstr "hỗn hợp"
 
-#: ../thunar/thunar-renamer-dialog.c:192
+#: ../lunar/lunar-renamer-dialog.c:192
 msgid "_Add Files..."
 msgstr "_Thêm tập tin"
 
-#: ../thunar/thunar-renamer-dialog.c:192
+#: ../lunar/lunar-renamer-dialog.c:192
 msgid "Include additional files in the list of files to be renamed"
 msgstr "Bao gồm những tập tin thêm vào trong dach sách tập tin được đổi tên"
 
-#: ../thunar/thunar-renamer-dialog.c:194
+#: ../lunar/lunar-renamer-dialog.c:194
 msgid "Clear"
 msgstr "Xoá"
 
-#: ../thunar/thunar-renamer-dialog.c:194
+#: ../lunar/lunar-renamer-dialog.c:194
 msgid "Clear the file list below"
 msgstr "Xoá danh sách file bên dưới"
 
-#: ../thunar/thunar-renamer-dialog.c:195 ../thunar/thunar-window.c:411
+#: ../lunar/lunar-renamer-dialog.c:195 ../lunar/lunar-window.c:411
 msgid "_About"
 msgstr "_Thông tin"
 
-#: ../thunar/thunar-renamer-dialog.c:195
-msgid "Display information about Thunar Bulk Rename"
-msgstr "Hiển thị thông tin về chương trình đổi tên đồng loạt của Thunar"
+#: ../lunar/lunar-renamer-dialog.c:195
+msgid "Display information about Lunar Bulk Rename"
+msgstr "Hiển thị thông tin về chương trình đổi tên đồng loạt của Lunar"
 
-#: ../thunar/thunar-renamer-dialog.c:354
-#: ../thunar/thunar-renamer-dialog.c:1781
-#: ../thunar-bulk-rename.desktop.in.in.h:2
+#: ../lunar/lunar-renamer-dialog.c:354
+#: ../lunar/lunar-renamer-dialog.c:1781
+#: ../lunar-bulk-rename.desktop.in.in.h:2
 msgid "Rename Multiple Files"
 msgstr "Đổi tên nhiều tập tin"
 
 #. add the "Rename Files" button
-#: ../thunar/thunar-renamer-dialog.c:362
+#: ../lunar/lunar-renamer-dialog.c:362
 msgid "_Rename Files"
 msgstr "Đổi tên tập tin"
 
-#: ../thunar/thunar-renamer-dialog.c:365
+#: ../lunar/lunar-renamer-dialog.c:365
 msgid ""
 "Click here to actually rename the files listed above to their new names."
 msgstr "Bấm vào đây để tiến hành đổi tên những tập tin ở dưới."
 
-#: ../thunar/thunar-renamer-dialog.c:435
+#: ../lunar/lunar-renamer-dialog.c:435
 msgid "New Name"
 msgstr "Tên mới"
 
-#: ../thunar/thunar-renamer-dialog.c:498
+#: ../lunar/lunar-renamer-dialog.c:498
 msgid ""
 "Click here to view the documentation for the selected rename operation."
 msgstr "Bấm vào đây để xem tài liệu về tác vụ đổi tên đã chọn"
 
-#. TRANSLATORS: You can test this string by temporarily removing thunar-sbr.*
-#. from $libdir/thunarx-2/,
+#. TRANSLATORS: You can test this string by temporarily removing lunar-sbr.*
+#. from $libdir/lunarx-2/,
 #. *              and opening the multi rename dialog by selecting multiple
 #. files and pressing F2.
-#: ../thunar/thunar-renamer-dialog.c:608
+#: ../lunar/lunar-renamer-dialog.c:608
 msgid ""
 "No renamer modules were found on your system. Please check your\n"
-"installation or contact your system administrator. If you install Thunar\n"
+"installation or contact your system administrator. If you install Lunar\n"
 "from source, be sure to enable the \"Simple Builtin Renamers\" plugin."
-msgstr "Không có mô đun tác vụ đổi tên nào trên hệ thống. Xin kiểm tra lại\nhoặc liên hệ với quản trị viên. Nếu bạn cài Thunar từ mã nguồn, hãy\nchắc chắn là bạn đã bật plugin \"Simple builtin renamers\""
+msgstr "Không có mô đun tác vụ đổi tên nào trên hệ thống. Xin kiểm tra lại\nhoặc liên hệ với quản trị viên. Nếu bạn cài Lunar từ mã nguồn, hãy\nchắc chắn là bạn đã bật plugin \"Simple builtin renamers\""
 
-#: ../thunar/thunar-renamer-dialog.c:858
+#: ../lunar/lunar-renamer-dialog.c:858
 msgid "Remove File"
 msgid_plural "Remove Files"
 msgstr[0] "Bỏ tập tin"
 
-#: ../thunar/thunar-renamer-dialog.c:859
+#: ../lunar/lunar-renamer-dialog.c:859
 msgid "Remove the selected file from the list of files to be renamed"
 msgid_plural "Remove the selected files from the list of files to be renamed"
 msgstr[0] "Bỏ những tập tin đã chọn khỏi danh sách sẽ đổi tên"
 
 #. tell the user that we failed
-#: ../thunar/thunar-renamer-dialog.c:955
+#: ../lunar/lunar-renamer-dialog.c:955
 msgid "Failed to open the documentation browser"
 msgstr "Khong mở được trình duyệt tài liệu"
 
 #. allocate the file chooser
-#: ../thunar/thunar-renamer-dialog.c:1056
+#: ../lunar/lunar-renamer-dialog.c:1056
 msgid "Select files to rename"
 msgstr "Chọn tập tin để đổi tên"
 
-#: ../thunar/thunar-renamer-dialog.c:1072
+#: ../lunar/lunar-renamer-dialog.c:1072
 msgid "Audio Files"
 msgstr "Các tập tin âm thành"
 
-#: ../thunar/thunar-renamer-dialog.c:1077
+#: ../lunar/lunar-renamer-dialog.c:1077
 msgid "Image Files"
 msgstr "Các tập tin hình"
 
-#: ../thunar/thunar-renamer-dialog.c:1082
+#: ../lunar/lunar-renamer-dialog.c:1082
 msgid "Video Files"
 msgstr "Các tập tin video"
 
 #. just popup the about dialog
-#: ../thunar/thunar-renamer-dialog.c:1209
-#: ../thunar-bulk-rename.desktop.in.in.h:1
+#: ../lunar/lunar-renamer-dialog.c:1209
+#: ../lunar-bulk-rename.desktop.in.in.h:1
 msgid "Bulk Rename"
 msgstr "Đổi tên hàng loạt"
 
-#: ../thunar/thunar-renamer-dialog.c:1210
+#: ../lunar/lunar-renamer-dialog.c:1210
 msgid ""
-"Thunar Bulk Rename is a powerful and extensible\n"
+"Lunar Bulk Rename is a powerful and extensible\n"
 "tool to rename multiple files at once."
-msgstr "\"Thunar Bulk Rename\" là một công cụ mở rộng rất\nhữu dụng để đổi tên hàng loạt tập tin cùng lúc."
+msgstr "\"Lunar Bulk Rename\" là một công cụ mở rộng rất\nhữu dụng để đổi tên hàng loạt tập tin cùng lúc."
 
 #. change title to reflect the standalone status
-#: ../thunar/thunar-renamer-dialog.c:1781
+#: ../lunar/lunar-renamer-dialog.c:1781
 msgid "Bulk Rename - Rename Multiple Files"
 msgstr "Bulk rename - Đổi tên tập tin hàng loạt"
 
-#: ../thunar/thunar-renamer-progress.c:187
+#: ../lunar/lunar-renamer-progress.c:187
 #, c-format
 msgid "Failed to rename \"%s\" to \"%s\"."
 msgstr "Không thể đổi tên \"%s\" thành \"%s\"."
 
-#: ../thunar/thunar-renamer-progress.c:194
+#: ../lunar/lunar-renamer-progress.c:194
 msgid ""
 "You can either choose to skip this file and continue to rename the remaining"
 " files, or revert the previously renamed files to their previous names, or "
 "cancel the operation without reverting previous changes."
 msgstr "Bạn có thể chọn bỏ qua tập tin này và tiếp tục đổi tên những tập tin còn lại hoặc phục hồi những tập tin đã đổi tên hoặc hủy tác vụ mà không phục hồi lại những tập tin đã đổi tên."
 
-#: ../thunar/thunar-renamer-progress.c:199
+#: ../lunar/lunar-renamer-progress.c:199
 msgid "_Revert Changes"
 msgstr "Phục hồi thay đổi"
 
-#: ../thunar/thunar-renamer-progress.c:200
-#: ../thunar/thunar-renamer-progress.c:209
+#: ../lunar/lunar-renamer-progress.c:200
+#: ../lunar/lunar-renamer-progress.c:209
 msgid "_Skip This File"
 msgstr "Bỏ qua tập tin này"
 
-#: ../thunar/thunar-renamer-progress.c:206
+#: ../lunar/lunar-renamer-progress.c:206
 msgid ""
 "Do you want to skip this file and continue to rename the remaining files?"
 msgstr "Bạn có muốn bỏ qua tập tin này và tiếp tục đổi tên phần còn lại?"
 
-#: ../thunar/thunar-shortcuts-model.c:631
-#: ../thunar/thunar-shortcuts-model.c:995 ../thunar/thunar-window.c:397
+#: ../lunar/lunar-shortcuts-model.c:631
+#: ../lunar/lunar-shortcuts-model.c:995 ../lunar/lunar-window.c:397
 msgid "Browse the file system"
 msgstr "Duyệt tập tin hệ thống"
 
-#: ../thunar/thunar-shortcuts-model.c:665
+#: ../lunar/lunar-shortcuts-model.c:665
 #, c-format
 msgid "Mount and open %s (%s)"
 msgstr ""
 
-#: ../thunar/thunar-shortcuts-model.c:678
-#: ../plugins/thunar-tpa/thunar-tpa.c:284
+#: ../lunar/lunar-shortcuts-model.c:678
+#: ../plugins/lunar-tpa/lunar-tpa.c:284
 msgid "Trash is empty"
 msgstr "Thùng rác rỗng"
 
-#: ../thunar/thunar-shortcuts-model.c:682
+#: ../lunar/lunar-shortcuts-model.c:682
 #, c-format
 msgid "Trash contains %d file"
 msgid_plural "Trash contains %d files"
 msgstr[0] "Thùng rác có %d tập tin"
 
-#: ../thunar/thunar-shortcuts-model.c:988
+#: ../lunar/lunar-shortcuts-model.c:988
 msgid "Devices"
 msgstr ""
 
-#: ../thunar/thunar-shortcuts-model.c:1031
+#: ../lunar/lunar-shortcuts-model.c:1031
 msgid "Network"
 msgstr "Mạng"
 
-#: ../thunar/thunar-shortcuts-model.c:1039
+#: ../lunar/lunar-shortcuts-model.c:1039
 msgid "Browse Network"
 msgstr "Duyệt mạng"
 
-#: ../thunar/thunar-shortcuts-model.c:1040 ../thunar/thunar-window.c:407
+#: ../lunar/lunar-shortcuts-model.c:1040 ../lunar/lunar-window.c:407
 msgid "Browse local network connections"
 msgstr "Duyệt các kết nối mạng cục bộ"
 
-#: ../thunar/thunar-shortcuts-model.c:1062
+#: ../lunar/lunar-shortcuts-model.c:1062
 msgid "Places"
 msgstr ""
 
-#: ../thunar/thunar-shortcuts-model.c:1074
+#: ../lunar/lunar-shortcuts-model.c:1074
 msgid "Open the home folder"
 msgstr ""
 
-#: ../thunar/thunar-shortcuts-model.c:1091
+#: ../lunar/lunar-shortcuts-model.c:1091
 msgid "Open the desktop folder"
 msgstr ""
 
-#: ../thunar/thunar-shortcuts-model.c:1138 ../thunar/thunar-window.c:398
-#: ../thunar/thunar-window.c:401 ../thunar.desktop.in.in.h:6
+#: ../lunar/lunar-shortcuts-model.c:1138 ../lunar/lunar-window.c:398
+#: ../lunar/lunar-window.c:401 ../lunar.desktop.in.in.h:6
 msgid "Computer"
 msgstr "Máy vi tính"
 
-#: ../thunar/thunar-shortcuts-model.c:1139
+#: ../lunar/lunar-shortcuts-model.c:1139
 msgid "Browse the computer"
 msgstr ""
 
 #. append the "Open in New Tab" menu action
-#: ../thunar/thunar-shortcuts-view.c:1131
+#: ../lunar/lunar-shortcuts-view.c:1131
 msgid "Open in New Tab"
 msgstr "Mở trong tab mới"
 
 #. append the "Open in New Window" menu action
-#: ../thunar/thunar-shortcuts-view.c:1137
+#: ../lunar/lunar-shortcuts-view.c:1137
 msgid "Open in New Window"
 msgstr "Mở trong cửa sổ mới"
 
-#: ../thunar/thunar-shortcuts-view.c:1188
+#: ../lunar/lunar-shortcuts-view.c:1188
 msgid "Create _Shortcut"
 msgstr "Tạo lối tắt"
 
-#: ../thunar/thunar-shortcuts-view.c:1285
+#: ../lunar/lunar-shortcuts-view.c:1285
 msgid "_Remove Shortcut"
 msgstr "Xóa biểu tượng"
 
 #. append the rename menu item
-#: ../thunar/thunar-shortcuts-view.c:1302
+#: ../lunar/lunar-shortcuts-view.c:1302
 msgid "Re_name Shortcut"
 msgstr "Đổi tên biểu tượng"
 
-#: ../thunar/thunar-shortcuts-view.c:1632
+#: ../lunar/lunar-shortcuts-view.c:1632
 #, c-format
 msgid "The path \"%s\" does not refer to a directory"
 msgstr "Đường dẫn \"%s\" không phải là thư mục"
 
 #. display an error message to the user
-#: ../thunar/thunar-shortcuts-view.c:1652
+#: ../lunar/lunar-shortcuts-view.c:1652
 msgid "Failed to add new shortcut"
 msgstr "Không thể thêm biểu tượng tắt mới"
 
-#: ../thunar/thunar-size-label.c:165
+#: ../lunar/lunar-size-label.c:165
 msgid "Click here to stop calculating the total size of the folder."
 msgstr "Bấm vào đây để ngừng tính toán tổng dung lượng thư mục."
 
 #. add the label widget
 #. tell the user that we started calculation
-#: ../thunar/thunar-size-label.c:175 ../thunar/thunar-size-label.c:328
+#: ../lunar/lunar-size-label.c:175 ../lunar/lunar-size-label.c:328
 msgid "Calculating..."
 msgstr "Đang tính..."
 
 #. tell the user that the operation was canceled
-#: ../thunar/thunar-size-label.c:287
+#: ../lunar/lunar-size-label.c:287
 msgid "Calculation aborted"
 msgstr "Đã ngừng tính toán"
 
-#: ../thunar/thunar-size-label.c:412
+#: ../lunar/lunar-size-label.c:412
 #, c-format
 msgid "%u item, totalling %s"
 msgid_plural "%u items, totalling %s"
@@ -2421,82 +2421,82 @@ msgstr[0] "%u mục, tổng cộng %s"
 
 #. TRANSLATORS: this is shows if during the deep count size
 #. * directories were not accessible
-#: ../thunar/thunar-size-label.c:419
+#: ../lunar/lunar-size-label.c:419
 msgid "(some contents unreadable)"
 msgstr "(có vài thứ không đọc được)"
 
 #. nothing was readable, so permission was denied
-#: ../thunar/thunar-size-label.c:430
+#: ../lunar/lunar-size-label.c:430
 msgid "Permission denied"
 msgstr "Không có quyền thao tác"
 
-#: ../thunar/thunar-standard-view.c:348
+#: ../lunar/lunar-standard-view.c:348
 msgid "Select _all Files"
 msgstr "Chọn toàn bộ"
 
-#: ../thunar/thunar-standard-view.c:348
+#: ../lunar/lunar-standard-view.c:348
 msgid "Select all files in this window"
 msgstr "Chọn toàn bộ trong cửa sổ này"
 
-#: ../thunar/thunar-standard-view.c:349
+#: ../lunar/lunar-standard-view.c:349
 msgid "Select _by Pattern..."
 msgstr "Chọn bằng mẫu (pattern)..."
 
-#: ../thunar/thunar-standard-view.c:349
+#: ../lunar/lunar-standard-view.c:349
 msgid "Select all files that match a certain pattern"
 msgstr "Chọn toàn bộ mục phù hợp với mẫu"
 
-#: ../thunar/thunar-standard-view.c:350
+#: ../lunar/lunar-standard-view.c:350
 msgid "_Invert Selection"
 msgstr "Đảo ngược lựa chọn"
 
-#: ../thunar/thunar-standard-view.c:350
+#: ../lunar/lunar-standard-view.c:350
 msgid "Select all files but not those currently selected"
 msgstr ""
 
-#: ../thunar/thunar-standard-view.c:1481
+#: ../lunar/lunar-standard-view.c:1481
 msgid "Loading folder contents..."
 msgstr "Đang đọc nội dung thư mục..."
 
 #. display an error to the user
-#: ../thunar/thunar-standard-view.c:2008 ../thunar/thunar-window.c:2942
+#: ../lunar/lunar-standard-view.c:2008 ../lunar/lunar-window.c:2942
 msgid "Failed to open the home folder"
 msgstr "Không thể mở thư mục home"
 
-#: ../thunar/thunar-standard-view.c:2079
+#: ../lunar/lunar-standard-view.c:2079
 msgid "Select by Pattern"
 msgstr "Chọn bằng mẫu"
 
-#: ../thunar/thunar-standard-view.c:2084
+#: ../lunar/lunar-standard-view.c:2084
 msgid "_Select"
 msgstr "Chọn"
 
-#: ../thunar/thunar-standard-view.c:2097
+#: ../lunar/lunar-standard-view.c:2097
 msgid "_Pattern:"
 msgstr "Mẫu:"
 
-#: ../thunar/thunar-standard-view.c:2113
+#: ../lunar/lunar-standard-view.c:2113
 msgid "Examples:"
 msgstr ""
 
 #. tell the user that the file name provided by the X Direct Save source is
 #. invalid
-#: ../thunar/thunar-standard-view.c:2465
+#: ../lunar/lunar-standard-view.c:2465
 msgid "Invalid filename provided by XDS drag site"
 msgstr "Tên tập tin từ X Direct Save không hợp lệ"
 
 #. display an error dialog to the user
-#: ../thunar/thunar-standard-view.c:2655
+#: ../lunar/lunar-standard-view.c:2655
 #, c-format
 msgid "Failed to create a link for the URL \"%s\""
 msgstr "Không tạo được liên kết cho URL \"%s\""
 
-#: ../thunar/thunar-standard-view.c:3105 ../thunar/thunar-window.c:3036
+#: ../lunar/lunar-standard-view.c:3105 ../lunar/lunar-window.c:3036
 #, c-format
 msgid "Failed to open directory \"%s\""
 msgstr "Không mở được thư mục \"%s\""
 
-#: ../thunar/thunar-transfer-job.c:917
+#: ../lunar/lunar-transfer-job.c:917
 #, c-format
 msgid ""
 "Error while copying to \"%s\": %s more space is required to copy to the "
@@ -2504,679 +2504,679 @@ msgid ""
 msgstr "Lỗi sao chép \"%s\": cần thêm %s khoảng trống để thực hiện thao tác"
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:951
+#: ../lunar/lunar-transfer-job.c:951
 #, c-format
 msgid "Trying to restore \"%s\""
 msgstr "Đang thử phục hồi \"%s\""
 
-#: ../thunar/thunar-transfer-job.c:980
+#: ../lunar/lunar-transfer-job.c:980
 #, c-format
 msgid ""
 "The folder \"%s\" does not exist anymore but is required to restore the file"
 " \"%s\" from the trash"
 msgstr "Thư mục \"%s\" không tồn tại nhưng tác vụ này cần nó để phục hồi tập tin \"%s\" từ thùng rác"
 
-#: ../thunar/thunar-transfer-job.c:1007
+#: ../lunar/lunar-transfer-job.c:1007
 #, c-format
 msgid "Failed to restore the folder \"%s\""
 msgstr "Không thể phục hồi thư mục \"%s\""
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:1082
+#: ../lunar/lunar-transfer-job.c:1082
 #, c-format
 msgid "Trying to move \"%s\""
 msgstr "Đang thử di chuyển \"%s\""
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:1158
+#: ../lunar/lunar-transfer-job.c:1158
 #, c-format
 msgid "Could not move \"%s\" directly. Collecting files for copying..."
 msgstr "Không thể di chuyển \"%s\" trực tiếp, đang tạo danh sách tập tin để sao chép..."
 
-#: ../thunar/thunar-transfer-job.c:1500
+#: ../lunar/lunar-transfer-job.c:1500
 msgid "Collecting files..."
 msgstr "Đang thu thập các File...."
 
-#: ../thunar/thunar-transfer-job.c:1701
+#: ../lunar/lunar-transfer-job.c:1701
 #, c-format
 msgid "%s of %s"
 msgstr "%s của %s"
 
-#: ../thunar/thunar-transfer-job.c:1721
+#: ../lunar/lunar-transfer-job.c:1721
 #, c-format
 msgid "%lu hour remaining (%s/sec)"
 msgid_plural "%lu hours remaining (%s/sec)"
 msgstr[0] "%lu tiếng nữa (%s/giây)"
 
-#: ../thunar/thunar-transfer-job.c:1729
+#: ../lunar/lunar-transfer-job.c:1729
 #, c-format
 msgid "%lu minute remaining (%s/sec)"
 msgid_plural "%lu minutes remaining (%s/sec)"
 msgstr[0] "%lu phút nữa (%s/giây)"
 
-#: ../thunar/thunar-transfer-job.c:1736
+#: ../lunar/lunar-transfer-job.c:1736
 #, c-format
 msgid "%lu second remaining (%s/sec)"
 msgid_plural "%lu seconds remaining (%s/sec)"
 msgstr[0] "%lu giây nữa (%s/giây)"
 
-#: ../thunar/thunar-tree-model.c:631
+#: ../lunar/lunar-tree-model.c:631
 msgid "Loading..."
 msgstr "Đang đọc..."
 
-#: ../thunar/thunar-util.c:281
+#: ../lunar/lunar-util.c:281
 #, c-format
 msgid "Invalid path"
 msgstr "Đường dẫn không hợp lệ"
 
-#: ../thunar/thunar-util.c:315
+#: ../lunar/lunar-util.c:315
 #, c-format
 msgid "Unknown user \"%s\""
 msgstr "Không xác định người sử dụng \"%s\""
 
 #. TRANSLATORS: file was modified less than one day ago
-#: ../thunar/thunar-util.c:425
+#: ../lunar/lunar-util.c:425
 msgid "Today"
 msgstr "Hôm nay"
 
 #. TRANSLATORS: file was modified less than one day ago
-#: ../thunar/thunar-util.c:430
+#: ../lunar/lunar-util.c:430
 #, c-format
 msgid "Today at %X"
 msgstr "Hôm nay, vào %X"
 
 #. TRANSLATORS: file was modified less than two days ago
-#: ../thunar/thunar-util.c:438
+#: ../lunar/lunar-util.c:438
 msgid "Yesterday"
 msgstr "Hôm qua"
 
 #. TRANSLATORS: file was modified less than two days ago
-#: ../thunar/thunar-util.c:443
+#: ../lunar/lunar-util.c:443
 #, c-format
 msgid "Yesterday at %X"
 msgstr "Hôm qua, vào %X"
 
 #. Days from last week
-#: ../thunar/thunar-util.c:451
+#: ../lunar/lunar-util.c:451
 #, c-format
 msgid "%A at %X"
 msgstr "%A vào %X"
 
 #. Any other date
-#: ../thunar/thunar-util.c:456
+#: ../lunar/lunar-util.c:456
 #, c-format
 msgid "%x at %X"
 msgstr "%x vào %X"
 
-#: ../thunar/thunar-window.c:364
+#: ../lunar/lunar-window.c:364
 msgid "_File"
 msgstr "_Tập tin"
 
-#: ../thunar/thunar-window.c:365
+#: ../lunar/lunar-window.c:365
 msgid "New _Tab"
 msgstr "Tab mới"
 
-#: ../thunar/thunar-window.c:365
+#: ../lunar/lunar-window.c:365
 msgid "Open a new tab for the displayed location"
 msgstr "Mở tab mới cho địa điểm hiện hành"
 
-#: ../thunar/thunar-window.c:366
+#: ../lunar/lunar-window.c:366
 msgid "New _Window"
 msgstr "Cửa sổ mới"
 
-#: ../thunar/thunar-window.c:366
-msgid "Open a new Thunar window for the displayed location"
+#: ../lunar/lunar-window.c:366
+msgid "Open a new Lunar window for the displayed location"
 msgstr "Mở một của sổ mới"
 
-#: ../thunar/thunar-window.c:367
+#: ../lunar/lunar-window.c:367
 msgid "Detac_h Tab"
 msgstr "Gỡ tab thành cửa sổ"
 
-#: ../thunar/thunar-window.c:367
+#: ../lunar/lunar-window.c:367
 msgid "Open current folder in a new window"
 msgstr "Mở thư mục hiện tại trong cửa sổ mới"
 
-#: ../thunar/thunar-window.c:368
+#: ../lunar/lunar-window.c:368
 msgid "C_lose Tab"
 msgstr "Đóng tab"
 
-#: ../thunar/thunar-window.c:368
+#: ../lunar/lunar-window.c:368
 msgid "Close this folder"
 msgstr "Đóng thư mục này"
 
-#: ../thunar/thunar-window.c:369
+#: ../lunar/lunar-window.c:369
 msgid "_Close Window"
 msgstr "Đóng cửa sổ"
 
-#: ../thunar/thunar-window.c:369
+#: ../lunar/lunar-window.c:369
 msgid "Close this window"
 msgstr "Đóng cửa sổ này"
 
-#: ../thunar/thunar-window.c:370
+#: ../lunar/lunar-window.c:370
 msgid "Close _All Windows"
 msgstr "Đóng tất cả cửa sổ"
 
-#: ../thunar/thunar-window.c:370
-msgid "Close all Thunar windows"
-msgstr "Đóng toàn bộ cửa sổ Thunar"
+#: ../lunar/lunar-window.c:370
+msgid "Close all Lunar windows"
+msgstr "Đóng toàn bộ cửa sổ Lunar"
 
-#: ../thunar/thunar-window.c:372
+#: ../lunar/lunar-window.c:372
 msgid "_Edit"
 msgstr "Sửa đổi"
 
-#: ../thunar/thunar-window.c:373
+#: ../lunar/lunar-window.c:373
 msgid "Pr_eferences..."
 msgstr "Tùy thích..."
 
-#: ../thunar/thunar-window.c:373
-msgid "Edit Thunars Preferences"
-msgstr "Thay đổi tùy thích cho thunar"
+#: ../lunar/lunar-window.c:373
+msgid "Edit Lunars Preferences"
+msgstr "Thay đổi tùy thích cho lunar"
 
-#: ../thunar/thunar-window.c:375
+#: ../lunar/lunar-window.c:375
 msgid "_View"
 msgstr "Hiển thị"
 
-#: ../thunar/thunar-window.c:376
+#: ../lunar/lunar-window.c:376
 msgid "_Reload"
 msgstr "Đọc lại"
 
-#: ../thunar/thunar-window.c:378
+#: ../lunar/lunar-window.c:378
 msgid "_Location Selector"
 msgstr "Thanh chọn địa điểm"
 
-#: ../thunar/thunar-window.c:379
+#: ../lunar/lunar-window.c:379
 msgid "_Pathbar Style"
 msgstr "Kiểu nút"
 
-#: ../thunar/thunar-window.c:379
+#: ../lunar/lunar-window.c:379
 msgid "Modern approach with buttons that correspond to folders"
 msgstr "Kiểu mới với một thư mục là một nút, dễ di chuyển"
 
-#: ../thunar/thunar-window.c:380
+#: ../lunar/lunar-window.c:380
 msgid "_Toolbar Style"
 msgstr "Kiểu đường dẫn cũ"
 
-#: ../thunar/thunar-window.c:380
+#: ../lunar/lunar-window.c:380
 msgid "Traditional approach with location bar and navigation buttons"
 msgstr "Kiểu đường dẫn truyền thống với một ô textbox chứa đường dẫn"
 
-#: ../thunar/thunar-window.c:381
+#: ../lunar/lunar-window.c:381
 msgid "_Side Pane"
 msgstr "Pane trái"
 
-#: ../thunar/thunar-window.c:382
+#: ../lunar/lunar-window.c:382
 msgid "_Shortcuts"
 msgstr "Pane biểu tượng tắt"
 
-#: ../thunar/thunar-window.c:382
+#: ../lunar/lunar-window.c:382
 msgid "Toggles the visibility of the shortcuts pane"
 msgstr "Hiện/ẩn thanh biểu tượng tắt"
 
-#: ../thunar/thunar-window.c:383
+#: ../lunar/lunar-window.c:383
 msgid "_Tree"
 msgstr "Pane cây"
 
-#: ../thunar/thunar-window.c:383
+#: ../lunar/lunar-window.c:383
 msgid "Toggles the visibility of the tree pane"
 msgstr "Hiện/ẩn pane cây"
 
-#: ../thunar/thunar-window.c:385
+#: ../lunar/lunar-window.c:385
 msgid "St_atusbar"
 msgstr "Thanh trạng thái"
 
-#: ../thunar/thunar-window.c:385
+#: ../lunar/lunar-window.c:385
 msgid "Change the visibility of this window's statusbar"
 msgstr "Ẩn/hiện thanh trạng thái"
 
-#: ../thunar/thunar-window.c:386
+#: ../lunar/lunar-window.c:386
 msgid "_Menubar"
 msgstr "Thanh menu"
 
-#: ../thunar/thunar-window.c:386
+#: ../lunar/lunar-window.c:386
 msgid "Change the visibility of this window's menubar"
 msgstr "Ẩn/hiện thanh menu"
 
-#: ../thunar/thunar-window.c:387
+#: ../lunar/lunar-window.c:387
 msgid "Show _Hidden Files"
 msgstr "Hiện tập tin ẩn"
 
-#: ../thunar/thunar-window.c:387
+#: ../lunar/lunar-window.c:387
 msgid "Toggles the display of hidden files in the current window"
 msgstr "Hiện/ẩn những tập tin ẩn trong thư mục"
 
-#: ../thunar/thunar-window.c:388
+#: ../lunar/lunar-window.c:388
 msgid "Zoom I_n"
 msgstr "Phóng to"
 
-#: ../thunar/thunar-window.c:388
+#: ../lunar/lunar-window.c:388
 msgid "Show the contents in more detail"
 msgstr "Xem nội dung chi tiết hơn"
 
-#: ../thunar/thunar-window.c:389
+#: ../lunar/lunar-window.c:389
 msgid "Zoom _Out"
 msgstr "Thu nhỏ"
 
-#: ../thunar/thunar-window.c:389
+#: ../lunar/lunar-window.c:389
 msgid "Show the contents in less detail"
 msgstr "Xem nội dung ít chi tiết hơn"
 
-#: ../thunar/thunar-window.c:390
+#: ../lunar/lunar-window.c:390
 msgid "Normal Si_ze"
 msgstr "Cỡ bình thường"
 
-#: ../thunar/thunar-window.c:390
+#: ../lunar/lunar-window.c:390
 msgid "Show the contents at the normal size"
 msgstr "Xem nội dung ở cỡ bình thường"
 
-#: ../thunar/thunar-window.c:391
+#: ../lunar/lunar-window.c:391
 msgid "Clear Saved _Folder View Settings"
 msgstr ""
 
-#: ../thunar/thunar-window.c:391
+#: ../lunar/lunar-window.c:391
 msgid "Delete saved view settings for this folder"
 msgstr ""
 
-#: ../thunar/thunar-window.c:392
+#: ../lunar/lunar-window.c:392
 msgid "_Icon View"
 msgstr ""
 
-#: ../thunar/thunar-window.c:392
+#: ../lunar/lunar-window.c:392
 msgid "Display folder content in an icon view"
 msgstr "Hiển thị các mục bằng biểu tượng lớn"
 
-#: ../thunar/thunar-window.c:393
+#: ../lunar/lunar-window.c:393
 msgid "_List View"
 msgstr ""
 
-#: ../thunar/thunar-window.c:393
+#: ../lunar/lunar-window.c:393
 msgid "Display folder content in a detailed list view"
 msgstr "Xem các mục theo kiểu danh sách chi tiết"
 
-#: ../thunar/thunar-window.c:394
+#: ../lunar/lunar-window.c:394
 msgid "_Compact View"
 msgstr ""
 
-#: ../thunar/thunar-window.c:394
+#: ../lunar/lunar-window.c:394
 msgid "Display folder content in a compact list view"
 msgstr "Xem các mục theo kiểu danh sách thu gọn"
 
-#: ../thunar/thunar-window.c:396
+#: ../lunar/lunar-window.c:396
 msgid "_Go"
 msgstr "Đi"
 
-#: ../thunar/thunar-window.c:398
+#: ../lunar/lunar-window.c:398
 msgid "Go to the computer folder"
 msgstr ""
 
-#: ../thunar/thunar-window.c:399
+#: ../lunar/lunar-window.c:399
 msgid "_Home"
 msgstr "Home"
 
-#: ../thunar/thunar-window.c:399
+#: ../lunar/lunar-window.c:399
 msgid "Go to the home folder"
 msgstr "Đến thư mục home"
 
-#: ../thunar/thunar-window.c:400
+#: ../lunar/lunar-window.c:400
 msgid "Desktop"
 msgstr "Desktop"
 
-#: ../thunar/thunar-window.c:400
+#: ../lunar/lunar-window.c:400
 msgid "Go to the desktop folder"
 msgstr "Đến thư mục desktop"
 
-#: ../thunar/thunar-window.c:401
+#: ../lunar/lunar-window.c:401
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
 msgstr ""
 
-#: ../thunar/thunar-window.c:402
+#: ../lunar/lunar-window.c:402
 msgid "T_rash"
 msgstr "Thùng rác"
 
-#: ../thunar/thunar-window.c:402
+#: ../lunar/lunar-window.c:402
 msgid "Display the contents of the trash can"
 msgstr "Hiển thị nội dung của thùng rác"
 
-#: ../thunar/thunar-window.c:403
+#: ../lunar/lunar-window.c:403
 msgid "Open _Parent"
 msgstr "Mở thư mục cha"
 
-#: ../thunar/thunar-window.c:403
+#: ../lunar/lunar-window.c:403
 msgid "Open the parent folder"
 msgstr "Mở thư mục cha"
 
-#: ../thunar/thunar-window.c:404
+#: ../lunar/lunar-window.c:404
 msgid "_Open Location..."
 msgstr "Mở địa điểm..."
 
-#: ../thunar/thunar-window.c:404
+#: ../lunar/lunar-window.c:404
 msgid "Specify a location to open"
 msgstr "Chỉ ra một địa chỉ để mở"
 
-#: ../thunar/thunar-window.c:406
+#: ../lunar/lunar-window.c:406
 msgid "T_emplates"
 msgstr "Mẫu"
 
-#: ../thunar/thunar-window.c:406
+#: ../lunar/lunar-window.c:406
 msgid "Go to the templates folder"
 msgstr "Đến thư mục mẫu"
 
-#: ../thunar/thunar-window.c:407
+#: ../lunar/lunar-window.c:407
 msgid "B_rowse Network"
 msgstr "Duyệt mạng"
 
-#: ../thunar/thunar-window.c:410
+#: ../lunar/lunar-window.c:410
 msgid "_Contents"
 msgstr "Nội dung"
 
-#: ../thunar/thunar-window.c:410
-msgid "Display Thunar user manual"
-msgstr "Xem hướng dẫn sửa dụng Thunar"
+#: ../lunar/lunar-window.c:410
+msgid "Display Lunar user manual"
+msgstr "Xem hướng dẫn sửa dụng Lunar"
 
-#: ../thunar/thunar-window.c:411
-msgid "Display information about Thunar"
-msgstr "Xem thông tin về thunar"
+#: ../lunar/lunar-window.c:411
+msgid "Display information about Lunar"
+msgstr "Xem thông tin về lunar"
 
-#: ../thunar/thunar-window.c:412
+#: ../lunar/lunar-window.c:412
 msgid "Back"
 msgstr "Quay lui"
 
-#: ../thunar/thunar-window.c:412
+#: ../lunar/lunar-window.c:412
 msgid "Go to the previous visited folder"
 msgstr "Đến thư mục vừa vào trước đó"
 
-#: ../thunar/thunar-window.c:414
+#: ../lunar/lunar-window.c:414
 msgid "Forward"
 msgstr "Chuyển tiếp"
 
-#: ../thunar/thunar-window.c:414
+#: ../lunar/lunar-window.c:414
 msgid "Go to the next visited folder"
 msgstr "Nhảy đến thư mục vừa vào kế tiếp"
 
-#: ../thunar/thunar-window.c:415
+#: ../lunar/lunar-window.c:415
 msgid "_Previous Tab"
 msgstr "_Tab trước"
 
-#: ../thunar/thunar-window.c:415
+#: ../lunar/lunar-window.c:415
 msgid "Switch to Previous Tab"
 msgstr "Chuyển tới tab trước"
 
-#: ../thunar/thunar-window.c:416
+#: ../lunar/lunar-window.c:416
 msgid "_Next Tab"
 msgstr "_Tab tiếp theo"
 
-#: ../thunar/thunar-window.c:416
+#: ../lunar/lunar-window.c:416
 msgid "Switch to Next Tab"
 msgstr "Chuyển tới tab tiếp theo"
 
 #. add the label with the root warning
-#: ../thunar/thunar-window.c:728
+#: ../lunar/lunar-window.c:728
 msgid "Warning: you are using the root account. You may harm your system."
 msgstr ""
 
-#: ../thunar/thunar-window.c:1981
+#: ../lunar/lunar-window.c:1981
 msgid "Close tab"
 msgstr "Đóng tab"
 
-#: ../thunar/thunar-window.c:2223
+#: ../lunar/lunar-window.c:2223
 #, c-format
 msgid "Open the location \"%s\""
 msgstr "Mở địa điểm \"%s\""
 
-#: ../thunar/thunar-window.c:2369
+#: ../lunar/lunar-window.c:2369
 #, c-format
 msgid "Failed to launch \"%s\""
 msgstr "Thất bại để mở \"%s\""
 
-#: ../thunar/thunar-window.c:2892
+#: ../lunar/lunar-window.c:2892
 msgid "Failed to open parent folder"
 msgstr "Không thể mở thư mục cha"
 
-#: ../thunar/thunar-window.c:3011
+#: ../lunar/lunar-window.c:3011
 #, c-format
 msgid "The directory \"%s\" does not exist. Do you want to create it?"
 msgstr "Thư mục \"%s\" không tồn tại. Bạn muốn tạo nó không?"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3078
+#: ../lunar/lunar-window.c:3078
 msgid "Failed to browse the computer"
 msgstr ""
 
 #. display the "About Templates" dialog
-#: ../thunar/thunar-window.c:3118
+#: ../lunar/lunar-window.c:3118
 msgid "About Templates"
 msgstr "Giới thiệu"
 
-#: ../thunar/thunar-window.c:3140
+#: ../lunar/lunar-window.c:3140
 msgid "All files in this folder will appear in the \"Create Document\" menu."
 msgstr "Tất cả tập tin trong thư mục này sẽ hiện ở menu \"Tạo tài liệu\""
 
-#: ../thunar/thunar-window.c:3147
+#: ../lunar/lunar-window.c:3147
 msgid ""
-"If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Thunar will add an entry for this document in the \"Create Document\" menu.\n"
+"If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Lunar will add an entry for this document in the \"Create Document\" menu.\n"
 "\n"
 "You can then select the entry from the \"Create Document\" menu and a copy of the document will be created in the directory you are viewing."
-msgstr "Nếu bạn thường tạo một kiểu tài liệu nào đó, chép một bản sao vào thư mục này. Thunar sẽ thêm kiểu đó vào trong menu \"Tạo tài liệu\".\n\nSau đó bạn có thể chọn mở menu \"Tạo tài liệu\" và một bản sao của tài liệu bạn chọn lúc nãy sẽ được tạo ra trong thư mục bạn đang đứng."
+msgstr "Nếu bạn thường tạo một kiểu tài liệu nào đó, chép một bản sao vào thư mục này. Lunar sẽ thêm kiểu đó vào trong menu \"Tạo tài liệu\".\n\nSau đó bạn có thể chọn mở menu \"Tạo tài liệu\" và một bản sao của tài liệu bạn chọn lúc nãy sẽ được tạo ra trong thư mục bạn đang đứng."
 
-#: ../thunar/thunar-window.c:3159
+#: ../lunar/lunar-window.c:3159
 msgid "Do _not display this message again"
 msgstr "Không hiện lại"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3190
+#: ../lunar/lunar-window.c:3190
 msgid "Failed to open the file system root folder"
 msgstr "Không thể mở thư mục / của hệ thống"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3223
+#: ../lunar/lunar-window.c:3223
 msgid "Failed to display the contents of the trash can"
 msgstr "Không thể hiện nội dung của thùng rác"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3256
+#: ../lunar/lunar-window.c:3256
 msgid "Failed to browse the network"
 msgstr "Không thể thực hiện duyệt mạng"
 
-#: ../thunar/thunar-window.c:3360
+#: ../lunar/lunar-window.c:3360
 msgid ""
-"Thunar is a fast and easy to use file manager\n"
-"for the Xfce Desktop Environment."
-msgstr "Thunar là một trình duyệt tập tin nhanh và dễ dùng\ndành cho môi trường XFCE"
+"Lunar is a fast and easy to use file manager\n"
+"for the Expidus Desktop Environment."
+msgstr "Lunar là một trình duyệt tập tin nhanh và dễ dùng\ndành cho môi trường EXPIDUS"
 
-#: ../thunarx/thunarx-property-page.c:111
+#: ../lunarx/lunarx-property-page.c:111
 msgid "Label"
 msgstr "Nhãn"
 
-#: ../thunarx/thunarx-property-page.c:112
+#: ../lunarx/lunarx-property-page.c:112
 msgid "Text of the page's label"
 msgstr "Nhãn của trang"
 
-#: ../thunarx/thunarx-property-page.c:124
+#: ../lunarx/lunarx-property-page.c:124
 msgid "Label widget"
 msgstr "Nhãn widget"
 
-#: ../thunarx/thunarx-property-page.c:125
+#: ../lunarx/lunarx-property-page.c:125
 msgid "A widget to display in place of the usual page label"
 msgstr "Một widget để hiển thị trong vị trí của nhãn trang"
 
-#: ../thunarx/thunarx-provider-plugin.c:81
+#: ../lunarx/lunarx-provider-plugin.c:81
 msgid "Resident"
 msgstr "Thường trú"
 
-#: ../thunarx/thunarx-provider-plugin.c:82
+#: ../lunarx/lunarx-provider-plugin.c:82
 msgid "Don't unload the plugin from memory"
 msgstr "Không gỡ plugin khỏi bộ nhớ"
 
-#: ../thunarx/thunarx-renamer.c:149
+#: ../lunarx/lunarx-renamer.c:149
 msgid "Help URL"
 msgstr "URL trợ giúp"
 
-#: ../thunarx/thunarx-renamer.c:150
+#: ../lunarx/lunarx-renamer.c:150
 msgid "The URL to the documentation of the renamer"
 msgstr "URL đến tài liệu của trình đổi tên"
 
-#: ../thunarx/thunarx-renamer.c:165
+#: ../lunarx/lunarx-renamer.c:165
 msgid "The user visible name of the renamer"
 msgstr "Tên hiển thị của trình đổi tên"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:153
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:59
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:153
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:59
 msgid "Description:"
 msgstr "Mô tả:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:160
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:160
 msgid ""
 "The generic name of the entry, for example \"Web Browser\" in case of "
 "Firefox."
 msgstr "Tên tổng quát của mục, ví dụ trong trường hợp Firefox là \"Trình duyệt web\"."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:177
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:177
 msgid "Command:"
 msgstr "Câu lệnh:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:184
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:184
 msgid "The program to execute, possibly with arguments."
 msgstr "Chương trình thực thi, có thể gồm tham số."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:200
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:200
 msgid "Working Directory:"
 msgstr "Thư mục làm việc:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:207
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:207
 msgid "The working directory for the program."
 msgstr "Thư mục đang làm việc của chương trình."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:223
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:223
 msgid "URL:"
 msgstr "URL:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:230
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:230
 msgid "The URL to access."
 msgstr "URL để truy cập."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:246
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:60
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:246
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:60
 msgid "Comment:"
 msgstr "Ghi chú:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:253
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:253
 msgid ""
 "Tooltip for the entry, for example \"View sites on the Internet\" in case of"
 " Firefox. Should not be redundant with the name or the description."
 msgstr "Chú giải cho mục, ví dụ trong trường hợp Firefox là \"Xem các trang web trên mạng\". Không nên quá rườm rà."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:276
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:276
 msgid "Options:"
 msgstr "Tùy chọn:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:282
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:282
 msgid "Use _startup notification"
 msgstr "Dùng thông báo khi khởi động"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:283
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:283
 msgid ""
 "Select this option to enable startup notification when the command is run "
 "from the file manager or the menu. Not every application supports startup "
 "notification."
 msgstr "Dùng tùy chọn này để bật tính năng thông báo khởi động khi lệnh được chạy từ trình quản lí hoặc menu. Không phải mọi ứng dụng đều hỗ trợ tính năng này."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:291
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:291
 msgid "Run in _terminal"
 msgstr "Chạy trong chế độ dòng lệnh"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:292
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:292
 msgid "Select this option to run the command in a terminal window."
 msgstr "Chọn mục này để chạy lệnh trong cửa sổ dòng lệnh."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:366
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:366
 msgid "Launcher"
 msgstr "Trình gọi"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:368
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:368
 msgid "Link"
 msgstr "Liên kết"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:610
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:610
 #, c-format
 msgid "Failed to save \"%s\"."
 msgstr "Không thể lưu \"%s\"."
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:47
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:47
 msgid "Date Taken:"
 msgstr "Ngày chụp:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:48
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:48
 msgid "Camera Brand:"
 msgstr "Hiệu máy:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:49
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:49
 msgid "Camera Model:"
 msgstr "Model:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:50
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:50
 msgid "Exposure Time:"
 msgstr "Thời gian phơi sáng:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:51
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:51
 msgid "Exposure Program:"
 msgstr "Chương trình phơi sáng:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:52
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:52
 msgid "Aperture Value:"
 msgstr "Khẩu độ:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:53
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:53
 msgid "Metering Mode:"
 msgstr "Chế độ đo sáng:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:54
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:54
 msgid "Flash Fired:"
 msgstr "Có đèn flash:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:55
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:55
 msgid "Focal Length:"
 msgstr "Độ dài tiêu cự:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:56
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:56
 msgid "Shutter Speed:"
 msgstr "Tốc độ màn trập:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:57
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:57
 msgid "ISO Speed Ratings:"
 msgstr "ISO:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:58
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:58
 msgid "Software:"
 msgstr "Phần mềm:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:117
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:117
 msgid "Image"
 msgstr "Hình ảnh"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:132
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:132
 msgid "Image Type:"
 msgstr "Kiểu ảnh:"
 
 #. update the "Image Size" label
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:251
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:251
 #, c-format
 msgid "%dx%d pixel"
 msgid_plural "%dx%d pixels"
 msgstr[0] "%dx%d điểm ảnh"
 
-#: ../plugins/thunar-sbr/thunar-sbr-case-renamer.c:117
+#: ../plugins/lunar-sbr/lunar-sbr-case-renamer.c:117
 msgid "Con_vert to:"
 msgstr "Chuyển sang:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-case-renamer.c:266
+#: ../plugins/lunar-sbr/lunar-sbr-case-renamer.c:266
 msgid "Uppercase / Lowercase"
 msgstr "Chữ hoa/chữ thường"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:193
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:193
 msgid "Insert _time:"
 msgstr "Chèn thời gian:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:223
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:223
 msgid ""
 "The format describes the date and time parts to insert into the file name. "
 "For example, %Y will be substituted with the year, %m with the month and %d "
@@ -3184,214 +3184,214 @@ msgid ""
 "information."
 msgstr "Định dạng mô tả phần ngày và giờ để chèn vào tên tập tin. Ví dụ, %Y sẽ được thay thế bằng năm, %m được thay thế bằng tháng và %d thay thế bằng ngày. Xem tài liệu của tiện ích ngày tháng để biết thêm chi tiết."
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:238
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:198
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:238
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:198
 msgid "_At position:"
 msgstr "Tại vị trí:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:591
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:591
 msgid "Insert Date / Time"
 msgstr "Chèn ngày/giờ"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:93
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:93
 msgid "lowercase"
 msgstr "chữ thường"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:94
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:94
 msgid "UPPERCASE"
 msgstr "CHỮ HOA"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:95
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:95
 msgid "Title Case"
 msgstr "Hộp tiêu đề"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:96
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:96
 msgid "First character uppercase"
 msgstr "Viết hoa chữ cái đầu"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:102
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:102
 msgid "Insert"
 msgstr "Chèn"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:103
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:103
 msgid "Overwrite"
 msgstr "Ghi đè"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:109
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:109
 msgid "1, 2, 3, ..."
 msgstr "1, 2, 3, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:110
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:110
 msgid "01, 02, 03, ..."
 msgstr "01, 02, 03, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:111
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:111
 msgid "001, 002, 003, ..."
 msgstr "001, 002, 003, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:112
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:112
 msgid "0001, 0002, 0003, ..."
 msgstr "0001, 0002, 0003, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:113
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:113
 msgid "00001, 00002, 00003, ..."
 msgstr "00001, 00002, 00003, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:114
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:114
 msgid "a, b, c, d, ..."
 msgstr "a, b, c, d, ..."
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:120
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:120
 msgid "From the front (left)"
 msgstr "Từ đằng trước (trái)"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:121
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:121
 msgid "From the back (right)"
 msgstr "Từ đằng sau (phải)"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:127
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:127
 msgid "Old Name - Text - Number"
 msgstr "Tên cũ - Chữ - Số"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:128
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:128
 msgid "Number - Text - Old Name"
 msgstr "Số - Chữ - Tên cũ"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:129
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:129
 msgid "Text - Number"
 msgstr "Chữ - Số"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:130
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:130
 msgid "Number - Text"
 msgstr "Số - Chữ"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:136
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:136
 msgid "Current"
 msgstr "Hiện hành"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:140
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:140
 msgid "Date Picture Taken"
 msgstr "Ngày chụp ảnh"
 
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:179
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:257
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:179
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:257
 msgid "_Text:"
 msgstr "Văn bản:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:386
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:386
 msgid "Insert / Overwrite"
 msgstr "Chèn / Ghi đè"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:186
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:186
 msgid "_Number Format:"
 msgstr "Định dạng số:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:217
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:217
 msgid "_Start With:"
 msgstr "Bắt đầu với:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:229
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:229
 msgid "Text _Format:"
 msgstr "Định dạng văn bản:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:518
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:518
 msgid "Numbering"
 msgstr "Đánh số"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:175
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:175
 msgid "Remove _From Position:"
 msgstr "Xóa từ vị trí:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:210
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:210
 msgid "_To Position:"
 msgstr "đến vị trí:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:413
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:413
 msgid "Remove Characters"
 msgstr "Xóa kí tự"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:202
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:202
 msgid "_Search For:"
 msgstr "Tìm:"
 
 #. reset to default tooltip
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:210
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:633
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:210
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:633
 msgid "Enter the text to search for in the file names."
 msgstr "Nhập văn bản  tìm kiếm trong tên tập tin."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:223
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:223
 msgid "Regular _Expression"
 msgstr "Regular Expression"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:225
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:225
 msgid ""
 "If you enable this option, the pattern will be treated as a regular "
 "expression and matched using the Perl-compatible regular expressions (PCRE)."
 " Check the documentation for details about the regular expression syntax."
 msgstr "Nếu bạn chọn mục này, mẫu sẽ được xử lý như là biểu thức chính quy và được đối chiếu bằng bản biểu thức chính quy tương thích với Perl (PCRE). Kiểm tra tài liệu để biết thêm chi tiết về cú pháp của biểu thức chính quy."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:232
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:232
 msgid "Replace _With:"
 msgstr "Thay thế bằng:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:240
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:240
 msgid ""
 "Enter the text that should be used as replacement for the pattern above."
 msgstr "Nhập văn bản sẽ thay thế cho mẫu ở trên."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:253
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:253
 msgid "C_ase Sensitive Search"
 msgstr "Tìm có phân biệt HOA thường"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:255
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:255
 msgid ""
 "If you enable this option, the pattern will be searched in a case-sensitive "
 "manner. The default is to use a case-insensitive search."
 msgstr "Nếu bạn chọn mục này, mẫu sẽ được đối chiếu phân biệt HOA thường. Mặc định sử dụng chế độ không phân biệt hoa thường."
 
 #. setup a tooltip with the error message
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:610
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:610
 #, c-format
 msgid "Invalid regular expression, at character position %ld: %s"
 msgstr "Biểu thức chính quy không hợp lệ tại ký tự thứ %ld: %s"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:651
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:651
 msgid "Search & Replace"
 msgstr "Tìm & thay thế"
 
-#: ../plugins/thunar-sendto-email/main.c:217
+#: ../plugins/lunar-sendto-email/main.c:217
 #, c-format
 msgid "Send \"%s\" as compressed archive?"
 msgstr "Gửi \"%s\" như là tập tin nén?"
 
-#: ../plugins/thunar-sendto-email/main.c:220
-#: ../plugins/thunar-sendto-email/main.c:239
+#: ../plugins/lunar-sendto-email/main.c:220
+#: ../plugins/lunar-sendto-email/main.c:239
 msgid "Send _directly"
 msgstr "Gửi trực tiếp"
 
-#: ../plugins/thunar-sendto-email/main.c:221
+#: ../plugins/lunar-sendto-email/main.c:221
 msgid "Send com_pressed"
 msgstr "Gửi bản đã nén"
 
-#: ../plugins/thunar-sendto-email/main.c:223
+#: ../plugins/lunar-sendto-email/main.c:223
 msgid ""
 "When sending a file via email, you can either choose to send the file "
 "directly, as is, or compress the file before attaching it to an email. It is"
 " highly recommended to compress large files before sending them."
 msgstr "Khi gửi tập tin bằng email, bạn có thể chọn hoặc là gửi trực tiếp, hoặc là nén tập tin trước khi đính kèm. Khuyến cáo bạn nên nén những tập tin lớn trước khi gửi."
 
-#: ../plugins/thunar-sendto-email/main.c:234
+#: ../plugins/lunar-sendto-email/main.c:234
 #, c-format
 msgid "Send %d file as compressed archive?"
 msgid_plural "Send %d files as compressed archive?"
 msgstr[0] "Gửi %d tập tin theo kiểu tập tin nén?"
 
-#: ../plugins/thunar-sendto-email/main.c:240
+#: ../plugins/lunar-sendto-email/main.c:240
 msgid "Send as _archive"
 msgstr "Gửi theo kiểu tập tin lưu trữ"
 
-#: ../plugins/thunar-sendto-email/main.c:242
+#: ../plugins/lunar-sendto-email/main.c:242
 msgid ""
 "When sending multiple files via email, you can either choose to send the "
 "files directly, attaching multiple files to an email, or send all files "
@@ -3401,165 +3401,165 @@ msgstr "Khi gửi nhiều tập tin qua email, bạn có thể chọn gửi tậ
 
 #. allocate the progress dialog
 #. setup the label
-#: ../plugins/thunar-sendto-email/main.c:291
-#: ../plugins/thunar-sendto-email/main.c:317
+#: ../plugins/lunar-sendto-email/main.c:291
+#: ../plugins/lunar-sendto-email/main.c:317
 msgid "Compressing files..."
 msgstr "Đang nén..."
 
 #. tell the user that the command failed
-#: ../plugins/thunar-sendto-email/main.c:342
+#: ../plugins/lunar-sendto-email/main.c:342
 #, c-format
 msgid "ZIP command terminated with error %d"
 msgstr "Lệnh zip bị ngắt với lỗi %d"
 
-#: ../plugins/thunar-sendto-email/main.c:430
+#: ../plugins/lunar-sendto-email/main.c:430
 msgid "Failed to create temporary directory"
 msgstr "Không thể tạo thư mục tạm"
 
-#: ../plugins/thunar-sendto-email/main.c:492
-#: ../plugins/thunar-sendto-email/main.c:503
+#: ../plugins/lunar-sendto-email/main.c:492
+#: ../plugins/lunar-sendto-email/main.c:503
 #, c-format
 msgid "Failed to create symbolic link for \"%s\""
 msgstr "Không thể tạo liên kết cho \"%s\""
 
 #. tell the user that we failed to compress the file(s)
-#: ../plugins/thunar-sendto-email/main.c:527
+#: ../plugins/lunar-sendto-email/main.c:527
 #, c-format
 msgid "Failed to compress %d file"
 msgid_plural "Failed to compress %d files"
 msgstr[0] "Không thể nén %d tập tin"
 
 #. tell the user that we failed
-#: ../plugins/thunar-sendto-email/main.c:679
+#: ../plugins/lunar-sendto-email/main.c:679
 msgid "Failed to compose new email"
 msgstr "Không thể soạn email mới"
 
-#: ../plugins/thunar-sendto-email/thunar-sendto-email.desktop.in.in.h:1
+#: ../plugins/lunar-sendto-email/lunar-sendto-email.desktop.in.in.h:1
 msgid "Mail Recipient"
 msgstr "Người nhận"
 
 #. tell the user that we failed to connect to the trash
-#: ../plugins/thunar-tpa/thunar-tpa.c:269
-#: ../plugins/thunar-tpa/thunar-tpa.c:309
-#: ../plugins/thunar-tpa/thunar-tpa.c:336
-#: ../plugins/thunar-tpa/thunar-tpa.c:363
+#: ../plugins/lunar-tpa/lunar-tpa.c:269
+#: ../plugins/lunar-tpa/lunar-tpa.c:309
+#: ../plugins/lunar-tpa/lunar-tpa.c:336
+#: ../plugins/lunar-tpa/lunar-tpa.c:363
 msgid "Failed to connect to the Trash"
 msgstr "Không thể kết nối đến thùng rác"
 
 #. tell the user whether the trash is full or empty
-#: ../plugins/thunar-tpa/thunar-tpa.c:284
+#: ../plugins/lunar-tpa/lunar-tpa.c:284
 msgid "Trash contains files"
 msgstr "Thùng rác có chứa tập tin"
 
-#: ../plugins/thunar-tpa/thunar-tpa.desktop.in.h:1
+#: ../plugins/lunar-tpa/lunar-tpa.desktop.in.h:1
 msgid "Trash Applet"
 msgstr "Applet thùng rác"
 
-#: ../plugins/thunar-tpa/thunar-tpa.desktop.in.h:2
+#: ../plugins/lunar-tpa/lunar-tpa.desktop.in.h:2
 msgid "Display the trash can"
 msgstr "Hiện thùng rác"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:269
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:1
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:269
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:1
 msgid "Edit Action"
 msgstr "Sửa tác vụ"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:269
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:269
 msgid "Create Action"
 msgstr "Tạo tác vụ"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:318
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:318
 msgid "Failed to save actions to disk."
 msgstr "Không lưu tác vụ xuống đĩa được."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:369
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:369
 #, c-format
 msgid ""
 "Are you sure that you want to delete\n"
 "action \"%s\"?"
 msgstr "Bạn có muốn xóa tác vụ:\n\"%s\" không?"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:370
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:370
 msgid "If you delete a custom action, it is permanently lost."
 msgstr "Nếu bạn xóa tác vụ này, nó sẽ mất vĩnh viễn."
 
 #. skip leading slash
-#: ../plugins/thunar-uca/thunar-uca-editor.c:353
+#: ../plugins/lunar-uca/lunar-uca-editor.c:353
 #, c-format
 msgid "This keyboard shortcut is currently used by: '%s'"
 msgstr "Phím tắt này hiện đang được sử dụng bởi: '%s'"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.c:356
+#: ../plugins/lunar-uca/lunar-uca-editor.c:356
 msgid "Keyboard shortcut already in use"
 msgstr "Phím tắt đã được sử dụng "
 
 #. setup a label to tell that no icon was selected
-#: ../plugins/thunar-uca/thunar-uca-editor.c:507
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:16
+#: ../plugins/lunar-uca/lunar-uca-editor.c:507
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:16
 msgid "No icon"
 msgstr "Không có biểu tượng"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:816
+#: ../plugins/lunar-uca/lunar-uca-model.c:816
 #, c-format
 msgid "End element handler called while in root context"
 msgstr "Kết thúc xử lí thành phần được gọi khi là root"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:925
+#: ../plugins/lunar-uca/lunar-uca-model.c:925
 #, c-format
 msgid "Unknown closing element <%s>"
 msgstr "Không biết phần tử đóng <%s>"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:1425
+#: ../plugins/lunar-uca/lunar-uca-model.c:1425
 #, c-format
 msgid "Failed to determine save location for uca.xml"
 msgstr "Không tìm được nơi lữu trữ file uca.xml"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:1545
+#: ../plugins/lunar-uca/lunar-uca-model.c:1545
 #, c-format
 msgid "Command not configured"
 msgstr "Lệnh chưa được cấu hình"
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:181
+#: ../plugins/lunar-uca/lunar-uca-provider.c:181
 msgid "Configure c_ustom actions..."
 msgstr "Cấu hình hành động t_uỳ biến"
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:182
+#: ../plugins/lunar-uca/lunar-uca-provider.c:182
 msgid ""
 "Setup custom actions that will appear in the file managers context menus"
 msgstr "Thiết đặt các tác vụ sẽ hiện trong menu ngữ cảnh của trình quản lí"
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:431
+#: ../plugins/lunar-uca/lunar-uca-provider.c:431
 #, c-format
 msgid "Failed to launch action \"%s\"."
 msgstr "Không thể chạy tác vụ \"%s\":"
 
-#: ../plugins/thunar-uca/uca.xml.in.h:1
+#: ../plugins/lunar-uca/uca.xml.in.h:1
 msgid "Open Terminal Here"
 msgstr "Mở Terminal tại thư mục này"
 
-#: ../plugins/thunar-uca/uca.xml.in.h:2
+#: ../plugins/lunar-uca/uca.xml.in.h:2
 msgid "Example for a custom action"
 msgstr "Ví dụ cho một hành động tuỳ biến"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:3
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:3
 msgid "The name of the action that will be displayed in the context menu."
 msgstr "Tên của tác vụ sẽ hiển thị ở menu ngữ cảnh."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:4
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:4
 msgid "_Description:"
 msgstr "Mô tả:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:5
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:5
 msgid ""
 "The description of the action that will be displayed as tooltip in the "
 "statusbar when selecting the item from the context menu."
 msgstr "Mô tả tác vụ sẽ hiện thị ở ở dưới thanh trạng thái khi chọn tác vụ ở menu."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:6
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:6
 msgid "_Command:"
 msgstr "Lệnh:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:8
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:8
 #, no-c-format
 msgid ""
 "The command (including the necessary parameters) to perform the action. See "
@@ -3570,85 +3570,85 @@ msgid ""
 "if exactly one item is selected."
 msgstr "Lệnh (bao gồm các tham số cần thiết) để thực hiện tác vụ. Xem bảng chú giải bên dưới để biết các biến tham số được hỗ trợ, và sẽ được thay thế khi chạy lệnh. Khi các kí tự HOA (ví dụ %F, %D, %N) được dùng, tác vụ sẽ chạy cả khi nhiều mục được họn, ngược lại sẽ chỉ được áp dụng chỉ khi có một mục được chọn."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:9
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:9
 msgid ""
 "Browse the file system to select an application to use for this action."
 msgstr "Duyệt tập tin để chọn một chương trình cho tác vụ này."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:10
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:10
 msgid "Keyboard _Shortcut:"
 msgstr "Bàn phím _Phím tắt:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:11
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:11
 msgid "The keyboard shortcut for the action."
 msgstr "Phím tắt cho hành động."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:12
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:12
 msgid "Clear the keyboard shortcut for this action."
 msgstr "Xóa phím tắt cho hành động này."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:13
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:13
 msgid "Use Startup Notification"
 msgstr "Sử dụng tính năng thông báo khởi động"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:14
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:14
 msgid ""
 "Enable this option if you want a waiting cursor to be shown while the action"
 " is launched. This is also highly recommended if you have focus stealing "
 "prevention enabled in your window manager."
 msgstr "Bật mục này nếu bạn muốn đổi chuột thành biểu tượng đồng hồ cát trong khi chạy tác vụ. Khuyến cáo chọn"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:15
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:15
 msgid "_Icon:"
 msgstr "Biểu tượng:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:17
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:17
 msgid ""
 "Click this button to select an icon file that will be displayed in the "
 "context menu in addition to the action name chosen above."
 msgstr "Bấm nút này để chọn một biểu tượng sẽ hiển thị trong menu ngữ cảnh."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:18
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:18
 msgid ""
 "The following command parameters will be substituted when launching the "
 "action:"
 msgstr "Các tham số lệnh sau sẽ được thay thế khi thực hiện hành động:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:19
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:19
 msgid "the path to the first selected file or directory"
 msgstr "đường dẫn tới tập tin hoặc thư mục được chọn đầu tiên"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:20
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:20
 msgid "the paths to all selected files and directories"
 msgstr "đường dẫn tới tất cả các tập tin và thư mục được chọn"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:22
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:22
 #, no-c-format
 msgid "directory containing the file that is passed in %f"
 msgstr "thư mục chứa tập tin được chuyển vào trong %f"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:24
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:24
 #, no-c-format
 msgid "directories containing the files that are passed in %F"
 msgstr "các thư mục chứa các tập tin được chuyển vào trong %F"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:25
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:25
 msgid "the first selected filename (without path)"
 msgstr "tên tập tin được chọn đầu tiên (không có đường dẫn)"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:26
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:26
 msgid "the selected filenames (without paths)"
 msgstr "các tập tin đã chọn (không có đường dẫn)"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:27
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:27
 msgid "Basic"
 msgstr "Cơ bản"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:28
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:28
 msgid "_File Pattern:"
 msgstr "_Mẫu tập tin:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:29
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:29
 msgid ""
 "Enter a list of patterns that will be used to determine whether this action "
 "should be displayed for a selected file. If you specify more than one "
@@ -3656,39 +3656,39 @@ msgid ""
 "*.txt;*.doc)."
 msgstr "Nhập vào danh sách các mẫu sẽ được dùng để kiểm tra liệu tác vụ có được hiển thị cho tập tin đang chọn không. Nếu có nhiều hơn một mẫu,  các mẫu cần được tách biệt bằng dấu chấm phẩy (ví dụ: *.txt;*.doc)."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:30
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:30
 msgid "*"
 msgstr "*"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:31
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:31
 msgid "Appears if selection contains:"
 msgstr "Hiện ra nếu trong lựa chọn có chứa:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:32
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:32
 msgid "_Directories"
 msgstr "Các thư mục"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:33
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:33
 msgid "_Audio Files"
 msgstr "Các tập tin âm thanh"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:34
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:34
 msgid "_Image Files"
 msgstr "Các tập tin ảnh"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:35
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:35
 msgid "_Text Files"
 msgstr "Các tập tin văn bản"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:36
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:36
 msgid "_Video Files"
 msgstr "Các tập tin phim"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:37
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:37
 msgid "_Other Files"
 msgstr "Các tập tin khác"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:38
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:38
 msgid ""
 "This page lists the conditions under which the action will appear in the "
 "file managers context menus. The file patterns are specified as a list of "
@@ -3698,99 +3698,99 @@ msgid ""
 "can specify that the action should only appear for certain kinds of files."
 msgstr "Trang này liệt kê điều kiện mà hành động sẽ xuất hiện trong menu ngữ cảnh của trình quản lý tập tin. Các định dạng tệp tin được chỉ định dưới dạng dang sách  được phân cách bằng dấu chấm phẩy (ví dụ *.txt, *.doc). Để một hành động xuất hiện trong menu ngữ cảnh của một tập tin hoặc thư mục, ít nhất một trong những định dạng của tập tin phải trùng khớp với tên tập tin hoặc thư mục. Ngoài ra, bạn có thể chỉ định hành động chỉ xuất hiện với một số loại tập tin nhất định. "
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:39
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:39
 msgid "Appearance Conditions"
 msgstr "Các điều kiện xuất hiện"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:1
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:1
 msgid "Custom Actions"
 msgstr "Tùy chỉnh tác vụ"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:2
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:2
 msgid ""
 "You can configure custom actions that will appear in the file managers "
 "context menus for certain kinds of files."
 msgstr "Bạn có thể cấu hình hành động tùy chỉnh sẽ xuất hiện trong menu ngữ cảnh của trình quản lý tập tin cho một số loại tập tin."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:3
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:3
 msgid "Add a new custom action."
 msgstr "Thêm tác vụ tùy chọn."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:4
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:4
 msgid "Edit the currently selected action."
 msgstr "Sửa tác vụ đang chọn."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:5
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:5
 msgid "Delete the currently selected action."
 msgstr "Xóa tác vụ đang chọn."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:6
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:6
 msgid "Move the currently selected action up by one row."
 msgstr "Đưa tác vụ đang chọn lên trên."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:7
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:7
 msgid "Move the currently selected action down by one row."
 msgstr "Đưa tác vụ đang chọn xuống dưới."
 
-#: ../plugins/thunar-wallpaper/twp-provider.c:154
+#: ../plugins/lunar-wallpaper/twp-provider.c:154
 msgid "Set as wallpaper"
 msgstr "Thiết lập ảnh nền"
 
-#: ../thunar.desktop.in.in.h:1
-msgid "Thunar File Manager"
-msgstr "Trình quản lý tập tin Thunar"
+#: ../lunar.desktop.in.in.h:1
+msgid "Lunar File Manager"
+msgstr "Trình quản lý tập tin Lunar"
 
-#: ../thunar.desktop.in.in.h:2
+#: ../lunar.desktop.in.in.h:2
 msgid "Browse the filesystem with the file manager"
 msgstr "Duyệt hê thống tập tin với trình quản lý tập tin"
 
-#: ../thunar.desktop.in.in.h:3
+#: ../lunar.desktop.in.in.h:3
 msgid "File Manager"
 msgstr "Trình quản lí tập tin"
 
-#: ../thunar.desktop.in.in.h:4
+#: ../lunar.desktop.in.in.h:4
 msgid ""
 "file "
 "manager;explorer;finder;browser;folders;directory;directories;partitions;drives;network;devices;rename;move;copy;delete;permissions;home;trash;"
 msgstr ""
 
-#: ../thunar.desktop.in.in.h:5
+#: ../lunar.desktop.in.in.h:5
 msgid "Home"
 msgstr "Cá nhân"
 
-#: ../thunar-bulk-rename.desktop.in.in.h:3
-msgid "bulk;renamer;renaming;thunar;files;folders;directory;directories;"
+#: ../lunar-bulk-rename.desktop.in.in.h:3
+msgid "bulk;renamer;renaming;lunar;files;folders;directory;directories;"
 msgstr ""
 
-#: ../thunar/thunar-settings.desktop.in.h:1
+#: ../lunar/lunar-settings.desktop.in.h:1
 msgid "File Manager Settings"
 msgstr "Cài đặt  trình quản lý tập tin"
 
-#: ../thunar/thunar-settings.desktop.in.h:2
-msgid "Configure the Thunar file manager"
-msgstr "Cấu hình trình quản lí tập tin Thunar"
+#: ../lunar/lunar-settings.desktop.in.h:2
+msgid "Configure the Lunar file manager"
+msgstr "Cấu hình trình quản lí tập tin Lunar"
 
-#: ../thunar/thunar-settings.desktop.in.h:3
+#: ../lunar/lunar-settings.desktop.in.h:3
 msgid ""
-"thunar;settings;preferences;configure;thumbnails;file size;date "
+"lunar;settings;preferences;configure;thumbnails;file size;date "
 "format;shortcuts pane;tree view;tabs;"
 msgstr ""
 
-#: ../org.xfce.thunar.appdata.xml.in.h:1
+#: ../com.expidus.lunar.appdata.xml.in.h:1
 msgid ""
-"Thunar is a file browser specifically designed for the Xfce Desktop, but "
+"Lunar is a file browser specifically designed for the Expidus Desktop, but "
 "also can serve as an alternate file browser for other Desktop environments. "
 "It has a simple, clean two-pane design for browsing all your files."
-msgstr "Thunar là một trình duyệt tập tin đặc biệt được thiết kế cho Xfce Desktop, nhưng cũng có thể sử dụng như một trình duyệt tập tin thay thế cho các giao diện Desktop khác"
+msgstr "Lunar là một trình duyệt tập tin đặc biệt được thiết kế cho Expidus Desktop, nhưng cũng có thể sử dụng như một trình duyệt tập tin thay thế cho các giao diện Desktop khác"
 
 #. SECURITY:
-#. - A normal active user can run thunar without elevated rights. They
+#. - A normal active user can run lunar without elevated rights. They
 #. may wish to modify files they normally do not have read/write access
 #. to. This isn't a good idea, but is common on single user systems.
-#: ../org.xfce.thunar.policy.in.in.h:6
-msgid "Run Thunar as root"
-msgstr "Chạy Thunar với quyền root"
+#: ../com.expidus.lunar.policy.in.in.h:6
+msgid "Run Lunar as root"
+msgstr "Chạy Lunar với quyền root"
 
-#: ../org.xfce.thunar.policy.in.in.h:7
-msgid "Authentication is required to run Thunar as root."
-msgstr "Xác thực được yêu cầu để chạy Thunar với quyền root."
+#: ../com.expidus.lunar.policy.in.in.h:7
+msgid "Authentication is required to run Lunar as root."
+msgstr "Xác thực được yêu cầu để chạy Lunar với quyền root."

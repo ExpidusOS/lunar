@@ -1,0 +1,1552 @@
+/* vi:set et ai sw=2 sts=2 ts=2: */
+/*-
+ * Copyright (c) 2005-2007 Benedikt Meurer <benny@expidus.org>
+ * Copyright (c) 2009-2011 Jannis Pohlmann <jannis@expidus.org>
+ * Copyright (c) 2012      Nick Schermer <nick@expidus.org>
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of
+ * the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public
+ * License along with this program; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ * Boston, MA 02110-1301, USA.
+ */
+
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
+#ifdef HAVE_MEMORY_H
+#include <memory.h>
+#endif
+#ifdef HAVE_STRING_H
+#include <string.h>
+#endif
+
+#include <gdk/gdkkeysyms.h>
+
+#include <endo/endo.h>
+#include <libexpidus1ui/libexpidus1ui.h>
+
+#include <lunar/lunar-abstract-dialog.h>
+#include <lunar/lunar-application.h>
+#include <lunar/lunar-chooser-button.h>
+#include <lunar/lunar-dialogs.h>
+#include <lunar/lunar-emblem-chooser.h>
+#include <lunar/lunar-gio-extensions.h>
+#include <lunar/lunar-gobject-extensions.h>
+#include <lunar/lunar-gtk-extensions.h>
+#include <lunar/lunar-icon-factory.h>
+#include <lunar/lunar-image.h>
+#include <lunar/lunar-io-jobs.h>
+#include <lunar/lunar-job.h>
+#include <lunar/lunar-marshal.h>
+#include <lunar/lunar-pango-extensions.h>
+#include <lunar/lunar-permissions-chooser.h>
+#include <lunar/lunar-preferences.h>
+#include <lunar/lunar-private.h>
+#include <lunar/lunar-properties-dialog.h>
+#include <lunar/lunar-size-label.h>
+#include <lunar/lunar-thumbnailer.h>
+#include <lunar/lunar-util.h>
+
+
+
+/* Property identifiers */
+enum
+{
+  PROP_0,
+  PROP_FILES,
+  PROP_FILE_SIZE_BINARY,
+};
+
+/* Signal identifiers */
+enum
+{
+  RELOAD,
+  LAST_SIGNAL,
+};
+
+
+
+static void     lunar_properties_dialog_dispose              (GObject                     *object);
+static void     lunar_properties_dialog_finalize             (GObject                     *object);
+static void     lunar_properties_dialog_get_property         (GObject                     *object,
+                                                               guint                        prop_id,
+                                                               GValue                      *value,
+                                                               GParamSpec                  *pspec);
+static void     lunar_properties_dialog_set_property         (GObject                     *object,
+                                                               guint                        prop_id,
+                                                               const GValue                *value,
+                                                               GParamSpec                  *pspec);
+static void     lunar_properties_dialog_response             (GtkDialog                   *dialog,
+                                                               gint                         response);
+static gboolean lunar_properties_dialog_reload               (LunarPropertiesDialog      *dialog);
+static void     lunar_properties_dialog_name_activate        (GtkWidget                   *entry,
+                                                               LunarPropertiesDialog      *dialog);
+static gboolean lunar_properties_dialog_name_focus_out_event (GtkWidget                   *entry,
+                                                               GdkEventFocus               *event,
+                                                               LunarPropertiesDialog      *dialog);
+static void     lunar_properties_dialog_icon_button_clicked  (GtkWidget                   *button,
+                                                               LunarPropertiesDialog      *dialog);
+static void     lunar_properties_dialog_update               (LunarPropertiesDialog      *dialog);
+static void     lunar_properties_dialog_update_providers     (LunarPropertiesDialog      *dialog);
+static GList   *lunar_properties_dialog_get_files            (LunarPropertiesDialog      *dialog);
+
+
+struct _LunarPropertiesDialogClass
+{
+  LunarAbstractDialogClass __parent__;
+
+  /* signals */
+  gboolean (*reload) (LunarPropertiesDialog *dialog);
+};
+
+struct _LunarPropertiesDialog
+{
+  LunarAbstractDialog    __parent__;
+
+  LunarxProviderFactory *provider_factory;
+  GList                  *provider_pages;
+
+  LunarPreferences      *preferences;
+
+  GList                  *files;
+  gboolean                file_size_binary;
+
+  LunarThumbnailer      *thumbnailer;
+  guint                   thumbnail_request;
+
+  ExpidusFilenameInput      *name_entry;
+
+  GtkWidget              *notebook;
+  GtkWidget              *icon_button;
+  GtkWidget              *icon_image;
+  GtkWidget              *names_label;
+  GtkWidget              *single_box;
+  GtkWidget              *kind_ebox;
+  GtkWidget              *kind_label;
+  GtkWidget              *openwith_chooser;
+  GtkWidget              *link_label;
+  GtkWidget              *location_label;
+  GtkWidget              *origin_label;
+  GtkWidget              *created_label;
+  GtkWidget              *deleted_label;
+  GtkWidget              *modified_label;
+  GtkWidget              *accessed_label;
+  GtkWidget              *freespace_vbox;
+  GtkWidget              *freespace_bar;
+  GtkWidget              *freespace_label;
+  GtkWidget              *volume_image;
+  GtkWidget              *volume_label;
+  GtkWidget              *permissions_chooser;
+};
+
+
+
+G_DEFINE_TYPE (LunarPropertiesDialog, lunar_properties_dialog, LUNAR_TYPE_ABSTRACT_DIALOG)
+
+
+
+static void
+lunar_properties_dialog_class_init (LunarPropertiesDialogClass *klass)
+{
+  GtkDialogClass *gtkdialog_class;
+  GtkBindingSet  *binding_set;
+  GObjectClass   *gobject_class;
+
+  gobject_class = G_OBJECT_CLASS (klass);
+  gobject_class->dispose = lunar_properties_dialog_dispose;
+  gobject_class->finalize = lunar_properties_dialog_finalize;
+  gobject_class->get_property = lunar_properties_dialog_get_property;
+  gobject_class->set_property = lunar_properties_dialog_set_property;
+
+  gtkdialog_class = GTK_DIALOG_CLASS (klass);
+  gtkdialog_class->response = lunar_properties_dialog_response;
+
+  klass->reload = lunar_properties_dialog_reload;
+
+  /**
+   * LunarPropertiesDialog:files:
+   *
+   * The list of currently selected files whose properties are displayed by
+   * this #LunarPropertiesDialog. This property may also be %NULL
+   * in which case nothing is displayed.
+   **/
+  g_object_class_install_property (gobject_class,
+                                   PROP_FILES,
+                                   g_param_spec_boxed ("files", "files", "files",
+                                                        LUNARX_TYPE_FILE_INFO_LIST,
+                                                        ENDO_PARAM_READWRITE));
+
+  /**
+   * LunarPropertiesDialog:file_size_binary:
+   *
+   * Whether the file size should be shown in binary or decimal.
+   **/
+  g_object_class_install_property (gobject_class,
+                                   PROP_FILE_SIZE_BINARY,
+                                   g_param_spec_boolean ("file-size-binary",
+                                                         "FileSizeBinary",
+                                                         NULL,
+                                                         TRUE,
+                                                         ENDO_PARAM_READWRITE));
+
+  /**
+   * LunarPropertiesDialog::reload:
+   * @dialog : a #LunarPropertiesDialog.
+   *
+   * Emitted whenever the user requests reset the reload the
+   * file properties. This is an internal signal used to bind
+   * the action to keys.
+   **/
+  g_signal_new (I_("reload"),
+                G_TYPE_FROM_CLASS (klass),
+                G_SIGNAL_RUN_LAST | G_SIGNAL_ACTION,
+                G_STRUCT_OFFSET (LunarPropertiesDialogClass, reload),
+                g_signal_accumulator_true_handled, NULL,
+                _lunar_marshal_BOOLEAN__VOID,
+                G_TYPE_BOOLEAN, 0);
+
+  /* setup the key bindings for the properties dialog */
+  binding_set = gtk_binding_set_by_class (klass);
+  gtk_binding_entry_add_signal (binding_set, GDK_KEY_F5, 0, "reload", 0);
+  gtk_binding_entry_add_signal (binding_set, GDK_KEY_r, GDK_CONTROL_MASK, "reload", 0);
+}
+
+
+
+static void
+lunar_properties_dialog_init (LunarPropertiesDialog *dialog)
+{
+  GtkWidget *chooser;
+  GtkWidget *grid;
+  GtkWidget *label;
+  GtkWidget *box;
+  GtkWidget *spacer;
+  guint      row = 0;
+  GtkWidget *image;
+
+  /* acquire a reference on the preferences and monitor the
+     "misc-date-style" and "misc-file-size-binary" settings */
+  dialog->preferences = lunar_preferences_get ();
+  g_signal_connect_swapped (G_OBJECT (dialog->preferences), "notify::misc-date-style",
+                            G_CALLBACK (lunar_properties_dialog_reload), dialog);
+  endo_binding_new (G_OBJECT (dialog->preferences), "misc-file-size-binary",
+                   G_OBJECT (dialog), "file-size-binary");
+  g_signal_connect_swapped (G_OBJECT (dialog->preferences), "notify::misc-file-size-binary",
+                            G_CALLBACK (lunar_properties_dialog_reload), dialog);
+
+  /* create a new thumbnailer */
+  dialog->thumbnailer = lunar_thumbnailer_get ();
+  dialog->thumbnail_request = 0;
+
+  dialog->provider_factory = lunarx_provider_factory_get_default ();
+
+  gtk_dialog_add_buttons (GTK_DIALOG (dialog),
+                          _("_Help"), GTK_RESPONSE_HELP,
+                          _("_Close"), GTK_RESPONSE_CLOSE,
+                          NULL);
+  gtk_window_set_default_size (GTK_WINDOW (dialog), 400, 450);
+
+  dialog->notebook = gtk_notebook_new ();
+  gtk_container_set_border_width (GTK_CONTAINER (dialog->notebook), 6);
+  gtk_box_pack_start (GTK_BOX (gtk_dialog_get_content_area (GTK_DIALOG (dialog))), dialog->notebook, TRUE, TRUE, 0);
+  gtk_widget_show (dialog->notebook);
+
+  grid = gtk_grid_new ();
+  label = gtk_label_new (_("General"));
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 12);
+  gtk_notebook_append_page (GTK_NOTEBOOK (dialog->notebook), grid, label);
+  gtk_widget_show (label);
+  gtk_widget_show (grid);
+
+
+  /*
+     First box (icon, name) for 1 file
+   */
+  dialog->single_box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+  gtk_grid_attach (GTK_GRID (grid), dialog->single_box, 0, row, 1, 1);
+
+  dialog->icon_button = gtk_button_new ();
+  g_signal_connect (G_OBJECT (dialog->icon_button), "clicked", G_CALLBACK (lunar_properties_dialog_icon_button_clicked), dialog);
+  gtk_box_pack_start (GTK_BOX (dialog->single_box), dialog->icon_button, FALSE, TRUE, 0);
+  gtk_widget_show (dialog->icon_button);
+
+  dialog->icon_image = lunar_image_new ();
+  gtk_box_pack_start (GTK_BOX (dialog->single_box), dialog->icon_image, FALSE, TRUE, 0);
+  gtk_widget_show (dialog->icon_image);
+
+  label = gtk_label_new_with_mnemonic (_("_Name:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_box_pack_end (GTK_BOX (dialog->single_box), label, TRUE, TRUE, 0);
+  gtk_widget_show (label);
+
+  /* set up the widget for entering the filename */
+  dialog->name_entry = g_object_new (EXPIDUS_TYPE_FILENAME_INPUT, NULL);
+  gtk_widget_set_hexpand (GTK_WIDGET (dialog->name_entry), TRUE);
+  gtk_widget_set_valign (GTK_WIDGET (dialog->name_entry), GTK_ALIGN_CENTER);
+  gtk_label_set_mnemonic_widget (GTK_LABEL (label), GTK_WIDGET (expidus_filename_input_get_entry (dialog->name_entry)));
+  gtk_widget_show_all (GTK_WIDGET (dialog->name_entry));
+
+  g_signal_connect (G_OBJECT (expidus_filename_input_get_entry (dialog->name_entry)),
+                    "activate", G_CALLBACK (lunar_properties_dialog_name_activate), dialog);
+  g_signal_connect (G_OBJECT (expidus_filename_input_get_entry (dialog->name_entry)),
+                    "focus-out-event", G_CALLBACK (lunar_properties_dialog_name_focus_out_event), dialog);
+
+  gtk_grid_attach (GTK_GRID (grid), GTK_WIDGET (dialog->name_entry), 1, row, 1, 1);
+  endo_binding_new (G_OBJECT (dialog->single_box), "visible", G_OBJECT (dialog->name_entry), "visible");
+
+  ++row;
+
+
+  /*
+     First box (icon, name) for multiple files
+   */
+  box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+  gtk_grid_attach (GTK_GRID (grid), box, 0, row, 1, 1);
+  endo_binding_new_with_negation (G_OBJECT (dialog->single_box), "visible", G_OBJECT (box), "visible");
+
+  image = gtk_image_new_from_icon_name ("text-x-generic", GTK_ICON_SIZE_DIALOG);
+  gtk_box_pack_start (GTK_BOX (box), image, FALSE, TRUE, 0);
+  gtk_widget_show (image);
+
+  label = gtk_label_new (_("Names:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_box_pack_end (GTK_BOX (box), label, TRUE, TRUE, 0);
+  gtk_widget_show (label);
+
+  dialog->names_label = gtk_label_new ("");
+  gtk_label_set_xalign (GTK_LABEL (dialog->names_label), 0.0f);
+  gtk_widget_set_hexpand (dialog->names_label, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->names_label, 1, row, 1, 1);
+  gtk_label_set_ellipsize (GTK_LABEL (dialog->names_label), PANGO_ELLIPSIZE_END);
+  gtk_label_set_selectable (GTK_LABEL (dialog->names_label), TRUE);
+  endo_binding_new (G_OBJECT (box), "visible", G_OBJECT (dialog->names_label), "visible");
+
+
+  ++row;
+
+
+  /*
+     Second box (kind, open with, link target)
+   */
+  label = gtk_label_new (_("Kind:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->kind_ebox = gtk_event_box_new ();
+  gtk_event_box_set_above_child (GTK_EVENT_BOX (dialog->kind_ebox), TRUE);
+  gtk_event_box_set_visible_window (GTK_EVENT_BOX (dialog->kind_ebox), FALSE);
+  endo_binding_new (G_OBJECT (dialog->kind_ebox), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (dialog->kind_ebox, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->kind_ebox, 1, row, 1, 1);
+  gtk_widget_show (dialog->kind_ebox);
+
+  dialog->kind_label = g_object_new (GTK_TYPE_LABEL, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->kind_label), TRUE);
+  gtk_label_set_ellipsize (GTK_LABEL (dialog->kind_label), PANGO_ELLIPSIZE_END);
+  gtk_container_add (GTK_CONTAINER (dialog->kind_ebox), dialog->kind_label);
+  gtk_widget_show (dialog->kind_label);
+
+  ++row;
+
+  label = gtk_label_new_with_mnemonic (_("_Open With:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->openwith_chooser = lunar_chooser_button_new ();
+  gtk_label_set_mnemonic_widget (GTK_LABEL (label), dialog->openwith_chooser);
+  endo_binding_new (G_OBJECT (dialog->openwith_chooser), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (dialog->openwith_chooser, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->openwith_chooser, 1, row, 1, 1);
+  gtk_widget_show (dialog->openwith_chooser);
+
+  ++row;
+
+  label = gtk_label_new (_("Link Target:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->link_label = g_object_new (GTK_TYPE_LABEL, "ellipsize", PANGO_ELLIPSIZE_START, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->link_label), TRUE);
+  endo_binding_new (G_OBJECT (dialog->link_label), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (dialog->link_label, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->link_label, 1, row, 1, 1);
+  gtk_widget_show (dialog->link_label);
+
+  ++row;
+
+  /* TRANSLATORS: Try to come up with a short translation of "Original Path" (which is the path
+   * where the trashed file/folder was located before it was moved to the trash), otherwise the
+   * properties dialog width will be messed up.
+   */
+  label = gtk_label_new (_("Original Path:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->origin_label = g_object_new (GTK_TYPE_LABEL, "ellipsize", PANGO_ELLIPSIZE_START, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->origin_label), TRUE);
+  endo_binding_new (G_OBJECT (dialog->origin_label), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (dialog->origin_label, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->origin_label, 1, row, 1, 1);
+  gtk_widget_show (dialog->origin_label);
+
+  ++row;
+
+  label = gtk_label_new (_("Location:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->location_label = g_object_new (GTK_TYPE_LABEL, "ellipsize", PANGO_ELLIPSIZE_START, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->location_label), TRUE);
+  endo_binding_new (G_OBJECT (dialog->location_label), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (dialog->location_label, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->location_label, 1, row, 1, 1);
+  gtk_widget_show (dialog->location_label);
+
+  ++row;
+
+
+  spacer = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "height-request", 12, NULL);
+  gtk_grid_attach (GTK_GRID (grid), spacer, 0, row, 2, 1);
+  gtk_widget_show (spacer);
+
+  ++row;
+
+
+  /*
+     Third box (deleted, modified, accessed)
+   */
+  label = gtk_label_new (_("Deleted:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->deleted_label = g_object_new (GTK_TYPE_LABEL, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->deleted_label), TRUE);
+  endo_binding_new (G_OBJECT (dialog->deleted_label), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (dialog->deleted_label, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->deleted_label, 1, row, 1, 1);
+  gtk_widget_show (dialog->deleted_label);
+
+  ++row;
+
+  label = gtk_label_new (_("Created:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->created_label = g_object_new (GTK_TYPE_LABEL, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->created_label), TRUE);
+  endo_binding_new (G_OBJECT (dialog->created_label), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (dialog->created_label, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->created_label, 1, row, 1, 1);
+  gtk_widget_show (dialog->created_label);
+
+  ++row;
+
+  label = gtk_label_new (_("Modified:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->modified_label = g_object_new (GTK_TYPE_LABEL, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->modified_label), TRUE);
+  endo_binding_new (G_OBJECT (dialog->modified_label), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (dialog->modified_label, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->modified_label, 1, row, 1, 1);
+  gtk_widget_show (dialog->modified_label);
+
+  ++row;
+
+  label = gtk_label_new (_("Accessed:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->accessed_label = g_object_new (GTK_TYPE_LABEL, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->accessed_label), TRUE);
+  endo_binding_new (G_OBJECT (dialog->accessed_label), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (dialog->accessed_label, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->accessed_label, 1, row, 1, 1);
+  gtk_widget_show (dialog->accessed_label);
+
+  ++row;
+
+
+  spacer = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "height-request", 12, NULL);
+  gtk_grid_attach (GTK_GRID (grid), spacer, 0, row, 2, 1);
+  endo_binding_new (G_OBJECT (dialog->accessed_label), "visible", G_OBJECT (spacer), "visible");
+
+  ++row;
+
+
+  /*
+     Fourth box (size, volume, free space)
+   */
+  label = gtk_label_new (_("Size:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  label = lunar_size_label_new ();
+  endo_binding_new (G_OBJECT (dialog), "files", G_OBJECT (label), "files");
+  gtk_widget_set_hexpand (label, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), label, 1, row, 1, 1);
+  gtk_widget_show (label);
+
+  ++row;
+
+  label = gtk_label_new (_("Volume:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  box = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+  endo_binding_new (G_OBJECT (box), "visible", G_OBJECT (label), "visible");
+  gtk_widget_set_hexpand (box, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), box, 1, row, 1, 1);
+  gtk_widget_show (box);
+
+  dialog->volume_image = gtk_image_new ();
+  endo_binding_new (G_OBJECT (dialog->volume_image), "visible", G_OBJECT (box), "visible");
+  gtk_box_pack_start (GTK_BOX (box), dialog->volume_image, FALSE, TRUE, 0);
+  gtk_widget_show (dialog->volume_image);
+
+  dialog->volume_label = g_object_new (GTK_TYPE_LABEL, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->volume_label), TRUE);
+  endo_binding_new (G_OBJECT (dialog->volume_label), "visible", G_OBJECT (dialog->volume_image), "visible");
+  gtk_box_pack_start (GTK_BOX (box), dialog->volume_label, TRUE, TRUE, 0);
+  gtk_widget_show (dialog->volume_label);
+
+  ++row;
+
+  label = gtk_label_new (_("Usage:"));
+  gtk_label_set_attributes (GTK_LABEL (label), lunar_pango_attr_list_bold ());
+  gtk_label_set_xalign (GTK_LABEL (label), 1.0f);
+  gtk_label_set_yalign (GTK_LABEL (label), 0.0f);
+  gtk_grid_attach (GTK_GRID (grid), label, 0, row, 1, 1);
+  gtk_widget_show (label);
+
+  dialog->freespace_vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 4);
+  gtk_widget_set_hexpand (dialog->freespace_vbox, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), dialog->freespace_vbox, 1, row, 1, 1);
+  endo_binding_new (G_OBJECT (dialog->freespace_vbox), "visible", G_OBJECT (label), "visible");
+  gtk_widget_show (dialog->freespace_vbox);
+
+  dialog->freespace_label = g_object_new (GTK_TYPE_LABEL, "xalign", 0.0f, NULL);
+  gtk_label_set_selectable (GTK_LABEL (dialog->freespace_label), TRUE);
+  gtk_box_pack_start (GTK_BOX (dialog->freespace_vbox), dialog->freespace_label, TRUE, TRUE, 0);
+  gtk_widget_show (dialog->freespace_label);
+
+  dialog->freespace_bar = g_object_new (GTK_TYPE_PROGRESS_BAR, NULL);
+  gtk_box_pack_start (GTK_BOX (dialog->freespace_vbox), dialog->freespace_bar, TRUE, TRUE, 0);
+  gtk_widget_set_size_request (dialog->freespace_bar, -1, 10);
+  gtk_widget_show (dialog->freespace_bar);
+
+  ++row;
+
+  spacer = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "height-request", 12, NULL);
+  gtk_grid_attach (GTK_GRID (grid), spacer, 0, row, 2, 1);
+  gtk_widget_show (spacer);
+
+  ++row;
+
+
+  /*
+     Emblem chooser
+   */
+  label = gtk_label_new (_("Emblems"));
+  chooser = lunar_emblem_chooser_new ();
+  endo_binding_new (G_OBJECT (dialog), "files", G_OBJECT (chooser), "files");
+  gtk_notebook_append_page (GTK_NOTEBOOK (dialog->notebook), chooser, label);
+  gtk_widget_show (chooser);
+  gtk_widget_show (label);
+
+  /*
+     Permissions chooser
+   */
+  label = gtk_label_new (_("Permissions"));
+  dialog->permissions_chooser = lunar_permissions_chooser_new ();
+  endo_binding_new (G_OBJECT (dialog), "files", G_OBJECT (dialog->permissions_chooser), "files");
+  gtk_notebook_append_page (GTK_NOTEBOOK (dialog->notebook), dialog->permissions_chooser, label);
+  gtk_widget_show (dialog->permissions_chooser);
+  gtk_widget_show (label);
+}
+
+
+
+static void
+lunar_properties_dialog_dispose (GObject *object)
+{
+  LunarPropertiesDialog *dialog = LUNAR_PROPERTIES_DIALOG (object);
+
+  /* reset the file displayed by the dialog */
+  lunar_properties_dialog_set_files (dialog, NULL);
+
+  (*G_OBJECT_CLASS (lunar_properties_dialog_parent_class)->dispose) (object);
+}
+
+
+
+static void
+lunar_properties_dialog_finalize (GObject *object)
+{
+  LunarPropertiesDialog *dialog = LUNAR_PROPERTIES_DIALOG (object);
+
+  _lunar_return_if_fail (dialog->files == NULL);
+
+  /* disconnect from the preferences */
+  g_signal_handlers_disconnect_by_func (dialog->preferences, lunar_properties_dialog_reload, dialog);
+  g_object_unref (dialog->preferences);
+
+  /* cancel any pending thumbnailer requests */
+  if (dialog->thumbnail_request > 0)
+    {
+      lunar_thumbnailer_dequeue (dialog->thumbnailer, dialog->thumbnail_request);
+      dialog->thumbnail_request = 0;
+    }
+
+  /* release the thumbnailer */
+  g_object_unref (dialog->thumbnailer);
+
+  /* release the provider property pages */
+  g_list_free_full (dialog->provider_pages, g_object_unref);
+
+  /* drop the reference on the provider factory */
+  g_object_unref (dialog->provider_factory);
+
+  (*G_OBJECT_CLASS (lunar_properties_dialog_parent_class)->finalize) (object);
+}
+
+
+
+static void
+lunar_properties_dialog_get_property (GObject    *object,
+                                       guint       prop_id,
+                                       GValue     *value,
+                                       GParamSpec *pspec)
+{
+  LunarPropertiesDialog *dialog = LUNAR_PROPERTIES_DIALOG (object);
+
+  switch (prop_id)
+    {
+    case PROP_FILES:
+      g_value_set_boxed (value, lunar_properties_dialog_get_files (dialog));
+      break;
+
+    case PROP_FILE_SIZE_BINARY:
+      g_value_set_boolean (value, dialog->file_size_binary);
+      break;
+
+    default:
+      G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
+      break;
+    }
+}
+
+
+
+static void
+lunar_properties_dialog_set_property (GObject      *object,
+                                       guint         prop_id,
+                                       const GValue *value,
+                                       GParamSpec   *pspec)
+{
+  LunarPropertiesDialog *dialog = LUNAR_PROPERTIES_DIALOG (object);
+
+  switch (prop_id)
+    {
+    case PROP_FILES:
+      lunar_properties_dialog_set_files (dialog, g_value_get_boxed (value));
+      break;
+
+    case PROP_FILE_SIZE_BINARY:
+      dialog->file_size_binary = g_value_get_boolean (value);
+      break;
+
+    default:
+      G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
+      break;
+    }
+}
+
+
+
+static void
+lunar_properties_dialog_response (GtkDialog *dialog,
+                                   gint       response)
+{
+  if (response == GTK_RESPONSE_CLOSE)
+    {
+      gtk_widget_destroy (GTK_WIDGET (dialog));
+    }
+  else if (response == GTK_RESPONSE_HELP)
+    {
+      expidus_dialog_show_help (GTK_WINDOW (dialog), "lunar",
+                             "working-with-files-and-folders",
+                             "file_properties");
+    }
+  else if (GTK_DIALOG_CLASS (lunar_properties_dialog_parent_class)->response != NULL)
+    {
+      (*GTK_DIALOG_CLASS (lunar_properties_dialog_parent_class)->response) (dialog, response);
+    }
+}
+
+
+static void
+lunar_properties_file_reload_iter (gpointer data, gpointer user_data)
+{
+  LunarFile *file = data;
+
+  lunar_file_reload (file);
+}
+
+static gboolean
+lunar_properties_dialog_reload (LunarPropertiesDialog *dialog)
+{
+  /* reload the active files */
+  g_list_foreach (dialog->files, lunar_properties_file_reload_iter, NULL);
+
+  return dialog->files != NULL;
+}
+
+
+
+static void
+lunar_properties_dialog_rename_error (EndoJob                 *job,
+                                       GError                 *error,
+                                       LunarPropertiesDialog *dialog)
+{
+  _lunar_return_if_fail (ENDO_IS_JOB (job));
+  _lunar_return_if_fail (error != NULL);
+  _lunar_return_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog));
+  _lunar_return_if_fail (g_list_length (dialog->files) == 1);
+
+  /* reset the entry display name to the original name, so the focus
+     out event does not trigger the rename again by calling
+     lunar_properties_dialog_name_activate */
+  gtk_entry_set_text (GTK_ENTRY (expidus_filename_input_get_entry (dialog->name_entry)),
+                      lunar_file_get_display_name (LUNAR_FILE (dialog->files->data)));
+
+  /* display an error message */
+  lunar_dialogs_show_error (GTK_WIDGET (dialog), error, _("Failed to rename \"%s\""),
+                             lunar_file_get_display_name (LUNAR_FILE (dialog->files->data)));
+}
+
+
+
+static void
+lunar_properties_dialog_rename_finished (EndoJob                 *job,
+                                          LunarPropertiesDialog *dialog)
+{
+  _lunar_return_if_fail (ENDO_IS_JOB (job));
+  _lunar_return_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog));
+  _lunar_return_if_fail (g_list_length (dialog->files) == 1);
+
+  g_signal_handlers_disconnect_matched (job, G_SIGNAL_MATCH_DATA, 0, 0, NULL, NULL, dialog);
+  g_object_unref (job);
+}
+
+
+
+static void
+lunar_properties_dialog_name_activate (GtkWidget              *entry,
+                                        LunarPropertiesDialog *dialog)
+{
+  const gchar *old_name;
+  const gchar *new_name;
+  LunarJob   *job;
+  LunarFile  *file;
+
+  _lunar_return_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog));
+
+  /* check if we still have a valid file and if the user is allowed to rename */
+  if (G_UNLIKELY (!gtk_widget_get_sensitive (GTK_WIDGET (expidus_filename_input_get_entry (dialog->name_entry)))
+      || g_list_length (dialog->files) != 1))
+    return;
+
+  /* determine new and old name */
+  file = LUNAR_FILE (dialog->files->data);
+  new_name = expidus_filename_input_get_text (dialog->name_entry);
+  old_name = lunar_file_get_display_name (file);
+  if (g_utf8_collate (new_name, old_name) != 0)
+    {
+      job = lunar_io_jobs_rename_file (file, new_name);
+      if (job != NULL)
+        {
+          g_signal_connect (job, "error", G_CALLBACK (lunar_properties_dialog_rename_error), dialog);
+          g_signal_connect (job, "finished", G_CALLBACK (lunar_properties_dialog_rename_finished), dialog);
+        }
+    }
+}
+
+
+
+static gboolean
+lunar_properties_dialog_name_focus_out_event (GtkWidget              *entry,
+                                               GdkEventFocus          *event,
+                                               LunarPropertiesDialog *dialog)
+{
+  lunar_properties_dialog_name_activate (entry, dialog);
+  return FALSE;
+}
+
+
+
+static void
+lunar_properties_dialog_icon_button_clicked (GtkWidget              *button,
+                                              LunarPropertiesDialog *dialog)
+{
+  GtkWidget   *chooser;
+  GError      *err = NULL;
+  const gchar *custom_icon;
+  gchar       *title;
+  gchar       *icon;
+  LunarFile  *file;
+
+  _lunar_return_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog));
+  _lunar_return_if_fail (GTK_IS_BUTTON (button));
+  _lunar_return_if_fail (g_list_length (dialog->files) == 1);
+
+  /* make sure we still have a file */
+  if (G_UNLIKELY (dialog->files == NULL))
+    return;
+
+  file = LUNAR_FILE (dialog->files->data);
+
+  /* allocate the icon chooser */
+  title = g_strdup_printf (_("Select an Icon for \"%s\""), lunar_file_get_display_name (file));
+  chooser = endo_icon_chooser_dialog_new (title, GTK_WINDOW (dialog),
+                                         _("_Cancel"), GTK_RESPONSE_CANCEL,
+                                         _("_OK"), GTK_RESPONSE_ACCEPT,
+                                         NULL);
+  gtk_dialog_set_default_response (GTK_DIALOG (chooser), GTK_RESPONSE_ACCEPT);
+  g_free (title);
+
+  /* use the custom_icon of the file as default */
+  custom_icon = lunar_file_get_custom_icon (file);
+  if (G_LIKELY (custom_icon != NULL && *custom_icon != '\0'))
+    endo_icon_chooser_dialog_set_icon (ENDO_ICON_CHOOSER_DIALOG (chooser), custom_icon);
+
+  /* run the icon chooser dialog and make sure the dialog still has a file */
+  if (gtk_dialog_run (GTK_DIALOG (chooser)) == GTK_RESPONSE_ACCEPT && file != NULL)
+    {
+      /* determine the selected icon and use it for the file */
+      icon = endo_icon_chooser_dialog_get_icon (ENDO_ICON_CHOOSER_DIALOG (chooser));
+      if (!lunar_file_set_custom_icon (file, icon, &err))
+        {
+          /* hide the icon chooser dialog first */
+          gtk_widget_hide (chooser);
+
+          /* tell the user that we failed to change the icon of the .desktop file */
+          lunar_dialogs_show_error (GTK_WIDGET (dialog), err,
+                                     _("Failed to change icon of \"%s\""),
+                                     lunar_file_get_display_name (file));
+          g_error_free (err);
+        }
+      g_free (icon);
+    }
+
+  /* destroy the chooser */
+  gtk_widget_destroy (chooser);
+}
+
+
+
+static void
+lunar_properties_dialog_update_providers (LunarPropertiesDialog *dialog)
+{
+  GtkWidget *label_widget;
+  GList     *providers;
+  GList     *pages = NULL;
+  GList     *tmp;
+  GList     *lp;
+
+  /* load the property page providers from the provider factory */
+  providers = lunarx_provider_factory_list_providers (dialog->provider_factory, LUNARX_TYPE_PROPERTY_PAGE_PROVIDER);
+  if (G_LIKELY (providers != NULL))
+    {
+      /* load the pages offered by the menu providers */
+      for (lp = providers; lp != NULL; lp = lp->next)
+        {
+          tmp = lunarx_property_page_provider_get_pages (lp->data, dialog->files);
+          pages = g_list_concat (pages, tmp);
+          g_object_unref (G_OBJECT (lp->data));
+        }
+      g_list_free (providers);
+    }
+
+  /* destroy any previous set pages */
+  for (lp = dialog->provider_pages; lp != NULL; lp = lp->next)
+    {
+      gtk_widget_destroy (GTK_WIDGET (lp->data));
+      g_object_unref (G_OBJECT (lp->data));
+    }
+  g_list_free (dialog->provider_pages);
+
+  /* apply the new set of pages */
+  dialog->provider_pages = pages;
+  for (lp = pages; lp != NULL; lp = lp->next)
+    {
+      label_widget = lunarx_property_page_get_label_widget (LUNARX_PROPERTY_PAGE (lp->data));
+      gtk_notebook_append_page (GTK_NOTEBOOK (dialog->notebook), GTK_WIDGET (lp->data), label_widget);
+      g_object_ref (G_OBJECT (lp->data));
+      gtk_widget_show (lp->data);
+    }
+}
+
+
+
+static void
+lunar_properties_dialog_update_single (LunarPropertiesDialog *dialog)
+{
+  LunarIconFactory *icon_factory;
+  LunarDateStyle    date_style;
+  GtkIconTheme      *icon_theme;
+  const gchar       *content_type;
+  const gchar       *name;
+  const gchar       *path;
+  GVolume           *volume;
+  GIcon             *gicon;
+  glong              offset;
+  gchar             *date_custom_style;
+  gchar             *date;
+  gchar             *display_name;
+  gchar             *fs_string;
+  gchar             *str;
+  gchar             *volume_name;
+  gchar             *volume_id;
+  gchar             *volume_label;
+  LunarFile        *file;
+  LunarFile        *parent_file;
+  gboolean           show_chooser;
+  guint64            fs_free;
+  guint64            fs_size;
+  gdouble            fs_fraction = 0.0;
+
+  _lunar_return_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog));
+  _lunar_return_if_fail (g_list_length (dialog->files) == 1);
+  _lunar_return_if_fail (LUNAR_IS_FILE (dialog->files->data));
+
+  /* whether the dialog shows a single file or a group of files */
+  file = LUNAR_FILE (dialog->files->data);
+
+  /* hide the permissions chooser for trashed files */
+  gtk_widget_set_visible (dialog->permissions_chooser, !lunar_file_is_trashed (file));
+
+  /* queue a new thumbnail request */
+  lunar_thumbnailer_queue_file (dialog->thumbnailer, file,
+                                 &dialog->thumbnail_request);
+
+  icon_theme = gtk_icon_theme_get_for_screen (gtk_widget_get_screen (GTK_WIDGET (dialog)));
+  icon_factory = lunar_icon_factory_get_for_icon_theme (icon_theme);
+
+  /* determine the style used to format dates */
+  g_object_get (G_OBJECT (dialog->preferences), "misc-date-style", &date_style, NULL);
+  g_object_get (G_OBJECT (dialog->preferences), "misc-date-custom-style", &date_custom_style, NULL);
+
+  /* update the properties dialog title */
+  str = g_strdup_printf (_("%s - Properties"), lunar_file_get_display_name (file));
+  gtk_window_set_title (GTK_WINDOW (dialog), str);
+  g_free (str);
+
+  /* update the preview image */
+  lunar_image_set_file (LUNAR_IMAGE (dialog->icon_image), file);
+
+  /* check if the icon may be changed (only for writable .desktop files) */
+  g_object_ref (G_OBJECT (dialog->icon_image));
+  gtk_container_remove (GTK_CONTAINER (gtk_widget_get_parent (dialog->icon_image)), dialog->icon_image);
+  if (lunar_file_is_writable (file)
+      && lunar_file_is_desktop_file (file, NULL))
+    {
+      gtk_container_add (GTK_CONTAINER (dialog->icon_button), dialog->icon_image);
+      gtk_widget_show (dialog->icon_button);
+    }
+  else
+    {
+      gtk_box_pack_start (GTK_BOX (gtk_widget_get_parent (dialog->icon_button)), dialog->icon_image, FALSE, TRUE, 0);
+      gtk_widget_hide (dialog->icon_button);
+    }
+  g_object_unref (G_OBJECT (dialog->icon_image));
+
+  /* update the name (if it differs) */
+  gtk_editable_set_editable (GTK_EDITABLE (expidus_filename_input_get_entry (dialog->name_entry)),
+                             lunar_file_is_renameable (file));
+  name = lunar_file_get_display_name (file);
+  if (G_LIKELY (strcmp (name, expidus_filename_input_get_text (dialog->name_entry)) != 0))
+    {
+      gtk_entry_set_text (expidus_filename_input_get_entry (dialog->name_entry), name);
+
+      /* grab the input focus to the name entry */
+      gtk_widget_grab_focus (GTK_WIDGET (expidus_filename_input_get_entry (dialog->name_entry)));
+
+      /* select the pre-dot part of the name */
+      str = lunar_util_str_get_extension (name);
+      if (G_LIKELY (str != NULL))
+        {
+          /* calculate the offset */
+          offset = g_utf8_pointer_to_offset (name, str);
+
+          /* select the region */
+          if (G_LIKELY (offset > 0))
+            gtk_editable_select_region (GTK_EDITABLE (expidus_filename_input_get_entry (dialog->name_entry)), 0, offset);
+        }
+    }
+
+  /* update the content type */
+  content_type = lunar_file_get_content_type (file);
+  if (content_type != NULL)
+    {
+      if (G_UNLIKELY (g_content_type_equals (content_type, "inode/symlink")))
+        str = g_strdup (_("broken link"));
+      else if (G_UNLIKELY (lunar_file_is_symlink (file)))
+        str = g_strdup_printf (_("link to %s"), lunar_file_get_symlink_target (file));
+      else
+        str = g_content_type_get_description (content_type);
+      gtk_widget_set_tooltip_text (dialog->kind_ebox, content_type);
+      gtk_label_set_text (GTK_LABEL (dialog->kind_label), str);
+      g_free (str);
+    }
+  else
+    {
+      gtk_label_set_text (GTK_LABEL (dialog->kind_label), _("unknown"));
+    }
+
+  /* update the application chooser (shown only for non-executable regular files!) */
+  show_chooser = lunar_file_is_regular (file) && !lunar_file_is_executable (file);
+  gtk_widget_set_visible (dialog->openwith_chooser, show_chooser);
+  if (show_chooser)
+    lunar_chooser_button_set_file (LUNAR_CHOOSER_BUTTON (dialog->openwith_chooser), file);
+
+  /* update the link target */
+  path = lunar_file_is_symlink (file) ? lunar_file_get_symlink_target (file) : NULL;
+  if (G_UNLIKELY (path != NULL))
+    {
+      display_name = g_filename_display_name (path);
+      gtk_label_set_text (GTK_LABEL (dialog->link_label), display_name);
+      gtk_widget_show (dialog->link_label);
+      g_free (display_name);
+    }
+  else
+    {
+      gtk_widget_hide (dialog->link_label);
+    }
+
+  /* update the original path */
+  path = lunar_file_get_original_path (file);
+  if (G_UNLIKELY (path != NULL))
+    {
+      display_name = g_filename_display_name (path);
+      gtk_label_set_text (GTK_LABEL (dialog->origin_label), display_name);
+      gtk_widget_show (dialog->origin_label);
+      g_free (display_name);
+    }
+  else
+    {
+      gtk_widget_hide (dialog->origin_label);
+    }
+
+  /* update the file or folder location (parent) */
+  parent_file = lunar_file_get_parent (file, NULL);
+  if (G_UNLIKELY (parent_file != NULL))
+    {
+      display_name = g_file_get_parse_name (lunar_file_get_file (parent_file));
+      gtk_label_set_text (GTK_LABEL (dialog->location_label), display_name);
+      gtk_widget_show (dialog->location_label);
+      g_object_unref (G_OBJECT (parent_file));
+      g_free (display_name);
+    }
+  else
+    {
+      gtk_widget_hide (dialog->location_label);
+    }
+
+#if GLIB_CHECK_VERSION (2, 65, 2)
+  /* update the created time */
+  date = lunar_file_get_date_string (file, LUNAR_FILE_DATE_CREATED, date_style, date_custom_style);
+  if (G_LIKELY (date != NULL))
+    {
+      gtk_label_set_text (GTK_LABEL (dialog->created_label), date);
+      gtk_widget_show (dialog->created_label);
+      g_free (date);
+    }
+  else
+#endif
+    {
+      gtk_widget_hide (dialog->created_label);
+    }
+
+  /* update the deleted time */
+  date = lunar_file_get_deletion_date (file, date_style, date_custom_style);
+  if (G_LIKELY (date != NULL))
+    {
+      gtk_label_set_text (GTK_LABEL (dialog->deleted_label), date);
+      gtk_widget_show (dialog->deleted_label);
+      g_free (date);
+    }
+  else
+    {
+      gtk_widget_hide (dialog->deleted_label);
+    }
+
+  /* update the modified time */
+  date = lunar_file_get_date_string (file, LUNAR_FILE_DATE_MODIFIED, date_style, date_custom_style);
+  if (G_LIKELY (date != NULL))
+    {
+      gtk_label_set_text (GTK_LABEL (dialog->modified_label), date);
+      gtk_widget_show (dialog->modified_label);
+      g_free (date);
+    }
+  else
+    {
+      gtk_widget_hide (dialog->modified_label);
+    }
+
+  /* update the accessed time */
+  date = lunar_file_get_date_string (file, LUNAR_FILE_DATE_ACCESSED, date_style, date_custom_style);
+  if (G_LIKELY (date != NULL))
+    {
+      gtk_label_set_text (GTK_LABEL (dialog->accessed_label), date);
+      gtk_widget_show (dialog->accessed_label);
+      g_free (date);
+    }
+  else
+    {
+      gtk_widget_hide (dialog->accessed_label);
+    }
+
+  /* update the free space (only for folders) */
+  if (lunar_file_is_directory (file))
+    {
+      fs_string = lunar_g_file_get_free_space_string (lunar_file_get_file (file),
+                                                       dialog->file_size_binary);
+      if (lunar_g_file_get_free_space (lunar_file_get_file (file), &fs_free, &fs_size)
+          && fs_size > 0)
+        {
+          /* free disk space fraction */
+          fs_fraction = ((fs_size - fs_free) * 100 / fs_size);
+        }
+      if (fs_string != NULL)
+        {
+          gtk_label_set_text (GTK_LABEL (dialog->freespace_label), fs_string);
+          gtk_progress_bar_set_fraction (GTK_PROGRESS_BAR (dialog->freespace_bar), fs_fraction / 100);
+          gtk_widget_show (dialog->freespace_vbox);
+          g_free (fs_string);
+        }
+      else
+        {
+          gtk_widget_hide (dialog->freespace_vbox);
+        }
+    }
+  else
+    {
+      gtk_widget_hide (dialog->freespace_vbox);
+    }
+
+  /* update the volume */
+  volume = lunar_file_get_volume (file);
+  if (G_LIKELY (volume != NULL))
+    {
+      gicon = g_volume_get_icon (volume);
+      gtk_image_set_from_gicon (GTK_IMAGE (dialog->volume_image), gicon, GTK_ICON_SIZE_MENU);
+      if (G_LIKELY (gicon != NULL))
+        g_object_unref (gicon);
+
+      volume_name = g_volume_get_name (volume);
+      volume_id = g_volume_get_identifier (volume, G_VOLUME_IDENTIFIER_KIND_UNIX_DEVICE);
+      volume_label= g_strdup_printf ("%s (%s)", volume_name, volume_id);
+      gtk_label_set_text (GTK_LABEL (dialog->volume_label), volume_label);
+      gtk_widget_show (dialog->volume_label);
+      g_free (volume_name);
+      g_free (volume_id);
+      g_free (volume_label);
+
+      g_object_unref (G_OBJECT (volume));
+    }
+  else
+    {
+      gtk_widget_hide (dialog->volume_label);
+    }
+
+  /* cleanup */
+  g_object_unref (G_OBJECT (icon_factory));
+}
+
+
+
+static void
+lunar_properties_dialog_update_multiple (LunarPropertiesDialog *dialog)
+{
+  LunarFile  *file;
+  GString     *names_string;
+  gboolean     first_file = TRUE;
+  GList       *lp;
+  const gchar *content_type = NULL;
+  const gchar *tmp;
+  gchar       *str;
+  GVolume     *volume = NULL;
+  GVolume     *tmp_volume;
+  GIcon       *gicon;
+  gchar       *volume_name;
+  gchar       *volume_id;
+  gchar       *volume_label;
+  gchar       *display_name;
+  LunarFile  *parent_file = NULL;
+  LunarFile  *tmp_parent;
+  gboolean     has_trashed_files = FALSE;
+
+  _lunar_return_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog));
+  _lunar_return_if_fail (g_list_length (dialog->files) > 1);
+
+  /* update the properties dialog title */
+  gtk_window_set_title (GTK_WINDOW (dialog), _("Properties"));
+
+  /* widgets not used with > 1 file selected */
+  gtk_widget_hide (dialog->created_label);
+  gtk_widget_hide (dialog->deleted_label);
+  gtk_widget_hide (dialog->modified_label);
+  gtk_widget_hide (dialog->accessed_label);
+  gtk_widget_hide (dialog->freespace_vbox);
+  gtk_widget_hide (dialog->origin_label);
+  gtk_widget_hide (dialog->openwith_chooser);
+  gtk_widget_hide (dialog->link_label);
+
+  names_string = g_string_new (NULL);
+
+  /* collect data of the selected files */
+  for (lp = dialog->files; lp != NULL; lp = lp->next)
+    {
+      _lunar_assert (LUNAR_IS_FILE (lp->data));
+      file = LUNAR_FILE (lp->data);
+
+      /* append the name */
+      if (!first_file)
+        g_string_append (names_string, ", ");
+      g_string_append (names_string, lunar_file_get_display_name (file));
+
+      /* update the content type */
+      if (first_file)
+        {
+          content_type = lunar_file_get_content_type (file);
+        }
+      else if (content_type != NULL)
+        {
+          /* check the types match */
+          tmp = lunar_file_get_content_type (file);
+          if (tmp == NULL || !g_content_type_equals (content_type, tmp))
+            content_type = NULL;
+        }
+
+      /* check if all selected files are on the same volume */
+      tmp_volume = lunar_file_get_volume (file);
+      if (first_file)
+        {
+          volume = tmp_volume;
+        }
+      else if (tmp_volume != NULL)
+        {
+          /* we only display information if the files are on the same volume */
+          if (tmp_volume != volume)
+            {
+              if (volume != NULL)
+                g_object_unref (G_OBJECT (volume));
+              volume = NULL;
+            }
+
+          g_object_unref (G_OBJECT (tmp_volume));
+        }
+
+      /* check if all files have the same parent */
+      tmp_parent = lunar_file_get_parent (file, NULL);
+      if (first_file)
+        {
+          parent_file = tmp_parent;
+        }
+      else if (tmp_parent != NULL)
+        {
+          /* we only display the location if they are all equal */
+          if (!g_file_equal (lunar_file_get_file (parent_file), lunar_file_get_file (tmp_parent)))
+            {
+              if (parent_file != NULL)
+                g_object_unref (G_OBJECT (parent_file));
+              parent_file = NULL;
+            }
+
+          g_object_unref (G_OBJECT (tmp_parent));
+        }
+
+      if (lunar_file_is_trashed (file))
+        has_trashed_files = TRUE;
+
+      first_file = FALSE;
+    }
+
+  /* set the labels string */
+  gtk_label_set_text (GTK_LABEL (dialog->names_label), names_string->str);
+  gtk_widget_set_tooltip_text (dialog->names_label, names_string->str);
+  g_string_free (names_string, TRUE);
+
+  /* hide the permissions chooser for trashed files */
+  gtk_widget_set_visible (dialog->permissions_chooser, !has_trashed_files);
+
+  /* update the content type */
+  if (content_type != NULL
+      && !g_content_type_equals (content_type, "inode/symlink"))
+    {
+      str = g_content_type_get_description (content_type);
+      gtk_widget_set_tooltip_text (dialog->kind_ebox, content_type);
+      gtk_label_set_text (GTK_LABEL (dialog->kind_label), str);
+      g_free (str);
+    }
+  else
+    {
+      gtk_label_set_text (GTK_LABEL (dialog->kind_label), _("mixed"));
+    }
+
+  /* update the file or folder location (parent) */
+  if (G_UNLIKELY (parent_file != NULL))
+    {
+      display_name = g_file_get_parse_name (lunar_file_get_file (parent_file));
+      gtk_label_set_text (GTK_LABEL (dialog->location_label), display_name);
+      gtk_widget_show (dialog->location_label);
+      g_object_unref (G_OBJECT (parent_file));
+      g_free (display_name);
+    }
+  else
+    {
+      gtk_widget_hide (dialog->location_label);
+    }
+
+  /* update the volume */
+  if (G_LIKELY (volume != NULL))
+    {
+      gicon = g_volume_get_icon (volume);
+      gtk_image_set_from_gicon (GTK_IMAGE (dialog->volume_image), gicon, GTK_ICON_SIZE_MENU);
+      if (G_LIKELY (gicon != NULL))
+        g_object_unref (gicon);
+
+      volume_name = g_volume_get_name (volume);
+      volume_id = g_volume_get_identifier (volume, G_VOLUME_IDENTIFIER_KIND_UNIX_DEVICE);
+      volume_label = g_strdup_printf ("%s (%s)", volume_name, volume_id);
+      gtk_label_set_text (GTK_LABEL (dialog->volume_label), volume_label);
+      gtk_widget_show (dialog->volume_label);
+      g_free (volume_name);
+      g_free (volume_id);
+      g_free (volume_label);
+
+      g_object_unref (G_OBJECT (volume));
+    }
+  else
+    {
+      gtk_widget_hide (dialog->volume_label);
+    }
+}
+
+
+
+static void
+lunar_properties_dialog_update (LunarPropertiesDialog *dialog)
+{
+  _lunar_return_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog));
+  _lunar_return_if_fail (dialog->files != NULL);
+
+  /* cancel any pending thumbnail requests */
+  if (dialog->thumbnail_request > 0)
+    {
+      lunar_thumbnailer_dequeue (dialog->thumbnailer, dialog->thumbnail_request);
+      dialog->thumbnail_request = 0;
+    }
+
+  if (dialog->files->next == NULL)
+    {
+      /* show single file name box */
+      gtk_widget_show (dialog->single_box);
+
+      /* update the properties for a dialog showing 1 file */
+      lunar_properties_dialog_update_single (dialog);
+    }
+  else
+    {
+      /* show multiple files box */
+      gtk_widget_hide (dialog->single_box);
+
+      /* update the properties for a dialog showing multiple files */
+      lunar_properties_dialog_update_multiple (dialog);
+    }
+}
+
+
+
+/**
+ * lunar_properties_dialog_new:
+ * @parent: transient window or NULL;
+ *
+ * Allocates a new #LunarPropertiesDialog instance,
+ * that is not associated with any #LunarFile.
+ *
+ * Return value: the newly allocated #LunarPropertiesDialog
+ *               instance.
+ **/
+GtkWidget*
+lunar_properties_dialog_new (GtkWindow *parent)
+{
+  _lunar_return_val_if_fail (parent == NULL || GTK_IS_WINDOW (parent), NULL);
+  return g_object_new (LUNAR_TYPE_PROPERTIES_DIALOG,
+                       "transient-for", parent,
+                       "destroy-with-parent", parent != NULL,
+                       NULL);
+}
+
+
+
+/**
+ * lunar_properties_dialog_get_files:
+ * @dialog : a #LunarPropertiesDialog.
+ *
+ * Returns the #LunarFile currently being displayed
+ * by @dialog or %NULL if @dialog doesn't display
+ * any file right now.
+ *
+ * Return value: list of #LunarFile's displayed by @dialog
+ *               or %NULL.
+ **/
+static GList*
+lunar_properties_dialog_get_files (LunarPropertiesDialog *dialog)
+{
+  _lunar_return_val_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog), NULL);
+  return dialog->files;
+}
+
+
+
+/**
+ * lunar_properties_dialog_set_files:
+ * @dialog : a #LunarPropertiesDialog.
+ * @files  : a GList of #LunarFile's or %NULL.
+ *
+ * Sets the #LunarFile that is displayed by @dialog
+ * to @files.
+ **/
+void
+lunar_properties_dialog_set_files (LunarPropertiesDialog *dialog,
+                                    GList                  *files)
+{
+  GList      *lp;
+  LunarFile *file;
+
+  _lunar_return_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog));
+
+  /* check if the same lists are used (or null) */
+  if (G_UNLIKELY (dialog->files == files))
+    return;
+
+  /* disconnect from any previously set files */
+  for (lp = dialog->files; lp != NULL; lp = lp->next)
+    {
+      file = LUNAR_FILE (lp->data);
+
+      /* unregister our file watch */
+      lunar_file_unwatch (file);
+
+      /* unregister handlers */
+      g_signal_handlers_disconnect_by_func (G_OBJECT (file), lunar_properties_dialog_update, dialog);
+      g_signal_handlers_disconnect_by_func (G_OBJECT (file), gtk_widget_destroy, dialog);
+
+      g_object_unref (G_OBJECT (file));
+    }
+  g_list_free (dialog->files);
+
+  /* activate the new list */
+  dialog->files = g_list_copy (files);
+
+  /* connect to the new files */
+  for (lp = dialog->files; lp != NULL; lp = lp->next)
+    {
+      _lunar_assert (LUNAR_IS_FILE (lp->data));
+      file = LUNAR_FILE (g_object_ref (G_OBJECT (lp->data)));
+
+      /* watch the file for changes */
+      lunar_file_watch (file);
+
+      /* install signal handlers */
+      g_signal_connect_swapped (G_OBJECT (file), "changed", G_CALLBACK (lunar_properties_dialog_update), dialog);
+      g_signal_connect_swapped (G_OBJECT (file), "destroy", G_CALLBACK (gtk_widget_destroy), dialog);
+    }
+
+  /* update the dialog contents */
+  if (dialog->files != NULL)
+    {
+      /* update the UI for the new file */
+      lunar_properties_dialog_update (dialog);
+
+      /* update the provider property pages */
+      lunar_properties_dialog_update_providers (dialog);
+    }
+
+  /* tell everybody that we have a new file here */
+  g_object_notify (G_OBJECT (dialog), "files");
+}
+
+
+
+/**
+ * lunar_properties_dialog_set_file:
+ * @dialog : a #LunarPropertiesDialog.
+ * @file   : a #LunarFile or %NULL.
+ *
+ * Sets the #LunarFile that is displayed by @dialog
+ * to @file.
+ **/
+void
+lunar_properties_dialog_set_file (LunarPropertiesDialog *dialog,
+                                   LunarFile             *file)
+{
+  GList foo;
+
+  _lunar_return_if_fail (LUNAR_IS_PROPERTIES_DIALOG (dialog));
+  _lunar_return_if_fail (file == NULL || LUNAR_IS_FILE (file));
+
+  if (file == NULL)
+    {
+      lunar_properties_dialog_set_files (dialog, NULL);
+    }
+  else
+    {
+      /* create a fake list */
+      foo.next = NULL;
+      foo.prev = NULL;
+      foo.data = file;
+
+      lunar_properties_dialog_set_files (dialog, &foo);
+    }
+}

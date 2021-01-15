@@ -1,0 +1,11 @@
+[Desktop Entry]
+_Name=Bulk Rename
+_Comment=Rename Multiple Files
+_GenericName=Bulk Rename
+_Keywords=bulk;renamer;renaming;lunar;files;folders;directory;directories;
+Exec=lunar --bulk-rename %F
+Icon=com.expidus.lunar
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Utility;Core;GTK;Filesystem;

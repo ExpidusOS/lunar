@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright (c) 2006 Benedikt Meurer <benny@xfce.org>
+# Copyright (c) 2006 Benedikt Meurer <benny@expidus.org>
 #
 # This program is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License as published by the Free
@@ -18,7 +18,7 @@
 #
 
 # --------------------------------------------------------------- #
-# This example demonstrates how to integrate Thunar's Bulk Rename #
+# This example demonstrates how to integrate Lunar's Bulk Rename #
 # functionality into Nautilus. You'll need the nautilus-python    #
 # bindings to actually try this example.                          #
 #                                                                 #
@@ -31,7 +31,7 @@
 # Rename" in the file context menu, which can be used to rename   #
 # the selected files.                                             #
 #                                                                 #
-# Thunar must be compiled with D-BUS support for this to work.    #
+# Lunar must be compiled with D-BUS support for this to work.    #
 # --------------------------------------------------------------- #
 
 
@@ -46,14 +46,14 @@ if getattr(dbus, 'version', (0,0,0)) >= (0,41,0):
 class NautilusBulkRename(nautilus.MenuProvider):
   def __init__(self):
     bus = dbus.SessionBus()
-    thunar_object = bus.get_object('org.xfce.Thunar', '/org/xfce/FileManager')
-    self.thunar = dbus.Interface(thunar_object, 'org.xfce.Thunar')
+    lunar_object = bus.get_object('com.expidus.Lunar', '/com/expidus/FileManager')
+    self.lunar = dbus.Interface(lunar_object, 'com.expidus.Lunar')
 
   def menu_activate_cb(self, item, files):
     uris = []
     for file in files:
       uris.append(file.get_uri())
-    self.thunar.BulkRename(files[0].get_parent_uri(), uris, False, item.get_data('display'))
+    self.lunar.BulkRename(files[0].get_parent_uri(), uris, False, item.get_data('display'))
 
   def get_file_items(self, window, files):
     if len(files) == 0:

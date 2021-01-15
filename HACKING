@@ -1,27 +1,27 @@
 Bug tracking system
 ===================
 
-Thunar uses the Xfce bug tracking system at https://gitlab.xfce.org/xfce/thunar,
-hosted and maintained by the Xfce project.
+Lunar uses the Expidus bug tracking system at https://gitlab.expidus.com/expidus/lunar,
+hosted and maintained by the Expidus project.
 
 
 Patches
 =======
 
-Please submit merge requests to the Xfce GitLab instance.
+Please submit merge requests to the Expidus GitLab instance.
 Your code must comply with the coding style described below.
 
 Please base on work against the master branch of this package. You can always
-clone the Thunar repository from
+clone the Lunar repository from
 
-  https://gitlab.xfce.org/xfce/thunar
+  https://gitlab.expidus.com/expidus/lunar
 
 
 Feature requests
 ================
 
-Please file feature requests to the Xfce's GitLab
-(https://gitlab.xfce.org/xfce/thunar).
+Please file feature requests to the Expidus's GitLab
+(https://gitlab.expidus.com/expidus/lunar).
 Make sure that your feature request wasn't reported already before; requesting
 a feature several times won't increase the changed that it gets added!
 
@@ -39,7 +39,7 @@ Coding Style
    statements, and so any use of these macros to control program
    flow presents a bug!
  - Do NOT follow the philosophy "If it works, it's right" that most
-   other open source projects follow, instead Thunar's philosophy is
+   other open source projects follow, instead Lunar's philosophy is
    "It doesn't work unless it's right". Think carefully of what you want
    to do, don't just fire up your favourite editor and start hacking
    in the hope that it will evolve into something useful one day.
@@ -48,7 +48,7 @@ Coding Style
    quite easy to optimize well-designed modules, but very hard and costly
    to make spaghetti-code readable.
  - Write ChangeLog entries. Whenever you commit a change or send a patch,
-   write a good entry per change to the ChangeLog file, see the libexo
+   write a good entry per change to the ChangeLog file, see the libendo
    ChangeLog for the exact format; it's very important to be descriptive
    and correct here, else you'll loose your commit bits or your patches
    won't be considered for inclusion.
@@ -60,4 +60,4 @@ Coding Style
 Release process
 ===============
 
-Refer to https://www.xfce.org/about/releasemodel
+Refer to https://www.expidus.org/about/releasemodel

@@ -1,43 +1,43 @@
-[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.org/xfce/thunar/COPYING)
+[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.expidus.com/expidus/lunar/COPYING)
 
-# thunar
+# lunar
 
 
-Thunar is a modern file manager for the Xfce Desktop Environment. Thunar has been designed from the ground up to be fast and easy to use. Its user interface is clean and intuitive and does not include any confusing or useless options by default. Thunar starts up quickly and navigating through files and folders is fast and responsive.
+Lunar is a modern file manager for the Expidus Desktop Environment. Lunar has been designed from the ground up to be fast and easy to use. Its user interface is clean and intuitive and does not include any confusing or useless options by default. Lunar starts up quickly and navigating through files and folders is fast and responsive.
 
 ----
 
 ### Homepage
 
-[Thunar documentation](https://docs.xfce.org/xfce/thunar/start)
+[Lunar documentation](https://docs.expidus.com/expidus/lunar/start)
 
 ### Changelog
 
-See [NEWS](https://gitlab.xfce.org/xfce/thunar/-/blob/master/NEWS) for details on changes and fixes made in the current release.
+See [NEWS](https://gitlab.expidus.com/expidus/lunar/-/blob/master/NEWS) for details on changes and fixes made in the current release.
 
 ### Source Code Repository
 
-[Thunar source code](https://gitlab.xfce.org/xfce/thunar)
+[Lunar source code](https://gitlab.expidus.com/expidus/lunar)
 
 ### Download a Release Tarball
 
-[Thunar archive](https://archive.xfce.org/src/xfce/thunar)
+[Lunar archive](https://archive.expidus.org/src/expidus/lunar)
     or
-[Thunar tags](https://gitlab.xfce.org/xfce/thunar/-/tags)
+[Lunar tags](https://gitlab.expidus.com/expidus/lunar/-/tags)
 
 ### Installation
 
 From source: 
 
-    % cd thunar
+    % cd lunar
     % ./autogen.sh
     % make
     % make install
 
 From release tarball:
 
-    % tar xf thunar-<version>.tar.bz2
-    % cd thunar-<version>
+    % tar xf lunar-<version>.tar.bz2
+    % cd lunar-<version>
     % ./configure
     % make
     % make install
@@ -46,9 +46,9 @@ From release tarball:
  If your distribution provides development versions of the related packages, 
  install them. Otherwise you will need to build and install the missing dependencies from source.
 
-For some additional build & debug hints, as well check the [Thunar Wiki pages](https://wiki.xfce.org/thunar/dev).
+For some additional build & debug hints, as well check the [Lunar Wiki pages](https://wiki.expidus.org/lunar/dev).
 
 ### Reporting Bugs
 
-Visit the [reporting bugs](https://docs.xfce.org/xfce/thunar/bugs) page to view currently open bug reports and instructions on reporting new bugs or submitting bugfixes.
+Visit the [reporting bugs](https://docs.expidus.com/expidus/lunar/bugs) page to view currently open bug reports and instructions on reporting new bugs or submitting bugfixes.
 

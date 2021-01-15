@@ -1,0 +1,247 @@
+/* vi:set et ai sw=2 sts=2 ts=2: */
+/*-
+ * Copyright (c) 2009 Jannis Pohlmann <jannis@expidus.org>
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of
+ * the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public
+ * License along with this program; if not, write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ * Boston, MA 02110-1301, USA.
+ */
+
+#ifdef HAVE_CONFIG_H
+#include <config.h>
+#endif
+
+#include <glib.h>
+#include <glib-object.h>
+
+#include <lunar/lunar-application.h>
+#include <lunar/lunar-file-monitor.h>
+#include <lunar/lunar-image.h>
+#include <lunar/lunar-icon-factory.h>
+#include <lunar/lunar-private.h>
+
+
+
+/* Property identifiers */
+enum
+{
+  PROP_0,
+  PROP_FILE,
+};
+
+
+
+static void lunar_image_finalize             (GObject           *object);
+static void lunar_image_get_property         (GObject           *object,
+                                               guint              prop_id,
+                                               GValue            *value,
+                                               GParamSpec        *pspec);
+static void lunar_image_set_property         (GObject           *object,
+                                               guint              prop_id,
+                                               const GValue      *value,
+                                               GParamSpec        *pspec);
+static void lunar_image_file_changed         (LunarFileMonitor *monitor,
+                                               LunarFile        *file,
+                                               LunarImage       *image);
+
+
+
+struct _LunarImageClass
+{
+  GtkImageClass __parent__;
+};
+
+struct _LunarImage
+{
+  GtkImage __parent__;
+
+  LunarImagePrivate *priv;
+};
+
+struct _LunarImagePrivate
+{
+  LunarFileMonitor *monitor;
+  LunarFile        *file;
+};
+
+
+
+G_DEFINE_TYPE_WITH_PRIVATE (LunarImage, lunar_image, GTK_TYPE_IMAGE);
+
+
+
+static void
+lunar_image_class_init (LunarImageClass *klass)
+{
+  GObjectClass *gobject_class;
+
+  gobject_class = G_OBJECT_CLASS (klass);
+  gobject_class->finalize = lunar_image_finalize;
+  gobject_class->get_property = lunar_image_get_property;
+  gobject_class->set_property = lunar_image_set_property;
+
+  g_object_class_install_property (gobject_class, PROP_FILE,
+                                   g_param_spec_object ("file",
+                                                        "file",
+                                                        "file",
+                                                        LUNAR_TYPE_FILE,
+                                                        G_PARAM_READWRITE));
+}
+
+
+
+static void
+lunar_image_init (LunarImage *image)
+{
+  image->priv = lunar_image_get_instance_private (image);
+  image->priv->file = NULL;
+
+  image->priv->monitor = lunar_file_monitor_get_default ();
+  g_signal_connect (image->priv->monitor, "file-changed",
+                    G_CALLBACK (lunar_image_file_changed), image);
+}
+
+
+
+static void
+lunar_image_finalize (GObject *object)
+{
+  LunarImage *image = LUNAR_IMAGE (object);
+
+  g_signal_handlers_disconnect_by_func (image->priv->monitor,
+                                        lunar_image_file_changed, image);
+  g_object_unref (image->priv->monitor);
+
+  lunar_image_set_file (image, NULL);
+
+  (*G_OBJECT_CLASS (lunar_image_parent_class)->finalize) (object);
+}
+
+
+
+static void
+lunar_image_get_property (GObject    *object,
+                           guint       prop_id,
+                           GValue     *value,
+                           GParamSpec *pspec)
+{
+  LunarImage *image = LUNAR_IMAGE (object);
+
+  switch (prop_id)
+    {
+    case PROP_FILE:
+      g_value_set_object (value, image->priv->file);
+      break;
+    default:
+      G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
+      break;
+    }
+}
+
+
+
+static void
+lunar_image_set_property (GObject      *object,
+                           guint         prop_id,
+                           const GValue *value,
+                           GParamSpec   *pspec)
+{
+  LunarImage *image = LUNAR_IMAGE (object);
+
+  switch (prop_id)
+    {
+    case PROP_FILE:
+      lunar_image_set_file (image, g_value_get_object (value));
+      break;
+    default:
+      G_OBJECT_WARN_INVALID_PROPERTY_ID (object, prop_id, pspec);
+      break;
+    }
+}
+
+
+
+static void
+lunar_image_update (LunarImage *image)
+{
+  LunarIconFactory *icon_factory;
+  GtkIconTheme      *icon_theme;
+  GdkPixbuf         *icon;
+  GdkScreen         *screen;
+
+  _lunar_return_if_fail (LUNAR_IS_IMAGE (image));
+
+  if (LUNAR_IS_FILE (image->priv->file))
+    {
+      screen = gtk_widget_get_screen (GTK_WIDGET (image));
+      icon_theme = gtk_icon_theme_get_for_screen (screen);
+      icon_factory = lunar_icon_factory_get_for_icon_theme (icon_theme);
+
+      icon = lunar_icon_factory_load_file_icon (icon_factory, image->priv->file,
+                                                 LUNAR_FILE_ICON_STATE_DEFAULT, 48);
+
+      gtk_image_set_from_pixbuf (GTK_IMAGE (image), icon);
+
+      g_object_unref (icon_factory);
+    }
+}
+
+
+
+static void
+lunar_image_file_changed (LunarFileMonitor *monitor,
+                           LunarFile        *file,
+                           LunarImage       *image)
+{
+  _lunar_return_if_fail (LUNAR_IS_FILE_MONITOR (monitor));
+  _lunar_return_if_fail (LUNAR_IS_FILE (file));
+  _lunar_return_if_fail (LUNAR_IS_IMAGE (image));
+
+  if (file == image->priv->file)
+    lunar_image_update (image);
+}
+
+
+
+GtkWidget *
+lunar_image_new (void)
+{
+  return g_object_new (LUNAR_TYPE_IMAGE, NULL);
+}
+
+
+
+void
+lunar_image_set_file (LunarImage *image,
+                       LunarFile  *file)
+{
+  _lunar_return_if_fail (LUNAR_IS_IMAGE (image));
+
+  if (image->priv->file != NULL)
+    {
+      if (image->priv->file == file)
+        return;
+
+      g_object_unref (image->priv->file);
+    }
+
+  if (file != NULL)
+    image->priv->file = g_object_ref (file);
+  else
+    image->priv->file = NULL;
+
+  lunar_image_update (image);
+
+  g_object_notify (G_OBJECT (image), "file");
+}

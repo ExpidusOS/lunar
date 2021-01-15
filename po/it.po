@@ -13,12 +13,12 @@
 # Vincenzo Reale <vinx.reale@gmail.com>, 2020
 msgid ""
 msgstr ""
-"Project-Id-Version: Thunar\n"
+"Project-Id-Version: Lunar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-13 00:45+0100\n"
 "PO-Revision-Date: 2021-01-13 12:10+0000\n"
 "Last-Translator: Emanuele Petriglia <transifex@emanuelepetriglia.com>\n"
-"Language-Team: Italian (http://www.transifex.com/xfce/thunar/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/expidus/lunar/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,129 +26,129 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. setup application name
-#: ../thunar/main.c:57
-msgid "Thunar"
-msgstr "Thunar"
+#: ../lunar/main.c:57
+msgid "Lunar"
+msgstr "Lunar"
 
-#: ../thunar/thunar-application.c:78
+#: ../lunar/lunar-application.c:78
 msgid "Open the bulk rename dialog"
 msgstr "Apre la finestra per la rinomina di massa"
 
-#: ../thunar/thunar-application.c:79
+#: ../lunar/lunar-application.c:79
 msgid "Run in daemon mode"
 msgstr "Avvia in modalità demone"
 
-#: ../thunar/thunar-application.c:81
-msgid "Quit a running Thunar instance"
-msgstr "Termina un'istanza di Thunar in esecuzione"
+#: ../lunar/lunar-application.c:81
+msgid "Quit a running Lunar instance"
+msgstr "Termina un'istanza di Lunar in esecuzione"
 
-#: ../thunar/thunar-application.c:82
+#: ../lunar/lunar-application.c:82
 msgid "Print version information and exit"
 msgstr "Stampa le informazioni di versione ed esce"
 
-#: ../thunar/thunar-application.c:295
+#: ../lunar/lunar-application.c:295
 #, c-format
 msgid "Acquired the session message bus '%s'\n"
 msgstr "Acquisito il bus dei messaggi della sessione '%s'\n"
 
-#: ../thunar/thunar-application.c:305
+#: ../lunar/lunar-application.c:305
 #, c-format
 msgid "Acquired the name '%s' on the session message bus\n"
 msgstr "Acquisito il nome '%s' nel bus dei messaggi della sessione\n"
 
-#: ../thunar/thunar-application.c:315
+#: ../lunar/lunar-application.c:315
 #, c-format
 msgid "Name '%s' lost on the message dbus."
 msgstr "Nome \"%s\" perso nel messaggio dbus."
 
-#: ../thunar/thunar-application.c:475
-msgid "The Thunar development team. All rights reserved."
-msgstr "Gruppo di sviluppo di Thunar. Tutti i diritti riservati."
+#: ../lunar/lunar-application.c:475
+msgid "The Lunar development team. All rights reserved."
+msgstr "Gruppo di sviluppo di Lunar. Tutti i diritti riservati."
 
-#: ../thunar/thunar-application.c:476
-msgid "Written by Benedikt Meurer <benny@xfce.org>."
-msgstr "Scritto da Benedikt Meurer <benny@xfce.org>."
+#: ../lunar/lunar-application.c:476
+msgid "Written by Benedikt Meurer <benny@expidus.org>."
+msgstr "Scritto da Benedikt Meurer <benny@expidus.org>."
 
-#: ../thunar/thunar-application.c:477
+#: ../lunar/lunar-application.c:477
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Segnalare i problemi a <%s>."
 
 #. display an error message to the user
-#: ../thunar/thunar-application.c:751
+#: ../lunar/lunar-application.c:751
 msgid "Failed to launch operation"
 msgstr "Impossibile avviare l'operazione"
 
 #. tell the user that we were unable to launch the file specified
-#: ../thunar/thunar-application.c:1505 ../thunar/thunar-application.c:1637
-#: ../thunar/thunar-location-entry.c:366 ../thunar/thunar-location-entry.c:394
-#: ../thunar/thunar-shortcuts-view.c:1706
-#: ../thunar/thunar-shortcuts-view.c:1734 ../thunar/thunar-window.c:2612
+#: ../lunar/lunar-application.c:1505 ../lunar/lunar-application.c:1637
+#: ../lunar/lunar-location-entry.c:366 ../lunar/lunar-location-entry.c:394
+#: ../lunar/lunar-shortcuts-view.c:1706
+#: ../lunar/lunar-shortcuts-view.c:1734 ../lunar/lunar-window.c:2612
 #, c-format
 msgid "Failed to open \"%s\""
 msgstr "Impossibile aprire \"%s\""
 
-#: ../thunar/thunar-application.c:1641
+#: ../lunar/lunar-application.c:1641
 #, c-format
 msgid "Failed to open \"%s\": %s"
 msgstr "Impossibile aprire \"%s\": %s"
 
 #. display an error message
-#: ../thunar/thunar-application.c:1696 ../thunar/thunar-launcher.c:2106
-#: ../thunar/thunar-properties-dialog.c:762
+#: ../lunar/lunar-application.c:1696 ../lunar/lunar-launcher.c:2106
+#: ../lunar/lunar-properties-dialog.c:762
 #, c-format
 msgid "Failed to rename \"%s\""
 msgstr "Impossibile rinominare \"%s\""
 
-#: ../thunar/thunar-application.c:1798 ../thunar/thunar-launcher.c:2260
+#: ../lunar/lunar-application.c:1798 ../lunar/lunar-launcher.c:2260
 msgid "New Folder"
 msgstr "Nuova cartella"
 
-#: ../thunar/thunar-application.c:1799 ../thunar/thunar-launcher.c:2261
+#: ../lunar/lunar-application.c:1799 ../lunar/lunar-launcher.c:2261
 msgid "Create New Folder"
 msgstr "Crea una nuova cartella"
 
-#: ../thunar/thunar-application.c:1803
+#: ../lunar/lunar-application.c:1803
 msgid "New File"
 msgstr "Nuovo file"
 
-#: ../thunar/thunar-application.c:1804
+#: ../lunar/lunar-application.c:1804
 msgid "Create New File"
 msgstr "Crea un nuovo file"
 
 #. generate a title for the create dialog
-#: ../thunar/thunar-application.c:1861 ../thunar/thunar-launcher.c:2306
+#: ../lunar/lunar-application.c:1861 ../lunar/lunar-launcher.c:2306
 #, c-format
 msgid "Create Document from template \"%s\""
 msgstr "Crea documento dal modello \"%s\""
 
-#: ../thunar/thunar-application.c:1925
+#: ../lunar/lunar-application.c:1925
 msgid "Copying files..."
 msgstr "Copia dei file in corso…"
 
-#: ../thunar/thunar-application.c:1961
+#: ../lunar/lunar-application.c:1961
 #, c-format
 msgid "Copying files to \"%s\"..."
 msgstr "Copia dei file in \"%s\" in corso…"
 
-#: ../thunar/thunar-application.c:2008
+#: ../lunar/lunar-application.c:2008
 #, c-format
 msgid "Creating symbolic links in \"%s\"..."
 msgstr "Creazione dei collegamenti simbolici in \"%s\" in corso…"
 
-#: ../thunar/thunar-application.c:2062
+#: ../lunar/lunar-application.c:2062
 #, c-format
 msgid "Moving files into \"%s\"..."
 msgstr "Spostamento dei file in \"%s\" in corso…"
 
-#: ../thunar/thunar-application.c:2145
+#: ../lunar/lunar-application.c:2145
 #, c-format
 msgid ""
 "Are you sure that you want to\n"
 "permanently delete \"%s\"?"
 msgstr "Eliminare davvero in modo\npermanente \"%s\"?"
 
-#: ../thunar/thunar-application.c:2150
+#: ../lunar/lunar-application.c:2150
 #, c-format
 msgid ""
 "Are you sure that you want to permanently\n"
@@ -163,197 +163,197 @@ msgstr[1] "Eliminare davvero in modo\npermanente i %u file selezionati?"
 #. append the cancel item
 #. add the Cancel/Close buttons
 #. configure the dialog properties
-#: ../thunar/thunar-application.c:2165 ../thunar/thunar-application.c:2344
-#: ../thunar/thunar-chooser-dialog.c:289 ../thunar/thunar-chooser-dialog.c:728
-#: ../thunar/thunar-chooser-dialog.c:801 ../thunar/thunar-chooser-dialog.c:847
-#: ../thunar/thunar-dialogs.c:98 ../thunar/thunar-dialogs.c:233
-#: ../thunar/thunar-dialogs.c:649 ../thunar/thunar-dialogs.c:762
-#: ../thunar/thunar-dialogs.c:1034 ../thunar/thunar-dnd.c:169
-#: ../thunar/thunar-launcher.c:878 ../thunar/thunar-permissions-chooser.c:535
-#: ../thunar/thunar-permissions-chooser.c:1143
-#: ../thunar/thunar-properties-dialog.c:850
-#: ../thunar/thunar-renamer-dialog.c:357
-#: ../thunar/thunar-renamer-dialog.c:1059
-#: ../thunar/thunar-renamer-progress.c:198
-#: ../thunar/thunar-renamer-progress.c:208
-#: ../thunar/thunar-standard-view.c:2176
-#: ../plugins/thunar-sendto-email/main.c:219
-#: ../plugins/thunar-sendto-email/main.c:238
-#: ../plugins/thunar-sendto-email/main.c:302
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:371
-#: ../plugins/thunar-uca/thunar-uca-editor.c:143
-#: ../plugins/thunar-uca/thunar-uca-editor.c:178
-#: ../plugins/thunar-uca/thunar-uca-editor.c:436
+#: ../lunar/lunar-application.c:2165 ../lunar/lunar-application.c:2344
+#: ../lunar/lunar-chooser-dialog.c:289 ../lunar/lunar-chooser-dialog.c:728
+#: ../lunar/lunar-chooser-dialog.c:801 ../lunar/lunar-chooser-dialog.c:847
+#: ../lunar/lunar-dialogs.c:98 ../lunar/lunar-dialogs.c:233
+#: ../lunar/lunar-dialogs.c:649 ../lunar/lunar-dialogs.c:762
+#: ../lunar/lunar-dialogs.c:1034 ../lunar/lunar-dnd.c:169
+#: ../lunar/lunar-launcher.c:878 ../lunar/lunar-permissions-chooser.c:535
+#: ../lunar/lunar-permissions-chooser.c:1143
+#: ../lunar/lunar-properties-dialog.c:850
+#: ../lunar/lunar-renamer-dialog.c:357
+#: ../lunar/lunar-renamer-dialog.c:1059
+#: ../lunar/lunar-renamer-progress.c:198
+#: ../lunar/lunar-renamer-progress.c:208
+#: ../lunar/lunar-standard-view.c:2176
+#: ../plugins/lunar-sendto-email/main.c:219
+#: ../plugins/lunar-sendto-email/main.c:238
+#: ../plugins/lunar-sendto-email/main.c:302
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:371
+#: ../plugins/lunar-uca/lunar-uca-editor.c:143
+#: ../plugins/lunar-uca/lunar-uca-editor.c:178
+#: ../plugins/lunar-uca/lunar-uca-editor.c:436
 msgid "_Cancel"
 msgstr "A_nnulla"
 
-#: ../thunar/thunar-application.c:2166 ../thunar/thunar-launcher.c:260
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:372
+#: ../lunar/lunar-application.c:2166 ../lunar/lunar-launcher.c:260
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:372
 msgid "_Delete"
 msgstr "_Elimina"
 
-#: ../thunar/thunar-application.c:2170
+#: ../lunar/lunar-application.c:2170
 msgid "If you delete a file, it is permanently lost."
 msgstr "Se si elimina un file, questo è perso per sempre."
 
-#: ../thunar/thunar-application.c:2180
+#: ../lunar/lunar-application.c:2180
 msgid "Deleting files..."
 msgstr "Eliminazione dei file in corso…"
 
-#: ../thunar/thunar-application.c:2215
+#: ../lunar/lunar-application.c:2215
 msgid "Moving files into the trash..."
 msgstr "Spostamento dei file nel cestino in corso…"
 
-#: ../thunar/thunar-application.c:2261
+#: ../lunar/lunar-application.c:2261
 msgid "Creating files..."
 msgstr "Creazione dei file in corso…"
 
-#: ../thunar/thunar-application.c:2300
+#: ../lunar/lunar-application.c:2300
 msgid "Creating directories..."
 msgstr "Creazione delle cartelle in corso…"
 
-#: ../thunar/thunar-application.c:2339
+#: ../lunar/lunar-application.c:2339
 msgid "Remove all files and folders from the Trash?"
 msgstr "Rimuovere tutti i file e le cartelle dal cestino?"
 
 #. append the "Empty Trash" menu action
 #. prepare the menu item
-#: ../thunar/thunar-application.c:2345 ../thunar/thunar-launcher.c:254
-#: ../thunar/thunar-shortcuts-view.c:1226
-#: ../plugins/thunar-tpa/thunar-tpa.c:175
+#: ../lunar/lunar-application.c:2345 ../lunar/lunar-launcher.c:254
+#: ../lunar/lunar-shortcuts-view.c:1226
+#: ../plugins/lunar-tpa/lunar-tpa.c:175
 msgid "_Empty Trash"
 msgstr "_Svuota il cestino"
 
-#: ../thunar/thunar-application.c:2349
+#: ../lunar/lunar-application.c:2349
 msgid ""
 "If you choose to empty the Trash, all items in it will be permanently lost. "
 "Please note that you can also delete them separately."
 msgstr "Scegliendo di svuotare il cestino tutti gli elementi al suo interno verranno persi irrimediabilmente. È comunque possibile eliminarli singolarmente."
 
-#: ../thunar/thunar-application.c:2366
+#: ../lunar/lunar-application.c:2366
 msgid "Emptying the Trash..."
 msgstr "Svuotamento del cestino in corso…"
 
-#: ../thunar/thunar-application.c:2412
+#: ../lunar/lunar-application.c:2412
 #, c-format
 msgid "Failed to determine the original path for \"%s\""
 msgstr "Impossibile determinare il percorso originario di \"%s\""
 
 #. display an error dialog
-#: ../thunar/thunar-application.c:2429
+#: ../lunar/lunar-application.c:2429
 #, c-format
 msgid "Could not restore \"%s\""
 msgstr "Impossibile ripristinare \"%s\""
 
-#: ../thunar/thunar-application.c:2437
+#: ../lunar/lunar-application.c:2437
 msgid "Restoring files..."
 msgstr "Ripristino dei file in corso…"
 
-#: ../thunar/thunar-chooser-button.c:309 ../thunar/thunar-chooser-dialog.c:472
+#: ../lunar/lunar-chooser-button.c:309 ../lunar/lunar-chooser-dialog.c:472
 #, c-format
 msgid "Failed to set default application for \"%s\""
 msgstr "Impossibile impostare l'applicazione predefinita per \"%s\""
 
-#: ../thunar/thunar-chooser-button.c:440
+#: ../lunar/lunar-chooser-button.c:440
 #, c-format
 msgid ""
 "The selected application is used to open this and other files of type "
 "\"%s\"."
 msgstr "L'applicazione selezionata è usata per aprire questo e altri file di tipo \"%s\"."
 
-#: ../thunar/thunar-chooser-button.c:495
+#: ../lunar/lunar-chooser-button.c:495
 msgid "No application selected"
 msgstr "Nessuna applicazione selezionata"
 
-#: ../thunar/thunar-chooser-button.c:508
+#: ../lunar/lunar-chooser-button.c:508
 msgid "Other Application..."
 msgstr "Altra applicazione…"
 
-#: ../thunar/thunar-chooser-dialog.c:187 ../thunar/thunar-launcher.c:2863
+#: ../lunar/lunar-chooser-dialog.c:187 ../lunar/lunar-launcher.c:2863
 msgid "Open With"
 msgstr "Apri con"
 
 #. create the "Custom command" expand
-#: ../thunar/thunar-chooser-dialog.c:256
+#: ../lunar/lunar-chooser-dialog.c:256
 msgid "Use a _custom command:"
 msgstr "Usa un _comando personalizzato:"
 
-#: ../thunar/thunar-chooser-dialog.c:257
+#: ../lunar/lunar-chooser-dialog.c:257
 msgid ""
 "Use a custom command for an application that is not available from the above"
 " application list."
 msgstr "Usa un comando personalizzato per un'applicazione che non compare nella lista precedente."
 
 #. create the "Custom command" button
-#: ../thunar/thunar-chooser-dialog.c:276
+#: ../lunar/lunar-chooser-dialog.c:276
 msgid "_Browse..."
 msgstr "_Esplora…"
 
 #. create the "Use as default for this kind of file" button
-#: ../thunar/thunar-chooser-dialog.c:282
+#: ../lunar/lunar-chooser-dialog.c:282
 msgid "Use as _default for this kind of file"
 msgstr "Usa come _predefinita per questo tipo di file"
 
 #. add the "Ok"/"Open" button
-#: ../thunar/thunar-chooser-dialog.c:292
-#: ../thunar/thunar-chooser-dialog.c:1251
-#: ../thunar/thunar-properties-dialog.c:851 ../thunar/thunar-window.c:3404
-#: ../plugins/thunar-uca/thunar-uca-editor.c:144
-#: ../plugins/thunar-uca/thunar-uca-editor.c:437
+#: ../lunar/lunar-chooser-dialog.c:292
+#: ../lunar/lunar-chooser-dialog.c:1251
+#: ../lunar/lunar-properties-dialog.c:851 ../lunar/lunar-window.c:3404
+#: ../plugins/lunar-uca/lunar-uca-editor.c:144
+#: ../plugins/lunar-uca/lunar-uca-editor.c:437
 msgid "_OK"
 msgstr "_OK"
 
 #. display an error to the user
-#: ../thunar/thunar-chooser-dialog.c:433
+#: ../lunar/lunar-chooser-dialog.c:433
 #, c-format
 msgid "Failed to add new application \"%s\""
 msgstr "Impossibile aggiungere la nuova applicazione \"%s\""
 
-#: ../thunar/thunar-chooser-dialog.c:510
+#: ../lunar/lunar-chooser-dialog.c:510
 #, c-format
 msgid "Failed to execute application \"%s\""
 msgstr "Impossibile eseguire l'applicazione \"%s\""
 
 #. append the "Remove Launcher" item
-#: ../thunar/thunar-chooser-dialog.c:579
+#: ../lunar/lunar-chooser-dialog.c:579
 msgid "_Remove Launcher"
 msgstr "_Rimuovi avviatore"
 
 #. append the "Forget Association" item
-#: ../thunar/thunar-chooser-dialog.c:586
+#: ../lunar/lunar-chooser-dialog.c:586
 msgid "_Forget Association"
 msgstr "_Dimentica associazione"
 
 #. update the header label
-#: ../thunar/thunar-chooser-dialog.c:666
+#: ../lunar/lunar-chooser-dialog.c:666
 #, c-format
 msgid "Open <i>%s</i> and other files of type \"%s\" with:"
 msgstr "Aprire <i>%s</i> e altri file di tipo \"%s\" con:"
 
-#: ../thunar/thunar-chooser-dialog.c:674
+#: ../lunar/lunar-chooser-dialog.c:674
 #, c-format
 msgid ""
 "Browse the file system to select an application to open files of type "
 "\"%s\"."
 msgstr "Esplora il file system per selezionare un'applicazione adatta ad aprire i file di tipo \"%s\"."
 
-#: ../thunar/thunar-chooser-dialog.c:680
+#: ../lunar/lunar-chooser-dialog.c:680
 #, c-format
 msgid ""
 "Change the default application for files of type \"%s\" to the selected "
 "application."
 msgstr "Cambia l'applicazione predefinita per i file di tipo \"%s\" con l'applicazione selezionata."
 
-#: ../thunar/thunar-chooser-dialog.c:726
+#: ../lunar/lunar-chooser-dialog.c:726
 #, c-format
 msgid "Are you sure that you want to remove \"%s\"?"
 msgstr "Rimuovere davvero \"%s\"?"
 
-#: ../thunar/thunar-chooser-dialog.c:729
+#: ../lunar/lunar-chooser-dialog.c:729
 msgid "_Remove"
 msgstr "_Rimuovi"
 
-#: ../thunar/thunar-chooser-dialog.c:732
+#: ../lunar/lunar-chooser-dialog.c:732
 msgid ""
 "This will remove the application launcher that appears in the file context menu, but will not uninstall the application itself.\n"
 "\n"
@@ -361,165 +361,165 @@ msgid ""
 msgstr "Verrà rimosso l'avviatore dell'applicazione che compare nel menu contestuale del file, mentre l'applicazione stessa non sarà disinstallata.\n\nÈ possibile rimuovere solamente gli avviatori che sono stati creati usando l'opzione «Comando personalizzato» nella finestra «Apri con» del gestore dei file."
 
 #. display an error to the user
-#: ../thunar/thunar-chooser-dialog.c:747
+#: ../lunar/lunar-chooser-dialog.c:747
 #, c-format
 msgid "Failed to remove \"%s\""
 msgstr "Impossibile rimuovere \"%s\""
 
-#: ../thunar/thunar-chooser-dialog.c:799
+#: ../lunar/lunar-chooser-dialog.c:799
 #, c-format
 msgid "Are you sure that you want to forget \"%s\"?"
 msgstr "Dimenticare davvero \"%s\"?"
 
-#: ../thunar/thunar-chooser-dialog.c:802
+#: ../lunar/lunar-chooser-dialog.c:802
 msgid "_Forget"
 msgstr "_Dimentica"
 
-#: ../thunar/thunar-chooser-dialog.c:805
+#: ../lunar/lunar-chooser-dialog.c:805
 msgid ""
 "This will dissociate the application launcher for this file type, but will "
 "not uninstall or remove the application launcher itself."
 msgstr "Questo rimuoverà l'associazione dell'avviatore con questo tipo di file, ma non disinstallerà o rimuoverà l'avviatore."
 
 #. display an error to the user
-#: ../thunar/thunar-chooser-dialog.c:817
+#: ../lunar/lunar-chooser-dialog.c:817
 #, c-format
 msgid "Failed to forget \"%s\""
 msgstr "Impossigile dimenticare \"%s\""
 
-#: ../thunar/thunar-chooser-dialog.c:844
-#: ../plugins/thunar-uca/thunar-uca-editor.c:175
+#: ../lunar/lunar-chooser-dialog.c:844
+#: ../plugins/lunar-uca/lunar-uca-editor.c:175
 msgid "Select an Application"
 msgstr "Selezionare un'applicazione"
 
 #. change the accept button label text
 #. aka "activate"
-#: ../thunar/thunar-chooser-dialog.c:848
-#: ../thunar/thunar-chooser-dialog.c:1251 ../thunar/thunar-launcher.c:1318
-#: ../thunar/thunar-renamer-dialog.c:1060
-#: ../thunar/thunar-shortcuts-view.c:1118
-#: ../plugins/thunar-uca/thunar-uca-editor.c:179
+#: ../lunar/lunar-chooser-dialog.c:848
+#: ../lunar/lunar-chooser-dialog.c:1251 ../lunar/lunar-launcher.c:1318
+#: ../lunar/lunar-renamer-dialog.c:1060
+#: ../lunar/lunar-shortcuts-view.c:1118
+#: ../plugins/lunar-uca/lunar-uca-editor.c:179
 msgid "_Open"
 msgstr "_Apri"
 
-#: ../thunar/thunar-chooser-dialog.c:854
-#: ../thunar/thunar-renamer-dialog.c:1067
-#: ../plugins/thunar-uca/thunar-uca-editor.c:186
+#: ../lunar/lunar-chooser-dialog.c:854
+#: ../lunar/lunar-renamer-dialog.c:1067
+#: ../plugins/lunar-uca/lunar-uca-editor.c:186
 msgid "All Files"
 msgstr "Tutti i file"
 
-#: ../thunar/thunar-chooser-dialog.c:859
-#: ../plugins/thunar-uca/thunar-uca-editor.c:191
+#: ../lunar/lunar-chooser-dialog.c:859
+#: ../plugins/lunar-uca/lunar-uca-editor.c:191
 msgid "Executable Files"
 msgstr "File eseguibili"
 
-#: ../thunar/thunar-chooser-dialog.c:874
-#: ../plugins/thunar-uca/thunar-uca-editor.c:206
+#: ../lunar/lunar-chooser-dialog.c:874
+#: ../plugins/lunar-uca/lunar-uca-editor.c:206
 msgid "Perl Scripts"
 msgstr "Script di Perl"
 
-#: ../thunar/thunar-chooser-dialog.c:880
-#: ../plugins/thunar-uca/thunar-uca-editor.c:212
+#: ../lunar/lunar-chooser-dialog.c:880
+#: ../plugins/lunar-uca/lunar-uca-editor.c:212
 msgid "Python Scripts"
 msgstr "Script di Python"
 
-#: ../thunar/thunar-chooser-dialog.c:886
-#: ../plugins/thunar-uca/thunar-uca-editor.c:218
+#: ../lunar/lunar-chooser-dialog.c:886
+#: ../plugins/lunar-uca/lunar-uca-editor.c:218
 msgid "Ruby Scripts"
 msgstr "Script di Ruby"
 
-#: ../thunar/thunar-chooser-dialog.c:892
-#: ../plugins/thunar-uca/thunar-uca-editor.c:224
+#: ../lunar/lunar-chooser-dialog.c:892
+#: ../plugins/lunar-uca/lunar-uca-editor.c:224
 msgid "Shell Scripts"
 msgstr "Script per la Shell"
 
-#: ../thunar/thunar-chooser-model.c:251
+#: ../lunar/lunar-chooser-model.c:251
 msgid "None available"
 msgstr "Nessuno disponibile"
 
-#: ../thunar/thunar-chooser-model.c:298
+#: ../lunar/lunar-chooser-model.c:298
 msgid "Recommended Applications"
 msgstr "Applicazioni consigliate"
 
-#: ../thunar/thunar-chooser-model.c:316
+#: ../lunar/lunar-chooser-model.c:316
 msgid "Other Applications"
 msgstr "Altre applicazioni"
 
-#: ../thunar/thunar-chooser-model.c:407
+#: ../lunar/lunar-chooser-model.c:407
 #, c-format
 msgid "Failed to remove \"%s\"."
 msgstr "Impossibile rimuovere \"%s\"."
 
 #. tell the user that we cannot paste
-#: ../thunar/thunar-clipboard-manager.c:354
+#: ../lunar/lunar-clipboard-manager.c:354
 msgid "There is nothing on the clipboard to paste"
 msgstr "Negli appunti non c'è niente da incollare"
 
 #. setup the dialog
 #. add the "Close" button
 #. add a regular close button, the header bar already provides one
-#: ../thunar/thunar-column-editor.c:120 ../thunar/thunar-dialogs.c:979
-#: ../thunar/thunar-preferences-dialog.c:292
-#: ../thunar/thunar-properties-dialog.c:256
-#: ../thunar/thunar-renamer-dialog.c:358
-#: ../thunar/thunar-renamer-progress.c:215
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:131
+#: ../lunar/lunar-column-editor.c:120 ../lunar/lunar-dialogs.c:979
+#: ../lunar/lunar-preferences-dialog.c:292
+#: ../lunar/lunar-properties-dialog.c:256
+#: ../lunar/lunar-renamer-dialog.c:358
+#: ../lunar/lunar-renamer-progress.c:215
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:131
 msgid "_Close"
 msgstr "_Chiudi"
 
-#: ../thunar/thunar-column-editor.c:123
+#: ../lunar/lunar-column-editor.c:123
 msgid "Configure Columns in the Detailed List View"
 msgstr "Configura le colonne della visualizzazione a lista dettagliata"
 
 #. add the "Help" button
-#: ../thunar/thunar-column-editor.c:126
-#: ../thunar/thunar-preferences-dialog.c:303
-#: ../thunar/thunar-properties-dialog.c:255 ../thunar/thunar-window.c:428
+#: ../lunar/lunar-column-editor.c:126
+#: ../lunar/lunar-preferences-dialog.c:303
+#: ../lunar/lunar-properties-dialog.c:255 ../lunar/lunar-window.c:428
 msgid "_Help"
 msgstr "A_iuto"
 
-#: ../thunar/thunar-column-editor.c:141
+#: ../lunar/lunar-column-editor.c:141
 msgid "Visible Columns"
 msgstr "Colonne visibili"
 
 #. create the top label for the column editor dialog
-#: ../thunar/thunar-column-editor.c:154
+#: ../lunar/lunar-column-editor.c:154
 msgid ""
 "Choose the order of information to appear in the\n"
 "detailed list view."
 msgstr "Scegliere l'ordine in cui le informazioni appaiono\nnella visualizzazione a lista dettagliata."
 
 #. create the "Move Up" button
-#: ../thunar/thunar-column-editor.c:198
+#: ../lunar/lunar-column-editor.c:198
 msgid "Move _Up"
 msgstr "Sposta _su"
 
 #. create the "Move Down" button
-#: ../thunar/thunar-column-editor.c:209
+#: ../lunar/lunar-column-editor.c:209
 msgid "Move Dow_n"
 msgstr "Sposta _giù"
 
 #. create the "Show" button
-#: ../thunar/thunar-column-editor.c:220
+#: ../lunar/lunar-column-editor.c:220
 msgid "_Show"
 msgstr "_Mostra"
 
 #. create the "Hide" button
-#: ../thunar/thunar-column-editor.c:226
+#: ../lunar/lunar-column-editor.c:226
 msgid "Hi_de"
 msgstr "_Nascondi"
 
 #. create the "Use Default" button
-#: ../thunar/thunar-column-editor.c:237
+#: ../lunar/lunar-column-editor.c:237
 msgid "Use De_fault"
 msgstr "_Predefinito"
 
-#: ../thunar/thunar-column-editor.c:246
+#: ../lunar/lunar-column-editor.c:246
 msgid "Column Sizing"
 msgstr "Dimensionamento delle colonne"
 
 #. create the label that explains the column sizing option
-#: ../thunar/thunar-column-editor.c:259
+#: ../lunar/lunar-column-editor.c:259
 msgid ""
 "By default columns will be automatically expanded if\n"
 "needed to ensure the text is fully visible. If you dis-\n"
@@ -528,474 +528,474 @@ msgid ""
 msgstr "Di norma, le colonne verranno espanse per\ngarantire che il testo sia completamente visibile.\nDisabilitando questo comportamento, il gestore dei file \nuserà sempre colonne di lunghezza definita dall'utente."
 
 #. create the "Automatically expand columns as needed" button
-#: ../thunar/thunar-column-editor.c:268
+#: ../lunar/lunar-column-editor.c:268
 msgid "Automatically _expand columns as needed"
 msgstr "_Espandi automaticamente le colonne quando necessario"
 
 #. the file_time is invalid
 #. reset page title
 #. tell the user that we're unable to determine the file info
-#: ../thunar/thunar-column-model.c:877 ../thunar/thunar-list-model.c:734
-#: ../thunar/thunar-list-model.c:770
-#: ../thunar/thunar-permissions-chooser.c:232 ../thunar/thunar-util.c:491
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:513
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:293
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:294
-#: ../plugins/thunar-uca/thunar-uca-editor.c:431
+#: ../lunar/lunar-column-model.c:877 ../lunar/lunar-list-model.c:734
+#: ../lunar/lunar-list-model.c:770
+#: ../lunar/lunar-permissions-chooser.c:232 ../lunar/lunar-util.c:491
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:513
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:293
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:294
+#: ../plugins/lunar-uca/lunar-uca-editor.c:431
 msgid "Unknown"
 msgstr "Sconosciuto"
 
-#: ../thunar/thunar-compact-view.c:108
+#: ../lunar/lunar-compact-view.c:108
 msgid "Compact directory listing"
 msgstr "Elenco compatto delle cartelle"
 
-#: ../thunar/thunar-compact-view.c:109
+#: ../lunar/lunar-compact-view.c:109
 msgid "Compact view"
 msgstr "Visualizzazione compatta"
 
-#: ../thunar/thunar-dbus-service.c:527
+#: ../lunar/lunar-dbus-service.c:527
 #, c-format
 msgid "Invalid filename \"%s\""
 msgstr "Nome del file \"%s\" non valido"
 
 #. LaunchFiles() invoked without a valid working directory
-#: ../thunar/thunar-dbus-service.c:976
+#: ../lunar/lunar-dbus-service.c:976
 #, c-format
 msgid "The working directory must be an absolute path"
 msgstr "La cartella di lavoro deve essere un percorso assoluto"
 
 #. LaunchFiles() invoked with an empty filename list
-#: ../thunar/thunar-dbus-service.c:984 ../thunar/thunar-dbus-service.c:1419
+#: ../lunar/lunar-dbus-service.c:984 ../lunar/lunar-dbus-service.c:1419
 #, c-format
 msgid "At least one filename must be specified"
 msgstr "Almeno un nome di file deve essere specificato"
 
-#: ../thunar/thunar-dbus-service.c:1159
+#: ../lunar/lunar-dbus-service.c:1159
 #, c-format
 msgid "At least one source filename must be specified"
 msgstr "Almeno un nome di file sorgente deve essere specificato"
 
-#: ../thunar/thunar-dbus-service.c:1169
+#: ../lunar/lunar-dbus-service.c:1169
 #, c-format
 msgid "The number of source and target filenames must be the same"
 msgstr "Il numero di nomi di file sorgente e destinazione deve essere lo stesso"
 
-#: ../thunar/thunar-dbus-service.c:1178
+#: ../lunar/lunar-dbus-service.c:1178
 #, c-format
 msgid "A destination directory must be specified"
 msgstr "Almeno una cartella di destinazione deve essere specificata"
 
-#: ../thunar/thunar-details-view.c:147
+#: ../lunar/lunar-details-view.c:147
 msgid "Configure _Columns..."
 msgstr "_Configura colonne…"
 
-#: ../thunar/thunar-details-view.c:147
+#: ../lunar/lunar-details-view.c:147
 msgid "Configure the columns in the detailed list view"
 msgstr "Configura le colonne della visualizzazione a lista dettagliata"
 
-#: ../thunar/thunar-details-view.c:413
+#: ../lunar/lunar-details-view.c:413
 msgid "Detailed directory listing"
 msgstr "Lista dettagliata delle cartelle"
 
-#: ../thunar/thunar-details-view.c:414
+#: ../lunar/lunar-details-view.c:414
 msgid "Details view"
 msgstr "Visualizzazione dettagliata"
 
-#: ../thunar/thunar-dialogs.c:99
+#: ../lunar/lunar-dialogs.c:99
 msgid "C_reate"
 msgstr "C_rea"
 
-#: ../thunar/thunar-dialogs.c:127
+#: ../lunar/lunar-dialogs.c:127
 msgid "Enter the name:"
 msgstr "Inserire il nome:"
 
 #. display an error message
-#: ../thunar/thunar-dialogs.c:167
+#: ../lunar/lunar-dialogs.c:167
 #, c-format
 msgid "Cannot convert filename \"%s\" to the local encoding"
 msgstr "Impossibile convertire il nome del file \"%s\" nella codifica locale"
 
 #. create a new dialog window
-#: ../thunar/thunar-dialogs.c:228
+#: ../lunar/lunar-dialogs.c:228
 #, c-format
 msgid "Rename \"%s\""
 msgstr "Rinomina di \"%s\""
 
-#: ../thunar/thunar-dialogs.c:234
+#: ../lunar/lunar-dialogs.c:234
 msgid "_Rename"
 msgstr "_Rinomina"
 
-#: ../thunar/thunar-dialogs.c:264
+#: ../lunar/lunar-dialogs.c:264
 msgid "Enter the new name:"
 msgstr "Inserire il nuovo nome:"
 
-#: ../thunar/thunar-dialogs.c:408
+#: ../lunar/lunar-dialogs.c:408
 msgid "translator-credits"
 msgstr "Vincenzo Reale <smart2128@baslug.org>\nEmanuele Petriglia <inbox@emanuelepetriglia.com>\nRoberto Pariset <robdebian@gmail.com>\nGianluca Foddis <gianluca.foddis@gmail.com>\nCristian Marchi <cri.penta@gmail.com>"
 
-#: ../thunar/thunar-dialogs.c:582 ../thunar/thunar-permissions-chooser.c:537
+#: ../lunar/lunar-dialogs.c:582 ../lunar/lunar-permissions-chooser.c:537
 msgid "_Yes"
 msgstr "_Sì"
 
-#: ../thunar/thunar-dialogs.c:586
+#: ../lunar/lunar-dialogs.c:586
 msgid "Yes to _all"
 msgstr "Sì _a tutti"
 
-#: ../thunar/thunar-dialogs.c:590 ../thunar/thunar-dialogs.c:766
+#: ../lunar/lunar-dialogs.c:590 ../lunar/lunar-dialogs.c:766
 msgid "_Replace"
 msgstr "Sostituis_ci"
 
-#: ../thunar/thunar-dialogs.c:594 ../thunar/thunar-dialogs.c:765
+#: ../lunar/lunar-dialogs.c:594 ../lunar/lunar-dialogs.c:765
 msgid "Replace _All"
 msgstr "Sostituisci t_utto"
 
-#: ../thunar/thunar-dialogs.c:598 ../thunar/thunar-dialogs.c:764
+#: ../lunar/lunar-dialogs.c:598 ../lunar/lunar-dialogs.c:764
 msgid "_Skip"
 msgstr "Sa_lta"
 
-#: ../thunar/thunar-dialogs.c:602 ../thunar/thunar-dialogs.c:763
+#: ../lunar/lunar-dialogs.c:602 ../lunar/lunar-dialogs.c:763
 msgid "S_kip All"
 msgstr "Salta _tutti"
 
-#: ../thunar/thunar-dialogs.c:606 ../thunar/thunar-dialogs.c:768
+#: ../lunar/lunar-dialogs.c:606 ../lunar/lunar-dialogs.c:768
 msgid "Re_name"
 msgstr "Ri_nomina"
 
-#: ../thunar/thunar-dialogs.c:610 ../thunar/thunar-dialogs.c:767
+#: ../lunar/lunar-dialogs.c:610 ../lunar/lunar-dialogs.c:767
 msgid "Rena_me All"
 msgstr "Rinomi_na tutto"
 
-#: ../thunar/thunar-dialogs.c:614 ../thunar/thunar-permissions-chooser.c:536
+#: ../lunar/lunar-dialogs.c:614 ../lunar/lunar-permissions-chooser.c:536
 msgid "_No"
 msgstr "N_o"
 
-#: ../thunar/thunar-dialogs.c:618
+#: ../lunar/lunar-dialogs.c:618
 msgid "N_o to all"
 msgstr "No a _tutti"
 
-#: ../thunar/thunar-dialogs.c:622
+#: ../lunar/lunar-dialogs.c:622
 msgid "_Retry"
 msgstr "Ri_prova"
 
-#: ../thunar/thunar-dialogs.c:626
+#: ../lunar/lunar-dialogs.c:626
 msgid "Copy _Anyway"
 msgstr "Copia comun_que"
 
-#: ../thunar/thunar-dialogs.c:741
+#: ../lunar/lunar-dialogs.c:741
 msgid "Confirm to replace files"
 msgstr "Conferma della sostituzione dei file"
 
-#: ../thunar/thunar-dialogs.c:811
+#: ../lunar/lunar-dialogs.c:811
 #, c-format
 msgid "This folder already contains a symbolic link \"%s\"."
 msgstr "Questa cartella contiene già un collegamento simbolico \"%s\"."
 
-#: ../thunar/thunar-dialogs.c:816
+#: ../lunar/lunar-dialogs.c:816
 #, c-format
 msgid "This folder already contains a folder \"%s\"."
 msgstr "Questa cartella contiene già una cartella \"%s\"."
 
-#: ../thunar/thunar-dialogs.c:821
+#: ../lunar/lunar-dialogs.c:821
 #, c-format
 msgid "This folder already contains a file \"%s\"."
 msgstr "Questa cartella contiene già un file \"%s\"."
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:836
+#: ../lunar/lunar-dialogs.c:836
 #, c-format
 msgid "Do you want to replace the link"
 msgstr "Sostituire il collegamento"
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:839
+#: ../lunar/lunar-dialogs.c:839
 #, c-format
 msgid "Do you want to replace the existing folder"
 msgstr "Sostituire la cartella esistente"
 
 #. TRANSLATORS: First part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:842
+#: ../lunar/lunar-dialogs.c:842
 #, c-format
 msgid "Do you want to replace the existing file"
 msgstr "Sostituire il file esistente"
 
 #. Fourth box (size, volume, free space)
-#: ../thunar/thunar-dialogs.c:863 ../thunar/thunar-dialogs.c:902
-#: ../thunar/thunar-properties-dialog.c:514
+#: ../lunar/lunar-dialogs.c:863 ../lunar/lunar-dialogs.c:902
+#: ../lunar/lunar-properties-dialog.c:514
 msgid "Size:"
 msgstr "Dimensione:"
 
-#: ../thunar/thunar-dialogs.c:863 ../thunar/thunar-dialogs.c:902
-#: ../thunar/thunar-properties-dialog.c:473
+#: ../lunar/lunar-dialogs.c:863 ../lunar/lunar-dialogs.c:902
+#: ../lunar/lunar-properties-dialog.c:473
 msgid "Modified:"
 msgstr "Modificato:"
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:875
+#: ../lunar/lunar-dialogs.c:875
 #, c-format
 msgid "with the following link?"
 msgstr "con il seguente collegamento?"
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:878
+#: ../lunar/lunar-dialogs.c:878
 #, c-format
 msgid "with the following folder?"
 msgstr "con la seguente cartella?"
 
 #. TRANSLATORS: Second part of replace dialog sentence
-#: ../thunar/thunar-dialogs.c:881
+#: ../lunar/lunar-dialogs.c:881
 #, c-format
 msgid "with the following file?"
 msgstr "con il seguente file?"
 
-#: ../thunar/thunar-dialogs.c:1014
+#: ../lunar/lunar-dialogs.c:1014
 #, c-format
 msgid ""
 "The desktop file \"%s\" is in an insecure location and not marked as "
 "executable. If you do not trust this program, click Cancel."
 msgstr "Il file desktop \"%s\" è in una posizione non sicura e non è segnalato come eseguibile. Se non si è sicuri del programma, fare clic su «Annulla»."
 
-#: ../thunar/thunar-dialogs.c:1031
+#: ../lunar/lunar-dialogs.c:1031
 msgid "_Launch Anyway"
 msgstr "_Avvia comunque"
 
-#: ../thunar/thunar-dialogs.c:1033
+#: ../lunar/lunar-dialogs.c:1033
 msgid "Mark _Executable"
 msgstr "Rendi _eseguibile"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Copy here"
 msgstr "_Copia qui"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Move here"
 msgstr "_Sposta qui"
 
-#: ../thunar/thunar-dnd.c:70
+#: ../lunar/lunar-dnd.c:70
 msgid "_Link here"
 msgstr "Crea colle_gamento qui"
 
 #. display an error to the user
 #. display an error message to the user
-#: ../thunar/thunar-dnd.c:250 ../thunar/thunar-launcher.c:694
+#: ../lunar/lunar-dnd.c:250 ../lunar/lunar-launcher.c:694
 #, c-format
 msgid "Failed to execute file \"%s\""
 msgstr "Impossibile eseguire il file \"%s\""
 
-#: ../thunar/thunar-enum-types.c:49
+#: ../lunar/lunar-enum-types.c:49
 msgid "Name only"
 msgstr "Solo nome"
 
-#: ../thunar/thunar-enum-types.c:50
+#: ../lunar/lunar-enum-types.c:50
 msgid "Suffix only"
 msgstr "Solo suffisso"
 
-#: ../thunar/thunar-enum-types.c:51
+#: ../lunar/lunar-enum-types.c:51
 msgid "Name and Suffix"
 msgstr "Nome e suffisso"
 
-#: ../thunar/thunar-enum-types.c:101
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:137
+#: ../lunar/lunar-enum-types.c:101
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:137
 msgid "Date Accessed"
 msgstr "Data di accesso"
 
-#: ../thunar/thunar-enum-types.c:102
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:138
+#: ../lunar/lunar-enum-types.c:102
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:138
 msgid "Date Modified"
 msgstr "Data di modifica"
 
-#: ../thunar/thunar-enum-types.c:103
+#: ../lunar/lunar-enum-types.c:103
 msgid "Group"
 msgstr "Gruppo"
 
-#: ../thunar/thunar-enum-types.c:104
+#: ../lunar/lunar-enum-types.c:104
 msgid "MIME Type"
 msgstr "Tipo MIME"
 
-#: ../thunar/thunar-enum-types.c:105 ../thunar/thunar-renamer-dialog.c:417
-#: ../thunarx/thunarx-renamer.c:164
+#: ../lunar/lunar-enum-types.c:105 ../lunar/lunar-renamer-dialog.c:417
+#: ../lunarx/lunarx-renamer.c:164
 msgid "Name"
 msgstr "Nome"
 
-#: ../thunar/thunar-enum-types.c:106
+#: ../lunar/lunar-enum-types.c:106
 msgid "Owner"
 msgstr "Proprietario"
 
 #. Permissions chooser
-#: ../thunar/thunar-enum-types.c:107 ../thunar/thunar-properties-dialog.c:598
+#: ../lunar/lunar-enum-types.c:107 ../lunar/lunar-properties-dialog.c:598
 msgid "Permissions"
 msgstr "Permessi"
 
-#: ../thunar/thunar-enum-types.c:108
+#: ../lunar/lunar-enum-types.c:108
 msgid "Size"
 msgstr "Dimensione"
 
-#: ../thunar/thunar-enum-types.c:109
+#: ../lunar/lunar-enum-types.c:109
 msgid "Size in Bytes"
 msgstr "Dimensione in byte"
 
-#: ../thunar/thunar-enum-types.c:110
+#: ../lunar/lunar-enum-types.c:110
 msgid "Type"
 msgstr "Tipo"
 
-#: ../thunar/thunar-enum-types.c:111
+#: ../lunar/lunar-enum-types.c:111
 msgid "File"
 msgstr "File"
 
-#: ../thunar/thunar-enum-types.c:112
+#: ../lunar/lunar-enum-types.c:112
 msgid "File Name"
 msgstr "Nome del file"
 
-#: ../thunar/thunar-file.c:1059 ../thunar/thunar-gio-extensions.c:289
-#: ../thunar/thunar-shortcuts-model.c:1112 ../thunar.desktop.in.in.h:7
+#: ../lunar/lunar-file.c:1059 ../lunar/lunar-gio-extensions.c:289
+#: ../lunar/lunar-shortcuts-model.c:1112 ../lunar.desktop.in.in.h:7
 msgid "Trash"
 msgstr "Cestino"
 
-#: ../thunar/thunar-file.c:1066 ../thunar/thunar-gio-extensions.c:287
-#: ../thunar/thunar-shortcuts-model.c:994 ../thunar/thunar-window.c:416
+#: ../lunar/lunar-file.c:1066 ../lunar/lunar-gio-extensions.c:287
+#: ../lunar/lunar-shortcuts-model.c:994 ../lunar/lunar-window.c:416
 msgid "File System"
 msgstr "File system"
 
-#: ../thunar/thunar-file.c:1519
+#: ../lunar/lunar-file.c:1519
 #, c-format
 msgid "The root folder has no parent"
 msgstr "La cartella root non ha la cartella superiore"
 
-#: ../thunar/thunar-file.c:1613
+#: ../lunar/lunar-file.c:1613
 #, c-format
 msgid "Failed to parse the desktop file: %s"
 msgstr "Impossibile analizzare il file desktop: %s"
 
 #. if the .desktop file is not secure, ask user what to do
-#: ../thunar/thunar-file.c:1625
+#: ../lunar/lunar-file.c:1625
 msgid "Untrusted application launcher"
 msgstr "Avviatore di applicazioni non sicuro"
 
-#: ../thunar/thunar-file.c:1653
+#: ../lunar/lunar-file.c:1653
 #, c-format
 msgid "No Exec field specified"
 msgstr "Campo Exec non specificato"
 
 #. if the .desktop file is not secure, ask user what to do
-#: ../thunar/thunar-file.c:1662
+#: ../lunar/lunar-file.c:1662
 msgid "Untrusted link launcher"
 msgstr "Avviatore di collegamenti non sicuro"
 
-#: ../thunar/thunar-file.c:1678
+#: ../lunar/lunar-file.c:1678
 #, c-format
 msgid "No URL field specified"
 msgstr "Campo URL non specificato"
 
-#: ../thunar/thunar-file.c:1683
+#: ../lunar/lunar-file.c:1683
 msgid "Invalid desktop file"
 msgstr "File desktop non valido"
 
 #. TRANSLATORS: this will result in "<path> on <hostname>"
-#: ../thunar/thunar-gio-extensions.c:369
+#: ../lunar/lunar-gio-extensions.c:369
 #, c-format
 msgid "%s on %s"
 msgstr "%s su %s"
 
 #. free disk space string
-#: ../thunar/thunar-gio-extensions.c:480
+#: ../lunar/lunar-gio-extensions.c:480
 #, c-format
 msgid "%s of %s free (%d%% used)"
 msgstr "%s di %s liberi (%d%% utilizzato)"
 
-#: ../thunar/thunar-history.c:296
+#: ../lunar/lunar-history.c:296
 msgid "The item will be removed from the history"
 msgstr "L'elemento verrà rimosso dalla cronologia"
 
-#: ../thunar/thunar-history.c:308
+#: ../lunar/lunar-history.c:308
 #, c-format
 msgid "Could not find \"%s\""
 msgstr "Impossibile trovare \"%s\""
 
-#: ../thunar/thunar-icon-view.c:164
+#: ../lunar/lunar-icon-view.c:164
 msgid "Icon based directory listing"
 msgstr "Elenco delle cartelle basato su icone"
 
-#: ../thunar/thunar-icon-view.c:165
+#: ../lunar/lunar-icon-view.c:165
 msgid "Icon view"
 msgstr "Visualizzazione a icone"
 
-#: ../thunar/thunar-io-jobs.c:111
+#: ../lunar/lunar-io-jobs.c:111
 #, c-format
 msgid "Error removing file: %s"
 msgstr "Impossibile rimuovere il file: %s"
 
-#: ../thunar/thunar-io-jobs.c:214 ../thunar/thunar-io-jobs.c:369
+#: ../lunar/lunar-io-jobs.c:214 ../lunar/lunar-io-jobs.c:369
 #, c-format
 msgid "The file \"%s\" already exists"
 msgstr "Il file \"%s\" è già esistente"
 
-#: ../thunar/thunar-io-jobs.c:237
+#: ../lunar/lunar-io-jobs.c:237
 #, c-format
 msgid "Failed to create empty file \"%s\": %s"
 msgstr "Impossibile creare il file vuoto \"%s\": %s"
 
-#: ../thunar/thunar-io-jobs.c:392
+#: ../lunar/lunar-io-jobs.c:392
 #, c-format
 msgid "Failed to create directory \"%s\": %s"
 msgstr "Impossibile creare la cartella \"%s\": %s"
 
 #. tell the user that we're preparing to unlink the files
-#: ../thunar/thunar-io-jobs.c:459
+#: ../lunar/lunar-io-jobs.c:459
 msgid "Preparing..."
 msgstr "Preparazione in corso…"
 
-#: ../thunar/thunar-io-jobs.c:537
+#: ../lunar/lunar-io-jobs.c:537
 #, c-format
 msgid "Could not delete file \"%s\": %s"
 msgstr "Impossibile eliminare il file \"%s\": %s"
 
-#: ../thunar/thunar-io-jobs.c:640
+#: ../lunar/lunar-io-jobs.c:640
 #, c-format
 msgid "Could not create symbolic link to \"%s\" because it is not a local file"
 msgstr "Impossibile creare un collegamento simbolico a \"%s\" perché non è un file locale"
 
 #. generate a useful error message
-#: ../thunar/thunar-io-jobs.c:1015
+#: ../lunar/lunar-io-jobs.c:1015
 #, c-format
 msgid "Failed to change the owner of \"%s\": %s"
 msgstr "Impossibile cambiare il proprietario di \"%s\": %s"
 
-#: ../thunar/thunar-io-jobs.c:1016
+#: ../lunar/lunar-io-jobs.c:1016
 #, c-format
 msgid "Failed to change the group of \"%s\": %s"
 msgstr "Impossibile cambiare il gruppo di \"%s\": %s"
 
-#: ../thunar/thunar-io-jobs.c:1171
+#: ../lunar/lunar-io-jobs.c:1171
 #, c-format
 msgid "Failed to change the permissions of \"%s\": %s"
 msgstr "Impossibile cambiare i permessi di \"%s\": %s"
 
 #. I18N: put " (copy #)" between basename and extension
-#: ../thunar/thunar-io-jobs-util.c:106 ../thunar/thunar-io-jobs-util.c:212
+#: ../lunar/lunar-io-jobs-util.c:106 ../lunar/lunar-io-jobs-util.c:212
 #, c-format
 msgid "%s (copy %u)%s"
 msgstr "%s (copia %u)%s"
 
 #. I18N: put " (copy #)" after filename (for files without extension)
-#: ../thunar/thunar-io-jobs-util.c:112 ../thunar/thunar-io-jobs-util.c:218
+#: ../lunar/lunar-io-jobs-util.c:112 ../lunar/lunar-io-jobs-util.c:218
 #, c-format
 msgid "%s (copy %u)"
 msgstr "%s (copia %u)"
 
 #. I18N: name for first link to basename
-#: ../thunar/thunar-io-jobs-util.c:121 ../thunar/thunar-list-model.c:792
-#: ../thunar/thunar-list-model.c:1633 ../thunar/thunar-list-model.c:1644
-#: ../thunar/thunar-properties-dialog.c:1033
+#: ../lunar/lunar-io-jobs-util.c:121 ../lunar/lunar-list-model.c:792
+#: ../lunar/lunar-list-model.c:1633 ../lunar/lunar-list-model.c:1644
+#: ../lunar/lunar-properties-dialog.c:1033
 #, c-format
 msgid "link to %s"
 msgstr "collegamento a %s"
 
 #. I18N: name for nth link to basename
-#: ../thunar/thunar-io-jobs-util.c:126
+#: ../lunar/lunar-io-jobs-util.c:126
 #, c-format
 msgid "link %u to %s"
 msgstr "collega %u a %s"
 
-#: ../thunar/thunar-job.c:304
+#: ../lunar/lunar-job.c:304
 #, c-format
 msgid ""
 "The file \"%s\" already exists. Would you like to replace it?\n"
@@ -1003,33 +1003,33 @@ msgid ""
 "If you replace an existing file, its contents will be overwritten."
 msgstr "Il file \"%s\" è già esistente. Sostituirlo?\n\nSostituendo un file esistente, il contenuto verrà sovrascritto."
 
-#: ../thunar/thunar-job.c:386
+#: ../lunar/lunar-job.c:386
 msgid "Do you want to overwrite it?"
 msgstr "Sovrascrivere?"
 
-#: ../thunar/thunar-job.c:443
+#: ../lunar/lunar-job.c:443
 msgid "Do you want to permanently delete it?"
 msgstr "Eliminare in modo permanente?"
 
-#: ../thunar/thunar-job.c:497
+#: ../lunar/lunar-job.c:497
 msgid "Do you want to create it?"
 msgstr "Crearlo?"
 
-#: ../thunar/thunar-job.c:605
+#: ../lunar/lunar-job.c:605
 msgid "Do you want to skip it?"
 msgstr "Saltare?"
 
-#: ../thunar/thunar-job.c:654
+#: ../lunar/lunar-job.c:654
 msgid ""
 "There is not enough space on the destination. Try to remove files to make "
 "space."
 msgstr "Non c'è abbastanza spazio nella destinazione. Provare a rimuovere alcuni file per crearne."
 
-#: ../thunar/thunar-launcher.c:243
+#: ../lunar/lunar-launcher.c:243
 msgid "Open With Other _Application..."
 msgstr "Apri con un'altra applica_zione…"
 
-#: ../thunar/thunar-launcher.c:243 ../thunar/thunar-launcher.c:2864
+#: ../lunar/lunar-launcher.c:243 ../lunar/lunar-launcher.c:2864
 msgid "Choose another application with which to open the selected file"
 msgstr "Permette di scegliere un'altra applicazione con cui aprire il file selezionato"
 
@@ -1037,361 +1037,361 @@ msgstr "Permette di scegliere un'altra applicazione con cui aprire il file selez
 #. possible to automatically migrate to new accel paths.
 #. Waiting for https://gitlab.gnome.org/GNOME/gtk/issues/2375 to be able to
 #. fix that
-#: ../thunar/thunar-launcher.c:247
+#: ../lunar/lunar-launcher.c:247
 msgid "_Send To"
 msgstr "In_via a"
 
-#: ../thunar/thunar-launcher.c:250
+#: ../lunar/lunar-launcher.c:250
 msgid "_Properties..."
 msgstr "_Proprietà…"
 
-#: ../thunar/thunar-launcher.c:250
+#: ../lunar/lunar-launcher.c:250
 msgid "View the properties of the selected file"
 msgstr "Visualizza le proprietà del file selezionato"
 
-#: ../thunar/thunar-launcher.c:251 ../thunar/thunar-launcher.c:1364
+#: ../lunar/lunar-launcher.c:251 ../lunar/lunar-launcher.c:1364
 msgid "Ma_ke Link"
 msgid_plural "Ma_ke Links"
 msgstr[0] "Crea colle_gamento"
 msgstr[1] "Crea colle_gamenti"
 
-#: ../thunar/thunar-launcher.c:252
+#: ../lunar/lunar-launcher.c:252
 msgid "Du_plicate"
 msgstr "Dup_lica"
 
-#: ../thunar/thunar-launcher.c:253
+#: ../lunar/lunar-launcher.c:253
 msgid "_Rename..."
 msgstr "_Rinomina…"
 
-#: ../thunar/thunar-launcher.c:254
+#: ../lunar/lunar-launcher.c:254
 msgid "Delete all files and folders in the Trash"
 msgstr "Elimina tutti i file e le cartelle dal cestino"
 
-#: ../thunar/thunar-launcher.c:255
+#: ../lunar/lunar-launcher.c:255
 msgid "Create _Folder..."
 msgstr "Creare carte_lla…"
 
-#: ../thunar/thunar-launcher.c:255
+#: ../lunar/lunar-launcher.c:255
 msgid "Create an empty folder within the current folder"
 msgstr "Crea una cartella vuota dentro la cartella corrente"
 
-#: ../thunar/thunar-launcher.c:256
+#: ../lunar/lunar-launcher.c:256
 msgid "Create _Document"
 msgstr "Crea doc_umento"
 
-#: ../thunar/thunar-launcher.c:256
+#: ../lunar/lunar-launcher.c:256
 msgid "Create a new document from a template"
 msgstr "Crea un nuovo documento da un modello"
 
-#: ../thunar/thunar-launcher.c:258
+#: ../lunar/lunar-launcher.c:258
 msgid "_Restore"
 msgstr "R_ipristina"
 
-#: ../thunar/thunar-launcher.c:259
+#: ../lunar/lunar-launcher.c:259
 msgid "Mo_ve to Trash"
 msgstr "Sposta nel _cestino"
 
-#: ../thunar/thunar-launcher.c:265
+#: ../lunar/lunar-launcher.c:265
 msgid "_Paste"
 msgstr "_Incolla"
 
-#: ../thunar/thunar-launcher.c:265
+#: ../lunar/lunar-launcher.c:265
 msgid "Move or copy files previously selected by a Cut or Copy command"
 msgstr "Sposta o copia i file selezionati precedentemente da un comando di taglia o copia"
 
-#: ../thunar/thunar-launcher.c:266
+#: ../lunar/lunar-launcher.c:266
 msgid "_Paste Into Folder"
 msgstr "_Incolla nella cartella"
 
-#: ../thunar/thunar-launcher.c:266
+#: ../lunar/lunar-launcher.c:266
 msgid ""
 "Move or copy files previously selected by a Cut or Copy command into the "
 "selected folder"
 msgstr "Sposta o copia i file selezionati precedentemente da un comando di taglia o copia dentro la cartella selezionata"
 
-#: ../thunar/thunar-launcher.c:267
+#: ../lunar/lunar-launcher.c:267
 msgid "_Copy"
 msgstr "_Copia"
 
-#: ../thunar/thunar-launcher.c:267
+#: ../lunar/lunar-launcher.c:267
 msgid "Prepare the selected files to be copied with a Paste command"
 msgstr "Prepara i file selezionati per essere copiati con il comando incolla"
 
-#: ../thunar/thunar-launcher.c:268
+#: ../lunar/lunar-launcher.c:268
 msgid "Cu_t"
 msgstr "_Taglia"
 
-#: ../thunar/thunar-launcher.c:268
+#: ../lunar/lunar-launcher.c:268
 msgid "Prepare the selected files to be moved with a Paste command"
 msgstr "Prepara i file selezionati per essere spostati con il comando incolla"
 
 #. append the "Mount" item
-#: ../thunar/thunar-launcher.c:270 ../thunar/thunar-shortcuts-view.c:1158
+#: ../lunar/lunar-launcher.c:270 ../lunar/lunar-shortcuts-view.c:1158
 msgid "_Mount"
 msgstr "_Monta"
 
-#: ../thunar/thunar-launcher.c:270
+#: ../lunar/lunar-launcher.c:270
 msgid "Mount the selected device"
 msgstr "Monta il dispositivo selezionato"
 
 #. append the "Unmount" item
-#: ../thunar/thunar-launcher.c:271 ../thunar/thunar-shortcuts-view.c:1164
-#: ../thunar/thunar-shortcuts-view.c:1212
+#: ../lunar/lunar-launcher.c:271 ../lunar/lunar-shortcuts-view.c:1164
+#: ../lunar/lunar-shortcuts-view.c:1212
 msgid "_Unmount"
 msgstr "_Smonta"
 
-#: ../thunar/thunar-launcher.c:271
+#: ../lunar/lunar-launcher.c:271
 msgid "Unmount the selected device"
 msgstr "Smonta il dispositivo selezionato"
 
 #. append the "Eject" (safely remove drive) item
-#: ../thunar/thunar-launcher.c:272 ../thunar/thunar-shortcuts-view.c:1170
+#: ../lunar/lunar-launcher.c:272 ../lunar/lunar-shortcuts-view.c:1170
 msgid "_Eject"
 msgstr "_Espelli"
 
-#: ../thunar/thunar-launcher.c:272
+#: ../lunar/lunar-launcher.c:272
 msgid "Eject the selected device"
 msgstr "Espelli il dispositivo selezionato"
 
-#: ../thunar/thunar-launcher.c:827
+#: ../lunar/lunar-launcher.c:827
 #, c-format
 msgid "Failed to open file \"%s\""
 msgstr "Impossibile aprire il file \"%s\""
 
 #. we can just tell that n files failed to open
-#: ../thunar/thunar-launcher.c:833
+#: ../lunar/lunar-launcher.c:833
 #, c-format
 msgid "Failed to open %d file"
 msgid_plural "Failed to open %d files"
 msgstr[0] "Impossibile aprire %d file."
 msgstr[1] "Impossibile aprire %d file"
 
-#: ../thunar/thunar-launcher.c:872
+#: ../lunar/lunar-launcher.c:872
 msgid "Are you sure you want to open all folders?"
 msgstr "Aprire davvero tutte le cartelle?"
 
-#: ../thunar/thunar-launcher.c:874
+#: ../lunar/lunar-launcher.c:874
 #, c-format
 msgid "This will open %d separate file manager window."
 msgid_plural "This will open %d separate file manager windows."
 msgstr[0] "Verrà aperta %d finestra distinta del gestore dei file."
 msgstr[1] "Verranno aperte %d finestre distinte del gestore dei file."
 
-#: ../thunar/thunar-launcher.c:877
+#: ../lunar/lunar-launcher.c:877
 #, c-format
 msgid "Open %d New Window"
 msgid_plural "Open %d New Windows"
 msgstr[0] "Apri %d nuova finestra"
 msgstr[1] "Apri %d nuove finestre"
 
-#: ../thunar/thunar-launcher.c:954 ../thunar/thunar-launcher.c:1663
-#: ../thunar/thunar-shortcuts-view.c:1770
-#: ../thunar/thunar-shortcuts-view.c:2012
+#: ../lunar/lunar-launcher.c:954 ../lunar/lunar-launcher.c:1663
+#: ../lunar/lunar-shortcuts-view.c:1770
+#: ../lunar/lunar-shortcuts-view.c:2012
 #, c-format
 msgid "Failed to mount \"%s\""
 msgstr "Impossibile montare \"%s\""
 
-#: ../thunar/thunar-launcher.c:1318
+#: ../lunar/lunar-launcher.c:1318
 msgid "Open the selected file"
 msgid_plural "Open the selected files"
 msgstr[0] "Apre il file selezionato"
 msgstr[1] "Apre i file selezionati"
 
-#: ../thunar/thunar-launcher.c:1322
+#: ../lunar/lunar-launcher.c:1322
 msgid "_Execute"
 msgstr "_Esegui"
 
-#: ../thunar/thunar-launcher.c:1322
+#: ../lunar/lunar-launcher.c:1322
 msgid "Execute the selected file"
 msgid_plural "Execute the selected files"
 msgstr[0] "Eseguire il file selezionato"
 msgstr[1] "Eseguire i file selezionati"
 
-#: ../thunar/thunar-launcher.c:1327
+#: ../lunar/lunar-launcher.c:1327
 #, c-format
 msgid "Open in New _Tab"
 msgid_plural "Open in %d New _Tabs"
 msgstr[0] "Apri in una nuova sc_heda"
 msgstr[1] "Apri in %d nuove sc_hede"
 
-#: ../thunar/thunar-launcher.c:1328
+#: ../lunar/lunar-launcher.c:1328
 #, c-format
 msgid "Open the selected directory in new tab"
 msgid_plural "Open the selected directories in %d new tabs"
 msgstr[0] "Apri la cartella selezionata in una nuova scheda"
 msgstr[1] "Apri le cartelle selezionate in %d nuove schede"
 
-#: ../thunar/thunar-launcher.c:1337
+#: ../lunar/lunar-launcher.c:1337
 #, c-format
 msgid "Open in New _Window"
 msgid_plural "Open in %d New _Windows"
 msgstr[0] "Apri in una nuova _finestra"
 msgstr[1] "Apri in %d nuove _finestre"
 
-#: ../thunar/thunar-launcher.c:1338
+#: ../lunar/lunar-launcher.c:1338
 #, c-format
 msgid "Open the selected directory in new window"
 msgid_plural "Open the selected directories in %d new windows"
 msgstr[0] "Apre la cartella selezionata in nuova finestra"
 msgstr[1] "Apre le cartelle selezionate in %d nuove finestre"
 
-#: ../thunar/thunar-launcher.c:1365
+#: ../lunar/lunar-launcher.c:1365
 msgid "Create a symbolic link for the selected file"
 msgid_plural "Create a symbolic link for each selected file"
 msgstr[0] "Crea un collegamento simbolico per il file selezionato"
 msgstr[1] "Crea un collegamento simbolico per ogni file selezionato"
 
-#: ../thunar/thunar-launcher.c:1389
+#: ../lunar/lunar-launcher.c:1389
 msgid "Rename the selected file"
 msgid_plural "Rename the selected files"
 msgstr[0] "Rinomina il file selezionato"
 msgstr[1] "Rinomina i file selezionati"
 
-#: ../thunar/thunar-launcher.c:1399
+#: ../lunar/lunar-launcher.c:1399
 msgid "Restore the selected file to its original location"
 msgid_plural "Restore the selected files to its original location"
 msgstr[0] "Ripristina il file selezionato dalla posizione originale"
 msgstr[1] "Ripristina i file selezionati dalla posizione originale"
 
-#: ../thunar/thunar-launcher.c:1416
+#: ../lunar/lunar-launcher.c:1416
 msgid "Move the selected file to the Trash"
 msgid_plural "Move the selected files to the Trash"
 msgstr[0] "Sposta il file selezionato nel cestino"
 msgstr[1] "Sposta i file selezionati nel cestino"
 
-#: ../thunar/thunar-launcher.c:1433
+#: ../lunar/lunar-launcher.c:1433
 msgid "Permanently delete the selected file"
 msgid_plural "Permanently delete the selected files"
 msgstr[0] "Cancella definitivamente il file selezionato"
 msgstr[1] "Cancella definitivamente i file selezionati"
 
-#: ../thunar/thunar-launcher.c:1483
+#: ../lunar/lunar-launcher.c:1483
 msgid "Cut the selection"
 msgstr "Taglia la selezione"
 
-#: ../thunar/thunar-launcher.c:1493
+#: ../lunar/lunar-launcher.c:1493
 msgid "Prepare the selected file to be moved with a Paste command"
 msgid_plural "Prepare the selected files to be moved with a Paste command"
 msgstr[0] "Prepara il file selezionato per essere spostato con il comando incolla"
 msgstr[1] "Prepara i file selezionati per essere spostati con il comando incolla"
 
-#: ../thunar/thunar-launcher.c:1507
+#: ../lunar/lunar-launcher.c:1507
 msgid "Copy the selection"
 msgstr "Copia la selezione"
 
-#: ../thunar/thunar-launcher.c:1517
+#: ../lunar/lunar-launcher.c:1517
 msgid "Prepare the selected file to be copied with a Paste command"
 msgid_plural "Prepare the selected files to be copied with a Paste command"
 msgstr[0] "Prepara il file selezionato per essere copiato con il comando incolla"
 msgstr[1] "Prepara i file selezionati per essere copiati con il comando incolla"
 
-#: ../thunar/thunar-launcher.c:1540
+#: ../lunar/lunar-launcher.c:1540
 msgid "Paste the clipboard"
 msgstr "Incolla gli appunti"
 
-#: ../thunar/thunar-launcher.c:1769
+#: ../lunar/lunar-launcher.c:1769
 msgid "Side Pane (Create Shortcut)"
 msgid_plural "Side Pane (Create Shortcuts)"
 msgstr[0] "Pannello laterale (crea scorciatoia)"
 msgstr[1] "Pannello laterale (crea scorciatoie)"
 
-#: ../thunar/thunar-launcher.c:1770
+#: ../lunar/lunar-launcher.c:1770
 msgid "Add the selected folder to the shortcuts side pane"
 msgid_plural "Add the selected folders to the shortcuts side pane"
 msgstr[0] "Aggiungi la cartella selezionata al pannello laterale delle scorciatoie"
 msgstr[1] "Aggiungi le cartelle selezionate al pannello laterale delle scorciatoie"
 
-#: ../thunar/thunar-launcher.c:1789
+#: ../lunar/lunar-launcher.c:1789
 msgid "Desktop (Create Link)"
 msgid_plural "Desktop (Create Links)"
 msgstr[0] "Scrivania (crea collegamento)"
 msgstr[1] "Scrivania (crea collegamenti)"
 
-#: ../thunar/thunar-launcher.c:1790
+#: ../lunar/lunar-launcher.c:1790
 msgid "Create a link to the selected file on the desktop"
 msgid_plural "Create links to the selected files on the desktop"
 msgstr[0] "Crea nella scrivania un collegamento al file selezionato"
 msgstr[1] "Crea nella scrivania dei collegamenti ai file selezionati"
 
-#: ../thunar/thunar-launcher.c:1811 ../thunar/thunar-launcher.c:1849
+#: ../lunar/lunar-launcher.c:1811 ../lunar/lunar-launcher.c:1849
 #, c-format
 msgid "Send the selected file to \"%s\""
 msgid_plural "Send the selected files to \"%s\""
 msgstr[0] "Invia il file selezionato a \"%s\""
 msgstr[1] "Invia i file selezionati a \"%s\""
 
-#: ../thunar/thunar-launcher.c:2322
+#: ../lunar/lunar-launcher.c:2322
 msgid "New Empty File"
 msgstr "Nuovo file vuoto"
 
-#: ../thunar/thunar-launcher.c:2323
+#: ../lunar/lunar-launcher.c:2323
 msgid "New Empty File..."
 msgstr "Nuovo file vuoto…"
 
-#: ../thunar/thunar-launcher.c:2522
+#: ../lunar/lunar-launcher.c:2522
 #, c-format
 msgid "No templates installed in \"%s\""
 msgstr "Nessun modello installato in \"%s\""
 
-#: ../thunar/thunar-launcher.c:2535
+#: ../lunar/lunar-launcher.c:2535
 msgid "_Empty File"
 msgstr "Fil_e vuoto"
 
-#: ../thunar/thunar-launcher.c:2641 ../thunar/thunar-shortcuts-view.c:1936
+#: ../lunar/lunar-launcher.c:2641 ../lunar/lunar-shortcuts-view.c:1936
 #, c-format
 msgid "Failed to eject \"%s\""
 msgstr "Impossibile espellere \"%s\""
 
-#: ../thunar/thunar-launcher.c:2699 ../thunar/thunar-shortcuts-view.c:2081
+#: ../lunar/lunar-launcher.c:2699 ../lunar/lunar-shortcuts-view.c:2081
 #, c-format
 msgid "Failed to unmount \"%s\""
 msgstr "Impossibile smontare \"%s\""
 
-#: ../thunar/thunar-launcher.c:2759
+#: ../lunar/lunar-launcher.c:2759
 #, c-format
 msgid "Open With \"%s\""
 msgstr "Aprire con \"%s\""
 
-#: ../thunar/thunar-launcher.c:2760 ../thunar/thunar-launcher.c:2827
+#: ../lunar/lunar-launcher.c:2760 ../lunar/lunar-launcher.c:2827
 #, c-format
 msgid "Use \"%s\" to open the selected file"
 msgid_plural "Use \"%s\" to open the selected files"
 msgstr[0] "Usare\"%s\" per aprire il file selezionato"
 msgstr[1] "Usare \"%s\" per aprire i file selezionati"
 
-#: ../thunar/thunar-launcher.c:2826
+#: ../lunar/lunar-launcher.c:2826
 #, c-format
 msgid "_Open With \"%s\""
 msgstr "Aprire co_n \"%s\""
 
 #. we can only show a generic "Open" action
-#: ../thunar/thunar-launcher.c:2846
+#: ../lunar/lunar-launcher.c:2846
 #, c-format
 msgid "_Open With Default Applications"
 msgstr "Aprire con l'applicazione pre_definita"
 
-#: ../thunar/thunar-launcher.c:2847
+#: ../lunar/lunar-launcher.c:2847
 #, c-format
 msgid "Open the selected file with the default application"
 msgid_plural "Open the selected files with the default applications"
 msgstr[0] "Aprire il file selezionato con l'applicazione predefinita"
 msgstr[1] "Aprire i file selezionati con l'applicazione predefinita"
 
-#: ../thunar/thunar-list-model.c:2360
+#: ../lunar/lunar-list-model.c:2360
 #, c-format
 msgid "%d file: %s"
 msgid_plural "%d files: %s"
 msgstr[0] "%d file: %s"
 msgstr[1] " %d file: %s"
 
-#: ../thunar/thunar-list-model.c:2368
+#: ../lunar/lunar-list-model.c:2368
 #, c-format
 msgid "%d folder"
 msgid_plural "%d folders"
 msgstr[0] "%d cartella"
 msgstr[1] "%d cartelle"
 
-#: ../thunar/thunar-list-model.c:2374
+#: ../lunar/lunar-list-model.c:2374
 #, c-format
 msgid "0 items"
 msgstr "0 elementi"
@@ -1401,45 +1401,45 @@ msgstr "0 elementi"
 #. * is between the message about the number of folders
 #. * and the number of items in the selection
 #. TRANSLATORS: string moved from line 2573 to here
-#: ../thunar/thunar-list-model.c:2386
+#: ../lunar/lunar-list-model.c:2386
 #, c-format
 msgid "%s, %s"
 msgstr "%s, %s"
 
-#: ../thunar/thunar-list-model.c:2465
+#: ../lunar/lunar-list-model.c:2465
 #, c-format
 msgid "%s, Free space: %s"
 msgstr "%s, spazio libero: %s"
 
-#: ../thunar/thunar-list-model.c:2490
+#: ../lunar/lunar-list-model.c:2490
 #, c-format
 msgid "\"%s\": broken link"
 msgstr "\"%s\": collegamento interrotto"
 
-#: ../thunar/thunar-list-model.c:2495
+#: ../lunar/lunar-list-model.c:2495
 #, c-format
 msgid "\"%s\": %s link to %s"
 msgstr "\"%s\": %s collegamento a %s"
 
-#: ../thunar/thunar-list-model.c:2501
+#: ../lunar/lunar-list-model.c:2501
 #, c-format
 msgid "\"%s\": shortcut"
 msgstr "\"%s\": scorciatoia"
 
-#: ../thunar/thunar-list-model.c:2505
+#: ../lunar/lunar-list-model.c:2505
 #, c-format
 msgid "\"%s\": mountable"
 msgstr "\"%s\": montabile"
 
 #. I18N, first %s is the display name of the file, 2nd the file size, 3rd the
 #. content type
-#: ../thunar/thunar-list-model.c:2512
+#: ../lunar/lunar-list-model.c:2512
 #, c-format
 msgid "\"%s\": %s %s"
 msgstr "\"%s\": %s %s"
 
 #. I18N, first %s is the display name of the file, second the content type
-#: ../thunar/thunar-list-model.c:2521
+#: ../lunar/lunar-list-model.c:2521
 #, c-format
 msgid "\"%s\": %s"
 msgstr "\"%s\": %s"
@@ -1449,335 +1449,335 @@ msgstr "\"%s\": %s"
 #. * where the trashed file/folder was located before it was moved to the
 #. trash), otherwise the
 #. * properties dialog width will be messed up.
-#: ../thunar/thunar-list-model.c:2531 ../thunar/thunar-properties-dialog.c:402
+#: ../lunar/lunar-list-model.c:2531 ../lunar/lunar-properties-dialog.c:402
 msgid "Original Path:"
 msgstr "Percorso originale:"
 
 #. append the image dimensions to the statusbar text
-#: ../thunar/thunar-list-model.c:2554
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:153
+#: ../lunar/lunar-list-model.c:2554
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:153
 msgid "Image Size:"
 msgstr "Dimensione dell'immagine:"
 
-#: ../thunar/thunar-list-model.c:2572
+#: ../lunar/lunar-list-model.c:2572
 #, c-format
 msgid "Selection: %s"
 msgstr "Selezione: %s"
 
-#: ../thunar/thunar-location-entry.c:200 ../thunar/thunar-window.c:394
+#: ../lunar/lunar-location-entry.c:200 ../lunar/lunar-window.c:394
 msgid "Reload the current folder"
 msgstr "Aggiorna la cartella corrente"
 
-#: ../thunar/thunar-location-entry.c:359
+#: ../lunar/lunar-location-entry.c:359
 #, c-format
 msgid "File does not exist"
 msgstr "Il file non esiste"
 
-#: ../thunar/thunar-notify.c:168
+#: ../lunar/lunar-notify.c:168
 msgid "Unmounting device"
 msgstr "Smontaggio del dispositivo in corso…"
 
-#: ../thunar/thunar-notify.c:169
+#: ../lunar/lunar-notify.c:169
 #, c-format
 msgid ""
 "The device \"%s\" is being unmounted by the system. Please do not remove the"
 " media or disconnect the drive"
 msgstr "Il dispositivo \"%s\" sta per essere smontato dal sistema. Non rimuovere il supporto o disconnettere l'unità"
 
-#: ../thunar/thunar-notify.c:175 ../thunar/thunar-notify.c:214
+#: ../lunar/lunar-notify.c:175 ../lunar/lunar-notify.c:214
 msgid "Writing data to device"
 msgstr "Scrittura dei dati sul dispositivo in corso…"
 
-#: ../thunar/thunar-notify.c:176 ../thunar/thunar-notify.c:215
+#: ../lunar/lunar-notify.c:176 ../lunar/lunar-notify.c:215
 #, c-format
 msgid ""
 "There is data that needs to be written to the device \"%s\" before it can be"
 " removed. Please do not remove the media or disconnect the drive"
 msgstr "Sono presenti dei dati che devono essere scritti sul dispositivo \"%s\" prima della sua rimozione. Non rimuovere il supporto o disconnettere l'unità"
 
-#: ../thunar/thunar-notify.c:208
+#: ../lunar/lunar-notify.c:208
 msgid "Ejecting device"
 msgstr "Espulsione del dispositivo in corso…"
 
-#: ../thunar/thunar-notify.c:209
+#: ../lunar/lunar-notify.c:209
 #, c-format
 msgid "The device \"%s\" is being ejected. This may take some time"
 msgstr "Il dispositivo \"%s\" sta per essere espulso. Potrebbe volerci del tempo"
 
-#: ../thunar/thunar-path-entry.c:205
+#: ../lunar/lunar-path-entry.c:205
 msgid "Icon size"
 msgstr "Dimensione dell'icona"
 
-#: ../thunar/thunar-path-entry.c:206
+#: ../lunar/lunar-path-entry.c:206
 msgid "The icon size for the path entry"
 msgstr "La dimensione dell'icona per il percorso"
 
-#: ../thunar/thunar-permissions-chooser.c:221
+#: ../lunar/lunar-permissions-chooser.c:221
 msgid "Owner:"
 msgstr "Proprietario:"
 
-#: ../thunar/thunar-permissions-chooser.c:240
+#: ../lunar/lunar-permissions-chooser.c:240
 msgid "_Access:"
 msgstr "_Accesso:"
 
-#: ../thunar/thunar-permissions-chooser.c:266
+#: ../lunar/lunar-permissions-chooser.c:266
 msgid "Gro_up:"
 msgstr "Gr_uppo:"
 
-#: ../thunar/thunar-permissions-chooser.c:286
+#: ../lunar/lunar-permissions-chooser.c:286
 msgid "Acc_ess:"
 msgstr "Acc_esso:"
 
-#: ../thunar/thunar-permissions-chooser.c:312
+#: ../lunar/lunar-permissions-chooser.c:312
 msgid "Others"
 msgstr "Altri"
 
-#: ../thunar/thunar-permissions-chooser.c:320
+#: ../lunar/lunar-permissions-chooser.c:320
 msgid "Acce_ss:"
 msgstr "Acce_sso:"
 
-#: ../thunar/thunar-permissions-chooser.c:346
+#: ../lunar/lunar-permissions-chooser.c:346
 msgid "Program:"
 msgstr "Programma:"
 
-#: ../thunar/thunar-permissions-chooser.c:352
+#: ../lunar/lunar-permissions-chooser.c:352
 msgid "Allow this file to _run as a program"
 msgstr "Permetti di _eseguire il file come un programma"
 
-#: ../thunar/thunar-permissions-chooser.c:372
-#: ../thunar/thunar-preferences-dialog.c:891
+#: ../lunar/lunar-permissions-chooser.c:372
+#: ../lunar/lunar-preferences-dialog.c:891
 msgid ""
 "Allowing untrusted programs to run presents a security risk to your system."
 msgstr "Permettere l'esecuzione di programmi non sicuri rappresenta un rischio di sicurezza per il proprio sistema."
 
-#: ../thunar/thunar-permissions-chooser.c:388
+#: ../lunar/lunar-permissions-chooser.c:388
 msgid ""
 "The folder permissions are inconsistent, you may not be able to work with "
 "files in this folder."
 msgstr "I permessi della cartella sono inconsistenti, potrebbe non essere possibile lavorare con i file di questa cartella."
 
-#: ../thunar/thunar-permissions-chooser.c:402
+#: ../lunar/lunar-permissions-chooser.c:402
 msgid "Correct _folder permissions..."
 msgstr "Co_rreggi i permessi della cartella…"
 
-#: ../thunar/thunar-permissions-chooser.c:403
+#: ../lunar/lunar-permissions-chooser.c:403
 msgid "Click here to automatically fix the folder permissions."
 msgstr "Fare un clic qui per correggere automaticamente i permessi della cartella."
 
-#: ../thunar/thunar-permissions-chooser.c:414
+#: ../lunar/lunar-permissions-chooser.c:414
 msgid "Please wait..."
 msgstr "Attendere…"
 
-#: ../thunar/thunar-permissions-chooser.c:419
+#: ../lunar/lunar-permissions-chooser.c:419
 msgid "Stop applying permissions recursively."
 msgstr "Arresta l'applicazione ricorsiva dei permessi."
 
 #. allocate the question dialog
-#: ../thunar/thunar-permissions-chooser.c:532
+#: ../lunar/lunar-permissions-chooser.c:532
 msgid "Question"
 msgstr "Domanda"
 
-#: ../thunar/thunar-permissions-chooser.c:556
+#: ../lunar/lunar-permissions-chooser.c:556
 msgid "Apply recursively?"
 msgstr "Applicare ricorsivamente?"
 
-#: ../thunar/thunar-permissions-chooser.c:562
+#: ../lunar/lunar-permissions-chooser.c:562
 msgid ""
 "Do you want to apply your changes recursively to\n"
 "all files and subfolders below the selected folder?"
 msgstr "Applicare i cambiamenti ricorsivamente a\ntutti i file e sottocartelle contenuti nella cartella selezionata?"
 
-#: ../thunar/thunar-permissions-chooser.c:567
+#: ../lunar/lunar-permissions-chooser.c:567
 msgid "Do _not ask me again"
 msgstr "_Non chiedere di nuovo"
 
-#: ../thunar/thunar-permissions-chooser.c:568
+#: ../lunar/lunar-permissions-chooser.c:568
 msgid ""
 "If you select this option your choice will be remembered and you won't be "
 "asked again. You can use the preferences dialog to alter your choice "
 "afterwards."
 msgstr "Selezionando questa opzione la scelta sarà ricordata e non verrà riproposta; in futuro sarà possibile modificare la scelta tramite la finestra delle preferenze."
 
-#: ../thunar/thunar-permissions-chooser.c:930
+#: ../lunar/lunar-permissions-chooser.c:930
 msgid "Mixed file owners"
 msgstr "Diversi proprietari del file"
 
-#: ../thunar/thunar-permissions-chooser.c:930
+#: ../lunar/lunar-permissions-chooser.c:930
 msgid "Unknown file owner"
 msgstr "Proprietario del file sconosciuto"
 
-#: ../thunar/thunar-permissions-chooser.c:1010
-#: ../plugins/thunar-uca/thunar-uca-editor.c:413
-#: ../plugins/thunar-uca/thunar-uca-editor.c:622
+#: ../lunar/lunar-permissions-chooser.c:1010
+#: ../plugins/lunar-uca/lunar-uca-editor.c:413
+#: ../plugins/lunar-uca/lunar-uca-editor.c:622
 msgid "None"
 msgstr "Nessuno"
 
 #. 0000
-#: ../thunar/thunar-permissions-chooser.c:1011
+#: ../lunar/lunar-permissions-chooser.c:1011
 msgid "Write only"
 msgstr "Sola scrittura"
 
 #. 0002
-#: ../thunar/thunar-permissions-chooser.c:1012
+#: ../lunar/lunar-permissions-chooser.c:1012
 msgid "Read only"
 msgstr "Sola lettura"
 
 #. 0004
-#: ../thunar/thunar-permissions-chooser.c:1013
+#: ../lunar/lunar-permissions-chooser.c:1013
 msgid "Read & Write"
 msgstr "Lettura e scrittura"
 
-#: ../thunar/thunar-permissions-chooser.c:1015
+#: ../lunar/lunar-permissions-chooser.c:1015
 msgid "Varying (no change)"
 msgstr "Variabile (nessuna modifica)"
 
-#: ../thunar/thunar-permissions-chooser.c:1142
+#: ../lunar/lunar-permissions-chooser.c:1142
 msgid "Correct folder permissions automatically?"
 msgstr "Correggere i permessi della cartella automaticamente?"
 
-#: ../thunar/thunar-permissions-chooser.c:1144
+#: ../lunar/lunar-permissions-chooser.c:1144
 msgid "Correct _folder permissions"
 msgstr "Co_rreggi i permessi della cartella"
 
-#: ../thunar/thunar-permissions-chooser.c:1146
+#: ../lunar/lunar-permissions-chooser.c:1146
 msgid ""
 "The folder permissions will be reset to a consistent state. Only users "
 "allowed to read the contents of this folder will be allowed to enter the "
 "folder afterwards."
 msgstr "I permessi della cartella saranno ripristinati a uno stato consistente. Di conseguenza, solo agli utenti con permesso di lettura per la cartella sarà concesso di accedervi."
 
-#: ../thunar/thunar-preferences-dialog.c:285
+#: ../lunar/lunar-preferences-dialog.c:285
 msgid "File Manager Preferences"
 msgstr "Preferenze del gestore dei file"
 
 #. Display
-#: ../thunar/thunar-preferences-dialog.c:322
+#: ../lunar/lunar-preferences-dialog.c:322
 msgid "Display"
 msgstr "Visualizzazione"
 
-#: ../thunar/thunar-preferences-dialog.c:332
+#: ../lunar/lunar-preferences-dialog.c:332
 msgid "View Settings"
 msgstr "Impostazioni di visualizzazione"
 
-#: ../thunar/thunar-preferences-dialog.c:345
+#: ../lunar/lunar-preferences-dialog.c:345
 msgid "View _new folders using:"
 msgstr "Visualizza le _nuove cartelle usando:"
 
-#: ../thunar/thunar-preferences-dialog.c:351
-#: ../thunar/thunar-preferences-dialog.c:419
+#: ../lunar/lunar-preferences-dialog.c:351
+#: ../lunar/lunar-preferences-dialog.c:419
 msgid "Icon View"
 msgstr "Visualizzazione a icone"
 
-#: ../thunar/thunar-preferences-dialog.c:352
+#: ../lunar/lunar-preferences-dialog.c:352
 msgid "List View"
 msgstr "Vista dettagliata"
 
-#: ../thunar/thunar-preferences-dialog.c:353
+#: ../lunar/lunar-preferences-dialog.c:353
 msgid "Compact View"
 msgstr "Vista compatta"
 
-#: ../thunar/thunar-preferences-dialog.c:354
+#: ../lunar/lunar-preferences-dialog.c:354
 msgid "Last Active View"
 msgstr "Ultima visualizzazione attiva"
 
-#: ../thunar/thunar-preferences-dialog.c:363
+#: ../lunar/lunar-preferences-dialog.c:363
 msgid "Show thumbnails:"
 msgstr "Mostra miniature:"
 
-#: ../thunar/thunar-preferences-dialog.c:369
-#: ../thunar/thunar-preferences-dialog.c:785
+#: ../lunar/lunar-preferences-dialog.c:369
+#: ../lunar/lunar-preferences-dialog.c:785
 msgid "Never"
 msgstr "Mai"
 
-#: ../thunar/thunar-preferences-dialog.c:370
-#: ../thunar/thunar-preferences-dialog.c:783
+#: ../lunar/lunar-preferences-dialog.c:370
+#: ../lunar/lunar-preferences-dialog.c:783
 msgid "Local Files Only"
 msgstr "Solo file locali"
 
-#: ../thunar/thunar-preferences-dialog.c:371
-#: ../thunar/thunar-preferences-dialog.c:782
+#: ../lunar/lunar-preferences-dialog.c:371
+#: ../lunar/lunar-preferences-dialog.c:782
 msgid "Always"
 msgstr "Sempre"
 
-#: ../thunar/thunar-preferences-dialog.c:380
+#: ../lunar/lunar-preferences-dialog.c:380
 msgid "_Remember view settings for each folder"
 msgstr "_Ricorda le impostazioni di visualizzazione per ogni cartella"
 
-#: ../thunar/thunar-preferences-dialog.c:383
+#: ../lunar/lunar-preferences-dialog.c:383
 msgid ""
 "Select this option to remember view type, sort column, and sort order "
 "individually for each folder"
 msgstr "Selezionare questa opzione per ricordare il tipo di visualizzazione, la colonna di ordinamento e l'ordinamento per ogni cartella"
 
-#: ../thunar/thunar-preferences-dialog.c:391
+#: ../lunar/lunar-preferences-dialog.c:391
 msgid "gvfs metadata support is required"
 msgstr "il supporto dei metadati gvfs è richiesto"
 
-#: ../thunar/thunar-preferences-dialog.c:394
+#: ../lunar/lunar-preferences-dialog.c:394
 msgid "Draw frames around thumbnails"
 msgstr "Disegna la cornice intorno alle miniature"
 
-#: ../thunar/thunar-preferences-dialog.c:396
+#: ../lunar/lunar-preferences-dialog.c:396
 msgid "Select this option to draw black frames around thumbnails."
 msgstr "Selezionare questa opzione per disegnare cornici nere intorno alle miniature."
 
-#: ../thunar/thunar-preferences-dialog.c:401
+#: ../lunar/lunar-preferences-dialog.c:401
 msgid "Sort _folders before files"
 msgstr "Mostra le cartelle p_rima dei file"
 
-#: ../thunar/thunar-preferences-dialog.c:403
+#: ../lunar/lunar-preferences-dialog.c:403
 msgid ""
 "Select this option to list folders before files when you sort a folder."
 msgstr "Selezionare questa opzione per elencare le cartelle prima dei file quando una cartella viene ordinata."
 
-#: ../thunar/thunar-preferences-dialog.c:408
+#: ../lunar/lunar-preferences-dialog.c:408
 msgid "Show file size in binary format"
 msgstr "Mostra la dimensione dei file in formato binario"
 
-#: ../thunar/thunar-preferences-dialog.c:410
+#: ../lunar/lunar-preferences-dialog.c:410
 msgid ""
 "Select this option to show file size in binary format instead of decimal."
 msgstr "Selezionare questa opzione per mostrare la dimensione dei file in formato binario invece di quello decimale."
 
-#: ../thunar/thunar-preferences-dialog.c:432
+#: ../lunar/lunar-preferences-dialog.c:432
 msgid "_Text beside icons"
 msgstr "_Testo accanto alle icone"
 
-#: ../thunar/thunar-preferences-dialog.c:434
+#: ../lunar/lunar-preferences-dialog.c:434
 msgid ""
 "Select this option to place the icon captions for items beside the icon "
 "rather than below the icon."
 msgstr "Selezionare questa opzione per posizionare le didascalie accanto alle icone invece che sotto le icone."
 
-#: ../thunar/thunar-preferences-dialog.c:444
+#: ../lunar/lunar-preferences-dialog.c:444
 msgid "Window icon"
 msgstr "Icona della finestra"
 
-#: ../thunar/thunar-preferences-dialog.c:457
+#: ../lunar/lunar-preferences-dialog.c:457
 msgid "Use current folder icon"
 msgstr "Usa l'icona della cartella attuale"
 
-#: ../thunar/thunar-preferences-dialog.c:459
+#: ../lunar/lunar-preferences-dialog.c:459
 msgid "Select this option to use the current folder icon as window icon"
 msgstr "Selezionare questa opzione per utilizzare l'icona della cartella attuale come icona della finestra"
 
-#: ../thunar/thunar-preferences-dialog.c:468
+#: ../lunar/lunar-preferences-dialog.c:468
 msgid "Date"
 msgstr "Data"
 
-#: ../thunar/thunar-preferences-dialog.c:481
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:214
+#: ../lunar/lunar-preferences-dialog.c:481
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:214
 msgid "_Format:"
 msgstr "_Formato:"
 
 #. TRANSLATORS: custom date format
-#: ../thunar/thunar-preferences-dialog.c:494
+#: ../lunar/lunar-preferences-dialog.c:494
 msgid "Custom"
 msgstr "Personalizzata"
 
 #. TRANSLATORS: Please do not translate the first column (specifiers),
 #. 'strftime' and of course '\n'
-#: ../thunar/thunar-preferences-dialog.c:504
+#: ../lunar/lunar-preferences-dialog.c:504
 msgid ""
 "Custom date format to apply.\n"
 "\n"
@@ -1793,117 +1793,117 @@ msgid ""
 msgstr "Formato della data personalizzata da applicare.\n\nGli specificatori più usati sono:\n%d giorno del mese\n%m mese\n%Y anno a quattro cifre\n%H ora\n%M minuto\n%S secondo\n\nPer una lista completa, consultare la pagina man di 'strftime'"
 
 #. Side Pane
-#: ../thunar/thunar-preferences-dialog.c:522
+#: ../lunar/lunar-preferences-dialog.c:522
 msgid "Side Pane"
 msgstr "Pannello laterale"
 
-#: ../thunar/thunar-preferences-dialog.c:532
+#: ../lunar/lunar-preferences-dialog.c:532
 msgid "Shortcuts Pane"
 msgstr "Pannello delle scorciatoie"
 
-#: ../thunar/thunar-preferences-dialog.c:545
+#: ../lunar/lunar-preferences-dialog.c:545
 msgid "_Icon Size:"
 msgstr "_Dimensione dell'icona:"
 
-#: ../thunar/thunar-preferences-dialog.c:550
-#: ../thunar/thunar-preferences-dialog.c:598
+#: ../lunar/lunar-preferences-dialog.c:550
+#: ../lunar/lunar-preferences-dialog.c:598
 msgid "16px"
 msgstr "16px"
 
-#: ../thunar/thunar-preferences-dialog.c:551
-#: ../thunar/thunar-preferences-dialog.c:599
+#: ../lunar/lunar-preferences-dialog.c:551
+#: ../lunar/lunar-preferences-dialog.c:599
 msgid "24px"
 msgstr "24px"
 
-#: ../thunar/thunar-preferences-dialog.c:552
-#: ../thunar/thunar-preferences-dialog.c:600
+#: ../lunar/lunar-preferences-dialog.c:552
+#: ../lunar/lunar-preferences-dialog.c:600
 msgid "32px"
 msgstr "32px"
 
-#: ../thunar/thunar-preferences-dialog.c:553
-#: ../thunar/thunar-preferences-dialog.c:601
+#: ../lunar/lunar-preferences-dialog.c:553
+#: ../lunar/lunar-preferences-dialog.c:601
 msgid "48px"
 msgstr "48px"
 
-#: ../thunar/thunar-preferences-dialog.c:554
-#: ../thunar/thunar-preferences-dialog.c:602
+#: ../lunar/lunar-preferences-dialog.c:554
+#: ../lunar/lunar-preferences-dialog.c:602
 msgid "64px"
 msgstr "64px"
 
-#: ../thunar/thunar-preferences-dialog.c:555
-#: ../thunar/thunar-preferences-dialog.c:603
+#: ../lunar/lunar-preferences-dialog.c:555
+#: ../lunar/lunar-preferences-dialog.c:603
 msgid "96px"
 msgstr "96px"
 
-#: ../thunar/thunar-preferences-dialog.c:556
-#: ../thunar/thunar-preferences-dialog.c:604
+#: ../lunar/lunar-preferences-dialog.c:556
+#: ../lunar/lunar-preferences-dialog.c:604
 msgid "128px"
 msgstr "128px"
 
-#: ../thunar/thunar-preferences-dialog.c:557
-#: ../thunar/thunar-preferences-dialog.c:605
+#: ../lunar/lunar-preferences-dialog.c:557
+#: ../lunar/lunar-preferences-dialog.c:605
 msgid "160px"
 msgstr "160px"
 
-#: ../thunar/thunar-preferences-dialog.c:558
-#: ../thunar/thunar-preferences-dialog.c:606
+#: ../lunar/lunar-preferences-dialog.c:558
+#: ../lunar/lunar-preferences-dialog.c:606
 msgid "192px"
 msgstr "192px"
 
-#: ../thunar/thunar-preferences-dialog.c:559
-#: ../thunar/thunar-preferences-dialog.c:607
+#: ../lunar/lunar-preferences-dialog.c:559
+#: ../lunar/lunar-preferences-dialog.c:607
 msgid "256px"
 msgstr "256px"
 
-#: ../thunar/thunar-preferences-dialog.c:568
+#: ../lunar/lunar-preferences-dialog.c:568
 msgid "Show Icon _Emblems"
 msgstr "Visualizza gli _emblemi delle icone"
 
-#: ../thunar/thunar-preferences-dialog.c:570
+#: ../lunar/lunar-preferences-dialog.c:570
 msgid ""
 "Select this option to display icon emblems in the shortcuts pane for all "
 "folders for which emblems have been defined in the folders properties "
 "dialog."
 msgstr "Selezionare questa opzione per visualizzare gli emblemi delle icone nel pannello delle scorciatoie per tutte le cartelle per cui sono stati definiti degli emblemi nella relativa finestra delle proprietà."
 
-#: ../thunar/thunar-preferences-dialog.c:580
+#: ../lunar/lunar-preferences-dialog.c:580
 msgid "Tree Pane"
 msgstr "Pannello ad albero"
 
-#: ../thunar/thunar-preferences-dialog.c:593
+#: ../lunar/lunar-preferences-dialog.c:593
 msgid "Icon _Size:"
 msgstr "Dimen_sione delle icone"
 
-#: ../thunar/thunar-preferences-dialog.c:616
+#: ../lunar/lunar-preferences-dialog.c:616
 msgid "Show Icon E_mblems"
 msgstr "Visualizza gli em_blemi delle icone"
 
-#: ../thunar/thunar-preferences-dialog.c:618
+#: ../lunar/lunar-preferences-dialog.c:618
 msgid ""
 "Select this option to display icon emblems in the tree pane for all folders "
 "for which emblems have been defined in the folders properties dialog."
 msgstr "Selezionare questa opzione per visualizzare gli emblemi delle icone nel pannello ad albero per tutte le cartelle per cui sono stati definiti degli emblemi nella relativa finestra delle proprietà."
 
 #. Behavior
-#: ../thunar/thunar-preferences-dialog.c:628
+#: ../lunar/lunar-preferences-dialog.c:628
 msgid "Behavior"
 msgstr "Comportamento"
 
-#: ../thunar/thunar-preferences-dialog.c:638
+#: ../lunar/lunar-preferences-dialog.c:638
 msgid "Navigation"
 msgstr "Navigazione"
 
-#: ../thunar/thunar-preferences-dialog.c:651
+#: ../lunar/lunar-preferences-dialog.c:651
 msgid "_Single click to activate items"
 msgstr "_Singolo clic per attivare gli elementi"
 
-#: ../thunar/thunar-preferences-dialog.c:667
+#: ../lunar/lunar-preferences-dialog.c:667
 msgid ""
 "Specify the d_elay before an item gets selected\n"
 "when the mouse pointer is paused over it:"
 msgstr "Specificare il t_empo necessario affinché un elemento venga\nselezionato quando il puntatore del mouse è fermo sopra di esso:"
 
-#: ../thunar/thunar-preferences-dialog.c:680
+#: ../lunar/lunar-preferences-dialog.c:680
 msgid ""
 "When single-click activation is enabled, pausing the mouse pointer over an "
 "item will automatically select that item after the chosen delay. You can "
@@ -1912,54 +1912,54 @@ msgid ""
 "to select the item without activating it."
 msgstr "Quando l'attivazione a singolo clic è selezionata e si ferma il puntatore del mouse sopra un elemento, questo verrà automaticamente selezionato dopo il tempo stabilito. È possibile disabilitare questo comportamento spostando completamente la barra a sinistra. Questa scelta può risultare utile quando singoli clic attivano elementi, e si desidera solamente selezionare un elemento, senza attivarlo."
 
-#: ../thunar/thunar-preferences-dialog.c:699
+#: ../lunar/lunar-preferences-dialog.c:699
 msgid "Disabled"
 msgstr "Disabilitato"
 
-#: ../thunar/thunar-preferences-dialog.c:705
+#: ../lunar/lunar-preferences-dialog.c:705
 msgid "Medium"
 msgstr "Medio"
 
-#: ../thunar/thunar-preferences-dialog.c:710
+#: ../lunar/lunar-preferences-dialog.c:710
 msgid "Long"
 msgstr "Lungo"
 
-#: ../thunar/thunar-preferences-dialog.c:716
+#: ../lunar/lunar-preferences-dialog.c:716
 msgid "_Double click to activate items"
 msgstr "_Doppio clic per attivare gli elementi"
 
-#: ../thunar/thunar-preferences-dialog.c:727
+#: ../lunar/lunar-preferences-dialog.c:727
 msgid "Tabs instead of new Windows"
 msgstr "Schede invece di nuove finestre"
 
-#: ../thunar/thunar-preferences-dialog.c:740
+#: ../lunar/lunar-preferences-dialog.c:740
 msgid "Open folders in new tabs on middle click"
 msgstr "Apri le cartelle in nuove schede con il tasto centrale del mouse"
 
-#: ../thunar/thunar-preferences-dialog.c:742
+#: ../lunar/lunar-preferences-dialog.c:742
 msgid ""
 "Select this option to open a new tab on middle click instead of a new window"
 msgstr "Selezionare questa opzione per aprire una nuova scheda con il tasto centrale del mouse invece di una nuova finestra"
 
-#: ../thunar/thunar-preferences-dialog.c:746
-msgid "Open new thunar instances as tabs"
-msgstr "Apri una nuove istanze di Thunar come schede"
+#: ../lunar/lunar-preferences-dialog.c:746
+msgid "Open new lunar instances as tabs"
+msgstr "Apri una nuove istanze di Lunar come schede"
 
-#: ../thunar/thunar-preferences-dialog.c:748
+#: ../lunar/lunar-preferences-dialog.c:748
 msgid ""
-"Select this option to open new thunar instances as tabs in an existing "
-"thunar window"
-msgstr "Selezionare questa opzione per aprire nuove istanze di Thunar come schede in una finestra esistente di Thunar"
+"Select this option to open new lunar instances as tabs in an existing "
+"lunar window"
+msgstr "Selezionare questa opzione per aprire nuove istanze di Lunar come schede in una finestra esistente di Lunar"
 
-#: ../thunar/thunar-preferences-dialog.c:757
+#: ../lunar/lunar-preferences-dialog.c:757
 msgid "File transfer"
 msgstr "Trasferimento file"
 
-#: ../thunar/thunar-preferences-dialog.c:769
+#: ../lunar/lunar-preferences-dialog.c:769
 msgid "Transfer files in parallel:"
 msgstr "Trasferire i file in parallelo:"
 
-#: ../thunar/thunar-preferences-dialog.c:771
+#: ../lunar/lunar-preferences-dialog.c:771
 msgid ""
 "Indicates the behavior during multiple copies:\n"
 "- Always: all copies are done simultaneously\n"
@@ -1968,461 +1968,461 @@ msgid ""
 "- Never: all copies are done sequentially"
 msgstr "Indica il comportamento durante le copie multiple:\n- Sempre: tutte le copie sono eseguite contemporaneamente\n- Solo i file locali: copie simultanee per i file locali (non remoti, non collegati)\n- Solo i file locali sugli stessi dispositivi: se tutti i file sono locali, ma su dispositivi diversi (dischi, punti di montaggio), le copie saranno sequenziali\n- Mai: tutte le copie sono eseguite in modo sequenziale"
 
-#: ../thunar/thunar-preferences-dialog.c:784
+#: ../lunar/lunar-preferences-dialog.c:784
 msgid "Local Files On Same Devices Only"
 msgstr "Solo file locali sugli stessi dispositivi"
 
-#: ../thunar/thunar-preferences-dialog.c:800
+#: ../lunar/lunar-preferences-dialog.c:800
 msgid "Context Menu"
 msgstr "Menu contestuale"
 
-#: ../thunar/thunar-preferences-dialog.c:812
+#: ../lunar/lunar-preferences-dialog.c:812
 msgid "Show action to permanently delete files and folders"
 msgstr "Mostra l'azione per eliminare in modo permanente file e cartelle"
 
-#: ../thunar/thunar-preferences-dialog.c:814
+#: ../lunar/lunar-preferences-dialog.c:814
 msgid "Select this option to show the 'Delete' action in the context menu"
 msgstr "Selezionare questa opzione per mostrare l'azione 'Elimina' nel menu contestuale"
 
 #. Advanced
-#: ../thunar/thunar-preferences-dialog.c:823
+#: ../lunar/lunar-preferences-dialog.c:823
 msgid "Advanced"
 msgstr "Avanzate"
 
-#: ../thunar/thunar-preferences-dialog.c:833
+#: ../lunar/lunar-preferences-dialog.c:833
 msgid "Folder Permissions"
 msgstr "Permessi della cartella"
 
-#: ../thunar/thunar-preferences-dialog.c:846
+#: ../lunar/lunar-preferences-dialog.c:846
 msgid ""
 "When changing the permissions of a folder, you\n"
 "can also apply the changes to the contents of the\n"
 "folder. Select the default behavior below:"
 msgstr "Quando si modificano i permessi di una cartella,\nè possibile applicare i cambiamenti anche al suo\ncontenuto. Selezionare il comportamento predefinito:"
 
-#: ../thunar/thunar-preferences-dialog.c:855
+#: ../lunar/lunar-preferences-dialog.c:855
 msgid "Ask every time"
 msgstr "Chiedi ogni volta"
 
-#: ../thunar/thunar-preferences-dialog.c:856
+#: ../lunar/lunar-preferences-dialog.c:856
 msgid "Apply to Folder and Contents"
 msgstr "Applica alla cartella ed al contenuto"
 
-#: ../thunar/thunar-preferences-dialog.c:857
+#: ../lunar/lunar-preferences-dialog.c:857
 msgid "Apply to Folder Only"
 msgstr "Applica solo alla cartella"
 
-#: ../thunar/thunar-preferences-dialog.c:868
+#: ../lunar/lunar-preferences-dialog.c:868
 msgid "Security"
 msgstr "Sicurezza"
 
-#: ../thunar/thunar-preferences-dialog.c:885
+#: ../lunar/lunar-preferences-dialog.c:885
 msgid "Execute shell scripts"
 msgstr "Esegui script per la shell"
 
-#: ../thunar/thunar-preferences-dialog.c:899
+#: ../lunar/lunar-preferences-dialog.c:899
 msgid "Volume Management"
 msgstr "Gestione dei volumi"
 
 #. add check button to enable/disable auto mounting
-#: ../thunar/thunar-preferences-dialog.c:916
+#: ../lunar/lunar-preferences-dialog.c:916
 msgid "Enable _Volume Management"
 msgstr "Abilita la gestione dei _volumi"
 
-#: ../thunar/thunar-preferences-dialog.c:926
+#: ../lunar/lunar-preferences-dialog.c:926
 msgid ""
 "<a href=\"volman-config:\">Configure</a> the management of removable drives,\n"
 "devices and media."
 msgstr "<a href=\"volman-config:\">Configura</a> la gestione delle unità rimovibili,\ndispositivi e supporti."
 
-#: ../thunar/thunar-preferences-dialog.c:941
+#: ../lunar/lunar-preferences-dialog.c:941
 msgid "Missing dependencies"
 msgstr "Dipendenze mancanti"
 
-#: ../thunar/thunar-preferences-dialog.c:949
+#: ../lunar/lunar-preferences-dialog.c:949
 msgid ""
 "It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\n"
 "Important features including trash support,\n"
 "removable media and remote location browsing\n"
-"will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
-msgstr "Sembra che <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> non sia disponibile.\nFunzionalità importanti quali supporto al cestino, dispositivi rimovibili e esplorazione di posizioni remote non funzioneranno. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Più informazioni]</a>"
+"will not work. <a href=\"https://docs.expidus.com/expidus/lunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
+msgstr "Sembra che <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> non sia disponibile.\nFunzionalità importanti quali supporto al cestino, dispositivi rimovibili e esplorazione di posizioni remote non funzioneranno. <a href=\"https://docs.expidus.com/expidus/lunar/unix-filesystem#gnome_virtual_file_system\">[Più informazioni]</a>"
 
-#. tell the user that we failed to come up with the thunar-volman
+#. tell the user that we failed to come up with the lunar-volman
 #. configuration dialog
-#: ../thunar/thunar-preferences-dialog.c:1023
+#: ../lunar/lunar-preferences-dialog.c:1023
 msgid "Failed to display the volume management settings"
 msgstr "Impossibile mostrare le impostazioni della gestione dei volumi"
 
-#: ../thunar/thunar-progress-dialog.c:96
+#: ../lunar/lunar-progress-dialog.c:96
 msgid "File Operation Progress"
 msgstr "Avanzamento delle operazione sui file"
 
 #. build the tooltip text
-#: ../thunar/thunar-progress-dialog.c:310
+#: ../lunar/lunar-progress-dialog.c:310
 #, c-format
 msgid "%d file operation running"
 msgid_plural "%d file operations running"
 msgstr[0] "%d operazione su file in esecuzione"
 msgstr[1] "%d operazioni su file in esecuzione"
 
-#: ../thunar/thunar-progress-view.c:369
+#: ../lunar/lunar-progress-view.c:369
 msgid "Paused"
 msgstr "In pausa"
 
-#: ../thunar/thunar-progress-view.c:390
+#: ../lunar/lunar-progress-view.c:390
 msgid "Resuming..."
 msgstr "Ripresa in corso…"
 
 #. update the status text
-#: ../thunar/thunar-progress-view.c:422
+#: ../lunar/lunar-progress-view.c:422
 msgid "Cancelling..."
 msgstr "Annullamento in corso…"
 
-#: ../thunar/thunar-progress-view.c:574
+#: ../lunar/lunar-progress-view.c:574
 msgid "Frozen by another job on same device"
 msgstr "Bloccato da un altro compito sullo stesso dispositivo"
 
-#: ../thunar/thunar-progress-view.c:593
+#: ../lunar/lunar-progress-view.c:593
 msgid "Unfreezing..."
 msgstr "Sblocco in corso…"
 
-#: ../thunar/thunar-properties-dialog.c:266
+#: ../lunar/lunar-properties-dialog.c:266
 msgid "General"
 msgstr "Generale"
 
-#: ../thunar/thunar-properties-dialog.c:290
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:2
+#: ../lunar/lunar-properties-dialog.c:290
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:2
 msgid "_Name:"
 msgstr "No_me:"
 
-#: ../thunar/thunar-properties-dialog.c:325
+#: ../lunar/lunar-properties-dialog.c:325
 msgid "Names:"
 msgstr "Nomi:"
 
 #. Second box (kind, open with, link target)
-#: ../thunar/thunar-properties-dialog.c:346
+#: ../lunar/lunar-properties-dialog.c:346
 msgid "Kind:"
 msgstr "Tipo:"
 
-#: ../thunar/thunar-properties-dialog.c:368
+#: ../lunar/lunar-properties-dialog.c:368
 msgid "_Open With:"
 msgstr "_Apri con:"
 
-#: ../thunar/thunar-properties-dialog.c:383
+#: ../lunar/lunar-properties-dialog.c:383
 msgid "Link Target:"
 msgstr "Collegamento a:"
 
-#: ../thunar/thunar-properties-dialog.c:417
+#: ../lunar/lunar-properties-dialog.c:417
 msgid "Location:"
 msgstr "Posizione:"
 
 #. Third box (deleted, modified, accessed)
-#: ../thunar/thunar-properties-dialog.c:443
+#: ../lunar/lunar-properties-dialog.c:443
 msgid "Deleted:"
 msgstr "Eliminato:"
 
-#: ../thunar/thunar-properties-dialog.c:458
+#: ../lunar/lunar-properties-dialog.c:458
 msgid "Created:"
 msgstr "Creato:"
 
-#: ../thunar/thunar-properties-dialog.c:488
+#: ../lunar/lunar-properties-dialog.c:488
 msgid "Accessed:"
 msgstr "Ultimo accesso:"
 
-#: ../thunar/thunar-properties-dialog.c:528
+#: ../lunar/lunar-properties-dialog.c:528
 msgid "Volume:"
 msgstr "Volume:"
 
-#: ../thunar/thunar-properties-dialog.c:553
+#: ../lunar/lunar-properties-dialog.c:553
 msgid "Usage:"
 msgstr "Utilizzo:"
 
 #. Emblem chooser
-#: ../thunar/thunar-properties-dialog.c:588
+#: ../lunar/lunar-properties-dialog.c:588
 msgid "Emblems"
 msgstr "Emblemi"
 
 #. allocate the icon chooser
 #. allocate the chooser dialog
-#: ../thunar/thunar-properties-dialog.c:848
-#: ../plugins/thunar-uca/thunar-uca-editor.c:434
+#: ../lunar/lunar-properties-dialog.c:848
+#: ../plugins/lunar-uca/lunar-uca-editor.c:434
 #, c-format
 msgid "Select an Icon for \"%s\""
 msgstr "Selezionare un'icona per \"%s\""
 
-#: ../thunar/thunar-properties-dialog.c:873
+#: ../lunar/lunar-properties-dialog.c:873
 #, c-format
 msgid "Failed to change icon of \"%s\""
 msgstr "Impossibile cambiare l'icona di \"%s\""
 
 #. update the properties dialog title
-#: ../thunar/thunar-properties-dialog.c:979
+#: ../lunar/lunar-properties-dialog.c:979
 #, c-format
 msgid "%s - Properties"
 msgstr "%s - Proprietà"
 
-#: ../thunar/thunar-properties-dialog.c:1031
+#: ../lunar/lunar-properties-dialog.c:1031
 msgid "broken link"
 msgstr "collegamento interrotto"
 
-#: ../thunar/thunar-properties-dialog.c:1042
+#: ../lunar/lunar-properties-dialog.c:1042
 msgid "unknown"
 msgstr "sconosciuto"
 
 #. update the properties dialog title
-#: ../thunar/thunar-properties-dialog.c:1232
+#: ../lunar/lunar-properties-dialog.c:1232
 msgid "Properties"
 msgstr "Proprietà"
 
-#: ../thunar/thunar-properties-dialog.c:1333
+#: ../lunar/lunar-properties-dialog.c:1333
 msgid "mixed"
 msgstr "vari"
 
-#: ../thunar/thunar-renamer-dialog.c:192
+#: ../lunar/lunar-renamer-dialog.c:192
 msgid "_Add Files..."
 msgstr "_Aggiungi file…"
 
-#: ../thunar/thunar-renamer-dialog.c:192
+#: ../lunar/lunar-renamer-dialog.c:192
 msgid "Include additional files in the list of files to be renamed"
 msgstr "Inserisce ulteriori file nell'elenco dei file da rinominare"
 
-#: ../thunar/thunar-renamer-dialog.c:194
+#: ../lunar/lunar-renamer-dialog.c:194
 msgid "Clear"
 msgstr "Pulisci"
 
-#: ../thunar/thunar-renamer-dialog.c:194
+#: ../lunar/lunar-renamer-dialog.c:194
 msgid "Clear the file list below"
 msgstr "Pulisce la lista di file sottostante"
 
-#: ../thunar/thunar-renamer-dialog.c:195 ../thunar/thunar-window.c:430
+#: ../lunar/lunar-renamer-dialog.c:195 ../lunar/lunar-window.c:430
 msgid "_About"
 msgstr "Informa_zioni"
 
-#: ../thunar/thunar-renamer-dialog.c:195
-msgid "Display information about Thunar Bulk Rename"
-msgstr "Mostra le informazioni sulla rinomina di massa di Thunar"
+#: ../lunar/lunar-renamer-dialog.c:195
+msgid "Display information about Lunar Bulk Rename"
+msgstr "Mostra le informazioni sulla rinomina di massa di Lunar"
 
-#: ../thunar/thunar-renamer-dialog.c:354
-#: ../thunar/thunar-renamer-dialog.c:1781
-#: ../thunar-bulk-rename.desktop.in.in.h:2
+#: ../lunar/lunar-renamer-dialog.c:354
+#: ../lunar/lunar-renamer-dialog.c:1781
+#: ../lunar-bulk-rename.desktop.in.in.h:2
 msgid "Rename Multiple Files"
 msgstr "Rinomina più file"
 
 #. add the "Rename Files" button
-#: ../thunar/thunar-renamer-dialog.c:362
+#: ../lunar/lunar-renamer-dialog.c:362
 msgid "_Rename Files"
 msgstr "_Rinomina file"
 
-#: ../thunar/thunar-renamer-dialog.c:365
+#: ../lunar/lunar-renamer-dialog.c:365
 msgid ""
 "Click here to actually rename the files listed above to their new names."
 msgstr "Fare un clic qui per rinominare i file elencati sopra."
 
-#: ../thunar/thunar-renamer-dialog.c:435
+#: ../lunar/lunar-renamer-dialog.c:435
 msgid "New Name"
 msgstr "Nuovo nome"
 
-#: ../thunar/thunar-renamer-dialog.c:498
+#: ../lunar/lunar-renamer-dialog.c:498
 msgid ""
 "Click here to view the documentation for the selected rename operation."
 msgstr "Fare un clic qui per vedere la documentazione relativa all'operazione di rinomina selezionata."
 
-#. TRANSLATORS: You can test this string by temporarily removing thunar-sbr.*
-#. from $libdir/thunarx-2/,
+#. TRANSLATORS: You can test this string by temporarily removing lunar-sbr.*
+#. from $libdir/lunarx-2/,
 #. *              and opening the multi rename dialog by selecting multiple
 #. files and pressing F2.
-#: ../thunar/thunar-renamer-dialog.c:608
+#: ../lunar/lunar-renamer-dialog.c:608
 msgid ""
 "No renamer modules were found on your system. Please check your\n"
-"installation or contact your system administrator. If you install Thunar\n"
+"installation or contact your system administrator. If you install Lunar\n"
 "from source, be sure to enable the \"Simple Builtin Renamers\" plugin."
-msgstr "Nessun modulo di rinomina è stato trovato nel sistema. \nVerificare l'installazione o contattare l'amministratore \ndi sistema. Se si installa Thunar da sorgente assicurarsi di \nabilitare il plugin \"Simple Builtin Renamers\"."
+msgstr "Nessun modulo di rinomina è stato trovato nel sistema. \nVerificare l'installazione o contattare l'amministratore \ndi sistema. Se si installa Lunar da sorgente assicurarsi di \nabilitare il plugin \"Simple Builtin Renamers\"."
 
-#: ../thunar/thunar-renamer-dialog.c:858
+#: ../lunar/lunar-renamer-dialog.c:858
 msgid "Remove File"
 msgid_plural "Remove Files"
 msgstr[0] "Rimuovi file"
 msgstr[1] "Rimuovi file"
 
-#: ../thunar/thunar-renamer-dialog.c:859
+#: ../lunar/lunar-renamer-dialog.c:859
 msgid "Remove the selected file from the list of files to be renamed"
 msgid_plural "Remove the selected files from the list of files to be renamed"
 msgstr[0] "Rimuove il file selezionato dalla lista dei file da rinominare"
 msgstr[1] "Rimuove i file selezionati dall'elenco dei file da rinominare"
 
 #. tell the user that we failed
-#: ../thunar/thunar-renamer-dialog.c:955
+#: ../lunar/lunar-renamer-dialog.c:955
 msgid "Failed to open the documentation browser"
 msgstr "Impossibile aprire il browser della documentazione"
 
 #. allocate the file chooser
-#: ../thunar/thunar-renamer-dialog.c:1056
+#: ../lunar/lunar-renamer-dialog.c:1056
 msgid "Select files to rename"
 msgstr "Selezionare i file da rinominare"
 
-#: ../thunar/thunar-renamer-dialog.c:1072
+#: ../lunar/lunar-renamer-dialog.c:1072
 msgid "Audio Files"
 msgstr "File audio"
 
-#: ../thunar/thunar-renamer-dialog.c:1077
+#: ../lunar/lunar-renamer-dialog.c:1077
 msgid "Image Files"
 msgstr "File immagine"
 
-#: ../thunar/thunar-renamer-dialog.c:1082
+#: ../lunar/lunar-renamer-dialog.c:1082
 msgid "Video Files"
 msgstr "File video"
 
 #. just popup the about dialog
-#: ../thunar/thunar-renamer-dialog.c:1209
-#: ../thunar-bulk-rename.desktop.in.in.h:1
+#: ../lunar/lunar-renamer-dialog.c:1209
+#: ../lunar-bulk-rename.desktop.in.in.h:1
 msgid "Bulk Rename"
 msgstr "Rinomina di massa"
 
-#: ../thunar/thunar-renamer-dialog.c:1210
+#: ../lunar/lunar-renamer-dialog.c:1210
 msgid ""
-"Thunar Bulk Rename is a powerful and extensible\n"
+"Lunar Bulk Rename is a powerful and extensible\n"
 "tool to rename multiple files at once."
-msgstr "La rinomina di massa di Thunar è uno strumento \npotente ed estendibile per rinominare più file\ncontemporaneamente."
+msgstr "La rinomina di massa di Lunar è uno strumento \npotente ed estendibile per rinominare più file\ncontemporaneamente."
 
 #. change title to reflect the standalone status
-#: ../thunar/thunar-renamer-dialog.c:1781
+#: ../lunar/lunar-renamer-dialog.c:1781
 msgid "Bulk Rename - Rename Multiple Files"
 msgstr "Rinomina di massa - Rinomina più file"
 
-#: ../thunar/thunar-renamer-progress.c:187
+#: ../lunar/lunar-renamer-progress.c:187
 #, c-format
 msgid "Failed to rename \"%s\" to \"%s\"."
 msgstr "Impossibile rinominare \"%s\" in \"%s\"."
 
-#: ../thunar/thunar-renamer-progress.c:194
+#: ../lunar/lunar-renamer-progress.c:194
 msgid ""
 "You can either choose to skip this file and continue to rename the remaining"
 " files, or revert the previously renamed files to their previous names, or "
 "cancel the operation without reverting previous changes."
 msgstr "È possibile scegliere di saltare questo file e continuare a rinominare i file rimanenti, oppure di ripristinare i nomi originali dei file già rinominati, o ancora di annullare l'operazione senza ripristinare i nomi originali."
 
-#: ../thunar/thunar-renamer-progress.c:199
+#: ../lunar/lunar-renamer-progress.c:199
 msgid "_Revert Changes"
 msgstr "A_nnulla modifiche"
 
-#: ../thunar/thunar-renamer-progress.c:200
-#: ../thunar/thunar-renamer-progress.c:209
+#: ../lunar/lunar-renamer-progress.c:200
+#: ../lunar/lunar-renamer-progress.c:209
 msgid "_Skip This File"
 msgstr "_Salta questo file"
 
-#: ../thunar/thunar-renamer-progress.c:206
+#: ../lunar/lunar-renamer-progress.c:206
 msgid ""
 "Do you want to skip this file and continue to rename the remaining files?"
 msgstr "Saltare questo file e continuare a rinominare i file rimanenti?"
 
-#: ../thunar/thunar-shortcuts-model.c:631
-#: ../thunar/thunar-shortcuts-model.c:995 ../thunar/thunar-window.c:416
+#: ../lunar/lunar-shortcuts-model.c:631
+#: ../lunar/lunar-shortcuts-model.c:995 ../lunar/lunar-window.c:416
 msgid "Browse the file system"
 msgstr "Esplora il file system"
 
-#: ../thunar/thunar-shortcuts-model.c:665
+#: ../lunar/lunar-shortcuts-model.c:665
 #, c-format
 msgid "Mount and open %s (%s)"
 msgstr "Monta e apri %s (%s)"
 
-#: ../thunar/thunar-shortcuts-model.c:678
-#: ../plugins/thunar-tpa/thunar-tpa.c:284
+#: ../lunar/lunar-shortcuts-model.c:678
+#: ../plugins/lunar-tpa/lunar-tpa.c:284
 msgid "Trash is empty"
 msgstr "Cestino vuoto"
 
-#: ../thunar/thunar-shortcuts-model.c:682
+#: ../lunar/lunar-shortcuts-model.c:682
 #, c-format
 msgid "Trash contains %d file"
 msgid_plural "Trash contains %d files"
 msgstr[0] "Il cestino contiene %d file"
 msgstr[1] "Il cestino contiene %d file"
 
-#: ../thunar/thunar-shortcuts-model.c:988
+#: ../lunar/lunar-shortcuts-model.c:988
 msgid "Devices"
 msgstr "Dispositivi"
 
-#: ../thunar/thunar-shortcuts-model.c:1031
+#: ../lunar/lunar-shortcuts-model.c:1031
 msgid "Network"
 msgstr "Rete"
 
-#: ../thunar/thunar-shortcuts-model.c:1039
+#: ../lunar/lunar-shortcuts-model.c:1039
 msgid "Browse Network"
 msgstr "Esplora la rete"
 
-#: ../thunar/thunar-shortcuts-model.c:1040 ../thunar/thunar-window.c:426
+#: ../lunar/lunar-shortcuts-model.c:1040 ../lunar/lunar-window.c:426
 msgid "Browse local network connections"
 msgstr "Esplora la connessioni locali"
 
-#: ../thunar/thunar-shortcuts-model.c:1062
+#: ../lunar/lunar-shortcuts-model.c:1062
 msgid "Places"
 msgstr "Posizioni"
 
-#: ../thunar/thunar-shortcuts-model.c:1074
+#: ../lunar/lunar-shortcuts-model.c:1074
 msgid "Open the home folder"
 msgstr "Apri la cartella home"
 
-#: ../thunar/thunar-shortcuts-model.c:1091
+#: ../lunar/lunar-shortcuts-model.c:1091
 msgid "Open the desktop folder"
 msgstr "Apri la cartella della scrivania"
 
-#: ../thunar/thunar-shortcuts-model.c:1138 ../thunar/thunar-window.c:417
-#: ../thunar/thunar-window.c:420 ../thunar.desktop.in.in.h:6
+#: ../lunar/lunar-shortcuts-model.c:1138 ../lunar/lunar-window.c:417
+#: ../lunar/lunar-window.c:420 ../lunar.desktop.in.in.h:6
 msgid "Computer"
 msgstr "Computer"
 
-#: ../thunar/thunar-shortcuts-model.c:1139
+#: ../lunar/lunar-shortcuts-model.c:1139
 msgid "Browse the computer"
 msgstr "Esplora il computer"
 
 #. append the "Open in New Tab" menu action
-#: ../thunar/thunar-shortcuts-view.c:1131
+#: ../lunar/lunar-shortcuts-view.c:1131
 msgid "Open in New Tab"
 msgstr "Aprire in una nuova scheda"
 
 #. append the "Open in New Window" menu action
-#: ../thunar/thunar-shortcuts-view.c:1137
+#: ../lunar/lunar-shortcuts-view.c:1137
 msgid "Open in New Window"
 msgstr "Aprire in una nuova finestra"
 
-#: ../thunar/thunar-shortcuts-view.c:1188
+#: ../lunar/lunar-shortcuts-view.c:1188
 msgid "Create _Shortcut"
 msgstr "Crea _scorciatoia"
 
-#: ../thunar/thunar-shortcuts-view.c:1285
+#: ../lunar/lunar-shortcuts-view.c:1285
 msgid "_Remove Shortcut"
 msgstr "_Rimuovi scorciatoia"
 
 #. append the rename menu item
-#: ../thunar/thunar-shortcuts-view.c:1302
+#: ../lunar/lunar-shortcuts-view.c:1302
 msgid "Re_name Shortcut"
 msgstr "Ri_nomina scorciatoia"
 
-#: ../thunar/thunar-shortcuts-view.c:1632
+#: ../lunar/lunar-shortcuts-view.c:1632
 #, c-format
 msgid "The path \"%s\" does not refer to a directory"
 msgstr "Il percorso \"%s\" non si riferisce a una cartella"
 
 #. display an error message to the user
-#: ../thunar/thunar-shortcuts-view.c:1652
+#: ../lunar/lunar-shortcuts-view.c:1652
 msgid "Failed to add new shortcut"
 msgstr "Impossibile aggiungere la nuova scorciatoia"
 
-#: ../thunar/thunar-size-label.c:165
+#: ../lunar/lunar-size-label.c:165
 msgid "Click here to stop calculating the total size of the folder."
 msgstr "Fare un clic qui per interrompere il calcolo della dimensione della cartella."
 
 #. add the label widget
 #. tell the user that we started calculation
-#: ../thunar/thunar-size-label.c:175 ../thunar/thunar-size-label.c:328
+#: ../lunar/lunar-size-label.c:175 ../lunar/lunar-size-label.c:328
 msgid "Calculating..."
 msgstr "Calcolo in corso…"
 
 #. tell the user that the operation was canceled
-#: ../thunar/thunar-size-label.c:287
+#: ../lunar/lunar-size-label.c:287
 msgid "Calculation aborted"
 msgstr "Calcolo annullato"
 
-#: ../thunar/thunar-size-label.c:412
+#: ../lunar/lunar-size-label.c:412
 #, c-format
 msgid "%u item, totalling %s"
 msgid_plural "%u items, totalling %s"
@@ -2431,150 +2431,150 @@ msgstr[1] "%u elementi da %s"
 
 #. TRANSLATORS: this is shows if during the deep count size
 #. * directories were not accessible
-#: ../thunar/thunar-size-label.c:419
+#: ../lunar/lunar-size-label.c:419
 msgid "(some contents unreadable)"
 msgstr "(alcuni contenuti non leggibili)"
 
 #. nothing was readable, so permission was denied
-#: ../thunar/thunar-size-label.c:430
+#: ../lunar/lunar-size-label.c:430
 msgid "Permission denied"
 msgstr "Permesso negato"
 
-#: ../thunar/thunar-standard-view.c:363
+#: ../lunar/lunar-standard-view.c:363
 msgid "Select _all Files"
 msgstr "Selezion_a tutti i file"
 
-#: ../thunar/thunar-standard-view.c:363
+#: ../lunar/lunar-standard-view.c:363
 msgid "Select all files in this window"
 msgstr "Seleziona tutti i file in questa finestra"
 
-#: ../thunar/thunar-standard-view.c:364
+#: ../lunar/lunar-standard-view.c:364
 msgid "Select _by Pattern..."
 msgstr "Seleziona in _base ad un criterio…"
 
-#: ../thunar/thunar-standard-view.c:364
+#: ../lunar/lunar-standard-view.c:364
 msgid "Select all files that match a certain pattern"
 msgstr "Seleziona tutti i file che corrispondono a un certo criterio"
 
-#: ../thunar/thunar-standard-view.c:365
+#: ../lunar/lunar-standard-view.c:365
 msgid "_Invert Selection"
 msgstr "In_verti selezione"
 
-#: ../thunar/thunar-standard-view.c:365
+#: ../lunar/lunar-standard-view.c:365
 msgid "Select all files but not those currently selected"
 msgstr "Seleziona tutti e solamente quelli che non sono attualmente selezionati"
 
-#: ../thunar/thunar-standard-view.c:366
+#: ../lunar/lunar-standard-view.c:366
 msgid "U_nselect all Files"
 msgstr "De_seleziona tutti i file"
 
-#: ../thunar/thunar-standard-view.c:366
+#: ../lunar/lunar-standard-view.c:366
 msgid "Unselect all files in this window"
 msgstr "Deseleziona tutti i file in questa finestra"
 
-#: ../thunar/thunar-standard-view.c:367
+#: ../lunar/lunar-standard-view.c:367
 msgid "Arran_ge Items"
 msgstr "_Ordina gli elementi"
 
-#: ../thunar/thunar-standard-view.c:368
+#: ../lunar/lunar-standard-view.c:368
 msgid "Toggle sort direction"
 msgstr "Cambia direzione dell'ordinamento"
 
-#: ../thunar/thunar-standard-view.c:368
+#: ../lunar/lunar-standard-view.c:368
 msgid "Toggle Ascending/Descending sort order"
 msgstr "Cambia ordinamento Crescente/Decrescente"
 
-#: ../thunar/thunar-standard-view.c:369
+#: ../lunar/lunar-standard-view.c:369
 msgid "By _Name"
 msgstr "Per _nome"
 
-#: ../thunar/thunar-standard-view.c:369
+#: ../lunar/lunar-standard-view.c:369
 msgid "Keep items sorted by their name"
 msgstr "Mantenere gli elementi ordinati per nome"
 
-#: ../thunar/thunar-standard-view.c:370
+#: ../lunar/lunar-standard-view.c:370
 msgid "By _Size"
 msgstr "Per dimen_sione"
 
-#: ../thunar/thunar-standard-view.c:370
+#: ../lunar/lunar-standard-view.c:370
 msgid "Keep items sorted by their size"
 msgstr "Mantenere gli elementi ordinati per dimensione"
 
-#: ../thunar/thunar-standard-view.c:371
+#: ../lunar/lunar-standard-view.c:371
 msgid "By _Type"
 msgstr "Per _tipo"
 
-#: ../thunar/thunar-standard-view.c:371
+#: ../lunar/lunar-standard-view.c:371
 msgid "Keep items sorted by their type"
 msgstr "Mantenere gli elementi ordinati per tipo"
 
-#: ../thunar/thunar-standard-view.c:372
+#: ../lunar/lunar-standard-view.c:372
 msgid "By Modification _Date"
 msgstr "Per data di _modifica"
 
-#: ../thunar/thunar-standard-view.c:372
+#: ../lunar/lunar-standard-view.c:372
 msgid "Keep items sorted by their modification date"
 msgstr "Mantenere gli elementi ordinati per data di modifica"
 
-#: ../thunar/thunar-standard-view.c:373
+#: ../lunar/lunar-standard-view.c:373
 msgid "_Ascending"
 msgstr "_Ascendente"
 
-#: ../thunar/thunar-standard-view.c:373
+#: ../lunar/lunar-standard-view.c:373
 msgid "Sort items in ascending order"
 msgstr "Dispone gli elementi in ordine ascendente"
 
-#: ../thunar/thunar-standard-view.c:374
+#: ../lunar/lunar-standard-view.c:374
 msgid "_Descending"
 msgstr "_Discendente"
 
-#: ../thunar/thunar-standard-view.c:374
+#: ../lunar/lunar-standard-view.c:374
 msgid "Sort items in descending order"
 msgstr "Dispone gli elementi in ordine discendente"
 
-#: ../thunar/thunar-standard-view.c:1574
+#: ../lunar/lunar-standard-view.c:1574
 msgid "Loading folder contents..."
 msgstr "Caricamento dei contenuti della cartella in corso…"
 
 #. display an error to the user
-#: ../thunar/thunar-standard-view.c:2101 ../thunar/thunar-window.c:3226
+#: ../lunar/lunar-standard-view.c:2101 ../lunar/lunar-window.c:3226
 msgid "Failed to open the home folder"
 msgstr "Impossibile aprire la cartella home dell'utente"
 
-#: ../thunar/thunar-standard-view.c:2172
+#: ../lunar/lunar-standard-view.c:2172
 msgid "Select by Pattern"
 msgstr "Seleziona in base ad un criterio"
 
-#: ../thunar/thunar-standard-view.c:2177
+#: ../lunar/lunar-standard-view.c:2177
 msgid "_Select"
 msgstr "_Seleziona"
 
-#: ../thunar/thunar-standard-view.c:2190
+#: ../lunar/lunar-standard-view.c:2190
 msgid "_Pattern:"
 msgstr "Cr_iterio:"
 
-#: ../thunar/thunar-standard-view.c:2206
+#: ../lunar/lunar-standard-view.c:2206
 msgid "Examples:"
 msgstr "Esempi:"
 
 #. tell the user that the file name provided by the X Direct Save source is
 #. invalid
-#: ../thunar/thunar-standard-view.c:2574
+#: ../lunar/lunar-standard-view.c:2574
 msgid "Invalid filename provided by XDS drag site"
 msgstr "Nome del file fornito dalla sorgente XDS non valido"
 
 #. display an error dialog to the user
-#: ../thunar/thunar-standard-view.c:2764
+#: ../lunar/lunar-standard-view.c:2764
 #, c-format
 msgid "Failed to create a link for the URL \"%s\""
 msgstr "Impossibile creare un collegamento per l'URL \"%s\""
 
-#: ../thunar/thunar-standard-view.c:3213 ../thunar/thunar-window.c:3320
+#: ../lunar/lunar-standard-view.c:3213 ../lunar/lunar-window.c:3320
 #, c-format
 msgid "Failed to open directory \"%s\""
 msgstr "Impossibile aprire la cartella \"%s\""
 
-#: ../thunar/thunar-transfer-job.c:917
+#: ../lunar/lunar-transfer-job.c:917
 #, c-format
 msgid ""
 "Error while copying to \"%s\": %s more space is required to copy to the "
@@ -2582,691 +2582,691 @@ msgid ""
 msgstr "Errore durante la copia in \"%s\": è richiesto %s spazio aggiuntivo nella destinazione per completare l'operazione"
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:951
+#: ../lunar/lunar-transfer-job.c:951
 #, c-format
 msgid "Trying to restore \"%s\""
 msgstr "Tentativo di ripristino di \"%s\" in corso…"
 
-#: ../thunar/thunar-transfer-job.c:980
+#: ../lunar/lunar-transfer-job.c:980
 #, c-format
 msgid ""
 "The folder \"%s\" does not exist anymore but is required to restore the file"
 " \"%s\" from the trash"
 msgstr "La cartella \"%s\" non esiste più, ma è necessaria per ripristinare il file \"%s\" dal cestino"
 
-#: ../thunar/thunar-transfer-job.c:1007
+#: ../lunar/lunar-transfer-job.c:1007
 #, c-format
 msgid "Failed to restore the folder \"%s\""
 msgstr "Impossibile ripristinare la cartella \"%s\""
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:1082
+#: ../lunar/lunar-transfer-job.c:1082
 #, c-format
 msgid "Trying to move \"%s\""
 msgstr "Tentativo di spostamento di \"%s\" in corso…"
 
 #. update progress information
-#: ../thunar/thunar-transfer-job.c:1158
+#: ../lunar/lunar-transfer-job.c:1158
 #, c-format
 msgid "Could not move \"%s\" directly. Collecting files for copying..."
 msgstr "Impossibile spostare \"%s\" direttamente. Raccolta dei file per la copia in corso…"
 
-#: ../thunar/thunar-transfer-job.c:1500
+#: ../lunar/lunar-transfer-job.c:1500
 msgid "Collecting files..."
 msgstr "Raccolta dei file in corso…"
 
-#: ../thunar/thunar-transfer-job.c:1701
+#: ../lunar/lunar-transfer-job.c:1701
 #, c-format
 msgid "%s of %s"
 msgstr "%s di %s"
 
-#: ../thunar/thunar-transfer-job.c:1721
+#: ../lunar/lunar-transfer-job.c:1721
 #, c-format
 msgid "%lu hour remaining (%s/sec)"
 msgid_plural "%lu hours remaining (%s/sec)"
 msgstr[0] "%lu ora rimanente (%s/sec)"
 msgstr[1] "%lu ore rimanenti (%s/sec)"
 
-#: ../thunar/thunar-transfer-job.c:1729
+#: ../lunar/lunar-transfer-job.c:1729
 #, c-format
 msgid "%lu minute remaining (%s/sec)"
 msgid_plural "%lu minutes remaining (%s/sec)"
 msgstr[0] "%lu minuto rimanente (%s/sec)"
 msgstr[1] "%lu minuti rimanenti (%s/sec)"
 
-#: ../thunar/thunar-transfer-job.c:1736
+#: ../lunar/lunar-transfer-job.c:1736
 #, c-format
 msgid "%lu second remaining (%s/sec)"
 msgid_plural "%lu seconds remaining (%s/sec)"
 msgstr[0] "%lu secondo rimanente (%s/sec)"
 msgstr[1] "%lu secondi rimanenti (%s/sec)"
 
-#: ../thunar/thunar-tree-model.c:631
+#: ../lunar/lunar-tree-model.c:631
 msgid "Loading..."
 msgstr "Caricamento in corso…"
 
-#: ../thunar/thunar-util.c:281
+#: ../lunar/lunar-util.c:281
 #, c-format
 msgid "Invalid path"
 msgstr "Percorso non valido"
 
-#: ../thunar/thunar-util.c:315
+#: ../lunar/lunar-util.c:315
 #, c-format
 msgid "Unknown user \"%s\""
 msgstr "Utente \"%s\" sconosciuto"
 
 #. TRANSLATORS: file was modified less than one day ago
-#: ../thunar/thunar-util.c:425
+#: ../lunar/lunar-util.c:425
 msgid "Today"
 msgstr "Oggi"
 
 #. TRANSLATORS: file was modified less than one day ago
-#: ../thunar/thunar-util.c:430
+#: ../lunar/lunar-util.c:430
 #, c-format
 msgid "Today at %X"
 msgstr "Oggi alle %X"
 
 #. TRANSLATORS: file was modified less than two days ago
-#: ../thunar/thunar-util.c:438
+#: ../lunar/lunar-util.c:438
 msgid "Yesterday"
 msgstr "Ieri"
 
 #. TRANSLATORS: file was modified less than two days ago
-#: ../thunar/thunar-util.c:443
+#: ../lunar/lunar-util.c:443
 #, c-format
 msgid "Yesterday at %X"
 msgstr "Ieri alle %X"
 
 #. Days from last week
-#: ../thunar/thunar-util.c:451
+#: ../lunar/lunar-util.c:451
 #, c-format
 msgid "%A at %X"
 msgstr "%A alle %X"
 
 #. Any other date
-#: ../thunar/thunar-util.c:456
+#: ../lunar/lunar-util.c:456
 #, c-format
 msgid "%x at %X"
 msgstr "%x alle %X"
 
-#: ../thunar/thunar-window.c:382
+#: ../lunar/lunar-window.c:382
 msgid "_File"
 msgstr "_File"
 
-#: ../thunar/thunar-window.c:383
+#: ../lunar/lunar-window.c:383
 msgid "New _Tab"
 msgstr "Nuova _scheda"
 
-#: ../thunar/thunar-window.c:383
+#: ../lunar/lunar-window.c:383
 msgid "Open a new tab for the displayed location"
 msgstr "Apre una nuova finestra per la posizione mostrata"
 
-#: ../thunar/thunar-window.c:384
+#: ../lunar/lunar-window.c:384
 msgid "New _Window"
 msgstr "Nuova _finestra"
 
-#: ../thunar/thunar-window.c:384
-msgid "Open a new Thunar window for the displayed location"
-msgstr "Apre una nuova finestra di Thunar per il percorso mostrato"
+#: ../lunar/lunar-window.c:384
+msgid "Open a new Lunar window for the displayed location"
+msgstr "Apre una nuova finestra di Lunar per il percorso mostrato"
 
-#: ../thunar/thunar-window.c:385
+#: ../lunar/lunar-window.c:385
 msgid "Detac_h Tab"
 msgstr "Sta_cca scheda"
 
-#: ../thunar/thunar-window.c:385
+#: ../lunar/lunar-window.c:385
 msgid "Open current folder in a new window"
 msgstr "Apre la cartella corrente in una nuova finestra"
 
-#: ../thunar/thunar-window.c:386
+#: ../lunar/lunar-window.c:386
 msgid "C_lose Tab"
 msgstr "_Chiudi scheda"
 
-#: ../thunar/thunar-window.c:386
+#: ../lunar/lunar-window.c:386
 msgid "Close this folder"
 msgstr "Chiude questa cartella"
 
-#: ../thunar/thunar-window.c:387
+#: ../lunar/lunar-window.c:387
 msgid "_Close Window"
 msgstr "Chiudi _finestra"
 
-#: ../thunar/thunar-window.c:387
+#: ../lunar/lunar-window.c:387
 msgid "Close this window"
 msgstr "Chiude questa finestra"
 
-#: ../thunar/thunar-window.c:388
+#: ../lunar/lunar-window.c:388
 msgid "Close _All Windows"
 msgstr "Chiudi _tutte le finestre"
 
-#: ../thunar/thunar-window.c:388
-msgid "Close all Thunar windows"
-msgstr "Chiude tutte le finestre di Thunar"
+#: ../lunar/lunar-window.c:388
+msgid "Close all Lunar windows"
+msgstr "Chiude tutte le finestre di Lunar"
 
-#: ../thunar/thunar-window.c:390
+#: ../lunar/lunar-window.c:390
 msgid "_Edit"
 msgstr "_Modifica"
 
-#: ../thunar/thunar-window.c:391
+#: ../lunar/lunar-window.c:391
 msgid "Pr_eferences..."
 msgstr "_Preferenze…"
 
-#: ../thunar/thunar-window.c:391
-msgid "Edit Thunars Preferences"
-msgstr "Modifica le preferenze di Thunar"
+#: ../lunar/lunar-window.c:391
+msgid "Edit Lunars Preferences"
+msgstr "Modifica le preferenze di Lunar"
 
-#: ../thunar/thunar-window.c:393
+#: ../lunar/lunar-window.c:393
 msgid "_View"
 msgstr "_Visualizzazione"
 
-#: ../thunar/thunar-window.c:394
+#: ../lunar/lunar-window.c:394
 msgid "_Reload"
 msgstr "Aggio_rna"
 
-#: ../thunar/thunar-window.c:396
+#: ../lunar/lunar-window.c:396
 msgid "Spl_it View"
 msgstr "_Dividi finestra"
 
-#: ../thunar/thunar-window.c:396
+#: ../lunar/lunar-window.c:396
 msgid "Open/Close Split View"
 msgstr "Apri/Chiudi divisione finestra"
 
-#: ../thunar/thunar-window.c:397
+#: ../lunar/lunar-window.c:397
 msgid "_Location Selector"
 msgstr "_Selettore dei percorsi"
 
-#: ../thunar/thunar-window.c:398
+#: ../lunar/lunar-window.c:398
 msgid "_Pathbar Style"
 msgstr "In stile barra degli _indirizzi"
 
-#: ../thunar/thunar-window.c:398
+#: ../lunar/lunar-window.c:398
 msgid "Modern approach with buttons that correspond to folders"
 msgstr "Stile moderno, con pulsanti che corrispondono alle cartelle"
 
-#: ../thunar/thunar-window.c:399
+#: ../lunar/lunar-window.c:399
 msgid "_Toolbar Style"
 msgstr "In stile barra degli s_trumenti"
 
-#: ../thunar/thunar-window.c:399
+#: ../lunar/lunar-window.c:399
 msgid "Traditional approach with location bar and navigation buttons"
 msgstr "Stile tradizionale, con barra dei percorsi e pulsanti di navigazione"
 
-#: ../thunar/thunar-window.c:400
+#: ../lunar/lunar-window.c:400
 msgid "_Side Pane"
 msgstr "_Pannello laterale"
 
-#: ../thunar/thunar-window.c:401
+#: ../lunar/lunar-window.c:401
 msgid "_Shortcuts"
 msgstr "_Scorciatoie"
 
-#: ../thunar/thunar-window.c:401
+#: ../lunar/lunar-window.c:401
 msgid "Toggles the visibility of the shortcuts pane"
 msgstr "Mostra/nasconde il pannello delle scorciatoie"
 
-#: ../thunar/thunar-window.c:402
+#: ../lunar/lunar-window.c:402
 msgid "_Tree"
 msgstr "_Albero"
 
-#: ../thunar/thunar-window.c:402
+#: ../lunar/lunar-window.c:402
 msgid "Toggles the visibility of the tree pane"
 msgstr "Mostra/nasconde il pannello ad albero"
 
-#: ../thunar/thunar-window.c:404
+#: ../lunar/lunar-window.c:404
 msgid "St_atusbar"
 msgstr "B_arra di stato"
 
-#: ../thunar/thunar-window.c:404
+#: ../lunar/lunar-window.c:404
 msgid "Change the visibility of this window's statusbar"
 msgstr "Cambia la visibilità della barra di stato di questa finestra"
 
-#: ../thunar/thunar-window.c:405
+#: ../lunar/lunar-window.c:405
 msgid "_Menubar"
 msgstr "Barra del _menu"
 
-#: ../thunar/thunar-window.c:405
+#: ../lunar/lunar-window.c:405
 msgid "Change the visibility of this window's menubar"
 msgstr "Cambia la visibilità della barra del menu di questa finestra"
 
-#: ../thunar/thunar-window.c:406
+#: ../lunar/lunar-window.c:406
 msgid "Show _Hidden Files"
 msgstr "Mostra i file _nascosti"
 
-#: ../thunar/thunar-window.c:406
+#: ../lunar/lunar-window.c:406
 msgid "Toggles the display of hidden files in the current window"
 msgstr "Mostra/nasconde i file nascosti nella finestra corrente"
 
-#: ../thunar/thunar-window.c:407
+#: ../lunar/lunar-window.c:407
 msgid "Zoom I_n"
 msgstr "Zoom a_vanti"
 
-#: ../thunar/thunar-window.c:407
+#: ../lunar/lunar-window.c:407
 msgid "Show the contents in more detail"
 msgstr "Mostra i contenuti con più dettagli"
 
-#: ../thunar/thunar-window.c:408
+#: ../lunar/lunar-window.c:408
 msgid "Zoom _Out"
 msgstr "Zoom in_dietro"
 
-#: ../thunar/thunar-window.c:408
+#: ../lunar/lunar-window.c:408
 msgid "Show the contents in less detail"
 msgstr "Mostra i contenuti con meno dettagli"
 
-#: ../thunar/thunar-window.c:409
+#: ../lunar/lunar-window.c:409
 msgid "Normal Si_ze"
 msgstr "Dimensioni nor_mali"
 
-#: ../thunar/thunar-window.c:409
+#: ../lunar/lunar-window.c:409
 msgid "Show the contents at the normal size"
 msgstr "Mostra i contenuti con dimensioni normali"
 
-#: ../thunar/thunar-window.c:410
+#: ../lunar/lunar-window.c:410
 msgid "Clear Saved _Folder View Settings"
 msgstr "Cancella le impostazioni di visualizzazione salvate della cartella"
 
-#: ../thunar/thunar-window.c:410
+#: ../lunar/lunar-window.c:410
 msgid "Delete saved view settings for this folder"
 msgstr "Eliminare le impostazioni di visualizzazione salvate per questa cartella"
 
-#: ../thunar/thunar-window.c:411
+#: ../lunar/lunar-window.c:411
 msgid "_Icon View"
 msgstr "Visualizzazione a _icone"
 
-#: ../thunar/thunar-window.c:411
+#: ../lunar/lunar-window.c:411
 msgid "Display folder content in an icon view"
 msgstr "Mostra il contenuto della cartella con una visualizzazione a icone"
 
-#: ../thunar/thunar-window.c:412
+#: ../lunar/lunar-window.c:412
 msgid "_List View"
 msgstr "Visualizzazione a e_lenco"
 
-#: ../thunar/thunar-window.c:412
+#: ../lunar/lunar-window.c:412
 msgid "Display folder content in a detailed list view"
 msgstr "Mostra il contenuto della cartella con una visualizzazione a lista dettagliata"
 
-#: ../thunar/thunar-window.c:413
+#: ../lunar/lunar-window.c:413
 msgid "_Compact View"
 msgstr "Visualizzazione _compatta"
 
-#: ../thunar/thunar-window.c:413
+#: ../lunar/lunar-window.c:413
 msgid "Display folder content in a compact list view"
 msgstr "Mostra il contenuto della cartella con una visualizzazione a lista compatta"
 
-#: ../thunar/thunar-window.c:415
+#: ../lunar/lunar-window.c:415
 msgid "_Go"
 msgstr "V_ai"
 
-#: ../thunar/thunar-window.c:417
+#: ../lunar/lunar-window.c:417
 msgid "Go to the computer folder"
 msgstr "Vai alla cartella del computer"
 
-#: ../thunar/thunar-window.c:418
+#: ../lunar/lunar-window.c:418
 msgid "_Home"
 msgstr "_Home"
 
-#: ../thunar/thunar-window.c:418
+#: ../lunar/lunar-window.c:418
 msgid "Go to the home folder"
 msgstr "Va alla cartella home"
 
-#: ../thunar/thunar-window.c:419
+#: ../lunar/lunar-window.c:419
 msgid "Desktop"
 msgstr "Scrivania"
 
-#: ../thunar/thunar-window.c:419
+#: ../lunar/lunar-window.c:419
 msgid "Go to the desktop folder"
 msgstr "Va alla cartella della Scrivania"
 
-#: ../thunar/thunar-window.c:420
+#: ../lunar/lunar-window.c:420
 msgid ""
 "Browse all local and remote disks and folders accessible from this computer"
 msgstr "Esplora i dischi remoti e locali e le cartelle accessibili da questo computer"
 
-#: ../thunar/thunar-window.c:421
+#: ../lunar/lunar-window.c:421
 msgid "T_rash"
 msgstr "C_estino"
 
-#: ../thunar/thunar-window.c:421
+#: ../lunar/lunar-window.c:421
 msgid "Display the contents of the trash can"
 msgstr "Mostra il contenuto del cestino"
 
-#: ../thunar/thunar-window.c:422
+#: ../lunar/lunar-window.c:422
 msgid "Open _Parent"
 msgstr "Apri _superiore"
 
-#: ../thunar/thunar-window.c:422
+#: ../lunar/lunar-window.c:422
 msgid "Open the parent folder"
 msgstr "Apre la cartella superiore"
 
-#: ../thunar/thunar-window.c:423
+#: ../lunar/lunar-window.c:423
 msgid "_Open Location..."
 msgstr "Apri _posizione…"
 
-#: ../thunar/thunar-window.c:423
+#: ../lunar/lunar-window.c:423
 msgid "Specify a location to open"
 msgstr "Permette di specificare una posizione da aprire"
 
-#: ../thunar/thunar-window.c:425
+#: ../lunar/lunar-window.c:425
 msgid "T_emplates"
 msgstr "Mod_ello"
 
-#: ../thunar/thunar-window.c:425
+#: ../lunar/lunar-window.c:425
 msgid "Go to the templates folder"
 msgstr "Va alla cartella dei modelli"
 
-#: ../thunar/thunar-window.c:426
+#: ../lunar/lunar-window.c:426
 msgid "B_rowse Network"
 msgstr "Esplora la _rete"
 
-#: ../thunar/thunar-window.c:429
+#: ../lunar/lunar-window.c:429
 msgid "_Contents"
 msgstr "_Contenuti"
 
-#: ../thunar/thunar-window.c:429
-msgid "Display Thunar user manual"
-msgstr "Visualizza il manuale utente di Thunar"
+#: ../lunar/lunar-window.c:429
+msgid "Display Lunar user manual"
+msgstr "Visualizza il manuale utente di Lunar"
 
-#: ../thunar/thunar-window.c:430
-msgid "Display information about Thunar"
-msgstr "Mostra le informazioni su Thunar"
+#: ../lunar/lunar-window.c:430
+msgid "Display information about Lunar"
+msgstr "Mostra le informazioni su Lunar"
 
-#: ../thunar/thunar-window.c:431
+#: ../lunar/lunar-window.c:431
 msgid "Back"
 msgstr "Indietro"
 
-#: ../thunar/thunar-window.c:431
+#: ../lunar/lunar-window.c:431
 msgid "Go to the previous visited folder"
 msgstr "Va alla precedente cartella visitata"
 
-#: ../thunar/thunar-window.c:433
+#: ../lunar/lunar-window.c:433
 msgid "Forward"
 msgstr "Avanti"
 
-#: ../thunar/thunar-window.c:433
+#: ../lunar/lunar-window.c:433
 msgid "Go to the next visited folder"
 msgstr "Va alla successiva cartella visitata"
 
-#: ../thunar/thunar-window.c:434
+#: ../lunar/lunar-window.c:434
 msgid "_Previous Tab"
 msgstr "_Scheda precedente"
 
-#: ../thunar/thunar-window.c:434
+#: ../lunar/lunar-window.c:434
 msgid "Switch to Previous Tab"
 msgstr "Cambia alla scheda precedente"
 
-#: ../thunar/thunar-window.c:435
+#: ../lunar/lunar-window.c:435
 msgid "_Next Tab"
 msgstr "_Scheda successiva"
 
-#: ../thunar/thunar-window.c:435
+#: ../lunar/lunar-window.c:435
 msgid "Switch to Next Tab"
 msgstr "Cambia alla scheda successiva"
 
 #. add the label with the root warning
-#: ../thunar/thunar-window.c:774
+#: ../lunar/lunar-window.c:774
 msgid "Warning: you are using the root account. You may harm your system."
 msgstr "Attenzione, si sta usando l'account amministratore, si potrebbe danneggiare il sistema."
 
-#: ../thunar/thunar-window.c:2066
+#: ../lunar/lunar-window.c:2066
 msgid "Close tab"
 msgstr "Chiude la scheda"
 
-#: ../thunar/thunar-window.c:2440
+#: ../lunar/lunar-window.c:2440
 #, c-format
 msgid "Open the location \"%s\""
 msgstr "Apre la posizione \"%s\""
 
-#: ../thunar/thunar-window.c:2586
+#: ../lunar/lunar-window.c:2586
 #, c-format
 msgid "Failed to launch \"%s\""
 msgstr "Impossibile avviare \"%s\""
 
-#: ../thunar/thunar-window.c:3176
+#: ../lunar/lunar-window.c:3176
 msgid "Failed to open parent folder"
 msgstr "Impossibile aprire la cartella superiore"
 
-#: ../thunar/thunar-window.c:3295
+#: ../lunar/lunar-window.c:3295
 #, c-format
 msgid "The directory \"%s\" does not exist. Do you want to create it?"
 msgstr "La cartella \"%s\" non esiste. Crearla?"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3362
+#: ../lunar/lunar-window.c:3362
 msgid "Failed to browse the computer"
 msgstr "Impossibile esplorare il computer"
 
 #. display the "About Templates" dialog
-#: ../thunar/thunar-window.c:3402
+#: ../lunar/lunar-window.c:3402
 msgid "About Templates"
 msgstr "Informazioni sui modelli"
 
-#: ../thunar/thunar-window.c:3424
+#: ../lunar/lunar-window.c:3424
 msgid "All files in this folder will appear in the \"Create Document\" menu."
 msgstr "Tutti i file in questa cartella appariranno nel menu \"Crea documento\"."
 
-#: ../thunar/thunar-window.c:3431
+#: ../lunar/lunar-window.c:3431
 msgid ""
-"If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Thunar will add an entry for this document in the \"Create Document\" menu.\n"
+"If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Lunar will add an entry for this document in the \"Create Document\" menu.\n"
 "\n"
 "You can then select the entry from the \"Create Document\" menu and a copy of the document will be created in the directory you are viewing."
-msgstr "Se si creano frequentemente certi tipi di documenti, si può mettere la copia di uno di essi in questa cartella. Thunar aggiungerà per questo documento una voce nel menu \"Crea Documento\".\n\nSelezionando tale voce dal menu \"Crea Documento\", verrà creata una copia del documento nella cartella visualizzata."
+msgstr "Se si creano frequentemente certi tipi di documenti, si può mettere la copia di uno di essi in questa cartella. Lunar aggiungerà per questo documento una voce nel menu \"Crea Documento\".\n\nSelezionando tale voce dal menu \"Crea Documento\", verrà creata una copia del documento nella cartella visualizzata."
 
-#: ../thunar/thunar-window.c:3443
+#: ../lunar/lunar-window.c:3443
 msgid "Do _not display this message again"
 msgstr "_Non visualizzare più questo messaggio"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3474
+#: ../lunar/lunar-window.c:3474
 msgid "Failed to open the file system root folder"
 msgstr "Impossibile aprire la cartella root del file system"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3507
+#: ../lunar/lunar-window.c:3507
 msgid "Failed to display the contents of the trash can"
 msgstr "Impossibile mostrare il contenuto del cestino"
 
 #. display an error to the user
-#: ../thunar/thunar-window.c:3540
+#: ../lunar/lunar-window.c:3540
 msgid "Failed to browse the network"
 msgstr "Impossibile esplorare la rete"
 
-#: ../thunar/thunar-window.c:3644
+#: ../lunar/lunar-window.c:3644
 msgid ""
-"Thunar is a fast and easy to use file manager\n"
-"for the Xfce Desktop Environment."
-msgstr "Thunar è un gestore dei file veloce e facile\nda usare per l'ambiente grafico Xfce."
+"Lunar is a fast and easy to use file manager\n"
+"for the Expidus Desktop Environment."
+msgstr "Lunar è un gestore dei file veloce e facile\nda usare per l'ambiente grafico Expidus."
 
-#: ../thunarx/thunarx-property-page.c:111
+#: ../lunarx/lunarx-property-page.c:111
 msgid "Label"
 msgstr "Etichetta"
 
-#: ../thunarx/thunarx-property-page.c:112
+#: ../lunarx/lunarx-property-page.c:112
 msgid "Text of the page's label"
 msgstr "Testo dell'etichetta della pagina"
 
-#: ../thunarx/thunarx-property-page.c:124
+#: ../lunarx/lunarx-property-page.c:124
 msgid "Label widget"
 msgstr "Widget per l'etichetta"
 
-#: ../thunarx/thunarx-property-page.c:125
+#: ../lunarx/lunarx-property-page.c:125
 msgid "A widget to display in place of the usual page label"
 msgstr "Un widget da visualizzare al posto della consueta etichetta della pagina"
 
-#: ../thunarx/thunarx-provider-plugin.c:81
+#: ../lunarx/lunarx-provider-plugin.c:81
 msgid "Resident"
 msgstr "Residente"
 
-#: ../thunarx/thunarx-provider-plugin.c:82
+#: ../lunarx/lunarx-provider-plugin.c:82
 msgid "Don't unload the plugin from memory"
 msgstr "Non scaricare il plugin dalla memoria"
 
-#: ../thunarx/thunarx-renamer.c:149
+#: ../lunarx/lunarx-renamer.c:149
 msgid "Help URL"
 msgstr "URL dell'aiuto"
 
-#: ../thunarx/thunarx-renamer.c:150
+#: ../lunarx/lunarx-renamer.c:150
 msgid "The URL to the documentation of the renamer"
 msgstr "URL della documentazione dello strumento di rinomina"
 
-#: ../thunarx/thunarx-renamer.c:165
+#: ../lunarx/lunarx-renamer.c:165
 msgid "The user visible name of the renamer"
 msgstr "Il nome dello strumento di rinomina visibile all'utente"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:153
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:59
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:153
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:59
 msgid "Description:"
 msgstr "Descrizione:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:160
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:160
 msgid ""
 "The generic name of the entry, for example \"Web Browser\" in case of "
 "Firefox."
 msgstr "Il nome generico dell'elemento, per esempio \"Browser Web\" nel caso di Firefox."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:177
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:177
 msgid "Command:"
 msgstr "Comando:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:184
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:184
 msgid "The program to execute, possibly with arguments."
 msgstr "Il programma da eseguire, possibilmente con argomenti."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:200
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:200
 msgid "Working Directory:"
 msgstr "Cartella di lavoro:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:207
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:207
 msgid "The working directory for the program."
 msgstr "La cartella di lavoro del programma."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:223
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:223
 msgid "URL:"
 msgstr "URL:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:230
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:230
 msgid "The URL to access."
 msgstr "L'URL a cui accedere."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:246
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:60
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:246
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:60
 msgid "Comment:"
 msgstr "Commento:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:253
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:253
 msgid ""
 "Tooltip for the entry, for example \"View sites on the Internet\" in case of"
 " Firefox. Should not be redundant with the name or the description."
 msgstr "Suggerimento per l'elemento, come per esempio  \"Visita siti su Internet\" nel caso di Firefox. Non dovrebbe essere ridondante rispetto al nome o alla descrizione."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:276
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:276
 msgid "Options:"
 msgstr "Opzioni:"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:282
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:282
 msgid "Use _startup notification"
 msgstr "Usa notifica all'_avvio"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:283
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:283
 msgid ""
 "Select this option to enable startup notification when the command is run "
 "from the file manager or the menu. Not every application supports startup "
 "notification."
 msgstr "Selezionare questa opzione per abilitare la notifica all'avvio quando il comando è eseguito dal gestore dei file o dal menu; non tutte le applicazioni supportano la notifica dell'avvio."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:291
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:291
 msgid "Run in _terminal"
 msgstr "Esegui in un _terminale"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:292
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:292
 msgid "Select this option to run the command in a terminal window."
 msgstr "Selezionare questa opzione per eseguire il comando in una finestra di terminale."
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:366
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:366
 msgid "Launcher"
 msgstr "Avviatore"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:368
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:368
 msgid "Link"
 msgstr "Collegamento"
 
-#: ../plugins/thunar-apr/thunar-apr-desktop-page.c:610
+#: ../plugins/lunar-apr/lunar-apr-desktop-page.c:610
 #, c-format
 msgid "Failed to save \"%s\"."
 msgstr "Impossibile salvare \"%s\"."
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:47
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:47
 msgid "Date Taken:"
 msgstr "Data scatto:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:48
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:48
 msgid "Camera Brand:"
 msgstr "Marca fotocamera:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:49
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:49
 msgid "Camera Model:"
 msgstr "Modello fotocamera:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:50
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:50
 msgid "Exposure Time:"
 msgstr "Tempo di esposizione:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:51
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:51
 msgid "Exposure Program:"
 msgstr "Programma di esposizione:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:52
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:52
 msgid "Aperture Value:"
 msgstr "Apertura:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:53
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:53
 msgid "Metering Mode:"
 msgstr "Modalità esposimetro:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:54
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:54
 msgid "Flash Fired:"
 msgstr "Flash:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:55
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:55
 msgid "Focal Length:"
 msgstr "Lunghezza focale:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:56
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:56
 msgid "Shutter Speed:"
 msgstr "Velocità otturatore:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:57
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:57
 msgid "ISO Speed Ratings:"
 msgstr "Sensibilità ISO:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:58
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:58
 msgid "Software:"
 msgstr "Software:"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:117
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:117
 msgid "Image"
 msgstr "Immagine"
 
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:132
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:132
 msgid "Image Type:"
 msgstr "Tipo di immagine:"
 
 #. update the "Image Size" label
-#: ../plugins/thunar-apr/thunar-apr-image-page.c:251
+#: ../plugins/lunar-apr/lunar-apr-image-page.c:251
 #, c-format
 msgid "%dx%d pixel"
 msgid_plural "%dx%d pixels"
 msgstr[0] "%dx%d pixel"
 msgstr[1] "%dx%d pixel"
 
-#: ../plugins/thunar-sbr/thunar-sbr-case-renamer.c:117
+#: ../plugins/lunar-sbr/lunar-sbr-case-renamer.c:117
 msgid "Con_vert to:"
 msgstr "Con_verti in:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-case-renamer.c:266
+#: ../plugins/lunar-sbr/lunar-sbr-case-renamer.c:266
 msgid "Uppercase / Lowercase"
 msgstr "Maiuscole / minuscole"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:193
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:193
 msgid "Insert _time:"
 msgstr "Inserisci _orario:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:223
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:223
 msgid ""
 "The format describes the date and time parts to insert into the file name. "
 "For example, %Y will be substituted with the year, %m with the month and %d "
@@ -3274,215 +3274,215 @@ msgid ""
 "information."
 msgstr "Il formato descrive la data e l'orario da inserire nel nome del file. Per esempio, %Y sarà sostituito con l'anno, %m con il mese e %d con il giorno. Per maggiori informazioni fare riferimento alla documentazione di tale funzionalità."
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:238
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:198
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:238
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:198
 msgid "_At position:"
 msgstr "Alla posizio_ne:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-date-renamer.c:591
+#: ../plugins/lunar-sbr/lunar-sbr-date-renamer.c:591
 msgid "Insert Date / Time"
 msgstr "Inserisci data e orario"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:93
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:93
 msgid "lowercase"
 msgstr "minuscolo"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:94
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:94
 msgid "UPPERCASE"
 msgstr "MAIUSCOLO"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:95
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:95
 msgid "Title Case"
 msgstr "Titolo in maiuscolo o minuscolo"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:96
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:96
 msgid "First character uppercase"
 msgstr "Primo carattere in maiuscolo"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:102
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:102
 msgid "Insert"
 msgstr "Inserisci"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:103
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:103
 msgid "Overwrite"
 msgstr "Sovrascrivi"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:109
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:109
 msgid "1, 2, 3, ..."
 msgstr "1, 2, 3, …"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:110
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:110
 msgid "01, 02, 03, ..."
 msgstr "01, 02, 03, …"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:111
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:111
 msgid "001, 002, 003, ..."
 msgstr "001, 002, 003, …"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:112
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:112
 msgid "0001, 0002, 0003, ..."
 msgstr "0001, 0002, 0003, …"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:113
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:113
 msgid "00001, 00002, 00003, ..."
 msgstr "00001, 00002, 00003, …"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:114
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:114
 msgid "a, b, c, d, ..."
 msgstr "a, b, c, d, …"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:120
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:120
 msgid "From the front (left)"
 msgstr "Dall'inizio (sinistra)"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:121
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:121
 msgid "From the back (right)"
 msgstr "Dalla fine (destra)"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:127
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:127
 msgid "Old Name - Text - Number"
 msgstr "Vecchio nome - Testo - Numero"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:128
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:128
 msgid "Number - Text - Old Name"
 msgstr "Numero - Testo - Vecchio nome"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:129
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:129
 msgid "Text - Number"
 msgstr "Testo - Numero"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:130
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:130
 msgid "Number - Text"
 msgstr "Numero - Testo"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:136
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:136
 msgid "Current"
 msgstr "Corrente"
 
-#: ../plugins/thunar-sbr/thunar-sbr-enum-types.c:140
+#: ../plugins/lunar-sbr/lunar-sbr-enum-types.c:140
 msgid "Date Picture Taken"
 msgstr "Data dello scatto della foto:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:179
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:257
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:179
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:257
 msgid "_Text:"
 msgstr "_Testo:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-insert-renamer.c:386
+#: ../plugins/lunar-sbr/lunar-sbr-insert-renamer.c:386
 msgid "Insert / Overwrite"
 msgstr "Inserisci / sovrascrivi"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:186
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:186
 msgid "_Number Format:"
 msgstr "Formato dei _numeri:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:217
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:217
 msgid "_Start With:"
 msgstr "_Inizia da:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:229
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:229
 msgid "Text _Format:"
 msgstr "_Formato del testo:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-number-renamer.c:518
+#: ../plugins/lunar-sbr/lunar-sbr-number-renamer.c:518
 msgid "Numbering"
 msgstr "Numerazione"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:175
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:175
 msgid "Remove _From Position:"
 msgstr "Rimuovi _dalla posizione:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:210
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:210
 msgid "_To Position:"
 msgstr "_Alla posizione:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-remove-renamer.c:413
+#: ../plugins/lunar-sbr/lunar-sbr-remove-renamer.c:413
 msgid "Remove Characters"
 msgstr "Rimuovi caratteri"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:202
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:202
 msgid "_Search For:"
 msgstr "Cerc_a:"
 
 #. reset to default tooltip
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:210
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:633
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:210
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:633
 msgid "Enter the text to search for in the file names."
 msgstr "Inserire il testo da cercare tra i nomi dei file."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:223
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:223
 msgid "Regular _Expression"
 msgstr "_Espressione regolare"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:225
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:225
 msgid ""
 "If you enable this option, the pattern will be treated as a regular "
 "expression and matched using the Perl-compatible regular expressions (PCRE)."
 " Check the documentation for details about the regular expression syntax."
 msgstr "Abilitando questa opzione, il criterio verrà considerato come una espressione regolare e confrontato utilizzando le espressioni regolari compatibili in Perl (PCRE). Per maggiori informazioni sulla sintassi delle espressioni regolari fare riferimento alla documentazione."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:232
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:232
 msgid "Replace _With:"
 msgstr "_Sostituisci con:"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:240
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:240
 msgid ""
 "Enter the text that should be used as replacement for the pattern above."
 msgstr "Inserire il testo che dovrebbe sostituire il criterio di sopra."
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:253
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:253
 msgid "C_ase Sensitive Search"
 msgstr "_Distingui maiuscole e minuscole"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:255
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:255
 msgid ""
 "If you enable this option, the pattern will be searched in a case-sensitive "
 "manner. The default is to use a case-insensitive search."
 msgstr "Abilitando questa opzione, il criterio sarà ricercato facendo distinzione tra maiuscole e minuscole. La scelta predefinita è una ricerca che non opera tale distinzione."
 
 #. setup a tooltip with the error message
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:610
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:610
 #, c-format
 msgid "Invalid regular expression, at character position %ld: %s"
 msgstr "Espressione regolare non valida nel carattere in posizione %ld: %s"
 
-#: ../plugins/thunar-sbr/thunar-sbr-replace-renamer.c:651
+#: ../plugins/lunar-sbr/lunar-sbr-replace-renamer.c:651
 msgid "Search & Replace"
 msgstr "Cerca e sostituisci"
 
-#: ../plugins/thunar-sendto-email/main.c:217
+#: ../plugins/lunar-sendto-email/main.c:217
 #, c-format
 msgid "Send \"%s\" as compressed archive?"
 msgstr "Inviare \"%s\" come un archivio compresso?"
 
-#: ../plugins/thunar-sendto-email/main.c:220
-#: ../plugins/thunar-sendto-email/main.c:239
+#: ../plugins/lunar-sendto-email/main.c:220
+#: ../plugins/lunar-sendto-email/main.c:239
 msgid "Send _directly"
 msgstr "Invia _direttamente"
 
-#: ../plugins/thunar-sendto-email/main.c:221
+#: ../plugins/lunar-sendto-email/main.c:221
 msgid "Send com_pressed"
 msgstr "Invia com_presso"
 
-#: ../plugins/thunar-sendto-email/main.c:223
+#: ../plugins/lunar-sendto-email/main.c:223
 msgid ""
 "When sending a file via email, you can either choose to send the file "
 "directly, as is, or compress the file before attaching it to an email. It is"
 " highly recommended to compress large files before sending them."
 msgstr "Quando si spedisce un file per email, è possibile scegliere di inviarlo direttamente così com'è, oppure di comprimerlo prima di allegarlo all'email. Si consiglia di comprimere i file grandi prima di inviarli."
 
-#: ../plugins/thunar-sendto-email/main.c:234
+#: ../plugins/lunar-sendto-email/main.c:234
 #, c-format
 msgid "Send %d file as compressed archive?"
 msgid_plural "Send %d files as compressed archive?"
 msgstr[0] "Inviare %d file come archivio compresso?"
 msgstr[1] "Inviare %d file come archivio compresso?"
 
-#: ../plugins/thunar-sendto-email/main.c:240
+#: ../plugins/lunar-sendto-email/main.c:240
 msgid "Send as _archive"
 msgstr "Invia come _archivio"
 
-#: ../plugins/thunar-sendto-email/main.c:242
+#: ../plugins/lunar-sendto-email/main.c:242
 msgid ""
 "When sending multiple files via email, you can either choose to send the "
 "files directly, attaching multiple files to an email, or send all files "
@@ -3492,29 +3492,29 @@ msgstr "Quando si spediscono più file per email, è possibile scegliere di invi
 
 #. allocate the progress dialog
 #. setup the label
-#: ../plugins/thunar-sendto-email/main.c:300
-#: ../plugins/thunar-sendto-email/main.c:326
+#: ../plugins/lunar-sendto-email/main.c:300
+#: ../plugins/lunar-sendto-email/main.c:326
 msgid "Compressing files..."
 msgstr "Compressione dei file in corso…"
 
 #. tell the user that the command failed
-#: ../plugins/thunar-sendto-email/main.c:351
+#: ../plugins/lunar-sendto-email/main.c:351
 #, c-format
 msgid "ZIP command terminated with error %d"
 msgstr "Comando ZIP terminato con errore %d"
 
-#: ../plugins/thunar-sendto-email/main.c:439
+#: ../plugins/lunar-sendto-email/main.c:439
 msgid "Failed to create temporary directory"
 msgstr "Impossibile creare la cartella temporanea"
 
-#: ../plugins/thunar-sendto-email/main.c:501
-#: ../plugins/thunar-sendto-email/main.c:512
+#: ../plugins/lunar-sendto-email/main.c:501
+#: ../plugins/lunar-sendto-email/main.c:512
 #, c-format
 msgid "Failed to create symbolic link for \"%s\""
 msgstr "Impossibile creare il collegamento simbolico per \"%s\""
 
 #. tell the user that we failed to compress the file(s)
-#: ../plugins/thunar-sendto-email/main.c:536
+#: ../plugins/lunar-sendto-email/main.c:536
 #, c-format
 msgid "Failed to compress %d file"
 msgid_plural "Failed to compress %d files"
@@ -3522,146 +3522,146 @@ msgstr[0] "Impossibile comprimere %d file"
 msgstr[1] "Impossibile comprimere %d file"
 
 #. tell the user that we failed
-#: ../plugins/thunar-sendto-email/main.c:688
+#: ../plugins/lunar-sendto-email/main.c:688
 msgid "Failed to compose new email"
 msgstr "Impossibile comporre una nuova email"
 
-#: ../plugins/thunar-sendto-email/thunar-sendto-email.desktop.in.in.h:1
+#: ../plugins/lunar-sendto-email/lunar-sendto-email.desktop.in.in.h:1
 msgid "Mail Recipient"
 msgstr "Destinatario"
 
 #. tell the user that we failed to connect to the trash
-#: ../plugins/thunar-tpa/thunar-tpa.c:269
-#: ../plugins/thunar-tpa/thunar-tpa.c:309
-#: ../plugins/thunar-tpa/thunar-tpa.c:336
-#: ../plugins/thunar-tpa/thunar-tpa.c:363
+#: ../plugins/lunar-tpa/lunar-tpa.c:269
+#: ../plugins/lunar-tpa/lunar-tpa.c:309
+#: ../plugins/lunar-tpa/lunar-tpa.c:336
+#: ../plugins/lunar-tpa/lunar-tpa.c:363
 msgid "Failed to connect to the Trash"
 msgstr "Impossibile connettersi al cestino"
 
 #. tell the user whether the trash is full or empty
-#: ../plugins/thunar-tpa/thunar-tpa.c:284
+#: ../plugins/lunar-tpa/lunar-tpa.c:284
 msgid "Trash contains files"
 msgstr "Cestino pieno"
 
-#: ../plugins/thunar-tpa/thunar-tpa.desktop.in.h:1
+#: ../plugins/lunar-tpa/lunar-tpa.desktop.in.h:1
 msgid "Trash Applet"
 msgstr "Applet cestino"
 
-#: ../plugins/thunar-tpa/thunar-tpa.desktop.in.h:2
+#: ../plugins/lunar-tpa/lunar-tpa.desktop.in.h:2
 msgid "Display the trash can"
 msgstr "Mostra il cestino"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:269
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:1
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:269
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:1
 msgid "Edit Action"
 msgstr "Modifica azione"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:269
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:269
 msgid "Create Action"
 msgstr "Crea azione"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:318
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:318
 msgid "Failed to save actions to disk."
 msgstr "Impossibile salvare le azioni su disco."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:369
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:369
 #, c-format
 msgid ""
 "Are you sure that you want to delete\n"
 "action \"%s\"?"
 msgstr "Eliminare davvero l'azione \"%s\"?"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.c:370
+#: ../plugins/lunar-uca/lunar-uca-chooser.c:370
 msgid "If you delete a custom action, it is permanently lost."
 msgstr "Se si elimina un'azione personalizzata, questa è persa irrimediabilmente."
 
 #. skip leading slash
-#: ../plugins/thunar-uca/thunar-uca-editor.c:355
+#: ../plugins/lunar-uca/lunar-uca-editor.c:355
 #, c-format
 msgid "This keyboard shortcut is currently used by: '%s'"
 msgstr "Questa scorciatoia da tastiera è attualmente usata da: '%s'"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.c:358
+#: ../plugins/lunar-uca/lunar-uca-editor.c:358
 msgid "Keyboard shortcut already in use"
 msgstr "Scorciatoia da tastiera già in uso"
 
 #. setup a label to tell that no icon was selected
-#: ../plugins/thunar-uca/thunar-uca-editor.c:509
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:18
+#: ../plugins/lunar-uca/lunar-uca-editor.c:509
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:18
 msgid "No icon"
 msgstr "Nessuna icona"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:835
+#: ../plugins/lunar-uca/lunar-uca-model.c:835
 #, c-format
 msgid "End element handler called while in root context"
 msgstr "Gestore dell'elemento di fine chiamato durante un contesto root"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:950
+#: ../plugins/lunar-uca/lunar-uca-model.c:950
 #, c-format
 msgid "Unknown closing element <%s>"
 msgstr "Elemento di chiusura sconosciuto <%s>"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:1458
+#: ../plugins/lunar-uca/lunar-uca-model.c:1458
 #, c-format
 msgid "Failed to determine save location for uca.xml"
 msgstr "Impossibile determinare il percorso di salvataggio per uca.xml"
 
-#: ../plugins/thunar-uca/thunar-uca-model.c:1580
+#: ../plugins/lunar-uca/lunar-uca-model.c:1580
 #, c-format
 msgid "Command not configured"
 msgstr "Comando non configurato"
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:181
+#: ../plugins/lunar-uca/lunar-uca-provider.c:181
 msgid "Configure c_ustom actions..."
 msgstr "Imposta azio_ni personalizzate…"
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:182
+#: ../plugins/lunar-uca/lunar-uca-provider.c:182
 msgid ""
 "Setup custom actions that will appear in the file managers context menus"
 msgstr "Imposta le azioni personalizzate che appariranno nei menu contestuali del gestore di file"
 
-#: ../plugins/thunar-uca/thunar-uca-provider.c:528
+#: ../plugins/lunar-uca/lunar-uca-provider.c:528
 #, c-format
 msgid "Failed to launch action \"%s\"."
 msgstr "Impossibile avviare l'azione \"%s\"."
 
-#: ../plugins/thunar-uca/uca.xml.in.h:1
+#: ../plugins/lunar-uca/uca.xml.in.h:1
 msgid "Open Terminal Here"
 msgstr "Apri un terminale qui"
 
-#: ../plugins/thunar-uca/uca.xml.in.h:2
+#: ../plugins/lunar-uca/uca.xml.in.h:2
 msgid "Example for a custom action"
 msgstr "Esempio di azione personalizzata"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:3
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:3
 msgid "The name of the action that will be displayed in the context menu."
 msgstr "Il nome dell'azione che verrà visualizzato nel menu contestuale"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:4
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:4
 msgid "_Description:"
 msgstr "_Descrizione:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:5
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:5
 msgid ""
 "The description of the action that will be displayed as tooltip in the "
 "statusbar when selecting the item from the context menu."
 msgstr "La descrizione dell'azione che verrà mostrata come suggerimento nella barra di stato quando viene selezionato l'elemento dal menu contestuale."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:6
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:6
 msgid "_Submenu:"
 msgstr "_Sottomenu:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:7
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:7
 msgid ""
 "The submenu in which the action will be displayed. Leave empty for no menu. "
 "Use '/' for nested menus."
 msgstr "Il sottomenu in cui l'azione verrà visualizzata. Lasciare vuoto per non avere nessun menu. Usare invece '/' per dei menu innestati."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:8
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:8
 msgid "_Command:"
 msgstr "_Comando:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:10
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:10
 #, no-c-format
 msgid ""
 "The command (including the necessary parameters) to perform the action. See "
@@ -3672,85 +3672,85 @@ msgid ""
 "if exactly one item is selected."
 msgstr "Il comando (inclusi i parametri necessari) per eseguire l'azione. Consultare la legenda dei parametri per i comandi per avere una lista dei parametri supportati, che saranno sostituiti quando il comando sarà avviato. Quando vengono usate lettere maiuscole (es. %F, %D, %N), l'azione potrà essere applicata anche se viene selezionato più di un elemento. L'azione sarà altrimenti applicabile solo nel caso in cui sia selezionato un unico elemento."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:11
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:11
 msgid ""
 "Browse the file system to select an application to use for this action."
 msgstr "Esplora il file system per selezionare un'applicazione da usare per questa azione."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:12
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:12
 msgid "Keyboard _Shortcut:"
 msgstr "_Scorciatoia da tastiera:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:13
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:13
 msgid "The keyboard shortcut for the action."
 msgstr "La scorciatoia da tastiera assegnata."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:14
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:14
 msgid "Clear the keyboard shortcut for this action."
 msgstr "Rimuovi la scorciatoia da tastiera assegnata."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:15
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:15
 msgid "Use Startup Notification"
 msgstr "Usa notifica di avvio"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:16
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:16
 msgid ""
 "Enable this option if you want a waiting cursor to be shown while the action"
 " is launched. This is also highly recommended if you have focus stealing "
 "prevention enabled in your window manager."
 msgstr "Abilitare questa opzione se si desidera che venga visualizzato un cursore di attesa mentre viene avviata l'azione; se ne raccomanda l'utilizzo se è abilitata la prevenzione dell'acquisizione dello stato attivo nel gestore di finestre."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:17
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:17
 msgid "_Icon:"
 msgstr "_Icona:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:19
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:19
 msgid ""
 "Click this button to select an icon file that will be displayed in the "
 "context menu in addition to the action name chosen above."
 msgstr "Fare clic su questo pulsante per selezionare un'icona che sarà mostrata nel menu contestuale insieme con il nome dell'azione scelto sopra."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:20
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:20
 msgid ""
 "The following command parameters will be substituted when launching the "
 "action:"
 msgstr "I seguenti parametri verranno sostituiti quando sarà lanciata l'azione:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:21
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:21
 msgid "the path to the first selected file or directory"
 msgstr "il percorso del primo file selezionato o cartella"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:22
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:22
 msgid "the paths to all selected files and directories"
 msgstr "i percorsi di tutti i file selezionati o cartelle"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:24
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:24
 #, no-c-format
 msgid "directory containing the file that is passed in %f"
 msgstr "cartella contenente il file passato in %f"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:26
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:26
 #, no-c-format
 msgid "directories containing the files that are passed in %F"
 msgstr "cartelle contenenti i file passati in %F"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:27
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:27
 msgid "the first selected filename (without path)"
 msgstr "il nome del primo file selezionato (senza percorso)"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:28
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:28
 msgid "the selected filenames (without paths)"
 msgstr "i nomi dei file selezionati (senza percorsi)"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:29
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:29
 msgid "Basic"
 msgstr "Base"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:30
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:30
 msgid "_File Pattern:"
 msgstr "Criterio del _file:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:31
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:31
 msgid ""
 "Enter a list of patterns that will be used to determine whether this action "
 "should be displayed for a selected file. If you specify more than one "
@@ -3758,39 +3758,39 @@ msgid ""
 "*.txt;*.doc)."
 msgstr "Inserire una lista di criteri da usare per stabilire se quest'azione deve essere mostrata o meno per un file selezionato. Se si specifica più di uno schema, gli elementi della lista devono essere separati da un punto e virgola (es. *.txt;*.doc)."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:32
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:32
 msgid "*"
 msgstr "*"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:33
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:33
 msgid "Appears if selection contains:"
 msgstr "Appare se la selezione contiene:"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:34
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:34
 msgid "_Directories"
 msgstr "_Cartelle"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:35
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:35
 msgid "_Audio Files"
 msgstr "File _audio"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:36
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:36
 msgid "_Image Files"
 msgstr "File _immagine"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:37
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:37
 msgid "_Text Files"
 msgstr "File di _testo"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:38
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:38
 msgid "_Video Files"
 msgstr "File _video"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:39
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:39
 msgid "_Other Files"
 msgstr "Alt_ri file"
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:40
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:40
 msgid ""
 "This page lists the conditions under which the action will appear in the "
 "file managers context menus. The file patterns are specified as a list of "
@@ -3800,99 +3800,99 @@ msgid ""
 "can specify that the action should only appear for certain kinds of files."
 msgstr "Questa pagina elenca le condizioni in base alle quali le azione saranno visibili nei menù contestuale del gestore dei file. I criteri per i file sono elencati come semplice elenco di criteri separati da punto e virgola (es. *.txt;*.doc). Per far apparire un'azione nel menù contestuale di un file o di una cartella, almeno uno degli schemi deve corrispondere al nome del file o della cartella. Inoltre è possibile far in modo che un'azione sia visibile solo per certi tipi di file."
 
-#: ../plugins/thunar-uca/thunar-uca-editor.ui.h:41
+#: ../plugins/lunar-uca/lunar-uca-editor.ui.h:41
 msgid "Appearance Conditions"
 msgstr "Condizioni di visibilità"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:1
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:1
 msgid "Custom Actions"
 msgstr "Azioni personalizzate"
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:2
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:2
 msgid ""
 "You can configure custom actions that will appear in the file managers "
 "context menus for certain kinds of files."
 msgstr "È possibile configurare delle azioni personalizzate che appariranno nei menù contestuali del gestore di file per gli opportuni tipi di file."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:3
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:3
 msgid "Add a new custom action."
 msgstr "Aggiunge una nuova azione personalizzata."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:4
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:4
 msgid "Edit the currently selected action."
 msgstr "Modifica l'azione selezionata."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:5
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:5
 msgid "Delete the currently selected action."
 msgstr "Elimina l'azione selezionata."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:6
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:6
 msgid "Move the currently selected action up by one row."
 msgstr "Sposta l'azione selezionata una riga sopra."
 
-#: ../plugins/thunar-uca/thunar-uca-chooser.ui.h:7
+#: ../plugins/lunar-uca/lunar-uca-chooser.ui.h:7
 msgid "Move the currently selected action down by one row."
 msgstr "Sposta l'azione selezionata una riga sotto."
 
-#: ../plugins/thunar-wallpaper/twp-provider.c:154
+#: ../plugins/lunar-wallpaper/twp-provider.c:154
 msgid "Set as wallpaper"
 msgstr "Imposta come sfondo"
 
-#: ../thunar.desktop.in.in.h:1
-msgid "Thunar File Manager"
-msgstr "Il gestore dei file Thunar"
+#: ../lunar.desktop.in.in.h:1
+msgid "Lunar File Manager"
+msgstr "Il gestore dei file Lunar"
 
-#: ../thunar.desktop.in.in.h:2
+#: ../lunar.desktop.in.in.h:2
 msgid "Browse the filesystem with the file manager"
 msgstr "Esplora il file system con il gestore dei file"
 
-#: ../thunar.desktop.in.in.h:3
+#: ../lunar.desktop.in.in.h:3
 msgid "File Manager"
 msgstr "Gestore dei file"
 
-#: ../thunar.desktop.in.in.h:4
+#: ../lunar.desktop.in.in.h:4
 msgid ""
 "file "
 "manager;explorer;finder;browser;folders;directory;directories;partitions;drives;network;devices;rename;move;copy;delete;permissions;home;trash;"
 msgstr "file manager;explorer;finder;browser;folders;directory;directories;partitions;drives;network;devices;rename;move;copy;delete;permissions;home;trash;"
 
-#: ../thunar.desktop.in.in.h:5
+#: ../lunar.desktop.in.in.h:5
 msgid "Home"
 msgstr "Home"
 
-#: ../thunar-bulk-rename.desktop.in.in.h:3
-msgid "bulk;renamer;renaming;thunar;files;folders;directory;directories;"
-msgstr "bulk;renamer;renaming;thunar;files;folders;directory;directories;"
+#: ../lunar-bulk-rename.desktop.in.in.h:3
+msgid "bulk;renamer;renaming;lunar;files;folders;directory;directories;"
+msgstr "bulk;renamer;renaming;lunar;files;folders;directory;directories;"
 
-#: ../thunar/thunar-settings.desktop.in.h:1
+#: ../lunar/lunar-settings.desktop.in.h:1
 msgid "File Manager Settings"
 msgstr "Impostazioni del Gestore dei File"
 
-#: ../thunar/thunar-settings.desktop.in.h:2
-msgid "Configure the Thunar file manager"
-msgstr "Configura il gestore dei file Thunar"
+#: ../lunar/lunar-settings.desktop.in.h:2
+msgid "Configure the Lunar file manager"
+msgstr "Configura il gestore dei file Lunar"
 
-#: ../thunar/thunar-settings.desktop.in.h:3
+#: ../lunar/lunar-settings.desktop.in.h:3
 msgid ""
-"thunar;settings;preferences;configure;thumbnails;file size;date "
+"lunar;settings;preferences;configure;thumbnails;file size;date "
 "format;shortcuts pane;tree view;tabs;"
-msgstr "thunar;settings;preferences;configure;thumbnails;file size;date format;shortcuts pane;tree view;tabs;"
+msgstr "lunar;settings;preferences;configure;thumbnails;file size;date format;shortcuts pane;tree view;tabs;"
 
-#: ../org.xfce.thunar.appdata.xml.in.h:1
+#: ../com.expidus.lunar.appdata.xml.in.h:1
 msgid ""
-"Thunar is a file browser specifically designed for the Xfce Desktop, but "
+"Lunar is a file browser specifically designed for the Expidus Desktop, but "
 "also can serve as an alternate file browser for other Desktop environments. "
 "It has a simple, clean two-pane design for browsing all your files."
-msgstr "Thunar è un esploratore dei file progettato per l'ambiente Xfce, ma può essere utilizzato come esploratore dei file alternativo in altri ambienti desktop. Ha un design semplice a due riquadri adatto per sfogliare tutti i propri file."
+msgstr "Lunar è un esploratore dei file progettato per l'ambiente Expidus, ma può essere utilizzato come esploratore dei file alternativo in altri ambienti desktop. Ha un design semplice a due riquadri adatto per sfogliare tutti i propri file."
 
 #. SECURITY:
-#. - A normal active user can run thunar without elevated rights. They
+#. - A normal active user can run lunar without elevated rights. They
 #. may wish to modify files they normally do not have read/write access
 #. to. This isn't a good idea, but is common on single user systems.
-#: ../org.xfce.thunar.policy.in.in.h:6
-msgid "Run Thunar as root"
-msgstr "Esegui Thunar come utente root"
+#: ../com.expidus.lunar.policy.in.in.h:6
+msgid "Run Lunar as root"
+msgstr "Esegui Lunar come utente root"
 
-#: ../org.xfce.thunar.policy.in.in.h:7
-msgid "Authentication is required to run Thunar as root."
-msgstr "Per eseguire Thunar come utente root è richiesta l'autenticazione."
+#: ../com.expidus.lunar.policy.in.in.h:7
+msgid "Authentication is required to run Lunar as root."
+msgstr "Per eseguire Lunar come utente root è richiesta l'autenticazione."
