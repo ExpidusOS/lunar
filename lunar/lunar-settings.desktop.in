@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+_Name=File Manager Settings
+_Comment=Configure the Lunar file manager
+_Keywords=lunar;settings;preferences;configure;thumbnails;file size;date format;shortcuts pane;tree view;tabs;
+Exec=lunar-settings
+Icon=com.expidus.lunar
+Terminal=false
+Type=Application
+Categories=EXPIDUS;GTK;Settings;DesktopSettings;X-EXPIDUS-SettingsDialog;X-EXPIDUS-PersonalSettings;
+StartupNotify=true
